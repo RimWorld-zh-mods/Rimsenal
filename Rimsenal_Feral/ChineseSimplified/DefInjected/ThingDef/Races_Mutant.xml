@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Mutant_Ogre.label>食人魔</Mutant_Ogre.label>
+  <Mutant_Ogre.description>最初是为了建筑和重型劳动设计，「奥戈隆（Ogron）」是一种巨大、粗野、低智力的变异人，在边缘世界，许多蛮族部落将之作为残酷的战争野兽。</Mutant_Ogre.description>
+  <Mutant_Ogre_Leather.label>食人魔皮</Mutant_Ogre_Leather.label>
+  <Mutant_Ogre_Leather.description>食人魔皮</Mutant_Ogre_Leather.description>
+  <Mutant_Ogre_Leather.stuffProps.stuffAdjective>食人魔皮</Mutant_Ogre_Leather.stuffProps.stuffAdjective>
+  <Mutant_Ogre_Meat.label>食人魔肉</Mutant_Ogre_Meat.label>
+  <Mutant_Ogre_Meat.description>食人魔肉</Mutant_Ogre_Meat.description>
+  <Mutant_Ogre_Corpse.label>食人魔尸体</Mutant_Ogre_Corpse.label>
+  <Mutant_Ogre_Corpse.description>食人魔尸体</Mutant_Ogre_Corpse.description>
+
+  <Mutant_Razortooth.label>利齿兽</Mutant_Razortooth.label>
+  <Mutant_Razortooth.description>咀嚼者、沙漠跳跳、开颅怪，这种动物生活在在许多行星上，所以有很多不同的叫法。你可以从它的名字想象出利齿兽是极度危险的生物。发达的开裂式双下颚、卓越的智慧和凶猛的习性使得它们在任何环境中都能成为顶级捕食者。许多蛮族军阀将之驯服成战宠。</Mutant_Razortooth.description>
+  <Mutant_Razortooth_Leather.label>利齿兽皮</Mutant_Razortooth_Leather.label>
+  <Mutant_Razortooth_Leather.description>利齿兽皮</Mutant_Razortooth_Leather.description>
+  <Mutant_Razortooth_Leather.stuffProps.stuffAdjective>利齿兽皮</Mutant_Razortooth_Leather.stuffProps.stuffAdjective>
+  <Mutant_Razortooth_Meat.label>利齿兽肉</Mutant_Razortooth_Meat.label>
+  <Mutant_Razortooth_Meat.description>利齿兽肉</Mutant_Razortooth_Meat.description>
+  <Mutant_Razortooth_Corpse.label>利齿兽尸体</Mutant_Razortooth_Corpse.label>
+  <Mutant_Razortooth_Corpse.description>利齿兽尸体</Mutant_Razortooth_Corpse.description>
+
+
+</LanguageData>

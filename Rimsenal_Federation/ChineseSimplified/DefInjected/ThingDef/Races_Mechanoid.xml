@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Mechanoid_Monitor.label>监测者</Mechanoid_Monitor.label>
+  <Mechanoid_Monitor.description>S联邦部署的、灵活小巧、没有武装的侦查机器人。很弱小但真的很烦人。</Mechanoid_Monitor.description>
+  <!-- Flesh Type: Mechanoid -->
+  <Mechanoid_Monitor_Corpse.label>监测者尸体</Mechanoid_Monitor_Corpse.label>
+  <Mechanoid_Monitor_Corpse.description>监测者尸体</Mechanoid_Monitor_Corpse.description>
+
+
+</LanguageData>
