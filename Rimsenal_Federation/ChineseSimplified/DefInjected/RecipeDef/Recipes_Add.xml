@@ -6,48 +6,48 @@
 
   <!-- Recipe Users: TableMachining -->
 
-  <Make_Apparel_Judicator.label>Make riot gear</Make_Apparel_Judicator.label>
-  <Make_Apparel_Judicator.description>Make riot gear</Make_Apparel_Judicator.description>
-  <Make_Apparel_Judicator.jobString>Making riot gear.</Make_Apparel_Judicator.jobString>
+  <Make_Apparel_Judicator.label>制作防暴服</Make_Apparel_Judicator.label>
+  <Make_Apparel_Judicator.description>制作防暴服</Make_Apparel_Judicator.description>
+  <Make_Apparel_Judicator.jobString>正在制作防暴服。</Make_Apparel_Judicator.jobString>
 
-  <Make_Apparel_JudicatorH.label>Make riot gear helmet</Make_Apparel_JudicatorH.label>
-  <Make_Apparel_JudicatorH.description>Make riot gear helmet</Make_Apparel_JudicatorH.description>
-  <Make_Apparel_JudicatorH.jobString>Making riot gear helmet.</Make_Apparel_JudicatorH.jobString>
+  <Make_Apparel_JudicatorH.label>制作防暴头盔</Make_Apparel_JudicatorH.label>
+  <Make_Apparel_JudicatorH.description>制作防暴头盔</Make_Apparel_JudicatorH.description>
+  <Make_Apparel_JudicatorH.jobString>正在制作防暴头盔。</Make_Apparel_JudicatorH.jobString>
 
-  <Make_Apparel_MarksmanGear.label>Make marksman gear</Make_Apparel_MarksmanGear.label>
-  <Make_Apparel_MarksmanGear.description>Make marksman gear</Make_Apparel_MarksmanGear.description>
-  <Make_Apparel_MarksmanGear.jobString>Making marksman gear.</Make_Apparel_MarksmanGear.jobString>
+  <Make_Apparel_MarksmanGear.label>制作神射手服</Make_Apparel_MarksmanGear.label>
+  <Make_Apparel_MarksmanGear.description>制作神射手服</Make_Apparel_MarksmanGear.description>
+  <Make_Apparel_MarksmanGear.jobString>正在制作神射手服</Make_Apparel_MarksmanGear.jobString>
 
-  <Make_Apparel_MarksmanGearH.label>Make marksmangear helmet</Make_Apparel_MarksmanGearH.label>
-  <Make_Apparel_MarksmanGearH.description>Make marksmangear helmet</Make_Apparel_MarksmanGearH.description>
-  <Make_Apparel_MarksmanGearH.jobString>Making marksmangear helmet.</Make_Apparel_MarksmanGearH.jobString>
+  <Make_Apparel_MarksmanGearH.label>制作神射手头盔</Make_Apparel_MarksmanGearH.label>
+  <Make_Apparel_MarksmanGearH.description>制作神射手头盔</Make_Apparel_MarksmanGearH.description>
+  <Make_Apparel_MarksmanGearH.jobString>正在制作神射手头盔。</Make_Apparel_MarksmanGearH.jobString>
 
-  <Make_AD_Pacificator.label>Make crucible rifle</Make_AD_Pacificator.label>
-  <Make_AD_Pacificator.description>Make crucible rifle</Make_AD_Pacificator.description>
-  <Make_AD_Pacificator.jobString>Making crucible rifle.</Make_AD_Pacificator.jobString>
+  <Make_AD_Pacificator.label>制作熔炉步枪</Make_AD_Pacificator.label>
+  <Make_AD_Pacificator.description>制作熔炉步枪</Make_AD_Pacificator.description>
+  <Make_AD_Pacificator.jobString>正在制作熔炉步枪。</Make_AD_Pacificator.jobString>
 
-  <Make_AD_Negotiator.label>Make crucible pistol</Make_AD_Negotiator.label>
-  <Make_AD_Negotiator.description>Make crucible pistol</Make_AD_Negotiator.description>
-  <Make_AD_Negotiator.jobString>Making crucible pistol.</Make_AD_Negotiator.jobString>
+  <Make_AD_Negotiator.label>制作熔炉手枪</Make_AD_Negotiator.label>
+  <Make_AD_Negotiator.description>制作熔炉手枪</Make_AD_Negotiator.description>
+  <Make_AD_Negotiator.jobString>正在制作熔炉手枪。</Make_AD_Negotiator.jobString>
 
-  <Make_AD_Arbiter.label>Make heat cannon</Make_AD_Arbiter.label>
-  <Make_AD_Arbiter.description>Make heat cannon</Make_AD_Arbiter.description>
-  <Make_AD_Arbiter.jobString>Making heat cannon.</Make_AD_Arbiter.jobString>
+  <Make_AD_Arbiter.label>制作熔炉加农炮</Make_AD_Arbiter.label>
+  <Make_AD_Arbiter.description>制作熔炉加农炮</Make_AD_Arbiter.description>
+  <Make_AD_Arbiter.jobString>正在制作熔炉加农炮。</Make_AD_Arbiter.jobString>
 
-  <Make_AD_Intercessor.label>Make crucible precision rifle</Make_AD_Intercessor.label>
-  <Make_AD_Intercessor.description>Make crucible precision rifle</Make_AD_Intercessor.description>
-  <Make_AD_Intercessor.jobString>Making crucible precision rifle.</Make_AD_Intercessor.jobString>
+  <Make_AD_Intercessor.label>制作熔炉精密步枪</Make_AD_Intercessor.label>
+  <Make_AD_Intercessor.description>制作熔炉精密步枪</Make_AD_Intercessor.description>
+  <Make_AD_Intercessor.jobString>正在制作熔炉精密步枪。</Make_AD_Intercessor.jobString>
 
-  <Make_AD_Axiom.label>Make plasma caster</Make_AD_Axiom.label>
-  <Make_AD_Axiom.description>Make plasma caster</Make_AD_Axiom.description>
-  <Make_AD_Axiom.jobString>Making plasma caster.</Make_AD_Axiom.jobString>
+  <Make_AD_Axiom.label>制作电浆投射器</Make_AD_Axiom.label>
+  <Make_AD_Axiom.description>制作电浆投射器</Make_AD_Axiom.description>
+  <Make_AD_Axiom.jobString>正在制作电浆投射器</Make_AD_Axiom.jobString>
 
 
   <!-- Recipe Users: ElectricSmithy FueledSmithy -->
 
-  <Make_AD_Verdict.label>Make Concussion baton</Make_AD_Verdict.label>
-  <Make_AD_Verdict.description>Make Concussion baton</Make_AD_Verdict.description>
-  <Make_AD_Verdict.jobString>Making Concussion baton.</Make_AD_Verdict.jobString>
+  <Make_AD_Verdict.label>制作冲击棍</Make_AD_Verdict.label>
+  <Make_AD_Verdict.description>制作冲击棍</Make_AD_Verdict.description>
+  <Make_AD_Verdict.jobString>正在制作冲击棍。</Make_AD_Verdict.jobString>
 
 
 </LanguageData>
