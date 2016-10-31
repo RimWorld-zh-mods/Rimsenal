@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Bullet_SeoLi.label>冰霜晶刺</Bullet_SeoLi.label>
+  <YP_SeoLi.label>YP晶刺步槍</YP_SeoLi.label>
+  <YP_SeoLi.description>「允和高精」的「冰霜」晶刺步槍具有優於傳統步槍的精度，配備了更大的彈夾和更高的射速，但犧牲了威力和穿甲能力。</YP_SeoLi.description>
+
+  <Bullet_SagPung.label>朔風晶刺</Bullet_SagPung.label>
+  <YP_SagPung.label>YP晶炮</YP_SagPung.label>
+  <YP_SagPung.description>「允和高精」的「朔風」晶炮，發射晶刺的高射速自動霰彈槍。是近距離處理活體目標的理想工具。</YP_SagPung.description>
+
+  <Bullet_SangAe.label>霜霾狼牙</Bullet_SangAe.label>
+  <YP_SangAe.label>YP狼牙步槍</YP_SangAe.label>
+  <YP_SangAe.description>「允和高精」的「霜霾」狼牙步槍。有別於常規步槍，「霜霾」發射碳晶體穿甲彈。</YP_SangAe.description>
+
+  <Bullet_SeolHwa.label>雪華晶刺</Bullet_SeolHwa.label>
+  <YP_SeolHwa.label>YP晶刺雙槍</YP_SeolHwa.label>
+  <YP_SeolHwa.description>「允和高精」的「雪華」雙持手槍。「雪華」的射程很短，但近距離內可以撕碎敵人。</YP_SeolHwa.description>
+
+  <Bullet_GeugGwang.label>微波</Bullet_GeugGwang.label>
+  <YP_GeugGwang.label>YP微波發射器</YP_GeugGwang.label>
+  <YP_GeugGwang.description>「允和高精」的「極光」微波發射器發射的毫米波能讓目標皮膚水份沸騰的，產生無法忍受的痛苦。完美的人群控制武器。</YP_GeugGwang.description>
+
+
+</LanguageData>

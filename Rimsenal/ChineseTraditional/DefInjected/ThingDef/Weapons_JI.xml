@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Bullet_Hrunting.label>赤原獵犬子彈</Bullet_Hrunting.label>
+  <JI_Hrunting.label>JI熔火步槍</JI_Hrunting.label>
+  <JI_Hrunting.description>「巨人星際」製造的「赤原獵犬」熔火步槍。這種武器使用融化的金屬作為子彈。來自「貝武夫」的設計師從不關心使用者的感受，他們只關注純粹的火力。</JI_Hrunting.description>
+
+  <Bullet_Trollsverd.label>巨魔子彈</Bullet_Trollsverd.label>
+  <JI_Trollsverd.label>JI熔火手槍</JI_Trollsverd.label>
+  <JI_Trollsverd.description>「巨魔」熔火手槍是一款由「巨人星際」製造的重型手槍。發射熔融的金屬流，「巨魔」的火力可以解決大多數孤立的殖民地的問題。</JI_Trollsverd.description>
+
+  <Bullet_Fafnir.label>法夫尼爾鹿彈</Bullet_Fafnir.label>
+  <JI_Fafnir.label>JI攻城霰彈槍</JI_Fafnir.label>
+  <JI_Fafnir.description>由「巨人星際」製造，以北歐神話巨龍「法夫尼爾」命名的巨大霰彈槍，簡直就是把好幾根高射炮管捆在一起。通常在城市戰中對抗機械族。如果用攻城霰彈槍對著一個人來一發，他立馬會變成血霧。</JI_Fafnir.description>
+
+  <Bullet_Gramr.label>格拉姆子彈</Bullet_Gramr.label>
+  <JI_Gramr.label>JI反機甲步槍</JI_Gramr.label>
+  <JI_Gramr.description>「巨人星際」製造的反機甲步槍，以奧丁的聖劍「格拉姆」命名。如同一輛小卡車般重，極難操作，那後坐力就像被驢踢了一腳。但它的威力證明了一切。</JI_Gramr.description>
+
+  <Bullet_Grendel.label>格蘭戴爾炮彈</Bullet_Grendel.label>
+  <JI_Grendel.label>JI攻城炮</JI_Grendel.label>
+  <JI_Grendel.description>一場殘酷的對機械族戰爭中的產物，以北歐神話中該隱一族後裔「格蘭戴爾」命名，「巨人星際」製造的全銀河系最強攻城武器。</JI_Grendel.description>
+
+  <Bullet_Muspell.label>破片</Bullet_Muspell.label>
+  <JI_Muspell.label>JI鎮壓者加農炮</JI_Muspell.label>
+  <JI_Muspell.description>「巨人星際」製造的「火巨人」鎮壓炮，用於對付小型「爬蟲」式機甲群。「火巨人」可連續發射超高熱金屬碎片。</JI_Muspell.description>
+
+
+</LanguageData>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Feral_ScatterCannon.label>散射加農炮</Feral_ScatterCannon.label>
+  <Feral_ScatterCannon.description>一種超大的手持加農炮，噴吐出大量的金屬碎片。</Feral_ScatterCannon.description>
+
+  <Bullet_RivetCannon.label>rivet</Bullet_RivetCannon.label>
+  <Feral_RivetCannon.label>鉚釘加農炮</Feral_RivetCannon.label>
+  <Feral_RivetCannon.description>一種重型的改裝過的工業鉚釘槍。</Feral_RivetCannon.description>
+
+  <Sunderer.label>巨型砍刀</Sunderer.label>
+  <Sunderer.description>巨型砍刀。</Sunderer.description>
+
+
+</LanguageData>

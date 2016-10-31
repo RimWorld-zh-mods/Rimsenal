@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- YP -->
+
+  <ShardSentry.label>晶刺哨戒炮</ShardSentry.label>
+  <ShardSentry.description>裝備了晶刺加農炮的哨戒炮，極高射速但威力小。受損嚴重時會發生爆炸。可重新部署。</ShardSentry.description>
+
+  <WaveEmitter.label>微波發射器</WaveEmitter.label>
+  <WaveEmitter.description>強大的固定式微波發射器。終極人群控制武器。受損嚴重時會發生爆炸。可重新部署。</WaveEmitter.description>
+
+
+  <!-- GD -->
+
+  <NestHMG.label>HMG陣地</NestHMG.label>
+  <NestHMG.description>裝備陣地用重機槍的固定式機槍陣地。簡單而有效的防禦建築。</NestHMG.description>
+
+  <NestAGS.label>AGS陣地</NestAGS.label>
+  <NestAGS.description>裝備自動榴彈發射器的固定式榴彈陣地。極為有效地迎擊大量的敵人。</NestAGS.description>
+
+  <NestMMG.label>MMG陣地</NestMMG.label>
+  <NestMMG.description>三腳架上裝備了固定式中型機槍。簡單而有效的防禦建築。可重新部署。</NestMMG.description>
+
+  <MoltenCannon.label>熔火加農炮</MoltenCannon.label>
+  <MoltenCannon.description>驅動融化金屬作為炮彈，性能可靠，熔岩加農炮是巨人兵團對抗機械族的主要重型武器。</MoltenCannon.description>
+
+  <BarrageCannon.label>彈幕加農炮</BarrageCannon.label>
+  <BarrageCannon.description>為遠程火力支援而設計。發射集束火箭彈幕打擊目標。</BarrageCannon.description>
+
+
+</LanguageData>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Bullet_Lynx.label>手槍子彈</Bullet_Lynx.label>
+  <GD_Lynx.label>GD戰術手槍</GD_Lynx.label>
+  <GD_Lynx.description>「灰谷防御」的「猞猁」戰術手槍。輕便易用，理想的個人防衛武器。使用小口徑高速穿甲彈。</GD_Lynx.description>
+
+  <Bullet_GRC.label>卡賓槍子彈</Bullet_GRC.label>
+  <GD_GRC.label>GD戰術卡賓槍</GD_GRC.label>
+  <GD_GRC.description>「灰谷防御」的「黑豹」通用步槍平台，卡賓槍型。</GD_GRC.description>
+
+  <Bullet_GRM.label>步槍子彈</Bullet_GRM.label>
+  <GD_GRM.label>GD神射手步槍</GD_GRM.label>
+  <GD_GRM.description>「灰谷防御」的「黑豹」通用步槍平台，神射手步槍型。</GD_GRM.description>
+
+  <Bullet_GRS.label>卡賓槍子彈</Bullet_GRS.label>
+  <GD_GRS.label>GD支援機槍</GD_GRS.label>
+  <GD_GRS.description>「灰谷防御」的「黑豹」通用步槍平台，輕機槍型。</GD_GRS.description>
+
+  <Bullet_Jaguar.label>榴彈</Bullet_Jaguar.label>
+  <GD_Jaguar.label>GD榴彈發射器</GD_Jaguar.label>
+  <GD_Jaguar.description>由「灰谷防御」設計的「美洲豹」榴彈發射器，簡單但高效的間接火力支援武器。</GD_Jaguar.description>
+
+  <Bullet_Caracal.label>手槍子彈 bullet</Bullet_Caracal.label>
+  <GD_Caracal.label>GD高速衝鋒槍</GD_Caracal.label>
+  <GD_Caracal.description>「灰谷防御」的「獰貓」高速輕型衝鋒槍。為近距離攻擊設計，發射特制的小口徑高速穿甲彈。</GD_Caracal.description>
+
+
+</LanguageData>
