@@ -1,9 +1,12 @@
 # rooki1-Mods-zh
 Chinese translation for the rooki1's mods.
 
-## Mods:
+### Translators
 
-### Completed
+> * duduluu (風之起靈)
+> * Biscuit (脆餅)
+
+## Completed Mods
 
 > * Rimsenal
 > * 边缘军工
