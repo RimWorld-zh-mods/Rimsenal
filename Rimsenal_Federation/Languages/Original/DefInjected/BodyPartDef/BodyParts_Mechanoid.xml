@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MonitorHull.label>hull</MonitorHull.label>
+  <MonitorFrame.label>frame</MonitorFrame.label>
+  <MonitorCore.label>core</MonitorCore.label>
+  <LeftMonitorShoulder.label>left shoulder</LeftMonitorShoulder.label>
+  <LeftMonitorArm.label>left arm</LeftMonitorArm.label>
+  <LeftMonitorHand.label>left hand</LeftMonitorHand.label>
+  <LeftHandMonitorPinky.label>left pinky</LeftHandMonitorPinky.label>
+  <LeftHandMonitorMiddleFinger.label>left middle finger</LeftHandMonitorMiddleFinger.label>
+  <LeftHandMonitorIndexFinger.label>left index finger</LeftHandMonitorIndexFinger.label>
+  <LeftHandMonitorThumb.label>left thumb</LeftHandMonitorThumb.label>
+  <RightMonitorShoulder.label>right shoulder</RightMonitorShoulder.label>
+  <RightMonitorArm.label>right arm</RightMonitorArm.label>
+  <RightMonitorHand.label>right hand</RightMonitorHand.label>
+  <RightHandMonitorPinky.label>right pinky</RightHandMonitorPinky.label>
+  <RightHandMonitorMiddleFinger.label>right middle finger</RightHandMonitorMiddleFinger.label>
+  <RightHandMonitorIndexFinger.label>right index finger</RightHandMonitorIndexFinger.label>
+  <RightHandMonitorThumb.label>right thumb</RightHandMonitorThumb.label>
+  <LeftMonitorEngine.label>left engine</LeftMonitorEngine.label>
+  <LeftMonitorThruster.label>left thruster</LeftMonitorThruster.label>
+  <RightMonitorEngine.label>right engine</RightMonitorEngine.label>
+  <RightMonitorThruster.label>right thruster</RightMonitorThruster.label>
+
+
+</LanguageData>
