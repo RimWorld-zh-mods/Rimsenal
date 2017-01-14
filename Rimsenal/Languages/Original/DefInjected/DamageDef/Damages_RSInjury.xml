@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Microwave.label>Microwave</Microwave.label>
+  <Microwave.deathMessage>{0} has burned alive.</Microwave.deathMessage>
+
+  <ArmorPiercing.label>armour piercing</ArmorPiercing.label>
+  <ArmorPiercing.deathMessage>{0} is no more.</ArmorPiercing.deathMessage>
+
+  <KineticImpact.label>kinetic impact</KineticImpact.label>
+  <KineticImpact.deathMessage>{0} has been crushed to death.</KineticImpact.deathMessage>
+
+
+</LanguageData>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Bullet_Hrunting.label>hrunting slug</Bullet_Hrunting.label>
+
+  <JI_Hrunting.label>molten rifle</JI_Hrunting.label>
+  <JI_Hrunting.description>A "Hrunting" molten rifle, manufactured by Jotun Interstellar. This weapon fires molten metal as its bullet. The designer of the Hrunting was never concerned about ascetics. What he focused on was just pure fire power.</JI_Hrunting.description>
+
+  <Bullet_Trollsverd.label>trollsverd slug</Bullet_Trollsverd.label>
+
+  <JI_Trollsverd.label>molten pistol</JI_Trollsverd.label>
+  <JI_Trollsverd.description>A "Trollsverd" is a heavy pistol made by Jotun Interstellar. Fires a molten metal alloy, fire from a Trollbane can solve most of lonely colonies problems.</JI_Trollsverd.description>
+
+  <Bullet_Fafnir.label>fafnir bucks</Bullet_Fafnir.label>
+
+  <JI_Fafnir.label>siege shotgun</JI_Fafnir.label>
+  <JI_Fafnir.description>This oversized shotgun is the Jotun Interstellar "Fafnir", Made by splinting multiple AA gun barrel's together. The Fafnir is a weapon used to fight against mechanoids in urban warfare. If a person was to accidently take a burst from this siege shotgun, they would be instantly turned into sticky red mist.</JI_Fafnir.description>
+
+  <Bullet_Gramr.label>gramr slug</Bullet_Gramr.label>
+
+  <JI_Gramr.label>AMR</JI_Gramr.label>
+  <JI_Gramr.description>A Jotun Interstellar's "Gramr" anti-mechanoid rifle. As heavy as a small truck and just as hard to wield, the recoil from a Gramr is as strong as the kick from a mule. But the firepower justifies everything.</JI_Gramr.description>
+
+  <Bullet_Grendel.label>grendel shell</Bullet_Grendel.label>
+
+  <JI_Grendel.label>siege gun</JI_Grendel.label>
+  <JI_Grendel.description>The legacy of a grim mechanoid war, Jotun Interstellar's the "Grendel" siege gun is a one of the most formidable man-portable siege weapons acrosss the galaxy.</JI_Grendel.description>
+
+  <Bullet_Muspell.label>fragment</Bullet_Muspell.label>
+
+  <JI_Muspell.label>suppressor cannon</JI_Muspell.label>
+  <JI_Muspell.description>The "Muspell" suppressor cannon is a Jotun Interstellar's answer to small "crawler" type mechanoid swarm. The Muspell ceaselessly fires super heated metal fragments.</JI_Muspell.description>
+
+
+</LanguageData>

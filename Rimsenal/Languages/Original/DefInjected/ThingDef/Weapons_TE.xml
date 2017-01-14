@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Bullet_Tyrant.label>impact shell</Bullet_Tyrant.label>
+
+  <KineticRifle.label>kinetic rifle</KineticRifle.label>
+  <KineticRifle.description>The "Tyrant" is a service rifle of the Tisiphone Hunter Contingent. Created for close quarters combat, one of the great advantages of the Tyrant is its cutting edge targeting systems for rapid target acquiring and tracking.</KineticRifle.description>
+
+  <Bullet_Tormentor.label>impact shell</Bullet_Tormentor.label>
+
+  <KineticPistol.label>kinetic pistol</KineticPistol.label>
+  <KineticPistol.description>Standard issue sidearm of the Tisiphone Hunter Contingent, the "Tormentor" is a fast firing personal defense weapon.</KineticPistol.description>
+
+  <Bullet_Oppressor.label>kinetic canister</Bullet_Oppressor.label>
+
+  <ThuddGun.label>thudd gun</ThuddGun.label>
+  <ThuddGun.description>Unlike other ordinary close quarter combat weapon, the "Oppressor" canister rifle fires charged kinetic energy canister. It can be dangerous, even from afar.</ThuddGun.description>
+
+  <Bullet_Wailer.label>impact shell</Bullet_Wailer.label>
+
+  <KineticLongRifle.label>kinetic long rifle</KineticLongRifle.label>
+  <KineticLongRifle.description>Built for rapid counter snipe against the Federation snipers, the greatest strength of the "Wailer" is surprisingly fast target acquisition capability for the sniper rifle.</KineticLongRifle.description>
+
+  <Bullet_Atrocity.label>kinetic canister</Bullet_Atrocity.label>
+
+  <StormCannon.label>storm cannon</StormCannon.label>
+  <StormCannon.description>The "Atrocity" area suppression system was designed for suppressing multiple target from afar. The Atrocity's great maneuverability made its reputation as a fearsome support weapon.</StormCannon.description>
+
+
+</LanguageData>

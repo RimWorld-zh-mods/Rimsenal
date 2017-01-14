@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Bullet_Lynx.label>pistol bullet</Bullet_Lynx.label>
+
+  <GD_Lynx.label>tactical pistol</GD_Lynx.label>
+  <GD_Lynx.description>A Greydale Defense "Lynx". Light and easy to use, ideal personal defense weapon. It use small-caliber, high-velocity armor-piercing cartridge.</GD_Lynx.description>
+
+  <Bullet_GRC.label>carbine bullet</Bullet_GRC.label>
+
+  <GD_GRC.label>tactical carbine</GD_GRC.label>
+  <GD_GRC.description>A Greydale Defense "panther" general purpose rifle platform. This is a carbine model.</GD_GRC.description>
+
+  <Bullet_GRM.label>rifle bullet</Bullet_GRM.label>
+
+  <GD_GRM.label>marksman rifle</GD_GRM.label>
+  <GD_GRM.description>A Greydale Defense "panther" general purpose rifle platform. This is a marksman rifle model.</GD_GRM.description>
+
+  <Bullet_GRS.label>carbine bullet</Bullet_GRS.label>
+
+  <GD_GRS.label>support machinegun</GD_GRS.label>
+  <GD_GRS.description>A Greydale Defense "panther" general purpose rifle platform. This is a LMG model.</GD_GRS.description>
+
+  <Bullet_Jaguar.label>grenade</Bullet_Jaguar.label>
+
+  <GD_Jaguar.label>grenade launcher</GD_Jaguar.label>
+  <GD_Jaguar.description>Designed by Greydale Defense, the "Jaguar" is a simple but effective indirect fire support weapon.</GD_Jaguar.description>
+
+  <Bullet_Caracal.label>pistol bullet</Bullet_Caracal.label>
+
+  <GD_Caracal.label>HV SMG</GD_Caracal.label>
+  <GD_Caracal.description>The "Caracal" is a SMG that manufactured by Graydale Defence. It was designed for close assault and fires special small calibre high velocity cartridges that can penetrate armour.</GD_Caracal.description>
+
+
+</LanguageData>

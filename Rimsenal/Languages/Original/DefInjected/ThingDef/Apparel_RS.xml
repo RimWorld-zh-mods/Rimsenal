@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Carbonsuit.label>Carbon jumpsuit</Carbonsuit.label>
+  <Carbonsuit.description>A carbon crystalline fiber jumpsuit for military personnel. It is light and thin, but surprisingly sturdy.</Carbonsuit.description>
+
+  <Apparel_TacVest.label>tactical vest</Apparel_TacVest.label>
+  <Apparel_TacVest.description>An ergonomically designed body armor. This type of armor increase wearer's combat efficiency.</Apparel_TacVest.description>
+
+  <Apparel_TacHelmet.label>tactical helmet</Apparel_TacHelmet.label>
+  <Apparel_TacHelmet.description>Advanced combat helmet designed specifically to protect the head during combat.</Apparel_TacHelmet.description>
+
+  <Apparel_Exoframe.label>Exoframe</Apparel_Exoframe.label>
+  <Apparel_Exoframe.description>A exoframe is a mobile machine that is powered by a system of motors, pneumatics, levers or hydraulics that allow for limb movement and assists the wearer by boosting their strength and endurance.</Apparel_Exoframe.description>
+
+  <Apparel_Laconian.label>pioneer armor</Apparel_Laconian.label>
+  <Apparel_Laconian.description>An armor designed primarily for combat engineer, Greydale "Laconian" pioneer armor has integrated tool set. It's a pretty good gear for builds something while gunfight.</Apparel_Laconian.description>
+
+  <Apparel_LaconianH.label>pioneer helmet</Apparel_LaconianH.label>
+  <Apparel_LaconianH.description>A helmet of the Laconian pioneer armor. A simple target assist system integrated.</Apparel_LaconianH.description>
+
+  <Apparel_Dropsuit.label>drop suit</Apparel_Dropsuit.label>
+  <Apparel_Dropsuit.description>It is the Yunhwa Precision's 'JanYeong(shadow remains)' drop suit, produced for Corp world drop troops. This completely enclosed suit was designed to operate in extreme environments like the void of space. It has thrusters for reinforcing a wearer's movement speed.</Apparel_Dropsuit.description>
+
+  <Apparel_DropsuitH.label>dropsuit helmet</Apparel_DropsuitH.label>
+  <Apparel_DropsuitH.description>It is a state-of-the-art helmet, optimized for EVA and orbital drop operations. This helmet has lots of shiny gadgets. Of course, all of these flashing toys are useless in the surface environment except the targeting assist pseudo A.I.</Apparel_DropsuitH.description>
+
+  <Apparel_Nervesuit.label>nerve suit</Apparel_Nervesuit.label>
+  <Apparel_Nervesuit.description>Yunhwa precision "JinCheon" nerve suit. It makes the wearer faster via direct neural links with artificial nerve system. However, the word "faster" doesn't means "more accurate."</Apparel_Nervesuit.description>
+
+  <Apparel_NervesuitH.label>nervesuit helmet</Apparel_NervesuitH.label>
+  <Apparel_NervesuitH.description>A helmet of delicate nerve suit. Sophisticated artificial nerve system inside this helmet makes wearer to act faster. This rapid reaction function costs accurate manipulation capability.</Apparel_NervesuitH.description>
+
+  <Apparel_Bjorn.label>assault armor</Apparel_Bjorn.label>
+  <Apparel_Bjorn.description>The Bjorn assault armor, basically a man-shaped walking tank, is covering the wearer completely with plasteel alloy.</Apparel_Bjorn.description>
+
+  <Apparel_BjornH.label>assault armor helmet</Apparel_BjornH.label>
+  <Apparel_BjornH.description>Rugged and trustworthy helmet of the assault armor.</Apparel_BjornH.description>
+
+  <Apparel_Nemesis.label>reflactor carapace</Apparel_Nemesis.label>
+  <Apparel_Nemesis.description>The "Nemesis" is a powered armor that created to hunt the Federation remnants. Almost immune to the heat energy, the Tisiphone Hunter Contingent provides this armor to their elite hunters.</Apparel_Nemesis.description>
+
+  <Apparel_NemesisH.label>Reflactor helmet</Apparel_NemesisH.label>
+  <Apparel_NemesisH.description>A helmet with a complete set of heat deflector system.</Apparel_NemesisH.description>
+
+
+</LanguageData>

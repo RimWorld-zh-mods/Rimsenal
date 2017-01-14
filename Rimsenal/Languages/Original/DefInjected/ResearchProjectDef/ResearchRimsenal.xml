@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ShardTech.label>shard tech</ShardTech.label>
+  <ShardTech.description>Allows you to build Yunhwa precision's weapons and armors.</ShardTech.description>
+
+  <MicrowaveTech.label>microwave tech</MicrowaveTech.label>
+  <MicrowaveTech.description>Allows you to build the mircrowave emmiter</MicrowaveTech.description>
+
+  <MoltenTech.label>molten tech</MoltenTech.label>
+  <MoltenTech.description>Allows you to build the Jotun Interstellar's weapons and armors.</MoltenTech.description>
+
+  <SiegeTech.label>siege gun</SiegeTech.label>
+  <SiegeTech.description>Allows you to build the portable siege gun.</SiegeTech.description>
+
+  <KineticTech.label>kinetic tech</KineticTech.label>
+  <KineticTech.description>It is a prerequisite to build Tisiphone equipment.</KineticTech.description>
+
+  <DefenceTech.label>defence tech</DefenceTech.label>
+  <DefenceTech.description>Allows you to build Graydale weapons</DefenceTech.description>
+
+
+</LanguageData>
