@@ -13,5 +13,8 @@
   <TE_Eris.label>survival knife</TE_Eris.label>
   <TE_Eris.description>Survival knife of the Tisiphone Hunter Contingent. It can be used in a variety of tasks.</TE_Eris.description>
 
+  <MeleeWeapon_TorchSword.label>torch sword</MeleeWeapon_TorchSword.label>
+  <MeleeWeapon_TorchSword.description>The "Purifier" torch sword is a high capacity plasma torch with grip and blade. Set a fire on target.</MeleeWeapon_TorchSword.description>
+
 
 </LanguageData>

@@ -19,6 +19,12 @@
   <Apparel_LaconianH.label>pioneer helmet</Apparel_LaconianH.label>
   <Apparel_LaconianH.description>A helmet of the Laconian pioneer armor. A simple target assist system integrated.</Apparel_LaconianH.description>
 
+  <Apparel_CombatArmor.label>close combat armor</Apparel_CombatArmor.label>
+  <Apparel_CombatArmor.description>Power armor with built-in shield, "Excelsior" is a close combat gear with maneuverability, durability and lethality.</Apparel_CombatArmor.description>
+
+  <Apparel_CombatHelmet.label>close combat helmet</Apparel_CombatHelmet.label>
+  <Apparel_CombatHelmet.description>Helmet of a "Excelsior" close combat armor. It assist wearer with neural close combat enhancement system.</Apparel_CombatHelmet.description>
+
   <Apparel_Dropsuit.label>drop suit</Apparel_Dropsuit.label>
   <Apparel_Dropsuit.description>It is the Yunhwa Precision's 'JanYeong(shadow remains)' drop suit, produced for Corp world drop troops. This completely enclosed suit was designed to operate in extreme environments like the void of space. It has thrusters for reinforcing a wearer's movement speed.</Apparel_Dropsuit.description>
 

@@ -3,32 +3,37 @@
 
   <Bullet_Lynx.label>pistol bullet</Bullet_Lynx.label>
 
-  <GD_Lynx.label>tactical pistol</GD_Lynx.label>
-  <GD_Lynx.description>A Greydale Defense "Lynx". Light and easy to use, ideal personal defense weapon. It use small-caliber, high-velocity armor-piercing cartridge.</GD_Lynx.description>
+  <GD_Lynx.label>GD tactical pistol</GD_Lynx.label>
+  <GD_Lynx.description>A Greydale Defense "Lynx". Light and easy to use, ideal personal defense weapon. It use small-caliber, high-velocity armor-piercing plasteel tipped cartridge.</GD_Lynx.description>
 
-  <Bullet_GRC.label>carbine bullet</Bullet_GRC.label>
+  <Bullet_ModularCarbine.label>carbine bullet</Bullet_ModularCarbine.label>
 
-  <GD_GRC.label>tactical carbine</GD_GRC.label>
-  <GD_GRC.description>A Greydale Defense "panther" general purpose rifle platform. This is a carbine model.</GD_GRC.description>
+  <GD_ModularCarbine.label>GD modular carbine</GD_ModularCarbine.label>
+  <GD_ModularCarbine.description>Greydale Defense "Panther" Modular Rifle System. This carbine model's light and compact design makes it suitable for security mission. It is a base platform of other MRS.</GD_ModularCarbine.description>
+
+  <Bullet_GRC.label>rifle bullet</Bullet_GRC.label>
+
+  <GD_GRC.label>GD modular rifle</GD_GRC.label>
+  <GD_GRC.description>Greydale Defense "Panther" Modular Rifle System. Because of its durable and simple design, this rifle model is very popular among remote colonies militia.</GD_GRC.description>
 
   <Bullet_GRM.label>rifle bullet</Bullet_GRM.label>
 
-  <GD_GRM.label>marksman rifle</GD_GRM.label>
-  <GD_GRM.description>A Greydale Defense "panther" general purpose rifle platform. This is a marksman rifle model.</GD_GRM.description>
+  <GD_GRM.label>GD modular DMR</GD_GRM.label>
+  <GD_GRM.description>Greydale Defense "Panther" Modular Rifle System. This marksman rifle model is a great tool for precision fire support or hunting.</GD_GRM.description>
 
-  <Bullet_GRS.label>carbine bullet</Bullet_GRS.label>
+  <Bullet_GRS.label>bullet</Bullet_GRS.label>
 
-  <GD_GRS.label>support machinegun</GD_GRS.label>
-  <GD_GRS.description>A Greydale Defense "panther" general purpose rifle platform. This is a LMG model.</GD_GRS.description>
+  <GD_GRS.label>GD modular LMG</GD_GRS.label>
+  <GD_GRS.description>Greydale Defense "Panther" Modular Rifle System. This LMG model is good for support troops with its unceasing bursts.</GD_GRS.description>
 
   <Bullet_Jaguar.label>grenade</Bullet_Jaguar.label>
 
-  <GD_Jaguar.label>grenade launcher</GD_Jaguar.label>
+  <GD_Jaguar.label>GD grenade launcher</GD_Jaguar.label>
   <GD_Jaguar.description>Designed by Greydale Defense, the "Jaguar" is a simple but effective indirect fire support weapon.</GD_Jaguar.description>
 
   <Bullet_Caracal.label>pistol bullet</Bullet_Caracal.label>
 
-  <GD_Caracal.label>HV SMG</GD_Caracal.label>
+  <GD_Caracal.label>GD HV SMG</GD_Caracal.label>
   <GD_Caracal.description>The "Caracal" is a SMG that manufactured by Graydale Defence. It was designed for close assault and fires special small calibre high velocity cartridges that can penetrate armour.</GD_Caracal.description>
 
 

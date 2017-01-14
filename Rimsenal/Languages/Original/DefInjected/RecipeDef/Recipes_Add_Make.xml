@@ -30,6 +30,14 @@
   <Make_Apparel_LaconianH.description>Make pioneer helmet.</Make_Apparel_LaconianH.description>
   <Make_Apparel_LaconianH.jobString>Making pioneer helmet.</Make_Apparel_LaconianH.jobString>
 
+  <Make_Apparel_CombatArmor.label>Make close combat armor</Make_Apparel_CombatArmor.label>
+  <Make_Apparel_CombatArmor.description>Make close combat armor.</Make_Apparel_CombatArmor.description>
+  <Make_Apparel_CombatArmor.jobString>Making close combat armor.</Make_Apparel_CombatArmor.jobString>
+
+  <Make_Apparel_CombatHelmet.label>Make close combat helmet</Make_Apparel_CombatHelmet.label>
+  <Make_Apparel_CombatHelmet.description>Make close combat helmet.</Make_Apparel_CombatHelmet.description>
+  <Make_Apparel_CombatHelmet.jobString>Making close combat helmet.</Make_Apparel_CombatHelmet.jobString>
+
   <Make_Apparel_Dropsuit.label>Make drop suit</Make_Apparel_Dropsuit.label>
   <Make_Apparel_Dropsuit.description>Make drop suit.</Make_Apparel_Dropsuit.description>
   <Make_Apparel_Dropsuit.jobString>Making drop suit.</Make_Apparel_Dropsuit.jobString>
@@ -62,53 +70,89 @@
   <Make_Apparel_NemesisH.description>Make Reflactor helmet.</Make_Apparel_NemesisH.description>
   <Make_Apparel_NemesisH.jobString>Making Reflactor helmet.</Make_Apparel_NemesisH.jobString>
 
-  <Make_GD_Lynx.label>Make tactical pistol</Make_GD_Lynx.label>
-  <Make_GD_Lynx.description>Make tactical pistol.</Make_GD_Lynx.description>
-  <Make_GD_Lynx.jobString>Making tactical pistol.</Make_GD_Lynx.jobString>
+  <Make_MRSKitR.label>Make MRS rifle conversion kit</Make_MRSKitR.label>
+  <Make_MRSKitR.description>Make MRS rifle conversion kit.</Make_MRSKitR.description>
+  <Make_MRSKitR.jobString>Making MRS rifle conversion kit.</Make_MRSKitR.jobString>
 
-  <Make_GD_GRC.label>Make tactical carbine</Make_GD_GRC.label>
-  <Make_GD_GRC.description>Make tactical carbine.</Make_GD_GRC.description>
-  <Make_GD_GRC.jobString>Making tactical carbine.</Make_GD_GRC.jobString>
+  <Make_MRSKitM.label>Make MRS DMR conversion kit</Make_MRSKitM.label>
+  <Make_MRSKitM.description>Make MRS DMR conversion kit.</Make_MRSKitM.description>
+  <Make_MRSKitM.jobString>Making MRS DMR conversion kit.</Make_MRSKitM.jobString>
 
-  <Make_GD_GRM.label>Make marksman rifle</Make_GD_GRM.label>
-  <Make_GD_GRM.description>Make marksman rifle.</Make_GD_GRM.description>
-  <Make_GD_GRM.jobString>Making marksman rifle.</Make_GD_GRM.jobString>
+  <Make_MRSKitS.label>Make MRS LMG conversion kit</Make_MRSKitS.label>
+  <Make_MRSKitS.description>Make MRS LMG conversion kit.</Make_MRSKitS.description>
+  <Make_MRSKitS.jobString>Making MRS LMG conversion kit.</Make_MRSKitS.jobString>
 
-  <Make_GD_GRS.label>Make support machinegun</Make_GD_GRS.label>
-  <Make_GD_GRS.description>Make support machinegun.</Make_GD_GRS.description>
-  <Make_GD_GRS.jobString>Making support machinegun.</Make_GD_GRS.jobString>
+  <Make_Gun_ChargePistol.label>Make charge pistol</Make_Gun_ChargePistol.label>
+  <Make_Gun_ChargePistol.description>Make charge pistol.</Make_Gun_ChargePistol.description>
+  <Make_Gun_ChargePistol.jobString>Making charge pistol.</Make_Gun_ChargePistol.jobString>
 
-  <Make_GD_Jaguar.label>Make grenade launcher</Make_GD_Jaguar.label>
-  <Make_GD_Jaguar.description>Make grenade launcher.</Make_GD_Jaguar.description>
-  <Make_GD_Jaguar.jobString>Making grenade launcher.</Make_GD_Jaguar.jobString>
+  <Make_Gun_ChargeShotgun.label>Make scatter charger</Make_Gun_ChargeShotgun.label>
+  <Make_Gun_ChargeShotgun.description>Make scatter charger.</Make_Gun_ChargeShotgun.description>
+  <Make_Gun_ChargeShotgun.jobString>Making scatter charger.</Make_Gun_ChargeShotgun.jobString>
 
-  <Make_GD_Caracal.label>Make HV SMG</Make_GD_Caracal.label>
-  <Make_GD_Caracal.description>Make HV SMG.</Make_GD_Caracal.description>
-  <Make_GD_Caracal.jobString>Making HV SMG.</Make_GD_Caracal.jobString>
+  <Make_Gun_ChargeSniper.label>Make charge driver</Make_Gun_ChargeSniper.label>
+  <Make_Gun_ChargeSniper.description>Make charge driver.</Make_Gun_ChargeSniper.description>
+  <Make_Gun_ChargeSniper.jobString>Making charge driver.</Make_Gun_ChargeSniper.jobString>
 
-  <Make_JI_Hrunting.label>Make molten rifle</Make_JI_Hrunting.label>
-  <Make_JI_Hrunting.description>Make molten rifle.</Make_JI_Hrunting.description>
-  <Make_JI_Hrunting.jobString>Making molten rifle.</Make_JI_Hrunting.jobString>
+  <Make_Gun_EMPRifle.label>Make EMP rifle</Make_Gun_EMPRifle.label>
+  <Make_Gun_EMPRifle.description>Make EMP rifle.</Make_Gun_EMPRifle.description>
+  <Make_Gun_EMPRifle.jobString>Making EMP rifle.</Make_Gun_EMPRifle.jobString>
 
-  <Make_JI_Trollsverd.label>Make molten pistol</Make_JI_Trollsverd.label>
-  <Make_JI_Trollsverd.description>Make molten pistol.</Make_JI_Trollsverd.description>
-  <Make_JI_Trollsverd.jobString>Making molten pistol.</Make_JI_Trollsverd.jobString>
+  <Make_Gun_ChargeCannon.label>Make charge cannon</Make_Gun_ChargeCannon.label>
+  <Make_Gun_ChargeCannon.description>Make charge cannon.</Make_Gun_ChargeCannon.description>
+  <Make_Gun_ChargeCannon.jobString>Making charge cannon.</Make_Gun_ChargeCannon.jobString>
 
-  <Make_JI_Fafnir.label>Make siege shotgun</Make_JI_Fafnir.label>
-  <Make_JI_Fafnir.description>Make siege shotgun.</Make_JI_Fafnir.description>
-  <Make_JI_Fafnir.jobString>Making siege shotgun.</Make_JI_Fafnir.jobString>
+  <Make_GD_Lynx.label>Make GD tactical pistol</Make_GD_Lynx.label>
+  <Make_GD_Lynx.description>Make GD tactical pistol.</Make_GD_Lynx.description>
+  <Make_GD_Lynx.jobString>Making GD tactical pistol.</Make_GD_Lynx.jobString>
 
-  <Make_JI_Gramr.label>Make AMR</Make_JI_Gramr.label>
-  <Make_JI_Gramr.description>Make AMR.</Make_JI_Gramr.description>
-  <Make_JI_Gramr.jobString>Making AMR.</Make_JI_Gramr.jobString>
+  <Make_GD_ModularCarbine.label>Make GD modular carbine</Make_GD_ModularCarbine.label>
+  <Make_GD_ModularCarbine.description>Make GD modular carbine.</Make_GD_ModularCarbine.description>
+  <Make_GD_ModularCarbine.jobString>Making GD modular carbine.</Make_GD_ModularCarbine.jobString>
 
-  <Make_JI_Grendel.label>Make siege gun</Make_JI_Grendel.label>
-  <Make_JI_Grendel.description>Make siege gun.</Make_JI_Grendel.description>
-  <Make_JI_Grendel.jobString>Making siege gun.</Make_JI_Grendel.jobString>
+  <Make_GD_GRC.label>Make GD modular rifle</Make_GD_GRC.label>
+  <Make_GD_GRC.description>Make GD modular rifle.</Make_GD_GRC.description>
+  <Make_GD_GRC.jobString>Making GD modular rifle.</Make_GD_GRC.jobString>
 
-  <Make_JI_Muspell.label>Make suppressor cannon</Make_JI_Muspell.label>
-  <Make_JI_Muspell.description>Make suppressor cannon.</Make_JI_Muspell.description>
-  <Make_JI_Muspell.jobString>Making suppressor cannon.</Make_JI_Muspell.jobString>
+  <Make_GD_GRM.label>Make GD modular DMR</Make_GD_GRM.label>
+  <Make_GD_GRM.description>Make GD modular DMR.</Make_GD_GRM.description>
+  <Make_GD_GRM.jobString>Making GD modular DMR.</Make_GD_GRM.jobString>
+
+  <Make_GD_GRS.label>Make GD modular LMG</Make_GD_GRS.label>
+  <Make_GD_GRS.description>Make GD modular LMG.</Make_GD_GRS.description>
+  <Make_GD_GRS.jobString>Making GD modular LMG.</Make_GD_GRS.jobString>
+
+  <Make_GD_Jaguar.label>Make GD grenade launcher</Make_GD_Jaguar.label>
+  <Make_GD_Jaguar.description>Make GD grenade launcher.</Make_GD_Jaguar.description>
+  <Make_GD_Jaguar.jobString>Making GD grenade launcher.</Make_GD_Jaguar.jobString>
+
+  <Make_GD_Caracal.label>Make GD HV SMG</Make_GD_Caracal.label>
+  <Make_GD_Caracal.description>Make GD HV SMG.</Make_GD_Caracal.description>
+  <Make_GD_Caracal.jobString>Making GD HV SMG.</Make_GD_Caracal.jobString>
+
+  <Make_JI_Hrunting.label>Make JI molten rifle</Make_JI_Hrunting.label>
+  <Make_JI_Hrunting.description>Make JI molten rifle.</Make_JI_Hrunting.description>
+  <Make_JI_Hrunting.jobString>Making JI molten rifle.</Make_JI_Hrunting.jobString>
+
+  <Make_JI_Trollsverd.label>Make JI molten pistol</Make_JI_Trollsverd.label>
+  <Make_JI_Trollsverd.description>Make JI molten pistol.</Make_JI_Trollsverd.description>
+  <Make_JI_Trollsverd.jobString>Making JI molten pistol.</Make_JI_Trollsverd.jobString>
+
+  <Make_JI_Fafnir.label>Make JI siege shotgun</Make_JI_Fafnir.label>
+  <Make_JI_Fafnir.description>Make JI siege shotgun.</Make_JI_Fafnir.description>
+  <Make_JI_Fafnir.jobString>Making JI siege shotgun.</Make_JI_Fafnir.jobString>
+
+  <Make_JI_Gramr.label>Make JI AMR</Make_JI_Gramr.label>
+  <Make_JI_Gramr.description>Make JI AMR.</Make_JI_Gramr.description>
+  <Make_JI_Gramr.jobString>Making JI AMR.</Make_JI_Gramr.jobString>
+
+  <Make_JI_Grendel.label>Make JI siege gun</Make_JI_Grendel.label>
+  <Make_JI_Grendel.description>Make JI siege gun.</Make_JI_Grendel.description>
+  <Make_JI_Grendel.jobString>Making JI siege gun.</Make_JI_Grendel.jobString>
+
+  <Make_JI_Muspell.label>Make JI suppressor cannon</Make_JI_Muspell.label>
+  <Make_JI_Muspell.description>Make JI suppressor cannon.</Make_JI_Muspell.description>
+  <Make_JI_Muspell.jobString>Making JI suppressor cannon.</Make_JI_Muspell.jobString>
 
 
   <!-- Recipe Users: ElectricSmithy, FueledSmithy -->
@@ -129,48 +173,56 @@
   <Make_TE_Eris.description>Make survival knife.</Make_TE_Eris.description>
   <Make_TE_Eris.jobString>Making survival knife.</Make_TE_Eris.jobString>
 
+  <Make_MeleeWeapon_TorchSword.label>Make torch sword</Make_MeleeWeapon_TorchSword.label>
+  <Make_MeleeWeapon_TorchSword.description>Make torch sword.</Make_MeleeWeapon_TorchSword.description>
+  <Make_MeleeWeapon_TorchSword.jobString>Making torch sword.</Make_MeleeWeapon_TorchSword.jobString>
+
 
   <!-- Recipe Users: TableMachining -->
 
-  <Make_KineticRifle.label>Make kinetic rifle</Make_KineticRifle.label>
-  <Make_KineticRifle.description>Make kinetic rifle.</Make_KineticRifle.description>
-  <Make_KineticRifle.jobString>Making kinetic rifle.</Make_KineticRifle.jobString>
+  <Make_KineticRifle.label>Make TE kinetic rifle</Make_KineticRifle.label>
+  <Make_KineticRifle.description>Make TE kinetic rifle.</Make_KineticRifle.description>
+  <Make_KineticRifle.jobString>Making TE kinetic rifle.</Make_KineticRifle.jobString>
 
-  <Make_KineticPistol.label>Make kinetic pistol</Make_KineticPistol.label>
-  <Make_KineticPistol.description>Make kinetic pistol.</Make_KineticPistol.description>
-  <Make_KineticPistol.jobString>Making kinetic pistol.</Make_KineticPistol.jobString>
+  <Make_KineticPistol.label>Make TE kinetic pistol</Make_KineticPistol.label>
+  <Make_KineticPistol.description>Make TE kinetic pistol.</Make_KineticPistol.description>
+  <Make_KineticPistol.jobString>Making TE kinetic pistol.</Make_KineticPistol.jobString>
 
-  <Make_ThuddGun.label>Make thudd gun</Make_ThuddGun.label>
-  <Make_ThuddGun.description>Make thudd gun.</Make_ThuddGun.description>
-  <Make_ThuddGun.jobString>Making thudd gun.</Make_ThuddGun.jobString>
+  <Make_ThuddGun.label>Make TE thudd gun</Make_ThuddGun.label>
+  <Make_ThuddGun.description>Make TE thudd gun.</Make_ThuddGun.description>
+  <Make_ThuddGun.jobString>Making TE thudd gun.</Make_ThuddGun.jobString>
 
-  <Make_KineticLongRifle.label>Make kinetic long rifle</Make_KineticLongRifle.label>
-  <Make_KineticLongRifle.description>Make kinetic long rifle.</Make_KineticLongRifle.description>
-  <Make_KineticLongRifle.jobString>Making kinetic long rifle.</Make_KineticLongRifle.jobString>
+  <Make_KineticLongRifle.label>Make TE kinetic long rifle</Make_KineticLongRifle.label>
+  <Make_KineticLongRifle.description>Make TE kinetic long rifle.</Make_KineticLongRifle.description>
+  <Make_KineticLongRifle.jobString>Making TE kinetic long rifle.</Make_KineticLongRifle.jobString>
 
-  <Make_StormCannon.label>Make storm cannon</Make_StormCannon.label>
-  <Make_StormCannon.description>Make storm cannon.</Make_StormCannon.description>
-  <Make_StormCannon.jobString>Making storm cannon.</Make_StormCannon.jobString>
+  <Make_StormCannon.label>Make TE storm cannon</Make_StormCannon.label>
+  <Make_StormCannon.description>Make TE storm cannon.</Make_StormCannon.description>
+  <Make_StormCannon.jobString>Making TE storm cannon.</Make_StormCannon.jobString>
 
-  <Make_YP_SeoLi.label>Make shard rifle</Make_YP_SeoLi.label>
-  <Make_YP_SeoLi.description>Make shard rifle.</Make_YP_SeoLi.description>
-  <Make_YP_SeoLi.jobString>Making shard rifle.</Make_YP_SeoLi.jobString>
+  <Make_KineticLance.label>Make TE kinetic lance</Make_KineticLance.label>
+  <Make_KineticLance.description>Make TE kinetic lance.</Make_KineticLance.description>
+  <Make_KineticLance.jobString>Making TE kinetic lance.</Make_KineticLance.jobString>
 
-  <Make_YP_SagPung.label>Make swarmer</Make_YP_SagPung.label>
-  <Make_YP_SagPung.description>Make swarmer.</Make_YP_SagPung.description>
-  <Make_YP_SagPung.jobString>Making swarmer.</Make_YP_SagPung.jobString>
+  <Make_YP_SeoLi.label>Make YP shard rifle</Make_YP_SeoLi.label>
+  <Make_YP_SeoLi.description>Make YP shard rifle.</Make_YP_SeoLi.description>
+  <Make_YP_SeoLi.jobString>Making YP shard rifle.</Make_YP_SeoLi.jobString>
 
-  <Make_YP_SangAe.label>Make spike rifle</Make_YP_SangAe.label>
-  <Make_YP_SangAe.description>Make spike rifle.</Make_YP_SangAe.description>
-  <Make_YP_SangAe.jobString>Making spike rifle.</Make_YP_SangAe.jobString>
+  <Make_YP_SagPung.label>Make YP swarmer</Make_YP_SagPung.label>
+  <Make_YP_SagPung.description>Make YP swarmer.</Make_YP_SagPung.description>
+  <Make_YP_SagPung.jobString>Making YP swarmer.</Make_YP_SagPung.jobString>
 
-  <Make_YP_SeolHwa.label>Make dual wield shard pistols</Make_YP_SeolHwa.label>
-  <Make_YP_SeolHwa.description>Make dual wield shard pistols.</Make_YP_SeolHwa.description>
-  <Make_YP_SeolHwa.jobString>Making dual wield shard pistols.</Make_YP_SeolHwa.jobString>
+  <Make_YP_SangAe.label>Make YP spike rifle</Make_YP_SangAe.label>
+  <Make_YP_SangAe.description>Make YP spike rifle.</Make_YP_SangAe.description>
+  <Make_YP_SangAe.jobString>Making YP spike rifle.</Make_YP_SangAe.jobString>
 
-  <Make_YP_GeugGwang.label>Make microwave emmiter</Make_YP_GeugGwang.label>
-  <Make_YP_GeugGwang.description>Make microwave emmiter.</Make_YP_GeugGwang.description>
-  <Make_YP_GeugGwang.jobString>Making microwave emmiter.</Make_YP_GeugGwang.jobString>
+  <Make_YP_SeolHwa.label>Make YP dual wield shard pistols</Make_YP_SeolHwa.label>
+  <Make_YP_SeolHwa.description>Make YP dual wield shard pistols.</Make_YP_SeolHwa.description>
+  <Make_YP_SeolHwa.jobString>Making YP dual wield shard pistols.</Make_YP_SeolHwa.jobString>
+
+  <Make_YP_GeugGwang.label>Make YP microwave emmiter</Make_YP_GeugGwang.label>
+  <Make_YP_GeugGwang.description>Make YP microwave emmiter.</Make_YP_GeugGwang.description>
+  <Make_YP_GeugGwang.jobString>Making YP microwave emmiter.</Make_YP_GeugGwang.jobString>
 
 
 </LanguageData>

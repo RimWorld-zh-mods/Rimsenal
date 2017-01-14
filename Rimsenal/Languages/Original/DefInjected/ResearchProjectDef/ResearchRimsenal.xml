@@ -1,23 +1,29 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <ShardTech.label>shard tech</ShardTech.label>
+  <ShardTech.label>refined crystalline shard</ShardTech.label>
   <ShardTech.description>Allows you to build Yunhwa precision's weapons and armors.</ShardTech.description>
 
-  <MicrowaveTech.label>microwave tech</MicrowaveTech.label>
+  <MicrowaveTech.label>microwave emitter</MicrowaveTech.label>
   <MicrowaveTech.description>Allows you to build the mircrowave emmiter</MicrowaveTech.description>
 
-  <MoltenTech.label>molten tech</MoltenTech.label>
+  <MoltenTech.label>micro furnace</MoltenTech.label>
   <MoltenTech.description>Allows you to build the Jotun Interstellar's weapons and armors.</MoltenTech.description>
 
   <SiegeTech.label>siege gun</SiegeTech.label>
   <SiegeTech.description>Allows you to build the portable siege gun.</SiegeTech.description>
 
-  <KineticTech.label>kinetic tech</KineticTech.label>
+  <KineticTech.label>kinetic energy conservation gel</KineticTech.label>
   <KineticTech.description>It is a prerequisite to build Tisiphone equipment.</KineticTech.description>
 
-  <DefenceTech.label>defence tech</DefenceTech.label>
+  <FocusTech.label>focused kinetic field</FocusTech.label>
+  <FocusTech.description>Allows you to build the portable reactor and kinetic lance.</FocusTech.description>
+
+  <DefenceTech.label>tactical equipment manufacturing</DefenceTech.label>
   <DefenceTech.description>Allows you to build Graydale weapons</DefenceTech.description>
+
+  <DirectedEMP.label>directed electromagnetic pulse</DirectedEMP.label>
+  <DirectedEMP.description>It is a prerequisite to build EMP rifle.</DirectedEMP.description>
 
 
 </LanguageData>

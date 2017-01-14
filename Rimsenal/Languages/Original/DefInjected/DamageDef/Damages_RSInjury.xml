@@ -10,5 +10,14 @@
   <KineticImpact.label>kinetic impact</KineticImpact.label>
   <KineticImpact.deathMessage>{0} has been crushed to death.</KineticImpact.deathMessage>
 
+  <KineticImpactH.label>kinetic impact</KineticImpactH.label>
+  <KineticImpactH.deathMessage>{0} has been crushed to death.</KineticImpactH.deathMessage>
+
+  <KineticImpactF.label>kinetic impact</KineticImpactF.label>
+  <KineticImpactF.deathMessage>{0} has been crushed to death.</KineticImpactF.deathMessage>
+
+  <ChargedBolt.label>bullet</ChargedBolt.label>
+  <ChargedBolt.deathMessage>{0} has been shot to death.</ChargedBolt.deathMessage>
+
 
 </LanguageData>
