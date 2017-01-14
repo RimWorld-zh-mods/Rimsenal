@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ThingCategoryDefs>
+  
+	<ThingCategoryDef>
+		<defName>YPWeapons</defName>
+		<label>YP weapons</label>
+		<parent>WeaponsRanged</parent>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
+		<defName>JIWeapons</defName>
+		<label>JI weapons</label>
+		<parent>WeaponsRanged</parent>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
+		<defName>TEWeapons</defName>
+		<label>TE weapons</label>
+		<parent>WeaponsRanged</parent>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
+		<defName>GDWeapons</defName>
+		<label>GD weapons</label>
+		<parent>WeaponsRanged</parent>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
+		<defName>MRSKit</defName>
+		<label>MRS conversion kit</label>
+		<parent>Manufactured</parent>
+	</ThingCategoryDef>
+
+</ThingCategoryDefs>

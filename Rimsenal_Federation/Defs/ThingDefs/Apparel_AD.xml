@@ -3,12 +3,13 @@
 
   <ThingDef ParentName="ApparelBase">
     <defName>FedSuit</defName>
-    <label>Federation jumpsuit</label>
+    <label>federation jumpsuit</label>
     <techLevel>Spacer</techLevel>
     <description>A carbon crystalline fiber jumpsuit for military personnel. It is light and thin, but surprisingly sturdy. It is the uniform of the Federation.</description>
-    <graphicData> <texPath>Things/Apparel/Carbon</texPath>
+    <graphicData> <texPath>Things/Apparel/FedSuit</texPath>
     <graphicClass>Graphic_Single</graphicClass> </graphicData>
     <statBases>
+      <Mass>1.2</Mass>
 			<MaxHitPoints>350</MaxHitPoints>
 			<MarketValue>100</MarketValue>
 			<ArmorRating_Blunt>0.08</ArmorRating_Blunt>
@@ -28,7 +29,7 @@
         <li>Worker</li>
         <li>Soldier</li>
      </defaultOutfitTags>
-     <worngraphicPath>Things/Apparel/Carbon</worngraphicPath>
+     <worngraphicPath>Things/Apparel/FedSuit</worngraphicPath>
 			<layers>
 			    <li>OnSkin</li>
 			</layers>
@@ -43,7 +44,7 @@
       <options>
 				<li>
 					<weight>6</weight>
-					<only>RGBA(1,0.5,0.5,1)</only>
+					<only>RGBA(0.6,0.2,0.2,1)</only>
 				</li>
       </options>
     </colorGenerator>
@@ -53,7 +54,7 @@
 		<defName>Apparel_Judicator</defName>
 		<label>riot gear</label>
 		<techLevel>Spacer</techLevel>
-		<description>A "Judicator" riot gear was produced by Arms Dynamics for the creepy Federation Peacekeeper. This is a really great personal armor if you can withstand from scornful eyes of the people.</description>
+		<description>A "Judicator" riot gear was produced by Arms Dynamics for Federation human commanders. This is a really great personal armor if you can withstand from scornful eyes of the people.</description>
 		<graphicData> <texPath>Things/Apparel/Judicator</texPath>
 		<graphicClass>Graphic_Single</graphicClass> </graphicData>
 		<thingCategories>
@@ -61,13 +62,14 @@
 		</thingCategories>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
-      <researchPrerequisite>CrucibleTech</researchPrerequisite>
+      <researchPrerequisite>PoweredArmor</researchPrerequisite>
     </recipeMaker>
     <costList>
       <Component>16</Component>
       <Plasteel>160</Plasteel>
     </costList>
 		<statBases>
+      <Mass>14</Mass>
      <WorkToMake>159000</WorkToMake>
 			<MaxHitPoints>500</MaxHitPoints>
 			<MarketValue>4050</MarketValue>
@@ -103,25 +105,23 @@
 		</apparel>
 	</ThingDef>
 
-	<ThingDef ParentName="ArmorMakeableBase">
+	<ThingDef ParentName="ArmorHelmetMakeableBase">
 	<defName>Apparel_JudicatorH</defName>
 	<label>riot gear helmet</label>
 	<techLevel>Spacer</techLevel>
 	<description>It is a helmet of the FPC riot gear. If you wear this, you will be an eyesore of your colony.</description>
 	<graphicData> <texPath>Things/Apparel/JudicatorH</texPath>
 	<graphicClass>Graphic_Single</graphicClass> </graphicData>
-	<thingCategories>
-		<li>Apparel</li>
-	</thingCategories>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
-      <researchPrerequisite>CrucibleTech</researchPrerequisite>
+      <researchPrerequisite>PoweredArmor</researchPrerequisite>
     </recipeMaker>
     <costList>
       <Component>8</Component>
       <Plasteel>70</Plasteel>
     </costList>
 	<statBases>
+      <Mass>2.4</Mass>
      <WorkToMake>32000</WorkToMake>
 		<MaxHitPoints>450</MaxHitPoints>
 		<MarketValue>1220</MarketValue>
@@ -174,6 +174,7 @@
       <Plasteel>80</Plasteel>
     </costList>
 		<statBases>
+      <Mass>6.5</Mass>
      <WorkToMake>119000</WorkToMake>
 			<MaxHitPoints>150</MaxHitPoints>
 			<MarketValue>1250</MarketValue>
@@ -209,16 +210,13 @@
 		</apparel>
 	</ThingDef>
 
-	<ThingDef ParentName="ArmorMakeableBase">
+	<ThingDef ParentName="ArmorHelmetMakeableBase">
 	<defName>Apparel_MarksmanGearH</defName>
 	<label>marksmangear helmet</label>
 	<techLevel>Spacer</techLevel>
 	<description>It is a helmet of the "Condemner" marksman gear. Integrated target spotter guarantees high accuracy and fast reaction.</description>
 	<graphicData> <texPath>Things/Apparel/CondemnerH</texPath>
 	<graphicClass>Graphic_Single</graphicClass> </graphicData>
-	<thingCategories>
-		<li>Apparel</li>
-	</thingCategories>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <researchPrerequisite>CrucibleTech</researchPrerequisite>
@@ -228,6 +226,7 @@
       <Plasteel>65</Plasteel>
     </costList>
 	<statBases>
+      <Mass>2.2</Mass>
      <WorkToMake>38000</WorkToMake>
 		<MaxHitPoints>150</MaxHitPoints>
 		<MarketValue>1220</MarketValue>

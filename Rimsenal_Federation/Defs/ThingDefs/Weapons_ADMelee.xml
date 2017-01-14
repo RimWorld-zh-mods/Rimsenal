@@ -8,7 +8,7 @@
     <defName>AD_Verdict</defName>
     <label>Concussion baton</label>
     <description>Standard issue close combat weapon of Federation Peacekeeper Corps, the "Verdict" is simple non lethal weapon in show, but it's not.</description>
-    <graphicData> <texPath>Things/A13/Verdict</texPath>
+    <graphicData> <texPath>Things/A16/Verdict</texPath>
     <graphicClass>Graphic_Single</graphicClass> </graphicData>
     <techLevel>Spacer</techLevel>
  		<weaponTags>
@@ -16,6 +16,7 @@
  		</weaponTags>
     <tradeability>Sellable</tradeability>
     <statBases>
+      <Mass>2.4</Mass>
       <WorkToMake>36500</WorkToMake>
       <MarketValue>1380</MarketValue>
       <MeleeWeapon_DamageAmount>24</MeleeWeapon_DamageAmount>

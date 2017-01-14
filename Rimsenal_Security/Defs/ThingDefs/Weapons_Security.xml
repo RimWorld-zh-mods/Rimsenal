@@ -42,7 +42,7 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_ShardSentry</projectileDef>
-        <warmupTicks>55</warmupTicks>
+        <warmupTime>55</warmupTime>
         <range>24</range>
         <ticksBetweenBurstShots>3</ticksBetweenBurstShots>
         <burstShotCount>8</burstShotCount>
@@ -97,7 +97,7 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_WaveEmitter</projectileDef>
-        <warmupTicks>152</warmupTicks>
+        <warmupTime>152</warmupTime>
         <range>28</range>
         <ticksBetweenBurstShots>20</ticksBetweenBurstShots>
         <burstShotCount>4</burstShotCount>
@@ -150,7 +150,7 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_NestHMG</projectileDef>
-        <warmupTicks>40</warmupTicks>
+        <warmupTime>40</warmupTime>
         <range>39</range>
         <burstShotCount>12</burstShotCount>
         <soundCast>ShotGRS</soundCast>
@@ -203,7 +203,7 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_NestHMG</projectileDef>
-        <warmupTicks>20</warmupTicks>
+        <warmupTime>20</warmupTime>
         <range>30</range>
         <burstShotCount>5</burstShotCount>
         <ticksBetweenBurstShots>11</ticksBetweenBurstShots>
@@ -260,7 +260,7 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_NestAGS</projectileDef>
-        <warmupTicks>60</warmupTicks>
+        <warmupTime>60</warmupTime>
         <range>35</range>
         <burstShotCount>1</burstShotCount>
         <soundCast>ShotGdgrenade</soundCast>
@@ -315,7 +315,7 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_MC</projectileDef>
-        <warmupTicks>190</warmupTicks>
+        <warmupTime>190</warmupTime>
         <range>50</range>
         <burstShotCount>1</burstShotCount>
         <soundCast>RS_ShotJI</soundCast>
@@ -372,7 +372,7 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_BC</projectileDef>
-        <warmupTicks>190</warmupTicks>
+        <warmupTime>190</warmupTime>
         <range>500</range>
         <forcedMissRadius>8</forcedMissRadius>
         <burstShotCount>12</burstShotCount>

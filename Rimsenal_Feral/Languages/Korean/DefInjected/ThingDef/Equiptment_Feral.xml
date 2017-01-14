@@ -3,7 +3,7 @@
 <LanguageData>
 
 	<Gun_Scraptooth.label>페럴 스크랩투스</Gun_Scraptooth.label>
-	<Gun_Scraptooth.description>페럴이 제작한 급조 권총. 일반 권총보다 빠르고 강하지만, 스크랩투스는 사거리와 명중률이 떨어집니다.</Gun_Scraptooth.description>
+	<Gun_Scraptooth.description>페럴이 제작한 급조 권총. 스크랩투스는 일반 권총보다 빠르고 강하지만 사거리와 명중률이 떨어집니다.</Gun_Scraptooth.description>
 
 	<Gun_ScatterStick.label>페럴 스캐터 스틱</Gun_ScatterStick.label>
 	<Gun_ScatterStick.description>수제작 전장식 산탄총. 강력하지만 사거리가 매우 짧고 재장전 시간도 깁니다.</Gun_ScatterStick.description>
@@ -15,9 +15,9 @@
 	<Gun_Crucifier.description>전기 작살총입니다. 충전시간은 오래걸리지만 사거리가 길고, 인상적인 화력을 발휘합니다.</Gun_Crucifier.description>
 
 	<Gun_Deathdealer.label>페럴 데스딜러</Gun_Deathdealer.label>
-	<Gun_Deathdealer.description>연방 기준으로도 희귀하고 소름끼치는 무기인 '센티넬'은 개인 휴대용 플라즈마 화기입니다. 이 무기는 금속 플라즈마를 담고 있는 자기 구체를 속사합니다.</Gun_Deathdealer.description>
+	<Gun_Deathdealer.description>조잡한 급조 기관단총입니다. 근거리 총격전에서 치명적인 위력을 발휘하며, 장탄량이 많습니다.</Gun_Deathdealer.description>
 
-	<Gun_Gnasher.label>페럴 그내셔</Gun_Gnasher.label>
+	<Gun_Gnasher.label>페럴 내셔</Gun_Gnasher.label>
 	<Gun_Gnasher.description>막대한 개조를 거친 네일건입니다. 엄청난 속도로 못을 뿜어내지만, 매우 부정확하고 화력도 떨어집니다.</Gun_Gnasher.description>
 
 	<Gun_Scorcher.label>페럴 스코처</Gun_Scorcher.label>
@@ -28,6 +28,9 @@
 
 	<Gun_RatStick.label>페럴 랫스틱</Gun_RatStick.label>
 	<Gun_RatStick.description>폭발성 폭탄쥐 종양을 묶어둔 투창입니다.</Gun_RatStick.description>
+
+	<Gun_SkullBuster.label>페럴 스컬버스터</Gun_SkullBuster.label>
+	<Gun_SkullBuster.description>크랭크를 돌려 작동하는 대형 자동화기입니다. 조잡하지만 파괴적입니다.</Gun_SkullBuster.description>
 
 	<MeleeWeapon_Cleaver.label>푸줏칼</MeleeWeapon_Cleaver.label>
 	<MeleeWeapon_Cleaver.description>조잡한 급조 푸줏칼입니다.</MeleeWeapon_Cleaver.description>
@@ -54,6 +57,18 @@
 	<Apparel_ScorcherHelmet.description>괴상하게 생긴 가스 마스크입니다.</Apparel_ScorcherHelmet.description>
 
 	<Apparel_GrinderHelmet.label>페럴 헬멧</Apparel_GrinderHelmet.label>
-	<Apparel_GrinderHelmet.description>녹슬고 괴상하게 생긴 양동이 투구입니다..</Apparel_GrinderHelmet.description>
+	<Apparel_GrinderHelmet.description>녹슬고 괴상하게 생긴 양동이 투구입니다.</Apparel_GrinderHelmet.description>
+
+	<Apparel_ScrapArmor.label>고철 갑옷</Apparel_ScrapArmor.label>
+	<Apparel_ScrapArmor.description>고철로 만든 갑옷입니다. 보기 흉하고 불편하지만 방호력은 상당합니다.</Apparel_ScrapArmor.description>
+
+	<Apparel_FeralMail.label>페럴 갑주</Apparel_FeralMail.label>
+	<Apparel_FeralMail.description>육중하고 불편한 주조갑입니다.</Apparel_FeralMail.description>
+
+	<Apparel_FeralExo.label>페럴 외골격</Apparel_FeralExo.label>
+	<Apparel_FeralExo.description>페럴이 노획한 동력장갑복입니다. 모든 페럴 전사들의 꿈과 같은 존재입니다.</Apparel_FeralExo.description>
+
+	<Apparel_FeralExoH.label>페럴 외골격 헬멧</Apparel_FeralExoH.label>
+	<Apparel_FeralExoH.description>임시방편으로 떼운 동력장갑복 헬멧입니다.</Apparel_FeralExoH.description>
 
 </LanguageData>

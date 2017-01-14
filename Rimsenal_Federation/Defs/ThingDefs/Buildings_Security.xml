@@ -59,8 +59,8 @@
     <building>
       <ai_combatDangerous>true</ai_combatDangerous>
       <turretGunDef>Gun_Harvester</turretGunDef>
-      <turretBurstWarmupTicks>130</turretBurstWarmupTicks>
-      <turretBurstCooldownTicks>625</turretBurstCooldownTicks>
+      <turretBurstWarmupTime>1.40</turretBurstWarmupTime>
+      <turretBurstCooldownTime>3.25</turretBurstCooldownTime>
       <turretTopgraphicPath>Things/Building/HC</turretTopgraphicPath>
     </building>
     <researchPrerequisites><li>CrucibleTech</li></researchPrerequisites>
@@ -122,8 +122,8 @@
     <building>
       <ai_combatDangerous>true</ai_combatDangerous>
       <turretGunDef>Gun_PB</turretGunDef>
-      <turretBurstWarmupTicks>300</turretBurstWarmupTicks>
-      <turretBurstCooldownTicks>3000</turretBurstCooldownTicks>
+      <turretBurstWarmupTime>3.80</turretBurstWarmupTime>
+      <turretBurstCooldownTime>50</turretBurstCooldownTime>
       <turretTopgraphicPath>Things/Building/PB_Gun</turretTopgraphicPath>
     </building>
     <researchPrerequisites><li>PlasmaTech</li></researchPrerequisites>

@@ -8,11 +8,12 @@
     <defName>GD_Sabertooth</defName>
     <label>combat blade</label>
     <description>A "Sabertooth" combat blade of Greydale Defence. Good for chop down trees or enemies limbs.</description>
-    <graphicData> <texPath>Things/A13/Sabertooth</texPath>
+    <graphicData> <texPath>Things/A16/Sabertooth</texPath>
     <graphicClass>Graphic_Single</graphicClass> </graphicData>
     <soundInteract>InteractPistol</soundInteract>
     <techLevel>Spacer</techLevel>
     <statBases>
+      <Mass>1.42</Mass>
       <WorkToMake>20500</WorkToMake>
       <MarketValue>1150</MarketValue>
       <MeleeWeapon_DamageAmount>19</MeleeWeapon_DamageAmount>
@@ -26,6 +27,9 @@
       <Steel>75</Steel>
       <Component>2</Component>
     </costList>
+    <recipeMaker>
+      <researchPrerequisite>DefenceTech</researchPrerequisite>
+    </recipeMaker>
     <verbs>
       <li>
         <verbClass>Verb_MeleeAttack</verbClass>
@@ -39,19 +43,23 @@
     <defName>YP_BingJu</defName>
     <label>Vibrosword</label>
     <description>Light but extremely sharp, the "BingJu(Ice pillar)" is the close combat weapon of Yunhwa Precision's private army.</description>
-    <graphicData> <texPath>Things/A13/BingJu</texPath>
+    <graphicData> <texPath>Things/A16/BingJu</texPath>
     <graphicClass>Graphic_Single</graphicClass> </graphicData>
     <soundInteract>InteractPistol</soundInteract>
     <statBases>
+      <Mass>0.85</Mass>
       <WorkToMake>32000</WorkToMake>
       <MarketValue>1365</MarketValue>
-      <MeleeWeapon_DamageAmount>14</MeleeWeapon_DamageAmount>
-      <MeleeWeapon_Cooldown>0.9</MeleeWeapon_Cooldown>
+      <MeleeWeapon_DamageAmount>12</MeleeWeapon_DamageAmount>
+      <MeleeWeapon_Cooldown>0.85</MeleeWeapon_Cooldown>
     </statBases>
+    <recipeMaker>
+      <researchPrerequisite>ShardTech</researchPrerequisite>
+    </recipeMaker>
    <costList>
       <Steel>20</Steel>
-      <Plasteel>40</Plasteel>
-      <Component>5</Component>
+      <Plasteel>60</Plasteel>
+      <Component>6</Component>
     </costList>
     <equippedAngleOffset>0</equippedAngleOffset>
     <verbs>
@@ -68,20 +76,27 @@
     <label>Assault hammer</label>
     <techLevel>Spacer</techLevel>
     <description>"Ormbane" is a massive combat sledge hammer that manufactured from Jotun Interstellar.</description>
-    <graphicData> <texPath>Things/A13/Ormbane</texPath>
+    <graphicData> <texPath>Things/A16/Ormbane</texPath>
     <graphicClass>Graphic_Single</graphicClass> </graphicData>
     <statBases>
+      <Mass>10</Mass>
       <WorkToMake>38500</WorkToMake>
       <MarketValue>1550</MarketValue>
       <MeleeWeapon_DamageAmount>38</MeleeWeapon_DamageAmount>
       <MeleeWeapon_Cooldown>2.9</MeleeWeapon_Cooldown>
     </statBases>
+    <recipeMaker>
+      <researchPrerequisite>MoltenTech</researchPrerequisite>
+    </recipeMaker>
     <equippedAngleOffset>0</equippedAngleOffset>
    <costList>
-      <Steel>75</Steel>
-      <Plasteel>180</Plasteel>
-      <Component>6</Component>
+      <Steel>150</Steel>
+      <Plasteel>30</Plasteel>
+      <Component>4</Component>
     </costList>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.6</MoveSpeed>
+    </equippedStatOffsets>
     <verbs>
       <li>
         <verbClass>Verb_MeleeAttack</verbClass>
@@ -95,16 +110,20 @@
     <defName>TE_Eris</defName>
     <label>survival knife</label>
     <description>Survival knife of the Tisiphone Hunter Contingent. It can be used in a variety of tasks.</description>
-    <graphicData> <texPath>Things/A13/Eris</texPath>
+    <graphicData> <texPath>Things/A16/Eris</texPath>
     <graphicClass>Graphic_Single</graphicClass> </graphicData>
     <soundInteract>InteractPistol</soundInteract>
     <techLevel>Spacer</techLevel>
     <statBases>
+      <Mass>0.52</Mass>
       <WorkToMake>15500</WorkToMake>
       <MarketValue>650</MarketValue>
       <MeleeWeapon_DamageAmount>9</MeleeWeapon_DamageAmount>
       <MeleeWeapon_Cooldown>1.1</MeleeWeapon_Cooldown>
     </statBases>
+    <recipeMaker>
+      <researchPrerequisite>KineticTech</researchPrerequisite>
+    </recipeMaker>
     <equippedAngleOffset>35</equippedAngleOffset>
     <equippedStatOffsets>
       <WorkSpeedGlobal>0.2</WorkSpeedGlobal>
@@ -118,6 +137,36 @@
         <verbClass>Verb_MeleeAttack</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <meleeDamageDef>Cut</meleeDamageDef>
+      </li>
+    </verbs>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp">
+    <defName>MeleeWeapon_TorchSword</defName>
+    <label>torch sword</label>
+    <description>The "Purifier" torch sword is a high capacity plasma torch with grip and blade. Set a fire on target.</description>
+    <graphicData>
+      <texPath>Things/A16/TorchSword</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractPistol</soundInteract>
+    <techLevel>Spacer</techLevel>
+    <statBases>
+      <WorkToMake>16500</WorkToMake>
+      <MeleeWeapon_DamageAmount>10</MeleeWeapon_DamageAmount>
+      <MeleeWeapon_Cooldown>1.8</MeleeWeapon_Cooldown>
+    </statBases>
+    <equippedAngleOffset>-5</equippedAngleOffset>
+    <costList>
+      <Steel>75</Steel>
+      <Plasteel>100</Plasteel>
+      <Component>6</Component>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <meleeDamageDef>Flame</meleeDamageDef>
       </li>
     </verbs>
   </ThingDef>

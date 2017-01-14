@@ -9,6 +9,7 @@
     <pathCost>10</pathCost>
     <useHitPoints>True</useHitPoints>
     <selectable>True</selectable>
+    <smeltable>true</smeltable>
     <graphicData>
       <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
     </graphicData>
@@ -24,7 +25,7 @@
     <tickerType>Never</tickerType>
     <techLevel>Ultra</techLevel>
     <thingCategories>
-      <li>WeaponsRanged</li>
+      <li>ADWeapons</li>
     </thingCategories>
     <inspectorTabs>
       <li>ITab_Art</li>
@@ -43,10 +44,6 @@
         <minQualityForArtistic>Excellent</minQualityForArtistic>
       </li>
     </comps>
-    <smeltProducts>
-      <Plasteel>20</Plasteel>
-      <Steel>20</Steel>
-    </smeltProducts>
   </ThingDef>
 
   <!-- ============================================== -->
@@ -63,7 +60,7 @@
       <damageDef>Plasma</damageDef>
       <explosionRadius>4</explosionRadius>
       <damageAmountBase>50</damageAmountBase>
-      <speed>5</speed>
+      <speed>4</speed>
     </projectile>
   </ThingDef>
 
@@ -82,7 +79,8 @@
     </graphicData>
     <soundInteract>InteractADWeapons</soundInteract>
     <statBases>
-     <MarketValue>2000</MarketValue>
+      <Mass>25</Mass>
+      <MarketValue>2000</MarketValue>
       <AccuracyTouch>0.7</AccuracyTouch>
       <AccuracyShort>0.6</AccuracyShort>
       <AccuracyMedium>0.5</AccuracyMedium>
@@ -95,7 +93,7 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_PlasmaBombard</projectileDef>
-        <warmupTicks>255</warmupTicks>
+        <warmupTime>3.55</warmupTime>
         <range>26</range>
         <burstShotCount>1</burstShotCount>
         <soundCast>RS_ShotHarmonizer</soundCast>
@@ -142,7 +140,8 @@
     <destroyOnDrop>True</destroyOnDrop>
     <techLevel>Spacer</techLevel>
     <statBases>
-     <MarketValue>2000</MarketValue>
+      <Mass>24</Mass>
+      <MarketValue>2000</MarketValue>
       <AccuracyTouch>0.9</AccuracyTouch>
       <AccuracyShort>0.8</AccuracyShort>
       <AccuracyMedium>0.7</AccuracyMedium>
@@ -154,10 +153,10 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_CrucibleCannon</projectileDef>
-        <warmupTicks>160</warmupTicks>
+        <warmupTime>2.6</warmupTime>
         <range>35</range>
-        <burstShotCount>10</burstShotCount>
-        <ticksBetweenBurstShots>28</ticksBetweenBurstShots>
+        <burstShotCount>13</burstShotCount>
+        <ticksBetweenBurstShots>22</ticksBetweenBurstShots>
         <soundCast>RS_ShotCPR</soundCast>
       </li>
     </verbs>

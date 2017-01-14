@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ThingDefs>
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>ClusterShell</defName>
+    <label>cluster bomb</label>
+    <graphicData>
+      <texPath>Projectile/CCluster</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <linkType>None</linkType>
+      <drawSize>(2,2)</drawSize>
+      <damageData>
+        <rect>(0.2,0.2,0.6,0.6)</rect>
+      </damageData>
+    </graphicData>
+    <description>A cluster bomb</description>
+    <thingClass>Building</thingClass>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <selectable>false</selectable>
+    <fillPercent>0.20</fillPercent>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <rotatable>false</rotatable>
+    <tickerType>Rare</tickerType>
+    <statBases>
+      <MaxHitPoints>15</MaxHitPoints>
+      <Mass>1</Mass>
+      <WorkToBuild>10</WorkToBuild>
+      <Flammability>1.0</Flammability>
+     <TrapSpringChance>0.8</TrapSpringChance>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>1</explosiveRadius>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+        <startWickHitPointsPercent>0.95</startWickHitPointsPercent>
+        <wickTicks>
+          <min>10</min>
+          <max>50</max>
+        </wickTicks>
+      </li>
+      <li Class="CompProperties_Lifespan">
+        <lifespanTicks>500</lifespanTicks>
+      </li>
+    </comps>
+  </ThingDef>
+
+
+</ThingDefs>

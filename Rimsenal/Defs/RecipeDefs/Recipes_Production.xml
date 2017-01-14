@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<RecipeDefs>
+
+  <RecipeDef>
+    <defName>DisassembleMRS-R</defName>
+    <label>disassemble modular rifle</label>
+    <description>Disassemble modular rifles into a MRS-R kit and modular carbine.</description>
+    <jobString>Disassemble modular rifle.</jobString>
+    <workSpeedStat>SmithingSpeed</workSpeedStat>
+    <effectWorking>Smith</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>50</workAmount>
+    <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+      <categories>
+        <li>GDWeapons</li>
+      </categories>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>GDWeapons</li>
+      </categories>
+      <exceptedThingDefs>
+        <li>GD_GRM</li>
+        <li>GD_GRS</li>
+        <li>GD_Lynx</li>
+        <li>GD_Jaguar</li>
+        <li>GD_Caracal</li>
+        <li>GD_ModularCarbine</li>		
+      </exceptedThingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <MRSKitR>1</MRSKitR>
+      <GD_ModularCarbine>1</GD_ModularCarbine>
+    </products>
+    <workSkill>Crafting</workSkill>
+      <recipeUsers>
+        <li>TableMachining</li>
+      </recipeUsers>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>DisassembleMRS-S</defName>
+    <label>disassemble modular LMG</label>
+    <description>Disassemble modular LMG into a MRS-S kit and modular carbine.</description>
+    <jobString>Disassemble modular LMG.</jobString>
+    <workSpeedStat>SmithingSpeed</workSpeedStat>
+    <effectWorking>Smith</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>50</workAmount>
+    <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+      <categories>
+        <li>GDWeapons</li>
+      </categories>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>GDWeapons</li>
+      </categories>
+      <exceptedThingDefs>
+        <li>GD_GRM</li>
+        <li>GD_GRC</li>
+        <li>GD_Lynx</li>
+        <li>GD_Jaguar</li>
+        <li>GD_Caracal</li>
+        <li>GD_ModularCarbine</li>		
+      </exceptedThingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <MRSKitS>1</MRSKitS>
+      <GD_ModularCarbine>1</GD_ModularCarbine>
+    </products>
+    <workSkill>Crafting</workSkill>
+      <recipeUsers>
+        <li>TableMachining</li>
+      </recipeUsers>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>DisassembleMRS-M</defName>
+    <label>disassemble modular DMR</label>
+    <description>Disassemble modular DMR into a MRS-R kit and modular carbine.</description>
+    <jobString>Disassemble modular DMR.</jobString>
+    <workSpeedStat>SmithingSpeed</workSpeedStat>
+    <effectWorking>Smith</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>50</workAmount>
+    <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+      <categories>
+        <li>GDWeapons</li>
+      </categories>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>GDWeapons</li>
+      </categories>
+      <exceptedThingDefs>
+        <li>GD_GRC</li>
+        <li>GD_GRS</li>
+        <li>GD_Lynx</li>
+        <li>GD_Jaguar</li>
+        <li>GD_Caracal</li>
+        <li>GD_ModularCarbine</li>		
+      </exceptedThingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <MRSKitM>1</MRSKitM>
+      <GD_ModularCarbine>1</GD_ModularCarbine>
+    </products>
+    <workSkill>Crafting</workSkill>
+      <recipeUsers>
+        <li>TableMachining</li>
+      </recipeUsers>
+  </RecipeDef>
+
+</RecipeDefs>

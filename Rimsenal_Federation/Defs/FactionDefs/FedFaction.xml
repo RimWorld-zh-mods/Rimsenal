@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <FactionDefs>
-
   <FactionDef>
 		<defName>FPC</defName>
 		<label>Federation Peacekeeper Corps</label>
-    <description>Once upon a time, in the core sector of the galaxy, there was a fair and great interstellar empire, now only referred to as "the Federation". The Federation Peacekeeper Corps were it's honorable guardian. However, during the long and grim Mechanoid war, things have changed. Freedom and fairness were trampled under the name of safety. Oppression and tyranny were in the name of order.
+<description>Once upon a time, in the core sector of the galaxy, there was a fair and great interstellar empire, now only referred to as "the Federation". The Federation Peacekeeper Corps were it's honorable guardian. However, during the long and grim Mechanoid war, things have changed. Freedom and fairness were trampled under the name of safety. Oppression and tyranny were in the name of order.
 
 And the long war against the Federation itself began.
 
@@ -12,60 +11,79 @@ A rare occurrence of interstellar war, this civil war tore the Federation apart.
 
 However, on the isolated rimworlds, the name of the Federation and it's merciless hounds means a totally different thing...</description>
     <pawnsPlural>Federation soldiers</pawnsPlural>
+    <factionBaseSelectionWeight>0.5</factionBaseSelectionWeight>
     <requiredCountAtGameStart>1</requiredCountAtGameStart>
     <canMakeRandomly>false</canMakeRandomly>
+    <autoFlee>false</autoFlee>
     <raidCommonality>100</raidCommonality>
-    <humanlikeFaction>true</humanlikeFaction>
-    <hidden>false</hidden>
+    <canSiege>false</canSiege>
     <canStageAttacks>true</canStageAttacks>
-    <leaderTitle>Prime</leaderTitle>
+    <leaderTitle>prime</leaderTitle>
     <appreciative>false</appreciative>
-    <canFlee>false</canFlee>
+    <expandingIconTexture>Things/FedIcon</expandingIconTexture>
+    <colorSpectrum>
+      <li>(0.5, 0, 0)</li>
+    </colorSpectrum>
     <startingGoodwill>
-      <min>-100</min>
-      <max>-100</max>
+      <min>-99</min>
+      <max>-90</max>
     </startingGoodwill>
-    <naturalColonyGoodwill>
-      <min>-100</min>
-      <max>-100</max>
-    </naturalColonyGoodwill>
-		<earliestRaidDays>25</earliestRaidDays>
-		<factionNameMaker>NamerFPCBase</factionNameMaker>
+		<factionNameMaker>NamerFPCFaction</factionNameMaker>
+		<factionBaseNameMaker>NamerFPCBase</factionBaseNameMaker>
 		<techLevel>Spacer</techLevel>
 		<backstoryCategory>Civil</backstoryCategory>
 		<hairTags>
 			<li>Urban</li>
 			<li>Rural</li>
 		</hairTags>
+    <naturalColonyGoodwill>
+      <min>-99</min>
+      <max>-99</max>
+    </naturalColonyGoodwill>
     <allowedArrivalTemperatureRange>
-      <min>-55</min>
-      <max>65</max>
+      <min>-75</min>
+      <max>60</max>
     </allowedArrivalTemperatureRange>
-    <mustStartOneEnemy>true</mustStartOneEnemy>
+
     <pawnGroupMakers>
-      <li Class="PawnGroupMaker_Normal">
+      <li>
+        <kindDef>Normal</kindDef>
         <commonality>100</commonality>
         <options>
           <FPCBomber>50</FPCBomber>
-          <FPCAuxiliary>150</FPCAuxiliary>
+          <FPCAuxiliary>200</FPCAuxiliary>
           <FPCCommander>5</FPCCommander>
-          <FPCPeacekeeper>50</FPCPeacekeeper>
+          <FPCPeacekeeper>150</FPCPeacekeeper>
           <FPCPeacemonger>20</FPCPeacemonger>
           <FPCFederator>5</FPCFederator>
         </options>
       </li>
-      <li Class="PawnGroupMaker_Normal">
-        <commonality>50</commonality>
+      <li>
+        <kindDef>Normal</kindDef>
+        <commonality>25</commonality>
         <options>
-          <FPCPeacemonger>20</FPCPeacemonger>
+          <FPCAssassin>50</FPCAssassin>
           <FPCPeacebringer>50</FPCPeacebringer>
-          <FPCMonitor>150</FPCMonitor>
+          <FPCSeeker>150</FPCSeeker>
+        </options>
+      </li>
+      <li>
+        <kindDef>FactionBase</kindDef>
+        <options>
+          <FPCAssassin>50</FPCAssassin>
+          <FPCBomber>50</FPCBomber>
+          <FPCAuxiliary>200</FPCAuxiliary>
+          <FPCCommander>5</FPCCommander>
+          <FPCPeacekeeper>150</FPCPeacekeeper>
+          <FPCPeacemonger>20</FPCPeacemonger>
+          <FPCFederator>5</FPCFederator>
+          <FPCPeacemonger>20</FPCPeacemonger>
+          <FPCPeacebringer>10</FPCPeacebringer>
+          <FPCSeeker>10</FPCSeeker>
         </options>
       </li>
     </pawnGroupMakers>
-    <homeIconPath>Things/FedIcon</homeIconPath>
-    <homeIconColor>(255,255,255)</homeIconColor>
+
+    <homeIconPath>World/WorldObjects/DefaultFactionBase</homeIconPath>
   </FactionDef>
-
-
 </FactionDefs>

@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <ThingDef ParentName="ResourceBase">
+    <defName>MRSKitR</defName>
+    <label>MRS rifle conversion kit</label>
+    <description>All the parts necessary to convert an phanter-C modular carbine to the rifle configuration. In order to reconfigure an already-configured panther Modular Rifle System, you'll need to disassemble it to the carbine, then assemble with the parts you prefer.</description>
+    <graphicData>
+      <texPath>Things/A16/MRSKitR</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <recipeMaker>
+      <researchPrerequisite>DefenceTech</researchPrerequisite>
+      <workSpeedStat>SmithingSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+      <recipeUsers>
+        <li>TableMachining</li>
+      </recipeUsers>
+      <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+    </recipeMaker>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <stackLimit>10</stackLimit>
+    <costList>
+      <Steel>25</Steel>
+      <Component>2</Component>
+    </costList>
+    <statBases>
+      <WorkToMake>7000</WorkToMake>
+      <MaxHitPoints>100</MaxHitPoints>
+      <MarketValue>150</MarketValue>
+      <Mass>0.76</Mass>
+      <Flammability>1.0</Flammability>
+			<DeteriorationRate>1.0</DeteriorationRate>
+		</statBases>
+    <intricate>true</intricate>
+    <thingCategories>
+      <li>MRSKit</li>
+    </thingCategories>
+  </ThingDef>
+  
+  <ThingDef ParentName="ResourceBase">
+    <defName>MRSKitM</defName>
+    <label>MRS DMR conversion kit</label>
+    <description>All the parts necessary to convert an phanter-C modular carbine to the Designated Marksman's Rifle configuration. In order to reconfigure an already-configured panther Modular Rifle System, you'll need to disassemble it to the carbine, then assemble with the parts you prefer.</description>
+    <graphicData>
+      <texPath>Things/A16/MRSKitM</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <recipeMaker>
+      <researchPrerequisite>DefenceTech</researchPrerequisite>
+      <workSpeedStat>SmithingSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+      <recipeUsers>
+        <li>TableMachining</li>
+      </recipeUsers>
+      <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+    </recipeMaker>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <stackLimit>10</stackLimit>
+    <costList>
+      <Steel>35</Steel>
+      <Component>3</Component>
+    </costList>
+    <statBases>
+      <WorkToMake>12000</WorkToMake>
+      <MaxHitPoints>100</MaxHitPoints>
+      <MarketValue>250</MarketValue>
+      <Mass>1.35</Mass>
+      <Flammability>1.0</Flammability>
+			<DeteriorationRate>1.0</DeteriorationRate>
+		</statBases>
+    <intricate>true</intricate>
+    <thingCategories>
+      <li>MRSKit</li>
+    </thingCategories>
+  </ThingDef>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>MRSKitS</defName>
+    <label>MRS LMG conversion kit</label>
+    <description>All the parts necessary to convert an phanter-C modular carbine to the Light Machine Gun configuration. In order to reconfigure an already-configured panther Modular Rifle System, you'll need to disassemble it to the carbine, then assemble with the parts you prefer.</description>
+    <graphicData>
+      <texPath>Things/A16/MRSKitS</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <recipeMaker>
+      <workSpeedStat>SmithingSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+      <recipeUsers>
+        <li>TableMachining</li>
+      </recipeUsers>
+      <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+    </recipeMaker>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <stackLimit>10</stackLimit>
+    <costList>
+      <Steel>45</Steel>
+      <Component>2</Component>
+    </costList>
+    <statBases>
+      <WorkToMake>15000</WorkToMake>
+      <MaxHitPoints>100</MaxHitPoints>
+      <MarketValue>300</MarketValue>
+      <Mass>3.04</Mass>
+      <Flammability>1.0</Flammability>
+			<DeteriorationRate>1.0</DeteriorationRate>
+		</statBases>
+    <intricate>true</intricate>
+    <thingCategories>
+      <li>MRSKit</li>
+    </thingCategories>
+  </ThingDef>
+    
+
+</Defs>

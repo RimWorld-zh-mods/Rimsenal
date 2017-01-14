@@ -243,4 +243,71 @@
 		</hairTags>
   </HairDef>
 
+<HairDef>
+    <label>Little bird</label>
+    <hairGender>Female</hairGender>
+    <texPath>Hairs/LittleBird</texPath>
+    <defName>LittleBird</defName>
+		<hairTags>
+			<li>Urban</li>
+			<li>Rural</li>
+		</hairTags>
+  </HairDef>
+
+<HairDef>
+    <label>Penguin</label>
+    <hairGender>Female</hairGender>
+    <texPath>Hairs/Penguin</texPath>
+    <defName>Penguin</defName>
+		<hairTags>
+			<li>Urban</li>
+			<li>Rural</li>
+		</hairTags>
+  </HairDef>
+
+<HairDef>
+    <label>Hasslefree</label>
+    <hairGender>Female</hairGender>
+    <texPath>Hairs/Hasslefree</texPath>
+    <defName>Hasslefree</defName>
+		<hairTags>
+			<li>Urban</li>
+			<li>Rural</li>
+		</hairTags>
+  </HairDef>
+
+<HairDef>
+    <label>Swept back</label>
+    <hairGender>Male</hairGender>
+    <texPath>Hairs/SweptBack</texPath>
+    <defName>SweptBack</defName>
+		<hairTags>
+			<li>Urban</li>
+			<li>Rural</li>
+		</hairTags>
+  </HairDef>
+
+<HairDef>
+    <label>Breaker</label>
+    <hairGender>Male</hairGender>
+    <texPath>Hairs/Breaker</texPath>
+    <defName>Breaker</defName>
+		<hairTags>
+			<li>Urban</li>
+			<li>Rural</li>
+			<li>Punk</li>
+		</hairTags>
+  </HairDef>
+
+<HairDef>
+    <label>Young god</label>
+    <hairGender>Any</hairGender>
+    <texPath>Hairs/YoungGod</texPath>
+    <defName>YoungGod</defName>
+		<hairTags>
+			<li>Urban</li>
+			<li>Rural</li>
+		</hairTags>
+  </HairDef>
+
 </DefPackage-HairDef>

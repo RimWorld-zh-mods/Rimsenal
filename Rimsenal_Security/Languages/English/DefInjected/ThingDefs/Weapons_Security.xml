@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--[자동생성] 림월드 모드 번역 도우미 v1.7 by 가람이예요-->
+<LanguageData>
+  <!--Bullet_ShardSentry-->
+  <Bullet_ShardSentry.label>sentry shard</Bullet_ShardSentry.label>
+  <!--Gun_ShardSentry-->
+  <Gun_ShardSentry.label>shard sentry gun</Gun_ShardSentry.label>
+  <Gun_ShardSentry.description>Heavy shard weapon.</Gun_ShardSentry.description>
+  <!--Bullet_WaveEmitter-->
+  <Bullet_WaveEmitter.label>microwave</Bullet_WaveEmitter.label>
+  <!--Gun_WaveEmitter-->
+  <Gun_WaveEmitter.label>microwave emitter</Gun_WaveEmitter.label>
+  <Gun_WaveEmitter.description>Heavy wave emitter.</Gun_WaveEmitter.description>
+  <!--Bullet_NestHMG-->
+  <Bullet_NestHMG.label>HMG bullet</Bullet_NestHMG.label>
+  <!--Gun_NestHMG-->
+  <Gun_NestHMG.label>heavy machine gun</Gun_NestHMG.label>
+  <Gun_NestHMG.description>Heavy machine gun</Gun_NestHMG.description>
+  <!--Bullet_NestMMG-->
+  <Bullet_NestMMG.label>MMG bullet</Bullet_NestMMG.label>
+  <!--Gun_NestMMG-->
+  <Gun_NestMMG.label>medium machine gun</Gun_NestMMG.label>
+  <Gun_NestMMG.description>Medium machine gun</Gun_NestMMG.description>
+  <!--Bullet_NestAGS-->
+  <Bullet_NestAGS.label>Grenade</Bullet_NestAGS.label>
+  <!--Gun_NestAGS-->
+  <Gun_NestAGS.label>automatic grenade launcher</Gun_NestAGS.label>
+  <Gun_NestAGS.description>Automatic grenade launcher</Gun_NestAGS.description>
+  <!--Bullet_MC-->
+  <Bullet_MC.label>molten projectile</Bullet_MC.label>
+  <!--Gun_MC-->
+  <Gun_MC.label>molten cannon</Gun_MC.label>
+  <Gun_MC.description>heavy anti mechanoid weapon</Gun_MC.description>
+  <!--Bullet_BC-->
+  <Bullet_BC.label>cluster rocket</Bullet_BC.label>
+  <!--Gun_BC-->
+  <Gun_BC.label>barrage cannon</Gun_BC.label>
+  <Gun_BC.description>Intelligent rocket launcher</Gun_BC.description>
+</LanguageData>

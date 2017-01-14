@@ -18,6 +18,7 @@
     </graphicData>
     <altitudeLayer>Building</altitudeLayer>
     <statBases>
+      <Mass>25</Mass>
       <MaxHitPoints>320</MaxHitPoints>
       <Flammability>1.0</Flammability>
       <WorkToMake>5600</WorkToMake>
@@ -45,8 +46,9 @@
     <castEdgeShadows>true</castEdgeShadows>
     <hasTooltip>true</hasTooltip>
     <costList>
-      <Plasteel>100</Plasteel>
-      <Component>12</Component>
+      <Steel>175</Steel>
+      <Plasteel>35</Plasteel>
+      <Component>6</Component>
     </costList>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
     <constructEffect>ConstructMetal</constructEffect>
@@ -55,8 +57,8 @@
     <building>
       <ai_combatDangerous>true</ai_combatDangerous>
       <turretGunDef>Gun_ShardSentry</turretGunDef>
-      <turretBurstWarmupTicks>90</turretBurstWarmupTicks>
-      <turretBurstCooldownTicks>160</turretBurstCooldownTicks>
+      <turretBurstwarmupTime>0.9</turretBurstwarmupTime>
+      <turretBurstCooldownTime>1.6</turretBurstCooldownTime>
       <turretTopgraphicPath>Things/Building/SS_Gun</turretTopgraphicPath>
     </building>
     <researchPrerequisites><li>ShardTech</li></researchPrerequisites>
@@ -77,6 +79,7 @@
     </graphicData>
     <altitudeLayer>Building</altitudeLayer>
     <statBases>
+      <Mass>28</Mass>
       <MaxHitPoints>420</MaxHitPoints>
       <Flammability>1.0</Flammability>
       <WorkToMake>7600</WorkToMake>
@@ -104,8 +107,9 @@
     <castEdgeShadows>true</castEdgeShadows>
     <hasTooltip>true</hasTooltip>
     <costList>
-      <Plasteel>180</Plasteel>
-      <Component>12</Component>
+      <Steel>200</Steel>
+      <Plasteel>55</Plasteel>
+      <Component>8</Component>
     </costList>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
     <constructEffect>ConstructMetal</constructEffect>
@@ -114,8 +118,8 @@
     <building>
       <ai_combatDangerous>true</ai_combatDangerous>
       <turretGunDef>Gun_WaveEmitter</turretGunDef>
-      <turretBurstWarmupTicks>110</turretBurstWarmupTicks>
-      <turretBurstCooldownTicks>160</turretBurstCooldownTicks>
+      <turretBurstwarmupTime>1.3</turretBurstwarmupTime>
+      <turretBurstCooldownTime>1.8</turretBurstCooldownTime>
       <turretTopgraphicPath>Things/Building/ME</turretTopgraphicPath>
     </building>
     <researchPrerequisites><li>MicrowaveTech</li></researchPrerequisites>
@@ -160,8 +164,8 @@
     <castEdgeShadows>true</castEdgeShadows>
     <hasTooltip>true</hasTooltip>
     <costList>
-      <Steel>420</Steel>
-      <Component>16</Component>
+      <Steel>220</Steel>
+      <Component>6</Component>
     </costList>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
     <designationCategory>Security</designationCategory>
@@ -170,8 +174,8 @@
     <building>
       <ai_combatDangerous>true</ai_combatDangerous>
       <turretGunDef>Gun_NestHMG</turretGunDef>
-      <turretBurstWarmupTicks>120</turretBurstWarmupTicks>
-      <turretBurstCooldownTicks>110</turretBurstCooldownTicks>
+      <turretBurstwarmupTime>1.12</turretBurstwarmupTime>
+      <turretBurstCooldownTime>1.1</turretBurstCooldownTime>
       <turretTopgraphicPath>Things/Building/NestHMG</turretTopgraphicPath>
     </building>
     <researchPrerequisites><li>DefenceTech</li></researchPrerequisites>
@@ -214,8 +218,8 @@
     <castEdgeShadows>true</castEdgeShadows>
     <hasTooltip>true</hasTooltip>
     <costList>
-      <Steel>420</Steel>
-      <Component>16</Component>
+      <Steel>250</Steel>
+      <Component>12</Component>
     </costList>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
     <designationCategory>Security</designationCategory>
@@ -224,8 +228,8 @@
     <building>
       <ai_combatDangerous>true</ai_combatDangerous>
       <turretGunDef>Gun_NestAGS</turretGunDef>
-      <turretBurstWarmupTicks>76</turretBurstWarmupTicks>
-      <turretBurstCooldownTicks>45</turretBurstCooldownTicks>
+      <turretBurstwarmupTime>0.95</turretBurstwarmupTime>
+      <turretBurstCooldownTime>0.8</turretBurstCooldownTime>
       <turretTopgraphicPath>Things/Building/NestAGS</turretTopgraphicPath>
     </building>
     <researchPrerequisites><li>DefenceTech</li></researchPrerequisites>
@@ -248,6 +252,7 @@
     <hasInteractionCell>True</hasInteractionCell>
     <interactionCellOffset>(0,0,-1)</interactionCellOffset>
     <statBases>
+      <Mass>15</Mass>
       <MaxHitPoints>220</MaxHitPoints>
       <Flammability>1.0</Flammability>
       <WorkToMake>3200</WorkToMake>
@@ -269,8 +274,8 @@
     <castEdgeShadows>true</castEdgeShadows>
     <hasTooltip>true</hasTooltip>
     <costList>
-      <Steel>320</Steel>
-      <Component>8</Component>
+      <Steel>175</Steel>
+      <Component>5</Component>
     </costList>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
     <designationCategory>Security</designationCategory>
@@ -279,8 +284,8 @@
     <building>
       <ai_combatDangerous>true</ai_combatDangerous>
       <turretGunDef>Gun_NestMMG</turretGunDef>
-      <turretBurstWarmupTicks>55</turretBurstWarmupTicks>
-      <turretBurstCooldownTicks>60</turretBurstCooldownTicks>
+      <turretBurstwarmupTime>0.8</turretBurstwarmupTime>
+      <turretBurstCooldownTime>0.75</turretBurstCooldownTime>
       <turretTopgraphicPath>Things/Building/MMG</turretTopgraphicPath>
     </building>
     <researchPrerequisites><li>DefenceTech</li></researchPrerequisites>
@@ -328,8 +333,8 @@
     <castEdgeShadows>true</castEdgeShadows>
     <hasTooltip>true</hasTooltip>
     <costList>
-      <Steel>450</Steel>
-      <Component>12</Component>
+      <Steel>280</Steel>
+      <Component>8</Component>
       <Plasteel>50</Plasteel>
     </costList>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
@@ -337,11 +342,11 @@
     <constructEffect>ConstructMetal</constructEffect>
     <specialDisplayRadius>50</specialDisplayRadius>
     <building>
-      <turretShellDef>ArtilleryShell</turretShellDef>
+      <turretShellDef>MortarShell</turretShellDef>
       <ai_combatDangerous>true</ai_combatDangerous>
       <turretGunDef>Gun_MC</turretGunDef>
-      <turretBurstWarmupTicks>180</turretBurstWarmupTicks>
-      <turretBurstCooldownTicks>395</turretBurstCooldownTicks>
+      <turretBurstwarmupTime>1.2</turretBurstwarmupTime>
+      <turretBurstCooldownTime>3.8</turretBurstCooldownTime>
       <turretTopgraphicPath>Things/Building/MC</turretTopgraphicPath>
     </building>
     <researchPrerequisites><li>MoltenTech</li></researchPrerequisites>
@@ -391,24 +396,144 @@
     <castEdgeShadows>true</castEdgeShadows>
     <hasTooltip>true</hasTooltip>
     <costList>
-      <Steel>650</Steel>
-      <Component>16</Component>
-      <Plasteel>80</Plasteel>
+      <Steel>350</Steel>
+      <Component>10</Component>
+      <Plasteel>75</Plasteel>
     </costList>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
     <designationCategory>Security</designationCategory>
     <constructEffect>ConstructMetal</constructEffect>
     <building>
-      <turretShellDef>ArtilleryShell</turretShellDef>
+      <turretShellDef>MortarShell</turretShellDef>
       <ai_combatDangerous>true</ai_combatDangerous>
       <turretGunDef>Gun_BC</turretGunDef>
-      <turretBurstWarmupTicks>280</turretBurstWarmupTicks>
-      <turretBurstCooldownTicks>3200</turretBurstCooldownTicks>
+      <turretBurstwarmupTime>3.5</turretBurstwarmupTime>
+      <turretBurstCooldownTime>45</turretBurstCooldownTime>
       <turretTopgraphicPath>Things/Building/BC</turretTopgraphicPath>
     </building>
     <researchPrerequisites><li>SiegeTech</li></researchPrerequisites>
   </ThingDef>
 
+  <ThingDef ParentName="BuildingBase">
+    <defName>ImpactMine</defName>
+    <label>impact mine</label>
+    <thingClass>Building_TrapExplosive</thingClass>
+    <minifiedDef>MinifiedFurniture</minifiedDef>
+    <graphicData>
+      <texPath>Things/Building/AdhMine</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <damageData>
+        <rect>(0.1,0,0.8,0.3)</rect>
+      </damageData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <drawerType>RealtimeOnly</drawerType>
+    <rotatable>false</rotatable>
+    <tickerType>Normal</tickerType>
+    <stealable>false</stealable>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <statBases>
+      <Mass>5</Mass>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToBuild>2300</WorkToBuild>
+      <Beauty>-2</Beauty>
+      <TrapSpringChance>1</TrapSpringChance>
+    </statBases>
+    <description>Advanced mine with motion tracker. This mine explodes immediately when an enemy is detected.</description>
+    <costList>
+      <Plasteel>25</Plasteel>
+      <Component>2</Component>
+    </costList>
+    <designationCategory>Security</designationCategory>
+    <building>
+      <isTrap>true</isTrap>
+    </building>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>3.5</explosiveRadius>
+        <explosiveDamageType>KineticImpactF</explosiveDamageType>
+        <startWickHitPointsPercent>0.2</startWickHitPointsPercent>
+        <wickTicks>
+          <min>10</min>
+          <max>15</max>
+        </wickTicks>
+      </li>
+    </comps>
+    <researchPrerequisites><li>KineticTech</li></researchPrerequisites>
+  </ThingDef>
 
+  <ThingDef ParentName="BuildingBase">
+    <defName>PortableReactor</defName>
+    <label>portable reactor</label>
+    <thingClass>Building</thingClass>
+    <minifiedDef>MinifiedFurniture</minifiedDef>
+    <graphicData>
+      <texPath>Things/Building/Reactor</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+      <damageData>
+        <rect>(0.3,0,5.4,6)</rect>
+      </damageData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <castEdgeShadows>true</castEdgeShadows>
+		<scatterableOnMapGen>false</scatterableOnMapGen>
+		<fillPercent>0.4</fillPercent>
+    <blockLight>false</blockLight>
+    <statBases>
+      <Mass>25</Mass>
+      <MaxHitPoints>150</MaxHitPoints>
+      <WorkToBuild>6500</WorkToBuild>
+      <Flammability>1.0</Flammability>
+      <Beauty>-10</Beauty>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <description>Small, portable field reactor that produce power by consuming uranium. It is useful when you need a power source that can be deployed quickly. Explodes when destroyed.</description>
+    <size>(1,1)</size>
+    <costList>
+      <Steel>175</Steel>
+      <Plasteel>75</Plasteel>
+      <Component>16</Component>
+      <Uranium>20</Uranium>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Refuelable">
+        <fuelConsumptionRate>2</fuelConsumptionRate>
+        <fuelCapacity>15.0</fuelCapacity>
+        <fuelFilter>
+          <thingDefs>
+            <li>Uranium</li>
+          </thingDefs>
+        </fuelFilter>
+      </li>
+      <li Class="CompProperties_Glower">
+        <glowRadius>4</glowRadius>
+        <glowColor>(217,108,228,0)</glowColor>
+      </li>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>4</explosiveRadius>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+      </li>
+     <li Class="CompProperties_Power">
+        <compClass>CompPowerPlant</compClass>
+        <basePowerConsumption>-1800</basePowerConsumption>
+        <transmitsPower>true</transmitsPower>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
+    <rotatable>false</rotatable>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <designationCategory>Power</designationCategory>
+    <staticSunShadowHeight>0.5</staticSunShadowHeight>
+    <building>
+			<ai_chillDestination>false</ai_chillDestination>
+			<soundAmbient>GeothermalPlant_Ambience</soundAmbient>
+      <ignoreNeedsPower>true</ignoreNeedsPower>
+    </building>
+    <constructEffect>ConstructMetal</constructEffect>
+    <researchPrerequisites><li>FocusTech</li></researchPrerequisites>
+  </ThingDef>
   
 </ThingDefs>

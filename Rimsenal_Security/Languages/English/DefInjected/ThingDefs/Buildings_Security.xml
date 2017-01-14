@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--[자동생성] 림월드 모드 번역 도우미 v1.7 by 가람이예요-->
+<LanguageData>
+  <!--ShardSentry-->
+  <ShardSentry.label>shard sentry</ShardSentry.label>
+  <ShardSentry.description>Sentry gun with a shard cannon. High fire rate and low fire power, this turret explodes when destroyed. Can be redeployed.</ShardSentry.description>
+  <!--WaveEmitter-->
+  <WaveEmitter.label>wave emitter</WaveEmitter.label>
+  <WaveEmitter.description>Powerful fixed microwave emitter. Ultimate crowd control weapon. This turret explodes when destroyed. Can be redeployed.</WaveEmitter.description>
+  <!--NestHMG-->
+  <NestHMG.label>HMG Nest</NestHMG.label>
+  <NestHMG.description>Fixed gun nest with a mounted heavy machine gun. Simple but effective defense building.</NestHMG.description>
+  <!--NestAGS-->
+  <NestAGS.label>AGS Nest</NestAGS.label>
+  <NestAGS.description>Fixed gun nest with a mounted automatic grenade launcher. Greatly effective against massed enemies.</NestAGS.description>
+  <!--NestMMG-->
+  <NestMMG.label>MMG Nest</NestMMG.label>
+  <NestMMG.description>Fixed medium machine gun on a tripod. Simple but effective defense building. Can be redeployed.</NestMMG.description>
+  <!--MoltenCannon-->
+  <MoltenCannon.label>molten cannon</MoltenCannon.label>
+  <MoltenCannon.description>Reliably Propelling a molten metal projectile, Molten cannon is the main anti heavy Mechanoid weapon of Jotunheim Prime.</MoltenCannon.description>
+  <!--BarrageCannon-->
+  <BarrageCannon.label>barrage cannon</BarrageCannon.label>
+  <BarrageCannon.description>Designed for long range fire support, the barrage cannon shoots destructive rocket salvo</BarrageCannon.description>
+</LanguageData>

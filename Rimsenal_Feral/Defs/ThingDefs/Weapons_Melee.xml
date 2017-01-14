@@ -13,6 +13,7 @@
     <soundInteract>InteractPistol</soundInteract>
     <costStuffCount>30</costStuffCount>
     <statBases>
+      <Mass>1.4</Mass>
       <WorkToMake>23000</WorkToMake>
       <MeleeWeapon_DamageAmount>15</MeleeWeapon_DamageAmount>
       <MeleeWeapon_Cooldown>2.3</MeleeWeapon_Cooldown>
@@ -47,6 +48,7 @@
     </graphicData>
     <costStuffCount>80</costStuffCount>
     <statBases>
+      <Mass>2.3</Mass>
       <WorkToMake>26000</WorkToMake>
       <MeleeWeapon_DamageAmount>19</MeleeWeapon_DamageAmount>
       <MeleeWeapon_Cooldown>2.8</MeleeWeapon_Cooldown>

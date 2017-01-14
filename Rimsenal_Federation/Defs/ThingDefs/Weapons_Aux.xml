@@ -13,9 +13,9 @@
     <thingClass>Projectile_Explosive</thingClass>
     <projectile>
       <damageDef>Plasma</damageDef>
-      <explosionRadius>1</explosionRadius>
-      <damageAmountBase>20</damageAmountBase>
-      <speed>30</speed>
+      <explosionRadius>1.5</explosionRadius>
+      <damageAmountBase>25</damageAmountBase>
+      <speed>25</speed>
     </projectile>
   </ThingDef>
 
@@ -26,8 +26,6 @@
        <li>Sentinel</li>
     </weaponTags>
     <description>Rare and gruesome weapon even in the Federation standards, "Sentinel" is a personal portable plasma weapon. It fires small bursts of magnetic cells that contain metal plasma.</description>
-    <menuHidden>True</menuHidden>
-    <tradeability>Never</tradeability>
     <graphicData>
       <texPath>Things/A13/Sentinel</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -37,22 +35,27 @@
       <MoveSpeed>-0.1</MoveSpeed>
     </equippedStatOffsets>
     <statBases>
-     <MarketValue>2000</MarketValue>
+      <Mass>5.6</Mass>
+      <MarketValue>2000</MarketValue>
       <AccuracyTouch>0.65</AccuracyTouch>
       <AccuracyShort>0.74</AccuracyShort>
       <AccuracyMedium>0.87</AccuracyMedium>
       <AccuracyLong>0.9</AccuracyLong>
       <RangedWeapon_Cooldown>2.5</RangedWeapon_Cooldown>
     </statBases>
+    <costList>
+      <Steel>20</Steel>
+      <Plasteel>50</Plasteel>
+      <Component>6</Component>
+    </costList>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_Sentinel</projectileDef>
-        <warmupTicks>125</warmupTicks>
+        <warmupTime>1.25</warmupTime>
         <range>26</range>
-        <burstShotCount>3</burstShotCount>
-        <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
+        <burstShotCount>1</burstShotCount>
         <soundCast>RS_ShotCR</soundCast>
         <muzzleFlashScale>12</muzzleFlashScale>
         <soundCastTail>GunTail_Heavy</soundCastTail>
@@ -97,6 +100,7 @@
     <destroyOnDrop>True</destroyOnDrop>
     <techLevel>Spacer</techLevel>
     <statBases>
+      <Mass>4.5</Mass>
      <MarketValue>400</MarketValue>
       <AccuracyTouch>0.65</AccuracyTouch>
       <AccuracyShort>0.74</AccuracyShort>
@@ -109,7 +113,7 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_PBomb</projectileDef>
-        <warmupTicks>425</warmupTicks>
+        <warmupTime>4.25</warmupTime>
         <range>3</range>
         <burstShotCount>1</burstShotCount>
         <soundCast>RS_ShotCR</soundCast>
@@ -147,8 +151,8 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>InteractADWeapons</soundInteract>
-    <menuHidden>True</menuHidden>
     <statBases>
+      <Mass>1.6</Mass>
       <MarketValue>450</MarketValue>
       <AccuracyTouch>0.7</AccuracyTouch>
       <AccuracyShort>0.5</AccuracyShort>
@@ -156,12 +160,17 @@
       <AccuracyLong>0.2</AccuracyLong>
       <RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
     </statBases>
+    <costList>
+      <Steel>20</Steel>
+      <Plasteel>5</Plasteel>
+      <Component>3</Component>
+    </costList>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_AuxPistol</projectileDef>
-        <warmupTicks>105</warmupTicks>
+        <warmupTime>0.35</warmupTime>
         <range>18</range>
         <burstShotCount>2</burstShotCount>
         <ticksBetweenBurstShots>45</ticksBetweenBurstShots>

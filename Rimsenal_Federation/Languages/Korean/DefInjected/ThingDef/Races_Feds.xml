@@ -8,8 +8,8 @@
 	<Bion_Stalker.label>바이온 스토커</Bion_Stalker.label>
 	<Bion_Stalker.description>"스토커" 모델은 침투와 감시 용도로 특수 설계된 바이온입니다. 재빠르고 조용하기 이를데 없어 쉽게 잡기는 어려울 겁니다.</Bion_Stalker.description>
 
-	<Mechanoid_Monitor.label>모니터</Mechanoid_Monitor.label>
-	<Mechanoid_Monitor.description>연방이 정찰용으로 제작한 소형 비무장 메카노이드입니다. 재빠르고 짜증나기 이를데 없습니다.</Mechanoid_Monitor.description>
+	<Biodrone_Seeker.label>시커</Biodrone_Seeker.label>
+	<Biodrone_Seeker.description>연방이 정찰용으로 제작한 소형 비무장 바이오드론입니다. 탑재된 생체반응로가 불안정해 파괴시 폭발을 일으킵니다.</Biodrone_Seeker.description>
   
 	<Bion_Federator.label>페더레이터</Bion_Federator.label>
 	<Bion_Federator.description>"페더레이터"는 암즈 다이내믹스가 제작한 주력 전투 메크슈트입니다. 중장 돌격 메크슈트로 설계된 페더레이터의 내구성은 주력전차에 비할만 합니다.</Bion_Federator.description>

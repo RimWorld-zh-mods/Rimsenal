@@ -21,26 +21,26 @@
 
   <ThingDef ParentName="BaseMutant">
     <defName>Mutant_Ogre</defName>
-    <label>Ogre</label>
+    <label>ogre</label>
     <description>Originally designed for construction and heavy industry, the Ogron¢â is a large, tough, thickheaded xenohuman. In rimworld condition, Many feral clans use them as brutal war beasts.</description>
     <statBases>
-      <MoveSpeed>3.9</MoveSpeed>
-      <ArmorRating_Blunt>0.5</ArmorRating_Blunt>
-      <ArmorRating_Sharp>0.3</ArmorRating_Sharp>
+      <MoveSpeed>4.7</MoveSpeed>
+      <ArmorRating_Blunt>0.2</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.2</ArmorRating_Sharp>
       <MeatAmount>60</MeatAmount>
       <LeatherAmount>75</LeatherAmount>
     </statBases>
     <verbs>
       <li>
         <verbClass>Verb_MeleeAttack</verbClass>
-        <defaultCooldownTicks>120</defaultCooldownTicks>
+        <defaultCooldownTime>1</defaultCooldownTime>
         <meleeDamageBaseAmount>17</meleeDamageBaseAmount>
         <meleeDamageDef>Blunt</meleeDamageDef>
         <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
       </li>
       <li>
         <verbClass>Verb_MeleeAttack</verbClass>
-        <defaultCooldownTicks>120</defaultCooldownTicks>
+        <defaultCooldownTime>1</defaultCooldownTime>
         <meleeDamageBaseAmount>17</meleeDamageBaseAmount>
         <meleeDamageDef>Blunt</meleeDamageDef>
         <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
@@ -50,11 +50,12 @@
       <thinkTreeMain>Humanlike</thinkTreeMain>
       <intelligence>ToolUser</intelligence>
       <body>Human</body>
+      <useMeatFrom>Human</useMeatFrom>
       <predator>true</predator>
       <baseHungerRate>0.15</baseHungerRate>
       <lifeExpectancy>80</lifeExpectancy>
       <baseBodySize>2.5</baseBodySize>
-      <baseHealthScale>3.5</baseHealthScale>
+      <baseHealthScale>4</baseHealthScale>
       <lifeStageAges>
         <li>
           <def>AnimalAdult</def>
@@ -74,7 +75,127 @@
       <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
       <leatherColor>(112,252,135)</leatherColor>
       <leatherInsulation>1.45</leatherInsulation>
-      <leatherLabel>Ogreskin</leatherLabel>
+      <leatherLabel>ogreskin</leatherLabel>
+    </race>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseMutant">
+    <defName>Mutant_OgreOgrenaut</defName>
+    <label>ogre</label>
+    <description>Originally designed for construction and heavy industry, the Ogron¢â is a large, tough, thickheaded xenohuman. In rimworld condition, Many feral clans use them as brutal war beasts.</description>
+    <statBases>
+      <MoveSpeed>4.5</MoveSpeed>
+      <ArmorRating_Blunt>0.35</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.35</ArmorRating_Sharp>
+      <MeatAmount>60</MeatAmount>
+      <LeatherAmount>75</LeatherAmount>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <defaultCooldownTime>1</defaultCooldownTime>
+        <meleeDamageBaseAmount>17</meleeDamageBaseAmount>
+        <meleeDamageDef>Blunt</meleeDamageDef>
+        <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <defaultCooldownTime>1</defaultCooldownTime>
+        <meleeDamageBaseAmount>17</meleeDamageBaseAmount>
+        <meleeDamageDef>Blunt</meleeDamageDef>
+        <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+      </li>
+    </verbs>
+    <race>
+      <thinkTreeMain>Humanlike</thinkTreeMain>
+      <intelligence>ToolUser</intelligence>
+      <body>Human</body>
+      <useMeatFrom>Human</useMeatFrom>
+      <predator>true</predator>
+      <baseHungerRate>0.15</baseHungerRate>
+      <lifeExpectancy>80</lifeExpectancy>
+      <baseBodySize>2.5</baseBodySize>
+      <baseHealthScale>4</baseHealthScale>
+      <lifeStageAges>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>0</minAge>
+          <soundWounded>Pawn_Bear_Injured</soundWounded>
+          <soundDeath>Pawn_Bear_Death</soundDeath>
+          <soundCall>Pawn_Bear_Call</soundCall>
+          <soundAngry>Pawn_Bear_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundCallIntervalRange>
+        <min>1000</min>
+        <max>2000</max>
+      </soundCallIntervalRange>
+      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+      <leatherColor>(112,252,135)</leatherColor>
+      <leatherInsulation>1.45</leatherInsulation>
+      <leatherLabel>ogreskin</leatherLabel>
+    </race>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseMutant">
+    <defName>Mutant_OgreHellmaker</defName>
+    <label>ogre</label>
+    <description>Originally designed for construction and heavy industry, the Ogron¢â is a large, tough, thickheaded xenohuman. In rimworld condition, Many feral clans use them as brutal war beasts.</description>
+    <statBases>
+      <MoveSpeed>4</MoveSpeed>
+      <ArmorRating_Blunt>0.5</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.5</ArmorRating_Sharp>
+      <MeatAmount>60</MeatAmount>
+      <LeatherAmount>75</LeatherAmount>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <defaultCooldownTime>1</defaultCooldownTime>
+        <meleeDamageBaseAmount>17</meleeDamageBaseAmount>
+        <meleeDamageDef>Blunt</meleeDamageDef>
+        <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <defaultCooldownTime>1</defaultCooldownTime>
+        <meleeDamageBaseAmount>17</meleeDamageBaseAmount>
+        <meleeDamageDef>Blunt</meleeDamageDef>
+        <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+      </li>
+    </verbs>
+    <race>
+      <thinkTreeMain>Humanlike</thinkTreeMain>
+      <intelligence>ToolUser</intelligence>
+      <body>Human</body>
+      <useMeatFrom>Human</useMeatFrom>
+      <predator>true</predator>
+      <baseHungerRate>0.15</baseHungerRate>
+      <lifeExpectancy>80</lifeExpectancy>
+      <baseBodySize>2.5</baseBodySize>
+      <baseHealthScale>4</baseHealthScale>
+      <lifeStageAges>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>0</minAge>
+          <soundWounded>Pawn_Bear_Injured</soundWounded>
+          <soundDeath>Pawn_Bear_Death</soundDeath>
+          <soundCall>Pawn_Bear_Call</soundCall>
+          <soundAngry>Pawn_Bear_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundCallIntervalRange>
+        <min>1000</min>
+        <max>2000</max>
+      </soundCallIntervalRange>
+      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+      <leatherColor>(112,252,135)</leatherColor>
+      <leatherInsulation>1.45</leatherInsulation>
+      <leatherLabel>ogreskin</leatherLabel>
     </race>
   </ThingDef>
 
@@ -82,10 +203,10 @@
 
   <ThingDef ParentName="BaseMutant">
     <defName>Mutant_Razortooth</defName>
-    <label>Razortooth</label>
+    <label>razortooth</label>
     <description>Chomper, dust leaper, skull ripper, this creature has been living in many other planets, so it has many different names. As you can imagine from the name, razortooth are extremely dangerous creatures. Well developed dual-jawed mouth, exceptional intelligence and ferocious behavior makes them alpha predator in any environment. Many feral warlords use them as some kind of warhound.</description>
     <statBases>
-      <MoveSpeed>4.5</MoveSpeed>
+      <MoveSpeed>5.5</MoveSpeed>
       <ComfyTemperatureMin>-45</ComfyTemperatureMin>
       <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.2</ArmorRating_Sharp>
@@ -93,7 +214,7 @@
     <verbs>
       <li>
         <verbClass>Verb_MeleeAttack</verbClass>
-        <defaultCooldownTicks>90</defaultCooldownTicks>
+        <defaultCooldownTime>0.9</defaultCooldownTime>
         <meleeDamageBaseAmount>10</meleeDamageBaseAmount>
         <meleeDamageDef>Scratch</meleeDamageDef>
         <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
@@ -108,7 +229,7 @@
       </li>
       <li>
         <verbClass>Verb_MeleeAttack</verbClass>
-        <defaultCooldownTicks>90</defaultCooldownTicks>
+        <defaultCooldownTime>0.9</defaultCooldownTime>
         <meleeDamageBaseAmount>10</meleeDamageBaseAmount>
         <meleeDamageDef>Scratch</meleeDamageDef>
         <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
@@ -123,7 +244,7 @@
       </li>
       <li>
         <verbClass>Verb_MeleeAttack</verbClass>
-        <defaultCooldownTicks>105</defaultCooldownTicks>
+        <defaultCooldownTime>1.05</defaultCooldownTime>
         <meleeDamageBaseAmount>22</meleeDamageBaseAmount>
         <meleeDamageDef>Bite</meleeDamageDef>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
@@ -167,6 +288,74 @@
       <leatherInsulation>1.45</leatherInsulation>
     </race>
   </ThingDef>
+
+
+  <ThingDef ParentName="BaseMutant">
+    <defName>Mutant_Twisted</defName>
+    <label>twisted</label>
+    <description>Growing vats are delicate equipment. Without proper maintenance for many years, vats will be contaminated and cause malfunctions. From these contaminated Vats, Ferals breed their wicked slaves. These slaves fight desperately. Because death is the only way to be free from their terrible fate.</description>
+    <statBases>
+      <MarketValue>1750</MarketValue>
+      <MoveSpeed>4.7</MoveSpeed>
+      <Flammability>1.0</Flammability>
+      <ComfyTemperatureMin>-50</ComfyTemperatureMin>
+      <ComfyTemperatureMax>50</ComfyTemperatureMax>
+      <LeatherAmount>25</LeatherAmount>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <defaultCooldownTime>1.4</defaultCooldownTime>
+        <meleeDamageBaseAmount>5</meleeDamageBaseAmount>
+        <meleeDamageDef>Blunt</meleeDamageDef>
+        <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <defaultCooldownTime>1.9</defaultCooldownTime>
+        <meleeDamageBaseAmount>10</meleeDamageBaseAmount>
+        <meleeDamageDef>Blunt</meleeDamageDef>
+        <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+      </li>
+    </verbs>
+    <race>
+      <thinkTreeMain>Humanlike</thinkTreeMain>
+      <intelligence>ToolUser</intelligence>
+      <body>Twisted</body>
+      <useMeatFrom>Human</useMeatFrom>
+      <predator>true</predator>
+      <baseHungerRate>0.15</baseHungerRate>
+      <lifeExpectancy>25</lifeExpectancy>
+      <baseBodySize>1</baseBodySize>
+      <baseHealthScale>0.7</baseHealthScale>
+      <lifeStageAges>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>0</minAge>
+          <soundWounded>Pawn_Bear_Injured</soundWounded>
+          <soundDeath>Pawn_Bear_Death</soundDeath>
+          <soundCall>Pawn_Bear_Call</soundCall>
+          <soundAngry>Pawn_Bear_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundCallIntervalRange>
+        <min>1000</min>
+        <max>2000</max>
+      </soundCallIntervalRange>
+      <specialshadowData>
+        <volume>(0.3, 0.8, 0.4)</volume>
+        <offset>(0,0,-0.3)</offset>
+      </specialshadowData>
+      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+      <leatherColor>(112,112,15)</leatherColor>
+      <leatherInsulation>0.45</leatherInsulation>
+      <leatherLabel>twisted skin</leatherLabel>
+    </race>
+  </ThingDef>
+
+
 
 
 </ThingDefs>

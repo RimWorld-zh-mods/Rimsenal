@@ -5,7 +5,7 @@
 
 	<SoundDef>
 		<defName>RS_ShotShard</defName>
-		<eventNames />
+		<eventNames />   <context>MapOnly</context>
 		<maxSimultaneous>1</maxSimultaneous>
 		<subSounds>
 			<li>
@@ -25,7 +25,7 @@
 
 	<SoundDef>
 		<defName>RS_ShotSpike</defName>
-		<eventNames />
+		<eventNames />   <context>MapOnly</context>
 		<maxSimultaneous>1</maxSimultaneous>
 		<subSounds>
 			<li>
@@ -44,7 +44,7 @@
 
 	<SoundDef>
 		<defName>RS_ShotBoreas</defName>
-		<eventNames />
+		<eventNames />   <context>MapOnly</context>
 		<maxSimultaneous>1</maxSimultaneous>
 		<subSounds>
 			<li>
@@ -63,7 +63,7 @@
 
 	<SoundDef>
 		<defName>RS_ShotSwarm</defName>
-		<eventNames />
+		<eventNames />   <context>MapOnly</context>
 		<maxSimultaneous>1</maxSimultaneous>
 		<subSounds>
 			<li>
@@ -85,7 +85,7 @@
 
 	<SoundDef>
 		<defName>RS_ShotGrendel</defName>
-		<eventNames />
+		<eventNames />   <context>MapOnly</context>
 		<maxSimultaneous>1</maxSimultaneous>
 		<subSounds>
 			<li>
@@ -104,7 +104,7 @@
 
 	<SoundDef>
 		<defName>RS_ShotFafnir</defName>
-		<eventNames />
+		<eventNames />   <context>MapOnly</context>
 		<maxSimultaneous>1</maxSimultaneous>
 		<subSounds>
 			<li>
@@ -123,7 +123,7 @@
 
 	<SoundDef>
 		<defName>RS_ShotJI</defName>
-		<eventNames />
+		<eventNames />   <context>MapOnly</context>
 		<maxSimultaneous>1</maxSimultaneous>
 		<subSounds>
 			<li>
@@ -142,7 +142,7 @@
 
 	<SoundDef>
 		<defName>RS_ShotMuspell</defName>
-		<eventNames />
+		<eventNames />   <context>MapOnly</context>
 		<maxSimultaneous>1</maxSimultaneous>
 		<subSounds>
 			<li>
@@ -163,7 +163,7 @@
 
 	<SoundDef>
 		<defName>ShotGdgrenade</defName>
-		<eventNames />
+		<eventNames />   <context>MapOnly</context>
 		<maxSimultaneous>1</maxSimultaneous>
 		<subSounds>
 			<li>
@@ -182,7 +182,7 @@
 
 	<SoundDef>
 		<defName>ShotGRC</defName>
-		<eventNames />
+		<eventNames />   <context>MapOnly</context>
 		<maxSimultaneous>1</maxSimultaneous>
 		<subSounds>
 			<li>
@@ -201,7 +201,7 @@
 
 	<SoundDef>
 		<defName>ShotCaracal</defName>
-		<eventNames />
+		<eventNames />   <context>MapOnly</context>
 		<maxSimultaneous>1</maxSimultaneous>
 		<subSounds>
 			<li>
@@ -221,7 +221,7 @@
 
 	<SoundDef>
 		<defName>ShotLynx</defName>
-		<eventNames />
+		<eventNames />   <context>MapOnly</context>
 		<maxSimultaneous>1</maxSimultaneous>
 		<subSounds>
 			<li>
@@ -241,7 +241,7 @@
 
 	<SoundDef>
 		<defName>ShotGRM</defName>
-		<eventNames />
+		<eventNames />   <context>MapOnly</context>
 		<maxSimultaneous>1</maxSimultaneous>
 		<subSounds>
 			<li>
@@ -260,7 +260,7 @@
 
 	<SoundDef>
 		<defName>ShotGRS</defName>
-		<eventNames />
+		<eventNames />   <context>MapOnly</context>
 		<maxSimultaneous>1</maxSimultaneous>
 		<subSounds>
 			<li>
@@ -278,11 +278,11 @@
 	</SoundDef>
 
 
-	<!-- ==================== GD ================================ -->
+	<!-- ==================== TE ================================ -->
 
 	<SoundDef>
 		<defName>ImpactL</defName>
-		<eventNames />
+		<eventNames />   <context>MapOnly</context>
 		<maxSimultaneous>1</maxSimultaneous>
 		<subSounds>
 			<li>
@@ -301,7 +301,7 @@
 
 	<SoundDef>
 		<defName>ImpactM</defName>
-		<eventNames />
+		<eventNames />   <context>MapOnly</context>
 		<maxSimultaneous>1</maxSimultaneous>
 		<subSounds>
 			<li>
@@ -320,7 +320,7 @@
 
 	<SoundDef>
 		<defName>ImpactB</defName>
-		<eventNames />
+		<eventNames />   <context>MapOnly</context>
 		<maxSimultaneous>1</maxSimultaneous>
 		<subSounds>
 			<li>
@@ -337,6 +337,24 @@
 		</subSounds>
 	</SoundDef>
 
+	<SoundDef>
+		<defName>SoundHarrower</defName>
+		<eventNames />   <context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Things/Harrower</clipPath>
+					</li>
+				</grains>
+				<pitchRange>
+					<min>0.9152174</min>
+					<max>1.042391</max>
+				</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
 
 
 
@@ -346,6 +364,7 @@
   <SoundDef>
     <defName>InteractGDWeapons</defName>  
     <eventNames />  
+   <context>MapOnly</context>
     <maxSimultaneous>1</maxSimultaneous>  
     <subSounds>
       <li>
@@ -369,6 +388,7 @@
   <SoundDef>
     <defName>InteractYPWeapons</defName>  
     <eventNames />  
+   <context>MapOnly</context>
     <maxSimultaneous>1</maxSimultaneous>  
     <subSounds>
       <li>
@@ -392,6 +412,7 @@
   <SoundDef>
     <defName>InteractTEWeapons</defName>  
     <eventNames />  
+   <context>MapOnly</context>
     <maxSimultaneous>1</maxSimultaneous>  
     <subSounds>
       <li>

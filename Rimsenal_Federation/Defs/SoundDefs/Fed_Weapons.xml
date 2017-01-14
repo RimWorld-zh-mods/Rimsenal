@@ -5,6 +5,7 @@
 
 	<SoundDef>
 		<defName>RS_ShotCR</defName>
+		<context>MapOnly</context> 
 		<eventNames />
 		<maxSimultaneous>1</maxSimultaneous>
 		<subSounds>
@@ -26,6 +27,7 @@
 
 	<SoundDef>
 		<defName>RS_ShotCP</defName>
+		<context>MapOnly</context> 
 		<eventNames />
 		<maxSimultaneous>1</maxSimultaneous>
 		<subSounds>
@@ -45,6 +47,7 @@
 
 	<SoundDef>
 		<defName>RS_ShotHC</defName>
+		<context>MapOnly</context> 
 		<eventNames />
 		<maxSimultaneous>1</maxSimultaneous>
 		<subSounds>
@@ -66,6 +69,7 @@
 
 	<SoundDef>
 		<defName>RS_ShotCPR</defName>
+		<context>MapOnly</context> 
 		<eventNames />
 		<maxSimultaneous>1</maxSimultaneous>
 		<subSounds>
@@ -86,6 +90,7 @@
 
 	<SoundDef>
 		<defName>RS_ShotHarmonizer</defName>
+		<context>MapOnly</context> 
 		<eventNames />
 		<maxSimultaneous>1</maxSimultaneous>
 		<subSounds>
@@ -107,6 +112,7 @@
 
   <SoundDef>
     <defName>InteractADWeapons</defName>  
+		<context>MapOnly</context> 
     <eventNames />  
     <maxSimultaneous>1</maxSimultaneous>  
     <subSounds>

@@ -4,6 +4,7 @@
   <SoundDef>
     <defName>MechRocket</defName>  
     <eventNames />  
+    <context>MapOnly</context>
     <maxSimultaneous>1</maxSimultaneous>  
     <subSounds>
       <li>
@@ -23,6 +24,7 @@
   <SoundDef>
     <defName>SBBeep</defName>  
     <eventNames />  
+    <context>MapOnly</context>
     <maxSimultaneous>1</maxSimultaneous>  
     <subSounds>
       <li>

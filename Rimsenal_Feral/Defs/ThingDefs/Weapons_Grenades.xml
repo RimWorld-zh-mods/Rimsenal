@@ -18,7 +18,7 @@
     </projectile>
   </ThingDef>
 
-  <ThingDef ParentName="BaseEquipment">
+  <ThingDef ParentName="BaseWeapon">
     <defName>Weapon_MADness</defName>
     <equipmentType>Primary</equipmentType>
     <label>MADness</label>
@@ -30,6 +30,7 @@
     <soundInteract>InteractGrenade</soundInteract>
     <techLevel>Industrial</techLevel>
     <statBases>
+      <Mass>12</Mass>
       <MarketValue>3000</MarketValue>
       <RangedWeapon_Cooldown>5</RangedWeapon_Cooldown>
     </statBases>
@@ -49,7 +50,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <range>3</range>
         <forcedMissRadius>1.0</forcedMissRadius>
-        <warmupTicks>1030</warmupTicks>
+        <warmupTime>18</warmupTime>
         <noiseRadius>4</noiseRadius>
         <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
         <soundCast>ShotMADness</soundCast>

@@ -5,7 +5,6 @@
     <defName>NamerFPCBase</defName>
     <rulePack>
       <rulesStrings>
-        <li>name->[Fedbase] [Fedcode]</li>
         <li>name->[Fedbase] [Fedcolor] [Fednoun]</li>
         <li>name->[Fedbase] [Fednoun]</li>
       </rulesStrings>
@@ -13,10 +12,6 @@
         <li Class="Rule_File">
           <keyword>Fedbase</keyword>
           <path>NameBanks/Fedbase</path>
-        </li>
-        <li Class="Rule_File">
-          <keyword>Fedcode</keyword>
-          <path>NameBanks/Fedcode</path>
         </li>
         <li Class="Rule_File">
           <keyword>Fednoun</keyword>
@@ -30,6 +25,24 @@
     </rulePack>
   </RulePackDef>
 
+  <RulePackDef>
+    <defName>NamerFPCFaction</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name->[Fedfaction] [Fedcode]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>Fedfaction</keyword>
+          <path>NameBanks/Fedfaction</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>Fedcode</keyword>
+          <path>NameBanks/Fedcode</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
 </NameMakerDefs>
 
 

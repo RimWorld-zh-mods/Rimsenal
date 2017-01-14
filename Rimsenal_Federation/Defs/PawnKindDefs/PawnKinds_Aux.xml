@@ -16,8 +16,8 @@
       <max>1</max>
     </gearHealthRange>
     <apparelMoney>
-      <min>800</min>
-      <max>800</max>
+      <min>100</min>
+      <max>150</max>
     </apparelMoney>
     <apparelRequired>
       <li>FedSuit</li>
@@ -110,6 +110,68 @@
     </weaponMoney>
     <weaponTags>
       <li>Sentinel</li>
+    </weaponTags>
+    <techHediffsMoney>
+      <min>1000</min>
+      <max>5000</max>
+    </techHediffsMoney>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+    <techHediffsChance>1</techHediffsChance>
+    <inventoryOptions>
+      <skipChance>0.01</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <thingDef>Silver</thingDef>
+          <countRange>
+            <min>200</min>
+            <max>500</max>
+          </countRange>
+        </li>
+        <li>
+          <thingDef>Medicine</thingDef>
+          <countRange>
+            <min>1</min>
+            <max>1</max>
+          </countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+
+  <PawnKindDef>
+    <defName>FPCAssassin</defName>
+    <label>assassin</label>
+    <race>Human</race>
+    <factionLeader>false</factionLeader>
+    <combatPower>150</combatPower>
+    <defaultFactionType>FPC</defaultFactionType>
+    <baseRecruitDifficulty>0.7</baseRecruitDifficulty>
+    <backstoryCategory>Civil</backstoryCategory>
+    <invNutrition>2.55</invNutrition>
+    <backstoryCryptosleepCommonality>0.2</backstoryCryptosleepCommonality>
+    <maxGenerationAge>45</maxGenerationAge>
+    <gearHealthRange>
+      <min>1</min>
+      <max>1</max>
+    </gearHealthRange>
+    <apparelMoney>
+      <min>2570</min>
+      <max>3000</max>
+    </apparelMoney>
+    <apparelRequired>
+      <li>FedSuit</li>
+      <li>Apparel_MarksmanGear</li>
+      <li>Apparel_MarksmanGearH</li>
+    </apparelRequired>
+    <apparelAllowHeadwearChance>0.2</apparelAllowHeadwearChance>
+    <weaponMoney>
+      <min>1480</min>
+      <max>2300</max>
+    </weaponMoney>
+    <weaponTags>
+       <li>FedSniper</li>
     </weaponTags>
     <techHediffsMoney>
       <min>1000</min>

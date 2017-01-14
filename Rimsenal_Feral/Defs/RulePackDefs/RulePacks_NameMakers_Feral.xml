@@ -5,9 +5,8 @@
     <defName>NamerFeralBase</defName>
     <rulePack>
       <rulesStrings>
-        <li>name->The [FeralB] [FeralA]</li>
-        <li>name->The [FeralA] of the [FeralB]</li>
-        <li>name->The [FeralA]</li>
+        <li>name->[FeralB] [FeralA]</li>
+        <li>name->[FeralA]</li>
       </rulesStrings>
       <rulesRaw>
         <li Class="Rule_File">

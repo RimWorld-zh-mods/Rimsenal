@@ -19,18 +19,19 @@
     </projectile>
   </ThingDef>
 
-  <ThingDef ParentName="BaseEquipment">
+  <ThingDef ParentName="BaseWeapon">
     <defName>YP_BaegYa</defName>
     <equipmentType>Primary</equipmentType>
     <label>microwave grenades</label>
     <description>Yunhwa Precision "BaegYa(white night)" microwave grenades. This small device emit the painful millimeter wave for a brief time. It is a surprisingly effective crowd control weapon.</description>
     <graphicData>
-      <texPath>Things/A13/BaegYa</texPath>
+      <texPath>Things/A16/BaegYa</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>InteractGrenade</soundInteract>
     <techLevel>Spacer</techLevel>
     <statBases>
+      <Mass>1.12</Mass>
       <MarketValue>600</MarketValue>
       <RangedWeapon_Cooldown>2.5</RangedWeapon_Cooldown>
     </statBases>
@@ -44,7 +45,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <range>14</range>
         <forcedMissRadius>1.0</forcedMissRadius>
-        <warmupTicks>90</warmupTicks>
+        <warmupTime>0.90</warmupTime>
         <noiseRadius>4</noiseRadius>
         <soundCast>ThrowGrenade</soundCast>
         <targetParams>
@@ -75,19 +76,23 @@
     </projectile>
   </ThingDef>
 
-  <ThingDef ParentName="BaseEquipment">
+  <ThingDef ParentName="BaseWeapon">
     <defName>JI_Dunder</defName>
     <equipmentType>Primary</equipmentType>
     <label>Satchel charge</label>
     <description>A "Dunder" Satchel charge. Combat engineer's best friend.</description>
-    <graphicData> <texPath>Things/A13/Dunder</texPath>
+    <graphicData> <texPath>Things/A16/Dunder</texPath>
     <graphicClass>Graphic_Single</graphicClass> </graphicData>
     <soundInteract>InteractGrenade</soundInteract>
     <techLevel>Industrial</techLevel>
     <statBases>
+      <Mass>4.31</Mass>
       <MarketValue>1000</MarketValue>
       <RangedWeapon_Cooldown>2.66</RangedWeapon_Cooldown>
     </statBases>
+    <weaponTags>
+      <li>GrenadeDestructive</li>
+    </weaponTags>
     <thingCategories>
       <li>Grenades</li>
     </thingCategories>
@@ -98,7 +103,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <range>5.9</range>
         <forcedMissRadius>0.5</forcedMissRadius>
-        <warmupTicks>320</warmupTicks>
+        <warmupTime>3.20</warmupTime>
         <noiseRadius>8</noiseRadius>
         <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
         <soundCast>ThrowGrenade</soundCast>
@@ -129,16 +134,17 @@
     </projectile>
   </ThingDef>
 
-  <ThingDef ParentName="BaseEquipment">
+  <ThingDef ParentName="BaseWeapon">
     <defName>GD_Bobcat</defName>
     <equipmentType>Primary</equipmentType>
     <label>mini grenades</label>
     <description>"Bobcat" mini grenades. Due to its small size, a considerable number could be carried.</description>
-    <graphicData> <texPath>Things/A13/Bobcat</texPath>
+    <graphicData> <texPath>Things/A16/Bobcat</texPath>
     <graphicClass>Graphic_Single</graphicClass> </graphicData>
     <soundInteract>InteractGrenade</soundInteract>
     <techLevel>Industrial</techLevel>
     <statBases>
+      <Mass>1.08</Mass>
       <MarketValue>500</MarketValue>
       <AccuracyTouch>0.69</AccuracyTouch>
       <AccuracyShort>0.42</AccuracyShort>
@@ -159,7 +165,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <range>12</range>
         <forcedMissRadius>1.2</forcedMissRadius>
-        <warmupTicks>90</warmupTicks>
+        <warmupTime>1.40</warmupTime>
         <noiseRadius>3</noiseRadius>
         <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
         <soundCast>ThrowGrenade</soundCast>
@@ -193,16 +199,17 @@
     </projectile>
   </ThingDef>
 
-  <ThingDef ParentName="BaseEquipment">
+  <ThingDef ParentName="BaseWeapon">
     <defName>TE_Grief</defName>
     <equipmentType>Primary</equipmentType>
     <label>impact grenades</label>
     <description>When it exploded, the "Grief" impact grenade releases some sort of shock wave. Although it's low damage, the Grief affects a wider range than conventional grenades.</description>
-    <graphicData> <texPath>Things/A13/Grief</texPath>
+    <graphicData> <texPath>Things/A16/Grief</texPath>
     <graphicClass>Graphic_Single</graphicClass> </graphicData>
     <soundInteract>InteractGrenade</soundInteract>
     <techLevel>Industrial</techLevel>
     <statBases>
+      <Mass>1.3</Mass>
       <MarketValue>650</MarketValue>
       <AccuracyTouch>0.69</AccuracyTouch>
       <AccuracyShort>0.42</AccuracyShort>
@@ -220,7 +227,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <range>15</range>
         <forcedMissRadius>2.2</forcedMissRadius>
-        <warmupTicks>105</warmupTicks>
+        <warmupTime>1.55</warmupTime>
         <noiseRadius>8</noiseRadius>
         <soundCast>ThrowGrenade</soundCast>
         <targetParams>

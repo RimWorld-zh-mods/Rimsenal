@@ -4,6 +4,7 @@
 
   <ThingDef Name="BaseYPGun" Abstract="True">
     <category>Item</category>
+    <smeltable>true</smeltable>
     <thingClass>ThingWithComps</thingClass>
     <equipmentType>Primary</equipmentType>
     <pathCost>10</pathCost>
@@ -23,8 +24,9 @@
     <alwaysHaulable>True</alwaysHaulable>
     <tickerType>Never</tickerType>
     <techLevel>Spacer</techLevel>
+    <generateCommonality>0.1</generateCommonality>
     <thingCategories>
-      <li>WeaponsRanged</li>
+      <li>YPWeapons</li>
     </thingCategories>
     <inspectorTabs>
       <li>ITab_Art</li>
@@ -44,6 +46,7 @@
       </li>
     </comps>
     <weaponTags>
+       <li>AdvancedGun</li>
        <li>YPGun</li>
     </weaponTags>
     <recipeMaker>
@@ -56,11 +59,8 @@
       </recipeUsers>
       <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
     </recipeMaker>
-    <smeltProducts>
-      <Plasteel>20</Plasteel>
-      <Steel>20</Steel>
-    </smeltProducts>
   </ThingDef>
+
 
 
   <!-- ============================================== -->
@@ -75,16 +75,16 @@
     <projectile>
       <damageDef>Bullet</damageDef>
       <damageAmountBase>5</damageAmountBase>
-      <speed>100</speed>
+      <speed>80</speed>
     </projectile>
   </ThingDef>
 
   <ThingDef ParentName="BaseYPGun">
     <defName>YP_SeoLi</defName>
-    <label>shard rifle</label>
+    <label>YP shard rifle</label>
     <description>Compared to a conventional assault rifle, the Yunwha Precision 'Seoli(Frost)' shard rifle is equipped with a larger clip and a higher rate of fire. However, to achieve this the rifle sacrifices damage and armor piecing capability.</description>
     <graphicData>
-      <texPath>Things/A13/SeoLi</texPath>
+      <texPath>Things/A16/SeoLi</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>InteractYPWeapons</soundInteract>
@@ -92,28 +92,27 @@
       <researchPrerequisite>ShardTech</researchPrerequisite>
     </recipeMaker>
     <statBases>
-      <WorkToMake>120500</WorkToMake>
-      <MarketValue>1050</MarketValue>
-      <AccuracyTouch>0.95</AccuracyTouch>
-      <AccuracyShort>0.88</AccuracyShort>
-      <AccuracyMedium>0.55</AccuracyMedium>
-      <AccuracyLong>0.35</AccuracyLong>
-      <RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
+      <Mass>3.12</Mass>
+      <WorkToMake>48500</WorkToMake>
+      <AccuracyTouch>0.7</AccuracyTouch>
+      <AccuracyShort>0.9</AccuracyShort>
+      <AccuracyMedium>0.6</AccuracyMedium>
+      <AccuracyLong>0.3</AccuracyLong>
+      <RangedWeapon_Cooldown>0.85</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Steel>60</Steel>
-      <Plasteel>20</Plasteel>
-      <Component>10</Component>
+      <Plasteel>38</Plasteel>
+      <Component>8</Component>
     </costList>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_SeoLi</projectileDef>
-        <warmupTicks>75</warmupTicks>
-        <range>22</range>
+        <warmupTime>0.8</warmupTime>
+        <range>21</range>
         <burstShotCount>7</burstShotCount>
-        <ticksBetweenBurstShots>2</ticksBetweenBurstShots>
+        <ticksBetweenBurstShots>3</ticksBetweenBurstShots>
         <soundCast>RS_ShotShard</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>4</muzzleFlashScale>
@@ -133,16 +132,16 @@
     <projectile>
       <damageDef>Bullet</damageDef>
       <damageAmountBase>7</damageAmountBase>
-      <speed>100</speed>
+      <speed>70</speed>
     </projectile>
   </ThingDef>
 
   <ThingDef ParentName="BaseYPGun">
     <defName>YP_SagPung</defName>
-    <label>swarmer</label>
+    <label>YP swarmer</label>
     <description>The Yunhwa Precision 'SagPung(Boreas)' swarmer is the short range nanotech weapon. It shoots intelligent nano swarm as its bullet. Fast and incredibly accurate, it is an ideal tool for dealing with soft targets at close range.</description>
     <graphicData>
-      <texPath>Things/A13/SagPung</texPath>
+      <texPath>Things/A16/SagPung</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>InteractYPWeapons</soundInteract>
@@ -150,25 +149,24 @@
       <researchPrerequisite>ShardTech</researchPrerequisite>
     </recipeMaker>
     <statBases>
-      <WorkToMake>125500</WorkToMake>
-      <MarketValue>950</MarketValue>
-      <AccuracyTouch>0.99</AccuracyTouch>
+      <Mass>2.55</Mass>
+      <WorkToMake>42500</WorkToMake>
+      <AccuracyTouch>0.75</AccuracyTouch>
       <AccuracyShort>0.99</AccuracyShort>
       <AccuracyMedium>0.99</AccuracyMedium>
       <AccuracyLong>0.99</AccuracyLong>
-      <RangedWeapon_Cooldown>1.3</RangedWeapon_Cooldown>
+      <RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Steel>65</Steel>
-      <Plasteel>15</Plasteel>
-      <Component>8</Component>
+      <Plasteel>35</Plasteel>
+      <Component>9</Component>
     </costList>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_SagPung</projectileDef>
-        <warmupTicks>75</warmupTicks>
+        <warmupTime>0.9</warmupTime>
         <range>15</range>
         <burstShotCount>4</burstShotCount>
         <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
@@ -191,16 +189,16 @@
     <projectile>
       <damageDef>ArmorPiercing</damageDef>
       <damageAmountBase>16</damageAmountBase>
-      <speed>150</speed>
+      <speed>80</speed>
     </projectile>
   </ThingDef>
 
   <ThingDef ParentName="BaseYPGun">
     <defName>YP_SangAe</defName>
-    <label>spike rifle</label>
+    <label>YP spike rifle</label>
     <description>Yunhwa precision's 'SangAe(Frost haze)'. Unlike more common rifles, the frost haze fires armor piercing spikes of carbon crystal.</description>
     <graphicData>
-      <texPath>Things/A13/SangAe</texPath>
+      <texPath>Things/A16/SangAe</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>InteractYPWeapons</soundInteract>
@@ -208,26 +206,26 @@
       <researchPrerequisite>ShardTech</researchPrerequisite>
     </recipeMaker>
     <statBases>
-      <WorkToMake>135500</WorkToMake>
-      <MarketValue>1350</MarketValue>
+      <Mass>3.37</Mass>
+      <WorkToMake>55500</WorkToMake>
       <AccuracyTouch>0.55</AccuracyTouch>
       <AccuracyShort>0.65</AccuracyShort>
       <AccuracyMedium>0.75</AccuracyMedium>
       <AccuracyLong>0.95</AccuracyLong>
-      <RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
+      <RangedWeapon_Cooldown>0.87</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Steel>105</Steel>
+      <Steel>25</Steel>
       <Plasteel>35</Plasteel>
-      <Component>12</Component>
+      <Component>10</Component>
     </costList>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_SangAe</projectileDef>
-        <warmupTicks>95</warmupTicks>
-        <range>33</range>
+        <warmupTime>2.1</warmupTime>
+        <range>35</range>
         <burstShotCount>1</burstShotCount>
         <soundCast>RS_ShotSpike</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
@@ -249,16 +247,16 @@
     <projectile>
       <damageDef>Bullet</damageDef>
       <damageAmountBase>5</damageAmountBase>
-      <speed>100</speed>
+      <speed>90</speed>
     </projectile>
   </ThingDef>
 
   <ThingDef ParentName="BaseYPGun">
     <defName>YP_SeolHwa</defName>
-    <label>dual wield shard pistols</label>
+    <label>YP dual wield shard pistols</label>
     <description>A pair of Yunhwa Precision "SeolHwa(Snow blossom)" pistols. The SeolHwa has an extremely short range but while within close range the pistol can tear enemies to pieces.</description>
     <graphicData>
-      <texPath>Things/A13/SeolHwa</texPath>
+      <texPath>Things/A16/SeolHwa</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>InteractYPWeapons</soundInteract>
@@ -266,17 +264,16 @@
       <researchPrerequisite>ShardTech</researchPrerequisite>
     </recipeMaker>
     <statBases>
-      <WorkToMake>120500</WorkToMake>
-      <MarketValue>1250</MarketValue>
+      <Mass>2.32</Mass>
+      <WorkToMake>50500</WorkToMake>
       <AccuracyTouch>0.85</AccuracyTouch>
       <AccuracyShort>0.90</AccuracyShort>
-      <AccuracyMedium>0.75</AccuracyMedium>
-      <AccuracyLong>0.45</AccuracyLong>
-      <RangedWeapon_Cooldown>0.29</RangedWeapon_Cooldown>
+      <AccuracyMedium>0.55</AccuracyMedium>
+      <AccuracyLong>0.15</AccuracyLong>
+      <RangedWeapon_Cooldown>0.35</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Steel>88</Steel>
-      <Plasteel>36</Plasteel>
+      <Plasteel>46</Plasteel>
       <Component>12</Component>
     </costList>
     <verbs>
@@ -284,7 +281,7 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_SeolHwa</projectileDef>
-        <warmupTicks>20</warmupTicks>
+        <warmupTime>0.3</warmupTime>
         <range>9</range>
         <burstShotCount>6</burstShotCount>
         <ticksBetweenBurstShots>2</ticksBetweenBurstShots>
@@ -307,7 +304,7 @@
     </graphicData>
     <thingClass>Projectile_Explosive</thingClass>
     <projectile>
-      <speed>200</speed>
+      <speed>80</speed>
       <damageDef>Microwave</damageDef>
       <damageAmountBase>1</damageAmountBase>
       <explosionRadius>1.5</explosionRadius>
@@ -316,10 +313,10 @@
 
   <ThingDef ParentName="BaseYPGun">
     <defName>YP_GeugGwang</defName>
-    <label>microwave emmiter</label>
+    <label>YP microwave emmiter</label>
     <description>Yunhwa Precision "GeugGwang(Aurora)" is a millimeter wave source that boils the water in the target's skin and thus causes incapacitating pain. It is a perfect crowd control weapon.</description>
     <graphicData>
-      <texPath>Things/A13/GeugGwang</texPath>
+      <texPath>Things/A16/GeugGwang</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>InteractRifle</soundInteract>
@@ -327,16 +324,16 @@
       <researchPrerequisite>MicrowaveTech</researchPrerequisite>
     </recipeMaker>
     <statBases>
-      <WorkToMake>125000</WorkToMake>
-      <MarketValue>1530</MarketValue>
-      <AccuracyTouch>0.8</AccuracyTouch>
-      <AccuracyShort>0.65</AccuracyShort>
-      <AccuracyMedium>0.55</AccuracyMedium>
-      <AccuracyLong>0.50</AccuracyLong>
-      <RangedWeapon_Cooldown>1.3</RangedWeapon_Cooldown>
+      <Mass>4.32</Mass>
+      <WorkToMake>54000</WorkToMake>
+      <AccuracyTouch>0.6</AccuracyTouch>
+      <AccuracyShort>0.85</AccuracyShort>
+      <AccuracyMedium>0.75</AccuracyMedium>
+      <AccuracyLong>0.60</AccuracyLong>
+      <RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Steel>110</Steel>
+      <Steel>50</Steel>
       <Plasteel>30</Plasteel>
       <Component>12</Component>
     </costList>
@@ -346,10 +343,9 @@
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_GeugGwang</projectileDef>
         <ai_IsIncendiary>true</ai_IsIncendiary>
-        <warmupTicks>80</warmupTicks>
-        <range>25</range>
-        <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
-        <burstShotCount>4</burstShotCount>
+        <warmupTime>1.25</warmupTime>
+        <range>28</range>
+        <burstShotCount>1</burstShotCount>
         <soundCast>RS_ShotBoreas</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>14</muzzleFlashScale>

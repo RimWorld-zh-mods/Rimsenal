@@ -2,7 +2,7 @@
 
   <SoundDef>
     <defName>ShotScraptooth</defName>  
-    <eventNames />  
+    <eventNames /> <context>MapOnly</context>   
     <maxSimultaneous>1</maxSimultaneous>  
     <subSounds>
       <li>
@@ -21,7 +21,7 @@
 
   <SoundDef>
     <defName>ShotThrasher</defName>  
-    <eventNames />  
+    <eventNames /> <context>MapOnly</context>   
     <maxSimultaneous>1</maxSimultaneous>  
     <subSounds>
       <li>
@@ -40,7 +40,7 @@
 
   <SoundDef>
     <defName>ShotScorcher</defName>  
-    <eventNames />  
+    <eventNames /> <context>MapOnly</context>   
     <maxSimultaneous>1</maxSimultaneous>  
     <subSounds>
       <li>
@@ -59,7 +59,7 @@
 
   <SoundDef>
     <defName>ShotScatterStick</defName>  
-    <eventNames />  
+    <eventNames /> <context>MapOnly</context>   
     <maxSimultaneous>1</maxSimultaneous>  
     <subSounds>
       <li>
@@ -78,7 +78,7 @@
 
   <SoundDef>
     <defName>ShotMADness</defName>  
-    <eventNames />  
+    <eventNames /> <context>MapOnly</context>   
     <maxSimultaneous>1</maxSimultaneous>  
     <subSounds>
       <li>
@@ -97,7 +97,7 @@
 
   <SoundDef>
     <defName>ShotGnasher</defName>  
-    <eventNames />  
+    <eventNames /> <context>MapOnly</context>   
     <maxSimultaneous>1</maxSimultaneous>  
     <subSounds>
       <li>
@@ -117,7 +117,7 @@
 
   <SoundDef>
     <defName>ShotDeathdealer</defName>  
-    <eventNames />  
+    <eventNames /> <context>MapOnly</context>   
     <maxSimultaneous>1</maxSimultaneous>  
     <subSounds>
       <li>
@@ -137,7 +137,7 @@
 
   <SoundDef>
     <defName>ShotCrucifier</defName>  
-    <eventNames />  
+    <eventNames /> <context>MapOnly</context>   
     <maxSimultaneous>1</maxSimultaneous>  
     <subSounds>
       <li>

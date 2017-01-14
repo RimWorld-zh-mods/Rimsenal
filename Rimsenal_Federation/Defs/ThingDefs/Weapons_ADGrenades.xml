@@ -17,7 +17,7 @@
     </projectile>
   </ThingDef>
 
-  <ThingDef ParentName="BaseEquipment">
+  <ThingDef ParentName="BaseWeapon">
     <defName>AD_Repose</defName>
     <equipmentType>Primary</equipmentType>
     <label>plasma grenade</label>
@@ -29,6 +29,7 @@
     <soundInteract>InteractGrenade</soundInteract>
     <techLevel>Spacer</techLevel>
     <statBases>
+      <Mass>1.4</Mass>
       <MarketValue>900</MarketValue>
       <RangedWeapon_Cooldown>2.66</RangedWeapon_Cooldown>
     </statBases>
@@ -45,7 +46,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <range>12</range>
         <forcedMissRadius>0.5</forcedMissRadius>
-        <warmupTicks>85</warmupTicks>
+        <warmupTime>1.2</warmupTime>
         <noiseRadius>6</noiseRadius>
         <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
         <soundCast>ThrowGrenade</soundCast>

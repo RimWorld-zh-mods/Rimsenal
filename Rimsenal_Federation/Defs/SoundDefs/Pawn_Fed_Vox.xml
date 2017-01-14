@@ -3,6 +3,7 @@
 
   <SoundDef>
     <defName>BionWound</defName>  
+    <context>MapOnly</context>
     <eventNames />  
     <maxVoices>1</maxVoices>  
     <subSounds>
@@ -28,6 +29,7 @@
 
   <SoundDef>
     <defName>BionHitPawn</defName>  
+    <context>MapOnly</context>
     <eventNames />  
     <maxVoices>1</maxVoices>  
     <subSounds>
@@ -50,7 +52,8 @@
   </SoundDef>
 
   <SoundDef>
-    <defName>BionHitBuilding</defName>  
+    <defName>BionHitBuilding</defName> 
+    <context>MapOnly</context> 
     <eventNames />  
     <maxVoices>1</maxVoices>  
     <subSounds>
@@ -74,6 +77,7 @@
 
   <SoundDef>
     <defName>BionMiss</defName>  
+    <context>MapOnly</context>
     <eventNames />  
     <maxVoices>1</maxVoices>  
     <subSounds>
@@ -97,6 +101,7 @@
 
   <SoundDef>
     <defName>BionDeath</defName>  
+    <context>MapOnly</context>
     <eventNames />  
     <subSounds>
       <li>
@@ -120,6 +125,7 @@
 
   <SoundDef>
     <defName>BionCall</defName>  
+    <context>MapOnly</context>
     <eventNames />  
     <subSounds>
       <li>
@@ -143,6 +149,7 @@
 
   <SoundDef>
     <defName>BionAngry</defName>  
+    <context>MapOnly</context>
     <eventNames />  
     <maxVoices>1</maxVoices>  
     <subSounds>
@@ -168,6 +175,7 @@
 
  <SoundDef>
     <defName>MechAngry</defName>  
+    <context>MapOnly</context>
     <eventNames />  
     <maxVoices>1</maxVoices>  
     <subSounds>
@@ -193,6 +201,7 @@
 
  <SoundDef>
     <defName>MechCall</defName>  
+    <context>MapOnly</context>
     <eventNames />  
     <maxVoices>1</maxVoices>  
     <subSounds>
@@ -218,6 +227,7 @@
 
  <SoundDef>
     <defName>MechDeath</defName>  
+    <context>MapOnly</context>
     <eventNames />  
     <maxVoices>1</maxVoices>  
     <subSounds>
@@ -243,6 +253,7 @@
 
  <SoundDef>
     <defName>MechHitBuilding</defName>  
+    <context>MapOnly</context>
     <eventNames />  
     <maxVoices>1</maxVoices>  
     <subSounds>
@@ -268,6 +279,7 @@
 
  <SoundDef>
     <defName>MechHitPawn</defName>  
+    <context>MapOnly</context>
     <eventNames />  
     <maxVoices>1</maxVoices>  
     <subSounds>
@@ -293,6 +305,7 @@
 
  <SoundDef>
     <defName>MechMiss</defName>  
+    <context>MapOnly</context>
     <eventNames />  
     <maxVoices>1</maxVoices>  
     <subSounds>
@@ -318,6 +331,7 @@
 
  <SoundDef>
     <defName>MechWound</defName>  
+    <context>MapOnly</context>
     <eventNames />  
     <maxVoices>1</maxVoices>  
     <subSounds>

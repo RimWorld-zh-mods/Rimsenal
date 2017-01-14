@@ -3,48 +3,53 @@
 
   <ResearchProjectDef>
     <defName>ShardTech</defName>
-    <label>shard tech</label>
+    <label>refined crystalline shard</label>
     <techLevel>Spacer</techLevel>
     <description>Allows you to build Yunhwa precision's weapons and armors.</description>
     <baseCost>1750</baseCost>
     <prerequisites>
-      <li>MicroelectronicsBasics</li>
+      <li>MultiAnalyzer</li>
     </prerequisites>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
     <requiredResearchFacilities>
       <li>MultiAnalyzer</li>
     </requiredResearchFacilities>
+		<researchViewX>9.5</researchViewX>
+		<researchViewY>1</researchViewY>
   </ResearchProjectDef>
 
   <ResearchProjectDef>
     <defName>MicrowaveTech</defName>
-    <label>microwave tech</label>
+    <label>microwave emitter</label>
     <techLevel>Spacer</techLevel>
     <description>Allows you to build the mircrowave emmiter</description>
     <baseCost>1000</baseCost>
     <prerequisites>
-      <li>MicroelectronicsBasics</li>
       <li>ShardTech</li>
     </prerequisites>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
     <requiredResearchFacilities>
       <li>MultiAnalyzer</li>
     </requiredResearchFacilities>
+		<researchViewX>10.5</researchViewX>
+		<researchViewY>1</researchViewY>
   </ResearchProjectDef>
 
   <ResearchProjectDef>
     <defName>MoltenTech</defName>
-    <label>molten tech</label>
+    <label>micro furnace</label>
     <techLevel>Spacer</techLevel>
     <description>Allows you to build the Jotun Interstellar's weapons and armors.</description>
     <baseCost>1750</baseCost>
     <prerequisites>
-      <li>MicroelectronicsBasics</li>
+      <li>MultiAnalyzer</li>
     </prerequisites>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
     <requiredResearchFacilities>
       <li>MultiAnalyzer</li>
     </requiredResearchFacilities>
+		<researchViewX>9.5</researchViewX>
+		<researchViewY>2</researchViewY>
   </ResearchProjectDef>
 
   <ResearchProjectDef>
@@ -54,37 +59,80 @@
     <description>Allows you to build the portable siege gun.</description>
     <baseCost>1000</baseCost>
     <prerequisites>
-      <li>MicroelectronicsBasics</li>
       <li>MoltenTech</li>
     </prerequisites>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
     <requiredResearchFacilities>
       <li>MultiAnalyzer</li>
     </requiredResearchFacilities>
+		<researchViewX>10.5</researchViewX>
+		<researchViewY>2</researchViewY>
   </ResearchProjectDef>
 
   <ResearchProjectDef>
     <defName>KineticTech</defName>
-    <label>kinetic tech</label>
+    <label>kinetic energy conservation gel</label>
     <techLevel>Spacer</techLevel>
     <description>It is a prerequisite to build Tisiphone equipment.</description>
     <baseCost>1750</baseCost>
     <prerequisites>
-      <li>MicroelectronicsBasics</li>
+      <li>MultiAnalyzer</li>
     </prerequisites>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
     <requiredResearchFacilities>
       <li>MultiAnalyzer</li>
     </requiredResearchFacilities>
+		<researchViewX>9.5</researchViewX>
+		<researchViewY>3</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>FocusTech</defName>
+    <label>focused kinetic field</label>
+    <techLevel>Spacer</techLevel>
+    <description>Allows you to build the portable reactor and kinetic lance.</description>
+    <baseCost>1000</baseCost>
+    <prerequisites>
+      <li>KineticTech</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+		<researchViewX>10.5</researchViewX>
+		<researchViewY>3</researchViewY>
   </ResearchProjectDef>
 
   <ResearchProjectDef>
     <defName>DefenceTech</defName>
-    <label>defence tech</label>
+    <label>tactical equipment manufacturing</label>
+    <prerequisites>
+      <li>MicroelectronicsBasics</li>
+    </prerequisites>
     <techLevel>Industrial</techLevel>
     <description>Allows you to build Graydale weapons</description>
     <baseCost>2000</baseCost>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+  		<researchViewX>7.5</researchViewX>
+		<researchViewY>1</researchViewY>
   </ResearchProjectDef>
-  
+
+  <ResearchProjectDef>
+    <defName>DirectedEMP</defName>
+    <label>directed electromagnetic pulse</label>
+    <techLevel>Spacer</techLevel>
+    <description>It is a prerequisite to build EMP rifle.</description>
+    <baseCost>550</baseCost>
+    <prerequisites>
+      <li>ChargedShot</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+		<researchViewX>10</researchViewX>
+		<researchViewY>4</researchViewY>
+  </ResearchProjectDef>
+
+
 </Defs>
