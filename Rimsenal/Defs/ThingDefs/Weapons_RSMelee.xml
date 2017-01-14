@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<ThingDefs>
+  
+  <!-- ============================================================== -->
+
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp">
+    <defName>GD_Sabertooth</defName>
+    <label>combat blade</label>
+    <description>A "Sabertooth" combat blade of Greydale Defence. Good for chop down trees or enemies limbs.</description>
+    <graphicData> <texPath>Things/A13/Sabertooth</texPath>
+    <graphicClass>Graphic_Single</graphicClass> </graphicData>
+    <soundInteract>InteractPistol</soundInteract>
+    <techLevel>Spacer</techLevel>
+    <statBases>
+      <WorkToMake>20500</WorkToMake>
+      <MarketValue>1150</MarketValue>
+      <MeleeWeapon_DamageAmount>19</MeleeWeapon_DamageAmount>
+      <MeleeWeapon_Cooldown>1.8</MeleeWeapon_Cooldown>
+    </statBases>
+    <equippedAngleOffset>35</equippedAngleOffset>
+    <equippedStatOffsets>
+      <PlantWorkSpeed>0.4</PlantWorkSpeed>
+    </equippedStatOffsets>
+    <costList>
+      <Steel>75</Steel>
+      <Component>2</Component>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <meleeDamageDef>Cut</meleeDamageDef>
+      </li>
+    </verbs>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp">
+    <defName>YP_BingJu</defName>
+    <label>Vibrosword</label>
+    <description>Light but extremely sharp, the "BingJu(Ice pillar)" is the close combat weapon of Yunhwa Precision's private army.</description>
+    <graphicData> <texPath>Things/A13/BingJu</texPath>
+    <graphicClass>Graphic_Single</graphicClass> </graphicData>
+    <soundInteract>InteractPistol</soundInteract>
+    <statBases>
+      <WorkToMake>32000</WorkToMake>
+      <MarketValue>1365</MarketValue>
+      <MeleeWeapon_DamageAmount>14</MeleeWeapon_DamageAmount>
+      <MeleeWeapon_Cooldown>0.9</MeleeWeapon_Cooldown>
+    </statBases>
+   <costList>
+      <Steel>20</Steel>
+      <Plasteel>40</Plasteel>
+      <Component>5</Component>
+    </costList>
+    <equippedAngleOffset>0</equippedAngleOffset>
+    <verbs>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <meleeDamageDef>Cut</meleeDamageDef>
+      </li>
+    </verbs>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseMeleeWeapon_Blunt">
+    <defName>JI_Ormbane</defName>
+    <label>Assault hammer</label>
+    <techLevel>Spacer</techLevel>
+    <description>"Ormbane" is a massive combat sledge hammer that manufactured from Jotun Interstellar.</description>
+    <graphicData> <texPath>Things/A13/Ormbane</texPath>
+    <graphicClass>Graphic_Single</graphicClass> </graphicData>
+    <statBases>
+      <WorkToMake>38500</WorkToMake>
+      <MarketValue>1550</MarketValue>
+      <MeleeWeapon_DamageAmount>38</MeleeWeapon_DamageAmount>
+      <MeleeWeapon_Cooldown>2.9</MeleeWeapon_Cooldown>
+    </statBases>
+    <equippedAngleOffset>0</equippedAngleOffset>
+   <costList>
+      <Steel>75</Steel>
+      <Plasteel>180</Plasteel>
+      <Component>6</Component>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <meleeDamageDef>Blunt</meleeDamageDef>
+      </li>
+    </verbs>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp">
+    <defName>TE_Eris</defName>
+    <label>survival knife</label>
+    <description>Survival knife of the Tisiphone Hunter Contingent. It can be used in a variety of tasks.</description>
+    <graphicData> <texPath>Things/A13/Eris</texPath>
+    <graphicClass>Graphic_Single</graphicClass> </graphicData>
+    <soundInteract>InteractPistol</soundInteract>
+    <techLevel>Spacer</techLevel>
+    <statBases>
+      <WorkToMake>15500</WorkToMake>
+      <MarketValue>650</MarketValue>
+      <MeleeWeapon_DamageAmount>9</MeleeWeapon_DamageAmount>
+      <MeleeWeapon_Cooldown>1.1</MeleeWeapon_Cooldown>
+    </statBases>
+    <equippedAngleOffset>35</equippedAngleOffset>
+    <equippedStatOffsets>
+      <WorkSpeedGlobal>0.2</WorkSpeedGlobal>
+    </equippedStatOffsets>
+    <costList>
+      <Steel>45</Steel>
+      <Component>2</Component>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <meleeDamageDef>Cut</meleeDamageDef>
+      </li>
+    </verbs>
+  </ThingDef>
+
+
+
+</ThingDefs>

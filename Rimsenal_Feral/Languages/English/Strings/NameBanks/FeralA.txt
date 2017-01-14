@@ -1,0 +1,14 @@
+﻿slayers
+breakers
+destroyers
+harrasers
+manglers
+defilers
+corrupters
+splitters
+invaders
+seekers
+raiders
+takers
+skinners
+torturers

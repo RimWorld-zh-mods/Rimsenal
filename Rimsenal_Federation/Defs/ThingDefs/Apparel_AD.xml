@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ThingDefs>
+
+  <ThingDef ParentName="ApparelBase">
+    <defName>FedSuit</defName>
+    <label>Federation jumpsuit</label>
+    <techLevel>Spacer</techLevel>
+    <description>A carbon crystalline fiber jumpsuit for military personnel. It is light and thin, but surprisingly sturdy. It is the uniform of the Federation.</description>
+    <graphicData> <texPath>Things/Apparel/Carbon</texPath>
+    <graphicClass>Graphic_Single</graphicClass> </graphicData>
+    <statBases>
+			<MaxHitPoints>350</MaxHitPoints>
+			<MarketValue>100</MarketValue>
+			<ArmorRating_Blunt>0.08</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.08</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.08</ArmorRating_Heat>
+			<Insulation_Cold>-15</Insulation_Cold>
+			<Insulation_Heat>5</Insulation_Heat>
+    </statBases>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <apparel>
+     <tags>
+       <li>ADJS</li>
+     </tags>
+     <defaultOutfitTags>
+        <li>Worker</li>
+        <li>Soldier</li>
+     </defaultOutfitTags>
+     <worngraphicPath>Things/Apparel/Carbon</worngraphicPath>
+			<layers>
+			    <li>OnSkin</li>
+			</layers>
+     <commonality>2</commonality>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+				<li>
+					<weight>6</weight>
+					<only>RGBA(1,0.5,0.5,1)</only>
+				</li>
+      </options>
+    </colorGenerator>
+    </ThingDef>
+
+	<ThingDef ParentName="ArmorMakeableBase">
+		<defName>Apparel_Judicator</defName>
+		<label>riot gear</label>
+		<techLevel>Spacer</techLevel>
+		<description>A "Judicator" riot gear was produced by Arms Dynamics for the creepy Federation Peacekeeper. This is a really great personal armor if you can withstand from scornful eyes of the people.</description>
+		<graphicData> <texPath>Things/Apparel/Judicator</texPath>
+		<graphicClass>Graphic_Single</graphicClass> </graphicData>
+		<thingCategories>
+			<li>Apparel</li>
+		</thingCategories>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <researchPrerequisite>CrucibleTech</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <Component>16</Component>
+      <Plasteel>160</Plasteel>
+    </costList>
+		<statBases>
+     <WorkToMake>159000</WorkToMake>
+			<MaxHitPoints>500</MaxHitPoints>
+			<MarketValue>4050</MarketValue>
+			<ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.72</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.4</ArmorRating_Heat>
+			<Insulation_Cold>-45</Insulation_Cold>
+			<Insulation_Heat>45</Insulation_Heat>
+		</statBases>
+		<equippedStatOffsets>
+			<WorkSpeedGlobal>-0.05</WorkSpeedGlobal>
+			<MoveSpeed>-0.05</MoveSpeed>
+			<SocialImpact>-0.5</SocialImpact>
+		</equippedStatOffsets>
+		<apparel>
+    		 <tags>
+   		     <li>ADJS</li>
+   		 </tags>
+<worngraphicPath>Things/Apparel/Judicator</worngraphicPath>
+			<layers>
+			    <li>Middle</li>
+			    <li>Shell</li>
+			</layers>
+			<commonality>0.2</commonality>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="ArmorMakeableBase">
+	<defName>Apparel_JudicatorH</defName>
+	<label>riot gear helmet</label>
+	<techLevel>Spacer</techLevel>
+	<description>It is a helmet of the FPC riot gear. If you wear this, you will be an eyesore of your colony.</description>
+	<graphicData> <texPath>Things/Apparel/JudicatorH</texPath>
+	<graphicClass>Graphic_Single</graphicClass> </graphicData>
+	<thingCategories>
+		<li>Apparel</li>
+	</thingCategories>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <researchPrerequisite>CrucibleTech</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <Component>8</Component>
+      <Plasteel>70</Plasteel>
+    </costList>
+	<statBases>
+     <WorkToMake>32000</WorkToMake>
+		<MaxHitPoints>450</MaxHitPoints>
+		<MarketValue>1220</MarketValue>
+		<ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+		<ArmorRating_Sharp>0.72</ArmorRating_Sharp>
+		<ArmorRating_Heat>0.4</ArmorRating_Heat>
+		<Insulation_Cold>-25</Insulation_Cold>
+		<Insulation_Heat>25</Insulation_Heat>
+	</statBases>
+	<equippedStatOffsets>
+		<MoveSpeed>-0.02</MoveSpeed>
+		<SocialImpact>-0.5</SocialImpact>
+	</equippedStatOffsets>
+	<apparel>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    		 <tags>
+   		     <li>ADJS</li>
+   		 </tags>
+		<worngraphicPath>Things/Apparel/JudicatorH</worngraphicPath>
+		<layers>
+			<li>Overhead</li>
+		</layers>
+		<commonality>1</commonality>
+		<bodyPartGroups>
+			<li>FullHead</li>
+		</bodyPartGroups>
+	</apparel>
+	</ThingDef>
+
+
+
+	<ThingDef ParentName="ArmorMakeableBase">
+		<defName>Apparel_MarksmanGear</defName>
+		<label>marksman gear</label>
+		<techLevel>Spacer</techLevel>
+		<description>Arms Dynamics "Condemner" Marksman gear. With joint stabilizer unit, this outfit assure steady aim. Standard issue gear of the Federation Peacebringer assassin corps.</description>
+		<graphicData> <texPath>Things/Apparel/Condemner</texPath>
+		<graphicClass>Graphic_Single</graphicClass> </graphicData>
+		<thingCategories>
+			<li>Apparel</li>
+		</thingCategories>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <researchPrerequisite>CrucibleTech</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <Component>10</Component>
+      <Plasteel>80</Plasteel>
+    </costList>
+		<statBases>
+     <WorkToMake>119000</WorkToMake>
+			<MaxHitPoints>150</MaxHitPoints>
+			<MarketValue>1250</MarketValue>
+			<ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.5</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.2</ArmorRating_Heat>
+			<Insulation_Cold>-25</Insulation_Cold>
+			<Insulation_Heat>25</Insulation_Heat>
+		</statBases>
+		<equippedStatOffsets>
+			 <ShootingAccuracy>0.3</ShootingAccuracy>
+			<MoveSpeed>-0.05</MoveSpeed>
+			<SocialImpact>-0.5</SocialImpact>
+		</equippedStatOffsets>
+		<apparel>
+    		 <tags>
+   		     <li>ADJS</li>
+   		 </tags>
+<worngraphicPath>Things/Apparel/Condemner</worngraphicPath>
+			<layers>
+			    <li>Middle</li>
+			    <li>Shell</li>
+			</layers>
+			<commonality>0.2</commonality>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="ArmorMakeableBase">
+	<defName>Apparel_MarksmanGearH</defName>
+	<label>marksmangear helmet</label>
+	<techLevel>Spacer</techLevel>
+	<description>It is a helmet of the "Condemner" marksman gear. Integrated target spotter guarantees high accuracy and fast reaction.</description>
+	<graphicData> <texPath>Things/Apparel/CondemnerH</texPath>
+	<graphicClass>Graphic_Single</graphicClass> </graphicData>
+	<thingCategories>
+		<li>Apparel</li>
+	</thingCategories>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <researchPrerequisite>CrucibleTech</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <Component>21</Component>
+      <Plasteel>65</Plasteel>
+    </costList>
+	<statBases>
+     <WorkToMake>38000</WorkToMake>
+		<MaxHitPoints>150</MaxHitPoints>
+		<MarketValue>1220</MarketValue>
+			<ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.2</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.5</ArmorRating_Heat>
+			<Insulation_Cold>-25</Insulation_Cold>
+			<Insulation_Heat>25</Insulation_Heat>
+	</statBases>
+	<equippedStatOffsets>
+		<ShootingAccuracy>0.4</ShootingAccuracy>
+		<AimingDelayFactor>-0.1</AimingDelayFactor>
+		<SocialImpact>-0.5</SocialImpact>
+	</equippedStatOffsets>
+	<apparel>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    		 <tags>
+   		     <li>ADJS</li>
+   		 </tags>
+		<worngraphicPath>Things/Apparel/CondemnerH</worngraphicPath>
+		<layers>
+			<li>Overhead</li>
+		</layers>
+		<commonality>1</commonality>
+		<bodyPartGroups>
+			<li>FullHead</li>
+		</bodyPartGroups>
+	</apparel>
+	</ThingDef>
+
+</ThingDefs>

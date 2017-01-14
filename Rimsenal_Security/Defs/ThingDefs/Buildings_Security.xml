@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ThingDefs>
+
+
+  <!--===============YP===============-->
+  <ThingDef ParentName="BuildingBase">
+    <defName>ShardSentry</defName>
+    <label>shard sentry</label>
+    <thingClass>Building_TurretGun</thingClass>
+    <minifiedDef>MinifiedFurniture</minifiedDef>
+    <graphicData>
+      <texPath>Things/Building/SS</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(3,3)</drawSize>
+      <damageData>
+        <rect>(0.2,0.2,0.6,0.6)</rect>
+      </damageData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <statBases>
+      <MaxHitPoints>320</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <WorkToMake>5600</WorkToMake>
+      <Beauty>-60</Beauty>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>3.5</explosiveRadius>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+      </li>
+      <li Class="CompProperties_Forbiddable"/>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>650</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
+    <description>Sentry gun with a shard cannon. High fire rate and low fire power, this turret explodes when destroyed. Can be redeployed.</description>
+    <size>(2,2)</size>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <fillPercent>0.4</fillPercent>
+    <castEdgeShadows>true</castEdgeShadows>
+    <hasTooltip>true</hasTooltip>
+    <costList>
+      <Plasteel>100</Plasteel>
+      <Component>12</Component>
+    </costList>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <constructEffect>ConstructMetal</constructEffect>
+    <designationCategory>Security</designationCategory>
+    <specialDisplayRadius>24</specialDisplayRadius>
+    <building>
+      <ai_combatDangerous>true</ai_combatDangerous>
+      <turretGunDef>Gun_ShardSentry</turretGunDef>
+      <turretBurstWarmupTicks>90</turretBurstWarmupTicks>
+      <turretBurstCooldownTicks>160</turretBurstCooldownTicks>
+      <turretTopgraphicPath>Things/Building/SS_Gun</turretTopgraphicPath>
+    </building>
+    <researchPrerequisites><li>ShardTech</li></researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>WaveEmitter</defName>
+    <label>wave emitter</label>
+    <thingClass>Building_TurretGun</thingClass>
+    <minifiedDef>MinifiedFurniture</minifiedDef>
+    <graphicData>
+      <texPath>Things/Building/SS</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(3,3)</drawSize>
+      <damageData>
+        <rect>(0.2,0.2,0.6,0.6)</rect>
+      </damageData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <statBases>
+      <MaxHitPoints>420</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <WorkToMake>7600</WorkToMake>
+      <Beauty>-60</Beauty>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>3.5</explosiveRadius>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+      </li>
+      <li Class="CompProperties_Forbiddable"/>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>850</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
+    <description>Powerful fixed microwave emitter. Ultimate crowd control weapon. This turret explodes when destroyed. Can be redeployed.</description>
+    <size>(2,2)</size>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <fillPercent>0.4</fillPercent>
+    <castEdgeShadows>true</castEdgeShadows>
+    <hasTooltip>true</hasTooltip>
+    <costList>
+      <Plasteel>180</Plasteel>
+      <Component>12</Component>
+    </costList>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <constructEffect>ConstructMetal</constructEffect>
+    <designationCategory>Security</designationCategory>
+    <specialDisplayRadius>28</specialDisplayRadius>
+    <building>
+      <ai_combatDangerous>true</ai_combatDangerous>
+      <turretGunDef>Gun_WaveEmitter</turretGunDef>
+      <turretBurstWarmupTicks>110</turretBurstWarmupTicks>
+      <turretBurstCooldownTicks>160</turretBurstCooldownTicks>
+      <turretTopgraphicPath>Things/Building/ME</turretTopgraphicPath>
+    </building>
+    <researchPrerequisites><li>MicrowaveTech</li></researchPrerequisites>
+  </ThingDef>
+
+  <!--===============GD===============-->
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>NestHMG</defName>
+    <label>HMG Nest</label>
+    <thingClass>Building_TurretGun</thingClass>
+    <graphicData>
+      <texPath>Things/Building/Nest</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(3,1)</drawSize>
+      <damageData>
+        <rect>(0.2,0.2,0.6,0.6)</rect>
+      </damageData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <statBases>
+      <MaxHitPoints>420</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <WorkToMake>4500</WorkToMake>
+      <Beauty>-60</Beauty>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <comps>
+      <li Class="CompProperties_Mannable">
+        <manWorkType>Violent</manWorkType>
+      </li>
+      <li Class="CompProperties_Forbiddable"/>
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
+    <description>Fixed gun nest with a mounted heavy machine gun. Simple but effective defense building.</description>
+    <size>(3,1)</size>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <fillPercent>0.4</fillPercent>
+    <castEdgeShadows>true</castEdgeShadows>
+    <hasTooltip>true</hasTooltip>
+    <costList>
+      <Steel>420</Steel>
+      <Component>16</Component>
+    </costList>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <designationCategory>Security</designationCategory>
+    <constructEffect>ConstructMetal</constructEffect>
+    <specialDisplayRadius>38</specialDisplayRadius>
+    <building>
+      <ai_combatDangerous>true</ai_combatDangerous>
+      <turretGunDef>Gun_NestHMG</turretGunDef>
+      <turretBurstWarmupTicks>120</turretBurstWarmupTicks>
+      <turretBurstCooldownTicks>110</turretBurstCooldownTicks>
+      <turretTopgraphicPath>Things/Building/NestHMG</turretTopgraphicPath>
+    </building>
+    <researchPrerequisites><li>DefenceTech</li></researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>NestAGS</defName>
+    <label>AGS Nest</label>
+    <thingClass>Building_TurretGun</thingClass>
+    <graphicData>
+      <texPath>Things/Building/Nest</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(3,1)</drawSize>
+      <damageData>
+        <rect>(0.2,0.2,0.6,0.6)</rect>
+      </damageData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <statBases>
+      <MaxHitPoints>420</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <WorkToMake>5500</WorkToMake>
+      <Beauty>-60</Beauty>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <comps>
+      <li Class="CompProperties_Mannable">
+        <manWorkType>Violent</manWorkType>
+      </li>
+      <li Class="CompProperties_Forbiddable"/>
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
+    <description>Fixed gun nest with a mounted automatic grenade launcher. Greatly effective against massed enemies.</description>
+    <size>(3,1)</size>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <fillPercent>0.4</fillPercent>
+    <castEdgeShadows>true</castEdgeShadows>
+    <hasTooltip>true</hasTooltip>
+    <costList>
+      <Steel>420</Steel>
+      <Component>16</Component>
+    </costList>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <designationCategory>Security</designationCategory>
+    <constructEffect>ConstructMetal</constructEffect>
+    <specialDisplayRadius>35</specialDisplayRadius>
+    <building>
+      <ai_combatDangerous>true</ai_combatDangerous>
+      <turretGunDef>Gun_NestAGS</turretGunDef>
+      <turretBurstWarmupTicks>76</turretBurstWarmupTicks>
+      <turretBurstCooldownTicks>45</turretBurstCooldownTicks>
+      <turretTopgraphicPath>Things/Building/NestAGS</turretTopgraphicPath>
+    </building>
+    <researchPrerequisites><li>DefenceTech</li></researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>NestMMG</defName>
+    <label>MMG Nest</label>
+    <thingClass>Building_TurretGun</thingClass>
+    <minifiedDef>MinifiedFurniture</minifiedDef>
+    <graphicData>
+      <texPath>Things/Building/Tripod</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(3,3)</drawSize>
+      <damageData>
+        <rect>(0.2,0.2,0.6,0.6)</rect>
+      </damageData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <statBases>
+      <MaxHitPoints>220</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <WorkToMake>3200</WorkToMake>
+      <Beauty>-30</Beauty>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <comps>
+      <li Class="CompProperties_Mannable">
+        <manWorkType>Violent</manWorkType>
+      </li>
+      <li Class="CompProperties_Forbiddable"/>
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
+    <description>Fixed medium machine gun on a tripod. Simple but effective defense building. Can be redeployed.</description>
+    <size>(1,1)</size>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <fillPercent>0.4</fillPercent>
+    <castEdgeShadows>true</castEdgeShadows>
+    <hasTooltip>true</hasTooltip>
+    <costList>
+      <Steel>320</Steel>
+      <Component>8</Component>
+    </costList>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <designationCategory>Security</designationCategory>
+    <constructEffect>ConstructMetal</constructEffect>
+    <specialDisplayRadius>30</specialDisplayRadius>
+    <building>
+      <ai_combatDangerous>true</ai_combatDangerous>
+      <turretGunDef>Gun_NestMMG</turretGunDef>
+      <turretBurstWarmupTicks>55</turretBurstWarmupTicks>
+      <turretBurstCooldownTicks>60</turretBurstCooldownTicks>
+      <turretTopgraphicPath>Things/Building/MMG</turretTopgraphicPath>
+    </building>
+    <researchPrerequisites><li>DefenceTech</li></researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>MoltenCannon</defName>
+    <label>molten cannon</label>
+    <thingClass>Building_TurretGun</thingClass>
+    <graphicData>
+      <texPath>Things/Building/FB</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(4,4)</drawSize>
+      <damageData>
+        <rect>(0.2,0.2,0.6,0.6)</rect>
+      </damageData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <statBases>
+      <MaxHitPoints>650</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <WorkToMake>5000</WorkToMake>
+      <Beauty>-60</Beauty>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>3</explosiveRadius>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+      </li>
+      <li Class="CompProperties_Forbiddable"/>
+      <li Class="CompProperties_Mannable">
+        <manWorkType>Violent</manWorkType>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
+    <description>Reliably Propelling a molten metal projectile, Molten cannon is the main anti heavy Mechanoid weapon of Jotunheim Prime.</description>
+    <size>(2,2)</size>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <fillPercent>0.4</fillPercent>
+    <castEdgeShadows>true</castEdgeShadows>
+    <hasTooltip>true</hasTooltip>
+    <costList>
+      <Steel>450</Steel>
+      <Component>12</Component>
+      <Plasteel>50</Plasteel>
+    </costList>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <designationCategory>Security</designationCategory>
+    <constructEffect>ConstructMetal</constructEffect>
+    <specialDisplayRadius>50</specialDisplayRadius>
+    <building>
+      <turretShellDef>ArtilleryShell</turretShellDef>
+      <ai_combatDangerous>true</ai_combatDangerous>
+      <turretGunDef>Gun_MC</turretGunDef>
+      <turretBurstWarmupTicks>180</turretBurstWarmupTicks>
+      <turretBurstCooldownTicks>395</turretBurstCooldownTicks>
+      <turretTopgraphicPath>Things/Building/MC</turretTopgraphicPath>
+    </building>
+    <researchPrerequisites><li>MoltenTech</li></researchPrerequisites>
+  </ThingDef>
+
+
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>BarrageCannon</defName>
+    <label>barrage cannon</label>
+    <thingClass>Building_TurretGun</thingClass>
+    <graphicData>
+      <texPath>Things/Building/FB</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(4,4)</drawSize>
+      <damageData>
+        <rect>(0.2,0.2,0.6,0.6)</rect>
+      </damageData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <statBases>
+      <MaxHitPoints>650</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <WorkToMake>12000</WorkToMake>
+      <Beauty>-60</Beauty>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>5</explosiveRadius>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+      </li>
+      <li Class="CompProperties_Forbiddable"/>
+      <li Class="CompProperties_Mannable">
+        <manWorkType>Violent</manWorkType>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
+    <description>Designed for long range fire support, the barrage cannon shoots destructive rocket salvo</description>
+    <size>(2,2)</size>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <fillPercent>0.4</fillPercent>
+    <castEdgeShadows>true</castEdgeShadows>
+    <hasTooltip>true</hasTooltip>
+    <costList>
+      <Steel>650</Steel>
+      <Component>16</Component>
+      <Plasteel>80</Plasteel>
+    </costList>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <designationCategory>Security</designationCategory>
+    <constructEffect>ConstructMetal</constructEffect>
+    <building>
+      <turretShellDef>ArtilleryShell</turretShellDef>
+      <ai_combatDangerous>true</ai_combatDangerous>
+      <turretGunDef>Gun_BC</turretGunDef>
+      <turretBurstWarmupTicks>280</turretBurstWarmupTicks>
+      <turretBurstCooldownTicks>3200</turretBurstCooldownTicks>
+      <turretTopgraphicPath>Things/Building/BC</turretTopgraphicPath>
+    </building>
+    <researchPrerequisites><li>SiegeTech</li></researchPrerequisites>
+  </ThingDef>
+
+
+  
+</ThingDefs>

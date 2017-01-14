@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <DamageDef Name="LocalInjuryBase" Abstract="True">
+    <workerClass>DamageWorker_AddInjury</workerClass>
+  </DamageDef>
+
+  <DamageDef ParentName="LocalInjuryBase">
+    <defName>Microwave</defName>
+    <workerClass>DamageWorker_Flame</workerClass>
+    <label>Microwave</label>
+    <externalViolence>true</externalViolence>
+    <hasForcefulImpact>false</hasForcefulImpact>
+    <makesBlood>false</makesBlood>
+    <deathMessage>{0} has burned alive.</deathMessage>
+    <hediff>Burn</hediff>
+    <harmsHealth>false</harmsHealth>
+    <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+    <armorCategory>Electric</armorCategory>
+    <spreadOut>true</spreadOut>
+    <impactSoundType>Blunt</impactSoundType>
+    <explosionDamage>1</explosionDamage>
+    <explosionCellMote>Mote_BlastMicrowave</explosionCellMote>
+    <explosionInteriorMote>Mote_ElectricalSpark</explosionInteriorMote>
+    <soundExplosion>RS_ShotBoreas</soundExplosion>
+  </DamageDef>
+
+  <DamageDef ParentName="LocalInjuryBase">
+    <defName>ArmorPiercing</defName>
+    <label>armour piercing</label>
+    <externalViolence>true</externalViolence>
+    <deathMessage>{0} is no more.</deathMessage>
+    <hediff>Gunshot</hediff>
+    <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+    <impactSoundType>Bullet</impactSoundType>
+    <armorCategory>IgnoreArmor</armorCategory>
+  </DamageDef>
+
+  <DamageDef ParentName="LocalInjuryBase">
+    <defName>KineticImpact</defName>
+    <label>kinetic impact</label>
+    <externalViolence>true</externalViolence>
+    <isExplosive>true</isExplosive>
+    <battleWound>true</battleWound>
+    <deathMessage>{0} has been crushed to death.</deathMessage>
+    <hediff>Shredded</hediff>
+    <hediffSolid>Crack</hediffSolid>
+    <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+    <impactSoundType>Blunt</impactSoundType>
+    <armorCategory>Blunt</armorCategory>
+    <spreadOut>true</spreadOut>
+    <explosionDamage>5</explosionDamage>
+    <explosionBuildingDamageFactor>2</explosionBuildingDamageFactor>
+    <explosionAffectOutsidePartsOnly>false</explosionAffectOutsidePartsOnly>
+    <explosionHeatEnergyPerCell>5</explosionHeatEnergyPerCell>
+    <explosionCellMote>ImpactMote</explosionCellMote>
+    <explosionColorCenter>(1, 0.55, 1)</explosionColorCenter>
+    <explosionColorEdge>(0.4, 0.2, 0.4)</explosionColorEdge>
+    <soundExplosion>ImpactL</soundExplosion>
+  </DamageDef>
+
+</Defs>

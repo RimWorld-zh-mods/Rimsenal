@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--suppress ALL -->
+<LanguageData>
+
+	<ShardSentry.label>파편 포탑</ShardSentry.label>
+	<ShardSentry.description>파편 속사기로 무장한 자동 포탑입니다. 화력은 낮지만 연사속도가 빠르며, 재배치가 가능합니다.</ShardSentry.description>
+
+	<WaveEmitter.label>초단파 방출기 포탑</WaveEmitter.label>
+	<WaveEmitter.description>강력한 고정식 극초단파 방출기입니다. 궁극의 군중통제 병기로, 파괴시 폭발합니다. 재설치가 가능합니다.</WaveEmitter.description>
+
+	<NestHMG.label>중기관총 진지</NestHMG.label>
+	<NestHMG.description>중기관총을 장착한 고정 진지. 단순하지만 효과적인 방어시설입니다.</NestHMG.description>
+
+	<NestMMG.label>다목적 기관총 진지</NestMMG.label>
+	<NestMMG.description>삼각대에 얹어둔 다목적 기관총. 단순하지만 효과적인 방어시설입니다. 재배치가 가능합니다.</NestMMG.description>
+
+	<NestAGS.label>자동 유탄 발사기 진지</NestAGS.label>
+	<NestAGS.description>자동 유탄발사기로 무장한 진지. 무리지은 적을 상대할 때 효과적입니다.</NestAGS.description>
+
+	<MoltenCannon.label>융용포</MoltenCannon.label>
+	<MoltenCannon.description>융용된 금속 덩어리를 발사하는 융용포는 요튠헤임 프라임에서 주력 대형 메카노이드를 처리할 때 주로 사용하는 무기입니다.</MoltenCannon.description>
+
+	<BarrageCannon.label>탄막포</BarrageCannon.label>
+	<BarrageCannon.description>광역 제압용 장거리 포대입니다. 로켓을 속사합니다.</BarrageCannon.description>
+
+
+</LanguageData>

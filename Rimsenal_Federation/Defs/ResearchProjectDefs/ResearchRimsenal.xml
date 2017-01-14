@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ResearchProjectDef>
+    <defName>CrucibleTech</defName>
+    <label>crucible tech</label>
+    <techLevel>Spacer</techLevel>
+    <description>Allows you to build the Federation's weapons and armors.</description>
+    <baseCost>1750</baseCost>
+    <prerequisites>
+      <li>MicroelectronicsBasics</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>PlasmaTech</defName>
+    <label>plasma weapons</label>
+    <techLevel>Spacer</techLevel>
+    <description>Allows you to build plasma weapons.</description>
+    <baseCost>1000</baseCost>
+    <prerequisites>
+      <li>CrucibleTech</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+  </ResearchProjectDef>
+  
+</Defs>

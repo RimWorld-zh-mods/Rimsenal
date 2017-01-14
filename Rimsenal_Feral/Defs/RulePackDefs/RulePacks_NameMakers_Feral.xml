@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<NameMakerDefs>
+
+  <RulePackDef>
+    <defName>NamerFeralBase</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name->The [FeralB] [FeralA]</li>
+        <li>name->The [FeralA] of the [FeralB]</li>
+        <li>name->The [FeralA]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>FeralA</keyword>
+          <path>NameBanks/FeralA</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>FeralB</keyword>
+          <path>NameBanks/FeralB</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+</NameMakerDefs>
+
+
+
+
+
+
+
