@@ -6,8 +6,8 @@
   <Bion_Grunt_Leather.label>bion leather</Bion_Grunt_Leather.label>
   <Bion_Grunt_Leather.description>bion leather</Bion_Grunt_Leather.description>
   <Bion_Grunt_Leather.stuffProps.stuffAdjective>bion leather</Bion_Grunt_Leather.stuffProps.stuffAdjective>
-  <Bion_Grunt_Meat.label>bion meat</Bion_Grunt_Meat.label>
-  <Bion_Grunt_Meat.description>bion meat</Bion_Grunt_Meat.description>
+  <Bion_Grunt_Meat.label>synthetic meat</Bion_Grunt_Meat.label>
+  <Bion_Grunt_Meat.description>synthetic meat</Bion_Grunt_Meat.description>
   <Bion_Grunt_Corpse.label>bion corpse</Bion_Grunt_Corpse.label>
   <Bion_Grunt_Corpse.description>bion corpse</Bion_Grunt_Corpse.description>
 
@@ -16,8 +16,7 @@
   <Bion_Stalker_Leather.label>bion leather</Bion_Stalker_Leather.label>
   <Bion_Stalker_Leather.description>bion leather</Bion_Stalker_Leather.description>
   <Bion_Stalker_Leather.stuffProps.stuffAdjective>bion leather</Bion_Stalker_Leather.stuffProps.stuffAdjective>
-  <Bion_Stalker_Meat.label>bion meat</Bion_Stalker_Meat.label>
-  <Bion_Stalker_Meat.description>bion meat</Bion_Stalker_Meat.description>
+  <!-- Use Meat From: Bion_Grunt -->
   <Bion_Stalker_Corpse.label>bion corpse</Bion_Stalker_Corpse.label>
   <Bion_Stalker_Corpse.description>bion corpse</Bion_Stalker_Corpse.description>
 
@@ -26,8 +25,7 @@
   <Bion_Federator_Leather.label>federator leather</Bion_Federator_Leather.label>
   <Bion_Federator_Leather.description>federator leather</Bion_Federator_Leather.description>
   <Bion_Federator_Leather.stuffProps.stuffAdjective>federator leather</Bion_Federator_Leather.stuffProps.stuffAdjective>
-  <Bion_Federator_Meat.label>federator meat</Bion_Federator_Meat.label>
-  <Bion_Federator_Meat.description>federator meat</Bion_Federator_Meat.description>
+  <!-- Use Meat From: Bion_Grunt -->
   <Bion_Federator_Corpse.label>federator corpse</Bion_Federator_Corpse.label>
   <Bion_Federator_Corpse.description>federator corpse</Bion_Federator_Corpse.description>
 
@@ -36,8 +34,7 @@
   <Bion_Hulk_Leather.label>bion leather</Bion_Hulk_Leather.label>
   <Bion_Hulk_Leather.description>bion leather</Bion_Hulk_Leather.description>
   <Bion_Hulk_Leather.stuffProps.stuffAdjective>bion leather</Bion_Hulk_Leather.stuffProps.stuffAdjective>
-  <Bion_Hulk_Meat.label>bion meat</Bion_Hulk_Meat.label>
-  <Bion_Hulk_Meat.description>bion meat</Bion_Hulk_Meat.description>
+  <!-- Use Meat From: Bion_Grunt -->
   <Bion_Hulk_Corpse.label>bion corpse</Bion_Hulk_Corpse.label>
   <Bion_Hulk_Corpse.description>bion corpse</Bion_Hulk_Corpse.description>
 

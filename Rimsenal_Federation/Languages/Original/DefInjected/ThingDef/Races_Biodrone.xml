@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Biodrone_Seeker.label>seeker</Biodrone_Seeker.label>
+  <Biodrone_Seeker.description>Small, agile unarmed scout biodrone that deployed by the Federation. It's bioreactor is unstable and explodes upon destruction.</Biodrone_Seeker.description>
+  <Biodrone_Seeker_Leather.label>seeker leather</Biodrone_Seeker_Leather.label>
+  <Biodrone_Seeker_Leather.description>seeker leather</Biodrone_Seeker_Leather.description>
+  <Biodrone_Seeker_Leather.stuffProps.stuffAdjective>seeker leather</Biodrone_Seeker_Leather.stuffProps.stuffAdjective>
+  <!-- Use Meat From: Bion_Grunt -->
+  <Biodrone_Seeker_Corpse.label>seeker corpse</Biodrone_Seeker_Corpse.label>
+  <Biodrone_Seeker_Corpse.description>seeker corpse</Biodrone_Seeker_Corpse.description>
+
+
+</LanguageData>
