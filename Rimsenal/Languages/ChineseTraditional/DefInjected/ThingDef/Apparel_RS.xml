@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Carbonsuit.label>碳素連體服</Carbonsuit.label>
+  <Carbonsuit.description>軍隊專屬的碳晶體纖維連體服。輕而薄，強度極高。</Carbonsuit.description>
+
+  <Apparel_TacVest.label>戰術背心</Apparel_TacVest.label>
+  <Apparel_TacVest.description>符合人體工程學設計的護甲。能提升穿戴者的作戰能力。</Apparel_TacVest.description>
+
+  <Apparel_TacHelmet.label>戰術頭盔</Apparel_TacHelmet.label>
+  <Apparel_TacHelmet.description>專門設計用於在戰鬥中保護頭部的先進作戰頭盔。</Apparel_TacHelmet.description>
+
+  <Apparel_Exoframe.label>外骨骼</Apparel_Exoframe.label>
+  <Apparel_Exoframe.description>外骨骼是一種便攜機械，由電機、氣動系統提供動力，貼合肢體運動的連杆和液壓裝置，以用於輔助提升穿戴著的力量耐力。</Apparel_Exoframe.description>
+
+  <Apparel_Laconian.label>先驅者護甲</Apparel_Laconian.label>
+  <Apparel_Laconian.description>專為戰地工程師設計的盔甲，「灰谷防御」的「拉科尼安」先驅者護甲集成了成套是工具包，非常適合穿著它在槍林彈雨中建造陣地。</Apparel_Laconian.description>
+
+  <Apparel_LaconianH.label>先驅者頭盔</Apparel_LaconianH.label>
+  <Apparel_LaconianH.description>「拉科尼安」先驅者護甲的頭盔。集成了簡單的輔助瞄准系統。</Apparel_LaconianH.description>
+
+  <Apparel_CombatArmor.label>近戰護甲</Apparel_CombatArmor.label>
+  <Apparel_CombatArmor.description>「精益」是一種內置護盾的動力裝甲，具備機動性、持久性和殺傷力的近身作戰裝備。</Apparel_CombatArmor.description>
+
+  <Apparel_CombatHelmet.label>近戰頭盔</Apparel_CombatHelmet.label>
+  <Apparel_CombatHelmet.description>「精益」格鬥護甲的頭盔。通過伸進近身格鬥增益系統來輔助穿戴者。</Apparel_CombatHelmet.description>
+
+  <Apparel_Dropsuit.label>神降護甲</Apparel_Dropsuit.label>
+  <Apparel_Dropsuit.description>「允和高精」的「影然」空降服，為實現在世界範圍內空投軍隊而投入生產。完全封閉的服裝設計用於在極端環境下作戰，比如宇宙真空。安裝有增強穿戴著行動速度的推進器。</Apparel_Dropsuit.description>
+
+  <Apparel_DropsuitH.label>神降頭盔</Apparel_DropsuitH.label>
+  <Apparel_DropsuitH.description>采用了最先進技術的頭盔，為太空環境和軌道空降行動做了優化射擊。這種頭盔有很多閃亮的小裝置。當然，除了輔助瞄准的近人工智能，所有這些閃亮的小玩意都沒什麼用。</Apparel_DropsuitH.description>
+
+  <Apparel_Nervesuit.label>神勇護甲</Apparel_Nervesuit.label>
+  <Apparel_Nervesuit.description>「允和高精」的「鎮川」神勇護甲。其「人工神經系統」通過神經連接使穿戴者的動作變得更為迅速。當然，更快並不意味著更准確。</Apparel_Nervesuit.description>
+
+  <Apparel_NervesuitH.label>神勇頭盔</Apparel_NervesuitH.label>
+  <Apparel_NervesuitH.description>精密的神勇護甲頭盔。這種頭盔內置復雜的人工神經系統，使穿戴著行動更快。這種快速反應系統犧牲精確的操作能力。</Apparel_NervesuitH.description>
+
+  <Apparel_Bjorn.label>突擊護甲</Apparel_Bjorn.label>
+  <Apparel_Bjorn.description>「巨人星際」的突擊護甲，以北歐神話中的「勇敢的比約恩」命名。用玻璃鋼完全包裹住穿戴者，基本上就是一個人形自走坦克。</Apparel_Bjorn.description>
+
+  <Apparel_BjornH.label>突擊頭盔</Apparel_BjornH.label>
+  <Apparel_BjornH.description>堅固耐用且安全可靠的「比約恩」突擊護甲頭盔。</Apparel_BjornH.description>
+
+  <Apparel_Nemesis.label>反射護甲</Apparel_Nemesis.label>
+  <Apparel_Nemesis.description>一款為狩獵聯邦殘余而打造的動力裝甲，以希腊神話中的復仇女神「涅墨西斯」命名。幾乎免疫熱能攻擊，「底西福涅獵人特遣隊」的精英獵人會裝備這種護甲。</Apparel_Nemesis.description>
+
+  <Apparel_NemesisH.label>反射頭盔</Apparel_NemesisH.label>
+  <Apparel_NemesisH.description>集成了一套完整的熱量反射系統的頭盔。</Apparel_NemesisH.description>
+
+
+</LanguageData>
