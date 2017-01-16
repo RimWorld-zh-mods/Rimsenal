@@ -9,6 +9,11 @@
   <Feral_RivetCannon.label>rivet cannon</Feral_RivetCannon.label>
   <Feral_RivetCannon.description>A heavily modified industrial rivet gun.</Feral_RivetCannon.description>
 
+  <Cluster_ClusterCannon.label>cluster shell</Cluster_ClusterCannon.label>
+
+  <Feral_ClusterCannon.label>cluster cannon</Feral_ClusterCannon.label>
+  <Feral_ClusterCannon.description>Kaboom</Feral_ClusterCannon.description>
+
   <Sunderer.label>sunder</Sunderer.label>
   <Sunderer.description>A massive cleaver.</Sunderer.description>
 

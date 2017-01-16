@@ -16,5 +16,17 @@
   <Apparel_ScorcherHelmet.label>feral gas mask</Apparel_ScorcherHelmet.label>
   <Apparel_ScorcherHelmet.description>A odd looking gas mask.</Apparel_ScorcherHelmet.description>
 
+  <Apparel_ScrapArmor.label>scrap armor</Apparel_ScrapArmor.label>
+  <Apparel_ScrapArmor.description>Armor made of scraps. While ugly and uncomfortable, it provides a great deal of protection.</Apparel_ScrapArmor.description>
+
+  <Apparel_FeralMail.label>feral mail</Apparel_FeralMail.label>
+  <Apparel_FeralMail.description>Heavy, inconvenient cast armor</Apparel_FeralMail.description>
+
+  <Apparel_FeralExo.label>feral exosuit</Apparel_FeralExo.label>
+  <Apparel_FeralExo.description>Feral's salvaged power armor. The wet dream of every feral warrior.</Apparel_FeralExo.description>
+
+  <Apparel_FeralExoH.label>feral exosuit helmet</Apparel_FeralExoH.label>
+  <Apparel_FeralExoH.description>A jury rigged power armor helmet.</Apparel_FeralExoH.description>
+
 
 </LanguageData>

@@ -46,5 +46,10 @@
   <Gun_RatStick.label>feral rat sticks</Gun_RatStick.label>
   <Gun_RatStick.description>Javelins tied with explosive boomrat tumor.</Gun_RatStick.description>
 
+  <Bullet_SkullBuster.label>bullet</Bullet_SkullBuster.label>
+
+  <Gun_SkullBuster.label>feral skullbuster</Gun_SkullBuster.label>
+  <Gun_SkullBuster.description>An automatic heavy weapon with crank powered fire mechanism. Crude, but devastating weapon.</Gun_SkullBuster.description>
+
 
 </LanguageData>

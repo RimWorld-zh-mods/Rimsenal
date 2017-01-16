@@ -6,6 +6,22 @@
 
   <!-- Recipe Users: TableMachining -->
 
+  <Make_Apparel_ScrapArmor.label>Make scrap armor</Make_Apparel_ScrapArmor.label>
+  <Make_Apparel_ScrapArmor.description>Make scrap armor.</Make_Apparel_ScrapArmor.description>
+  <Make_Apparel_ScrapArmor.jobString>Making scrap armor.</Make_Apparel_ScrapArmor.jobString>
+
+  <Make_Apparel_FeralMail.label>Make feral mail</Make_Apparel_FeralMail.label>
+  <Make_Apparel_FeralMail.description>Make feral mail.</Make_Apparel_FeralMail.description>
+  <Make_Apparel_FeralMail.jobString>Making feral mail.</Make_Apparel_FeralMail.jobString>
+
+  <Make_Apparel_FeralExo.label>Make feral exosuit</Make_Apparel_FeralExo.label>
+  <Make_Apparel_FeralExo.description>Make feral exosuit.</Make_Apparel_FeralExo.description>
+  <Make_Apparel_FeralExo.jobString>Making feral exosuit.</Make_Apparel_FeralExo.jobString>
+
+  <Make_Apparel_FeralExoH.label>Make feral exosuit helmet</Make_Apparel_FeralExoH.label>
+  <Make_Apparel_FeralExoH.description>Make feral exosuit helmet.</Make_Apparel_FeralExoH.description>
+  <Make_Apparel_FeralExoH.jobString>Making feral exosuit helmet.</Make_Apparel_FeralExoH.jobString>
+
   <Make_Gun_Scraptooth.label>Make feral scraptooth</Make_Gun_Scraptooth.label>
   <Make_Gun_Scraptooth.description>Make feral scraptooth.</Make_Gun_Scraptooth.description>
   <Make_Gun_Scraptooth.jobString>Making feral scraptooth.</Make_Gun_Scraptooth.jobString>
@@ -33,6 +49,10 @@
   <Make_Gun_Scorcher.label>Make feral scorcher</Make_Gun_Scorcher.label>
   <Make_Gun_Scorcher.description>Make feral scorcher.</Make_Gun_Scorcher.description>
   <Make_Gun_Scorcher.jobString>Making feral scorcher.</Make_Gun_Scorcher.jobString>
+
+  <Make_Gun_SkullBuster.label>Make feral skullbuster</Make_Gun_SkullBuster.label>
+  <Make_Gun_SkullBuster.description>Make feral skullbuster.</Make_Gun_SkullBuster.description>
+  <Make_Gun_SkullBuster.jobString>Making feral skullbuster.</Make_Gun_SkullBuster.jobString>
 
 
   <!-- Recipe Users: ElectricSmithy, FueledSmithy -->
