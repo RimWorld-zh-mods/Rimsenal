@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Feral_ScatterCannon.label>scatter cannon</Feral_ScatterCannon.label>
+  <Feral_ScatterCannon.description>An oversized hand cannon. It spit out a huge amount of metal fragments.</Feral_ScatterCannon.description>
+
+  <Bullet_RivetCannon.label>rivet</Bullet_RivetCannon.label>
+
+  <Feral_RivetCannon.label>rivet cannon</Feral_RivetCannon.label>
+  <Feral_RivetCannon.description>A heavily modified industrial rivet gun.</Feral_RivetCannon.description>
+
+  <Sunderer.label>sunder</Sunderer.label>
+  <Sunderer.description>A massive cleaver.</Sunderer.description>
+
+
+</LanguageData>

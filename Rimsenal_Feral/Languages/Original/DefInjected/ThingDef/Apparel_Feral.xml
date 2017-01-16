@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Apparel_HuskerHood.label>feral hood</Apparel_HuskerHood.label>
+  <Apparel_HuskerHood.description>A crude but rugged hood of the ferals.</Apparel_HuskerHood.description>
+
+  <Apparel_SkulkerHood.label>feral hood</Apparel_SkulkerHood.label>
+  <Apparel_SkulkerHood.description>A crude but rugged hood of the ferals.</Apparel_SkulkerHood.description>
+
+  <Apparel_ThumperHood.label>feral hood</Apparel_ThumperHood.label>
+  <Apparel_ThumperHood.description>A crude but rugged hood of the ferals.</Apparel_ThumperHood.description>
+
+  <Apparel_GrinderHelmet.label>feral helmet</Apparel_GrinderHelmet.label>
+  <Apparel_GrinderHelmet.description>A odd looking rusty bucket helmet.</Apparel_GrinderHelmet.description>
+
+  <Apparel_ScorcherHelmet.label>feral gas mask</Apparel_ScorcherHelmet.label>
+  <Apparel_ScorcherHelmet.description>A odd looking gas mask.</Apparel_ScorcherHelmet.description>
+
+
+</LanguageData>
