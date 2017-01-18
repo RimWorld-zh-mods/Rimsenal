@@ -13,7 +13,7 @@
 
   <Bullet_ChargeSniper.label>电荷弹</Bullet_ChargeSniper.label>
 
-  <Gun_ChargeSniper.label>电荷狙击枪</Gun_ChargeSniper.label>
+  <Gun_ChargeSniper.label>电荷加速枪</Gun_ChargeSniper.label>
   <Gun_ChargeSniper.description>基于远距离精准武器技术的电荷武器。</Gun_ChargeSniper.description>
 
   <Bullet_EMPRifle.label>EMP冲击波</Bullet_EMPRifle.label>
