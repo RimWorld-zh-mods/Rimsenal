@@ -102,6 +102,10 @@
   <Make_Gun_ChargeCannon.description>Make charge cannon.</Make_Gun_ChargeCannon.description>
   <Make_Gun_ChargeCannon.jobString>Making charge cannon.</Make_Gun_ChargeCannon.jobString>
 
+  <Make_Gun_ChargeBR.label>Make charge caster</Make_Gun_ChargeBR.label>
+  <Make_Gun_ChargeBR.description>Make charge caster.</Make_Gun_ChargeBR.description>
+  <Make_Gun_ChargeBR.jobString>Making charge caster.</Make_Gun_ChargeBR.jobString>
+
   <Make_GD_Lynx.label>Make GD tactical pistol</Make_GD_Lynx.label>
   <Make_GD_Lynx.description>Make GD tactical pistol.</Make_GD_Lynx.description>
   <Make_GD_Lynx.jobString>Making GD tactical pistol.</Make_GD_Lynx.jobString>
@@ -130,6 +134,18 @@
   <Make_GD_Caracal.description>Make GD HV SMG.</Make_GD_Caracal.description>
   <Make_GD_Caracal.jobString>Making GD HV SMG.</Make_GD_Caracal.jobString>
 
+  <Make_Gun_RSBattleRifle.label>Make battle rifle</Make_Gun_RSBattleRifle.label>
+  <Make_Gun_RSBattleRifle.description>Make battle rifle.</Make_Gun_RSBattleRifle.description>
+  <Make_Gun_RSBattleRifle.jobString>Making battle rifle.</Make_Gun_RSBattleRifle.jobString>
+
+  <Make_Gun_RSCarbine.label>Make carbine</Make_Gun_RSCarbine.label>
+  <Make_Gun_RSCarbine.description>Make carbine.</Make_Gun_RSCarbine.description>
+  <Make_Gun_RSCarbine.jobString>Making carbine.</Make_Gun_RSCarbine.jobString>
+
+  <Make_Gun_PistolRevolver.label>Make revolver</Make_Gun_PistolRevolver.label>
+  <Make_Gun_PistolRevolver.description>Make revolver.</Make_Gun_PistolRevolver.description>
+  <Make_Gun_PistolRevolver.jobString>Making revolver.</Make_Gun_PistolRevolver.jobString>
+
   <Make_JI_Hrunting.label>Make JI molten rifle</Make_JI_Hrunting.label>
   <Make_JI_Hrunting.description>Make JI molten rifle.</Make_JI_Hrunting.description>
   <Make_JI_Hrunting.jobString>Making JI molten rifle.</Make_JI_Hrunting.jobString>
@@ -153,6 +169,10 @@
   <Make_JI_Muspell.label>Make JI suppressor cannon</Make_JI_Muspell.label>
   <Make_JI_Muspell.description>Make JI suppressor cannon.</Make_JI_Muspell.description>
   <Make_JI_Muspell.jobString>Making JI suppressor cannon.</Make_JI_Muspell.jobString>
+
+  <Make_Bow_Compound.label>Make compound bow</Make_Bow_Compound.label>
+  <Make_Bow_Compound.description>Make compound bow.</Make_Bow_Compound.description>
+  <Make_Bow_Compound.jobString>Making compound bow.</Make_Bow_Compound.jobString>
 
 
   <!-- Recipe Users: ElectricSmithy, FueledSmithy -->
