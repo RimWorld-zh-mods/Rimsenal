@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Microwave.label>극초단파</Microwave.label>
+  <Microwave.deathMessage>{0}은(는) 체액이 끓어오르는 고통 속에 울부짖다 죽었습니다. 끔찍하네요.</Microwave.deathMessage>
+
+  <ArmorPiercing.label>장갑관통</ArmorPiercing.label>
+  <ArmorPiercing.deathMessage>{0}은 총에 맞아 죽었습니다.</ArmorPiercing.deathMessage>
+
+  <KineticImpact.label>물리적 충격</KineticImpact.label>
+  <KineticImpact.deathMessage>{0}은(는) 으깨져 죽었습니다.</KineticImpact.deathMessage>
+
+  <KineticImpactH.label>물리적 충격</KineticImpactH.label>
+  <KineticImpactH.deathMessage>{0}은(는) 으깨져 죽었습니다.</KineticImpactH.deathMessage>
+
+  <KineticImpactF.label>물리적 충격</KineticImpactF.label>
+  <KineticImpactF.deathMessage>{0}은(는) 으깨져 죽었습니다.</KineticImpactF.deathMessage>
+
+  <ChargedBolt.label>子弹</ChargedBolt.label>
+  <ChargedBolt.deathMessage>{0}은(는) 폭사했습니다.</ChargedBolt.deathMessage>
+
+
+</LanguageData>

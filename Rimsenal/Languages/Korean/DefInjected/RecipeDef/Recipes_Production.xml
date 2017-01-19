@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<!--[자동생성] 림월드 모드 번역 도우미 v1.7 by 가람이예요-->
 <LanguageData>
+
   <!--DisassembleMRS-R-->
   <DisassembleMRS-R.label>모듈형 소총 분해</DisassembleMRS-R.label>
   <DisassembleMRS-R.description>모듈형 소총을 소총 컨버전 킷과 모듈형 카빈으로 분해합니다.</DisassembleMRS-R.description>
@@ -13,4 +13,7 @@
   <DisassembleMRS-M.label>모듈형 DMR 분해</DisassembleMRS-M.label>
   <DisassembleMRS-M.description>모듈형 DMR을 DMR 컨버전 킷과 모듈형 카빈으로 분해합니다.</DisassembleMRS-M.description>
   <DisassembleMRS-M.jobString>모듈형 DMR 분해.</DisassembleMRS-M.jobString>
+
+
+
 </LanguageData>

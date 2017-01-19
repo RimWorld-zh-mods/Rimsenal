@@ -3,7 +3,7 @@
 
   <ResearchProjectDef>
     <defName>ShardTech</defName>
-    <label>refined crystalline shard</label>
+    <label>RS: refined crystalline shard</label>
     <techLevel>Spacer</techLevel>
     <description>Allows you to build Yunhwa precision's weapons and armors.</description>
     <baseCost>1750</baseCost>
@@ -20,7 +20,7 @@
 
   <ResearchProjectDef>
     <defName>MicrowaveTech</defName>
-    <label>microwave emitter</label>
+    <label>RS: microwave emitter</label>
     <techLevel>Spacer</techLevel>
     <description>Allows you to build the mircrowave emmiter</description>
     <baseCost>1000</baseCost>
@@ -37,7 +37,7 @@
 
   <ResearchProjectDef>
     <defName>MoltenTech</defName>
-    <label>micro furnace</label>
+    <label>RS: micro furnace</label>
     <techLevel>Spacer</techLevel>
     <description>Allows you to build the Jotun Interstellar's weapons and armors.</description>
     <baseCost>1750</baseCost>
@@ -54,7 +54,7 @@
 
   <ResearchProjectDef>
     <defName>SiegeTech</defName>
-    <label>siege gun</label>
+    <label>RS: siege gun</label>
     <techLevel>Spacer</techLevel>
     <description>Allows you to build the portable siege gun.</description>
     <baseCost>1000</baseCost>
@@ -71,7 +71,7 @@
 
   <ResearchProjectDef>
     <defName>KineticTech</defName>
-    <label>kinetic energy conservation gel</label>
+    <label>RS: kinetic energy conservation gel</label>
     <techLevel>Spacer</techLevel>
     <description>It is a prerequisite to build Tisiphone equipment.</description>
     <baseCost>1750</baseCost>
@@ -88,7 +88,7 @@
 
   <ResearchProjectDef>
     <defName>FocusTech</defName>
-    <label>focused kinetic field</label>
+    <label>RS: focused kinetic field</label>
     <techLevel>Spacer</techLevel>
     <description>Allows you to build the portable reactor and kinetic lance.</description>
     <baseCost>1000</baseCost>
@@ -105,7 +105,7 @@
 
   <ResearchProjectDef>
     <defName>DefenceTech</defName>
-    <label>tactical equipment manufacturing</label>
+    <label>RS: tactical equipment manufacturing</label>
     <prerequisites>
       <li>MicroelectronicsBasics</li>
     </prerequisites>
@@ -119,7 +119,7 @@
 
   <ResearchProjectDef>
     <defName>DirectedEMP</defName>
-    <label>directed electromagnetic pulse</label>
+    <label>RS: directed electromagnetic pulse</label>
     <techLevel>Spacer</techLevel>
     <description>It is a prerequisite to build EMP rifle.</description>
     <baseCost>550</baseCost>

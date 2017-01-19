@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Microwave.label>微波</Microwave.label>
+  <Microwave.deathMessage>{0}被活活燒死了！</Microwave.deathMessage>
+
+  <ArmorPiercing.label>穿甲</ArmorPiercing.label>
+  <ArmorPiercing.deathMessage>{0}被打成了碎塊！</ArmorPiercing.deathMessage>
+
+  <KineticImpact.label>動能衝擊</KineticImpact.label>
+  <KineticImpact.deathMessage>{0}被打成了肉漿！</KineticImpact.deathMessage>
+
+  <KineticImpactH.label>動能衝擊</KineticImpactH.label>
+  <KineticImpactH.deathMessage>{0}被打成了肉漿！</KineticImpactH.deathMessage>
+
+  <KineticImpactF.label>動能衝擊</KineticImpactF.label>
+  <KineticImpactF.deathMessage>{0}被打成了肉漿！</KineticImpactF.deathMessage>
+
+  <ChargedBolt.label>子彈</ChargedBolt.label>
+  <ChargedBolt.deathMessage>{0}被射殺了！</ChargedBolt.deathMessage>
+
+
+</LanguageData>

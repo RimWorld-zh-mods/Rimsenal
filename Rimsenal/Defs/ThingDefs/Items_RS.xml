@@ -90,6 +90,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <recipeMaker>
+      <researchPrerequisite>DefenceTech</researchPrerequisite>
       <workSpeedStat>SmithingSpeed</workSpeedStat>
       <workSkill>Crafting</workSkill>
       <effectWorking>Smith</effectWorking>

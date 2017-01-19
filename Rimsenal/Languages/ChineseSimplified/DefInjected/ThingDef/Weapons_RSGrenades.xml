@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Microwave grenade -->
+
+  <Proj_BaegYa.label>微波手榴弹</Proj_BaegYa.label>
+
+  <YP_BaegYa.label>微波手榴弹</YP_BaegYa.label>
+  <YP_BaegYa.description>「允和高精」的「白夜」微波手榴弹。这个小装置发射短暂的疼痛毫米波。一种惊人有效的人群控制武器。</YP_BaegYa.description>
+  <YP_BaegYa.verbs.0.label>投掷微波手榴弹</YP_BaegYa.verbs.0.label>
+
+
+  <!-- Satchel charge -->
+
+  <Proj_Dunder.label>遥控炸药包</Proj_Dunder.label>
+
+  <JI_Dunder.label>遥控炸药包</JI_Dunder.label>
+  <JI_Dunder.description>「星际巨人」的「渣滓」遥控炸药包，战地工程师的最好伙伴。</JI_Dunder.description>
+  <JI_Dunder.verbs.0.label>投掷遥控炸药包</JI_Dunder.verbs.0.label>
+
+
+  <!-- Mini grenade -->
+
+  <Proj_Bobcat.label>迷你手榴弹</Proj_Bobcat.label>
+
+  <GD_Bobcat.label>迷你手榴弹</GD_Bobcat.label>
+  <GD_Bobcat.description>「灰谷防御」的「山猫」迷你手榴弹。由于体积小，可以携带更多的数量。</GD_Bobcat.description>
+  <GD_Bobcat.verbs.0.label>投掷迷你手榴弹</GD_Bobcat.verbs.0.label>
+
+
+  <!-- Impact grenade -->
+
+  <Proj_Grief.label>冲击手榴弹</Proj_Grief.label>
+
+  <TE_Grief.label>冲击手榴弹</TE_Grief.label>
+  <TE_Grief.description>「悲伤」冲击手榴弹爆炸时会释放冲击波。虽然伤害不高，但比常规手榴弹的覆盖范围更广。</TE_Grief.description>
+  <TE_Grief.verbs.0.label>投掷冲击手榴弹</TE_Grief.verbs.0.label>
+
+
+</LanguageData>

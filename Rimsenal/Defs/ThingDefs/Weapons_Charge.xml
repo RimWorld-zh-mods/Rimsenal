@@ -132,7 +132,7 @@
 		</graphicData>
 		<projectile>
 			<damageDef>Bullet</damageDef>
-			<damageAmountBase>25</damageAmountBase>
+			<damageAmountBase>50</damageAmountBase>
 			<speed>80</speed>
 		</projectile>
 	</ThingDef>
@@ -177,8 +177,7 @@
 				<range>40</range>
 				<soundCast>ChargeLance_Fire</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
-				<ticksBetweenBurstShots>2</ticksBetweenBurstShots>
-				<burstShotCount>2</burstShotCount>
+				<burstShotCount>1</burstShotCount>
 				<muzzleFlashScale>9</muzzleFlashScale>
 			</li>
 		</verbs>
@@ -315,7 +314,66 @@
 		</verbs>
 	</ThingDef>
 
+	<!-- ============================================== -->
 
-
+	<ThingDef ParentName="BaseBullet">
+		<defName>Bullet_ChargeBR</defName>
+		<label>charge shot</label>
+		<graphicData>
+			<texPath>Things/Projectile/Charge_Long</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>16</damageAmountBase>
+			<speed>80</speed>
+		</projectile>
+	</ThingDef>
+	<ThingDef ParentName="BaseHumanMakeableGun">
+		<defName>Gun_ChargeBR</defName>
+		<label>charge caster</label>
+		<description>Usually referred as "GEN 2" or "Charge battle rifle", the charge caster is a heavier variant of the charge rifle. It earned lengthened range and higher punch in exchange for slow fire rate and increased weight.</description>
+		<graphicData>
+			<texPath>Things/A16/ChargeBR</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>InteractChargeRifle</soundInteract>
+		<statBases>
+			<WorkToMake>53000</WorkToMake>
+			<Mass>5.15</Mass>
+			<AccuracyTouch>0.65</AccuracyTouch>
+			<AccuracyShort>0.8</AccuracyShort>
+			<AccuracyMedium>0.75</AccuracyMedium>
+			<AccuracyLong>0.6</AccuracyLong>
+			<RangedWeapon_Cooldown>1.25</RangedWeapon_Cooldown>
+		</statBases>
+		<recipeMaker>
+			<researchPrerequisite>ChargedShot</researchPrerequisite>
+		</recipeMaker>
+		<costList>
+			<Steel>30</Steel>
+			<Plasteel>50</Plasteel>
+			<Component>8</Component>
+		</costList>
+		<generateCommonality>0.30</generateCommonality>
+		<techLevel>Spacer</techLevel>
+		<weaponTags>
+			<li>AdvancedGun</li>
+		</weaponTags>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<projectileDef>Bullet_ChargeBR</projectileDef>
+				<warmupTime>1.48</warmupTime>
+				<range>31</range>
+				<soundCast>ChargeLance_Fire</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<ticksBetweenBurstShots>12</ticksBetweenBurstShots>
+				<burstShotCount>2</burstShotCount>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+	</ThingDef>
 
 </ThingDefs>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Bullet_Tyrant.label>충격탄</Bullet_Tyrant.label>
+  <Bullet_Tormentor.label>충격탄</Bullet_Tormentor.label>
+  <Bullet_Oppressor.label>충격탄통</Bullet_Oppressor.label>
+  <Bullet_Harrower.label>충격장</Bullet_Harrower.label>
+  <Bullet_Wailer.label>충격탄</Bullet_Wailer.label>
+  <Bullet_Atrocity.label>충격탄통</Bullet_Atrocity.label>
+
+
+
+	<KineticRifle.label>티시폰 키네틱 소총</KineticRifle.label>
+	<KineticRifle.description>"타이런트"는 티시폰 사냥 파견대의 제식 소총입니다. 근접 사격전에 맞춰 설계됐고, 가장 큰 장점은 신속히 목표를 포착하고 추적할 수 있도록 제작된 첨단 조준 시스템입니다.</KineticRifle.description>
+
+	<KineticPistol.label>티시폰 키네틱 권총</KineticPistol.label>
+	<KineticPistol.description>티시폰 사냥 파견대의 표준 부무장인 "토멘터"는 속사 기능이 있는 개인 방호 화기입니다. 사거리가 짧지만 발사속도가 빠릅니다.</KineticPistol.description>
+
+	<ThuddGun.label>티시폰 써드건</ThuddGun.label>
+	<ThuddGun.description>다른 근접 사격 화기와는 다르게 "오프레서" 캐니스터 소총은 충격파를 방출하는 탄통을 발사합니다. 먼 거리에서도 위력이 감소하지 않는 위협적인 무기입니다.</ThuddGun.description>
+
+	<KineticLongRifle.label>티시폰 키네틱 장총</KineticLongRifle.label>
+	<KineticLongRifle.description>연방 저격수에 맞서 신속히 대저격을 수행하기 위해 제작된 "웨일러"입니다. 저격소총 치고 놀라우리만치 빠른 목표 획득 능력이 강점입니다.</KineticLongRifle.description>
+
+	<StormCannon.label>티시폰 강습포</StormCannon.label>
+	<StormCannon.description>"아트로시티" 광역 제압 체계는 다수의 목표물을 멀리서 제압하기 위해 제작됐습니다. 뛰어난 조작성으로 유명합니다.</StormCannon.description>
+
+	<KineticLance.label>티시폰 키네틱 랜스</KineticLance.label>
+	<KineticLance.description>연방의 메크슈트에 대항하기 위해 만들어진 "해로워" 키네틱 랜스는 운동 에너지 집속장을 지속사격합니다. 문자 그대로 적의 뼈와 살을 발라냅니다.</KineticLance.description>
+
+
+</LanguageData>

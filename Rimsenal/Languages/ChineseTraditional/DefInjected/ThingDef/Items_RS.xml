@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MRSKitR.label>MRS-步槍轉換套件</MRSKitR.label>
+  <MRSKitR.description>將黑豹C模組化卡賓槍轉化成步槍構型的必要部件。若想要已配置的黑豹模組化步槍系統重新配置，你需要將其拆解，然後組裝上你喜歡的部件。</MRSKitR.description>
+
+  <MRSKitM.label>MRS-DMR轉換套件</MRSKitM.label>
+  <MRSKitM.description>將黑豹C模組化卡賓槍轉化成神射手步槍構型的必要部件。若想要已配置的黑豹模組化步槍系統重新配置，你需要將其拆解，然後組裝上你喜歡的部件。</MRSKitM.description>
+
+  <MRSKitS.label>MRS-LMG轉換套件</MRSKitS.label>
+  <MRSKitS.description>將黑豹C模組化卡賓槍轉化成輕機槍構型的必要部件。若想要已配置的黑豹模組化步槍系統重新配置，你需要將其拆解，然後組裝上你喜歡的部件。</MRSKitS.description>
+
+
+</LanguageData>

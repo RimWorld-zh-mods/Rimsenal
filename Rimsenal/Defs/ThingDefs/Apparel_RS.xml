@@ -46,7 +46,7 @@
 			</bodyPartGroups>
     </apparel>
     <recipeMaker>
-      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
     </recipeMaker>
     <costList>
       <Cloth>70</Cloth>

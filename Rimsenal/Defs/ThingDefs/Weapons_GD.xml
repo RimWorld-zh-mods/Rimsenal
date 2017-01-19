@@ -19,13 +19,13 @@
       <DeteriorationRate>2</DeteriorationRate>
       <SellPriceFactor>0.5</SellPriceFactor>
     </statBases>
-    <generateCommonality>0.3</generateCommonality>
+    <generateCommonality>0.5</generateCommonality>
     <altitudeLayer>Item</altitudeLayer>
     <alwaysHaulable>True</alwaysHaulable>
     <tickerType>Never</tickerType>
     <techLevel>Industrial</techLevel>
     <weaponTags>
-       <li>Gun</li>
+       <li>EliteGun</li>
        <li>GDGun</li>
     </weaponTags>
     <thingCategories>

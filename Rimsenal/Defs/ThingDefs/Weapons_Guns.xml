@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ThingDefs>
+
+  <!-- ============================================== -->
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_RSBattleRifle</defName>
+    <label>battle rifle bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>12</damageAmountBase>
+      <speed>70</speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>Gun_RSBattleRifle</defName>
+    <label>battle rifle</label>
+    <description>Big cousin of assault rifles, the battle rifles higher-caliber rounds provide greater power and range, though they have have greater weight and produce stronger recoil, making them less than ideal for fully automatic fire.</description>
+    <graphicData>
+      <texPath>Things/A16/BattleRifle</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractRifle</soundInteract>
+    <statBases>
+      <WorkToMake>45000</WorkToMake>
+      <Mass>4.1</Mass>
+      <AccuracyTouch>0.72</AccuracyTouch>
+      <AccuracyShort>0.92</AccuracyShort>
+      <AccuracyMedium>0.87</AccuracyMedium>
+      <AccuracyLong>0.71</AccuracyLong>
+      <RangedWeapon_Cooldown>1.46</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>65</Steel>
+      <Component>7</Component>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <projectileDef>Bullet_RSBattleRifle</projectileDef>
+        <warmupTime>1.35</warmupTime>
+        <range>35</range>
+        <burstShotCount>2</burstShotCount>
+        <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
+        <soundCast>ShotSurvivalRifle</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+		<weaponTags>
+			<li>EliteGun</li>
+		</weaponTags>
+  </ThingDef>
+
+
+  <!-- ============================================== -->
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_RSCarbine</defName>
+    <label>carbine bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>7</damageAmountBase>
+      <speed>75</speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>Gun_RSCarbine</defName>
+    <label>carbine</label>
+    <description>Shortened versions of conventional assault rifles. The smaller size and lighter weight of carbines make them easier to handle, ideal for close quarter combat.</description>
+    <graphicData>
+      <texPath>Things/A16/Carbine</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractRifle</soundInteract>
+    <statBases>
+      <WorkToMake>42500</WorkToMake>
+      <Mass>2.8</Mass>
+      <AccuracyTouch>0.8</AccuracyTouch>
+      <AccuracyShort>0.9</AccuracyShort>
+      <AccuracyMedium>0.69</AccuracyMedium>
+      <AccuracyLong>0.6</AccuracyLong>
+      <RangedWeapon_Cooldown>1.15</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>55</Steel>
+      <Component>7</Component>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <projectileDef>Bullet_RSCarbine</projectileDef>
+        <warmupTime>0.87</warmupTime>
+        <range>25</range>
+        <burstShotCount>4</burstShotCount>
+        <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+        <soundCast>ShotAssaultRifle</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+		<weaponTags>
+			<li>EliteGun</li>
+		</weaponTags>
+  </ThingDef>
+
+ <!-- ============================================================== -->
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_PistolRevolver</defName>
+    <label>revolver bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_big</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>Bullet</damageDef>
+      <DamageAmountBase>16</DamageAmountBase>
+      <Speed>60</Speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>Gun_PistolRevolver</defName>
+    <label>revolver</label>
+    <description>Ancient pattern repeating handgun. It's large caliber ammunition guarantees a great deal of stopping power.</description>
+    <graphicData>
+      <texPath>Things/A16/Revolver</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractPistol</soundInteract>
+    <statBases>
+      <WorkToMake>18000</WorkToMake>
+      <Mass>1.9</Mass>
+      <AccuracyTouch>0.85</AccuracyTouch>
+      <AccuracyShort>0.76</AccuracyShort>
+      <AccuracyMedium>0.58</AccuracyMedium>
+      <AccuracyLong>0.36</AccuracyLong>
+      <RangedWeapon_Cooldown>1.3</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>45</Steel>
+      <Component>2</Component>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <projectileDef>Bullet_PistolRevolver</projectileDef>
+        <warmupTime>0.5</warmupTime>
+        <range>26</range>
+        <soundCast>ShotPistol</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+  </ThingDef>
+
+
+
+</ThingDefs>
