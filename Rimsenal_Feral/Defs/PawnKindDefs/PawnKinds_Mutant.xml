@@ -33,7 +33,7 @@
 
   <PawnKindDef>
     <defName>FeralGutcher</defName>
-    <label>ogrenaut</label>
+    <label>gutcher</label>
     <race>Mutant_Ogre</race>
     <combatPower>100</combatPower>
     <defaultFactionType>Feral</defaultFactionType>
@@ -62,7 +62,7 @@
 
   <PawnKindDef>
     <defName>FeralHellmaker</defName>
-    <label>ogrenaut</label>
+    <label>hellmaker</label>
     <race>Mutant_OgreHellmaker</race>
     <combatPower>280</combatPower>
     <defaultFactionType>Feral</defaultFactionType>

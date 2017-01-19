@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Mutant_Ogre.label>食人魔</Mutant_Ogre.label>
+  <Mutant_Ogre.description>最初是為了建築和重型勞動設計，「奧戈隆（Ogron）」是一種巨大、粗野、低智力的變異人，在邊緣世界，許多蠻族部落將之作為殘酷的戰爭野獸。</Mutant_Ogre.description>
+  <Mutant_Ogre_Leather.label>食人魔皮</Mutant_Ogre_Leather.label>
+  <Mutant_Ogre_Leather.description>食人魔皮</Mutant_Ogre_Leather.description>
+  <Mutant_Ogre_Leather.stuffProps.stuffAdjective>食人魔皮</Mutant_Ogre_Leather.stuffProps.stuffAdjective>
+  <!-- Use Meat From: Human -->
+  <Mutant_Ogre_Corpse.label>食人魔屍體</Mutant_Ogre_Corpse.label>
+  <Mutant_Ogre_Corpse.description>食人魔屍體</Mutant_Ogre_Corpse.description>
+
+  <Mutant_OgreOgrenaut.label>食人魔</Mutant_OgreOgrenaut.label>
+  <Mutant_OgreOgrenaut.description>最初是為了建築和重型勞動設計，「奧戈隆（Ogron）」是一種巨大、粗野、低智力的變異人，在邊緣世界，許多蠻族部落將之作為殘酷的戰爭野獸。</Mutant_OgreOgrenaut.description>
+  <Mutant_OgreOgrenaut_Leather.label>食人魔皮</Mutant_OgreOgrenaut_Leather.label>
+  <Mutant_OgreOgrenaut_Leather.description>食人魔皮</Mutant_OgreOgrenaut_Leather.description>
+  <Mutant_OgreOgrenaut_Leather.stuffProps.stuffAdjective>食人魔皮</Mutant_OgreOgrenaut_Leather.stuffProps.stuffAdjective>
+  <!-- Use Meat From: Human -->
+  <Mutant_OgreOgrenaut_Corpse.label>食人魔屍體</Mutant_OgreOgrenaut_Corpse.label>
+  <Mutant_OgreOgrenaut_Corpse.description>食人魔屍體</Mutant_OgreOgrenaut_Corpse.description>
+
+  <Mutant_OgreHellmaker.label>食人魔</Mutant_OgreHellmaker.label>
+  <Mutant_OgreHellmaker.description>最初是為了建築和重型勞動設計，「奧戈隆（Ogron）」是一種巨大、粗野、低智力的變異人，在邊緣世界，許多蠻族部落將之作為殘酷的戰爭野獸。</Mutant_OgreHellmaker.description>
+  <Mutant_OgreHellmaker_Leather.label>食人魔皮</Mutant_OgreHellmaker_Leather.label>
+  <Mutant_OgreHellmaker_Leather.description>食人魔皮</Mutant_OgreHellmaker_Leather.description>
+  <Mutant_OgreHellmaker_Leather.stuffProps.stuffAdjective>食人魔皮</Mutant_OgreHellmaker_Leather.stuffProps.stuffAdjective>
+  <!-- Use Meat From: Human -->
+  <Mutant_OgreHellmaker_Corpse.label>食人魔屍體</Mutant_OgreHellmaker_Corpse.label>
+  <Mutant_OgreHellmaker_Corpse.description>食人魔屍體</Mutant_OgreHellmaker_Corpse.description>
+
+  <Mutant_Razortooth.label>利齒獸</Mutant_Razortooth.label>
+  <Mutant_Razortooth.description>咀嚼者、沙漠跳跳、開顱怪，這種動物生活在在許多行星上，所以有很多不同的叫法。你可以從它的名字想象出利齒獸是極度危險的生物。發達的開裂式雙下顎、卓越的智慧和凶猛的習性使得它們在任何環境中都能成為頂級捕食者。許多蠻族軍閥將之馴服成戰寵。</Mutant_Razortooth.description>
+  <Mutant_Razortooth_Leather.label>利齒獸皮</Mutant_Razortooth_Leather.label>
+  <Mutant_Razortooth_Leather.description>利齒獸皮</Mutant_Razortooth_Leather.description>
+  <Mutant_Razortooth_Leather.stuffProps.stuffAdjective>利齒獸皮</Mutant_Razortooth_Leather.stuffProps.stuffAdjective>
+  <Mutant_Razortooth_Meat.label>利齒獸肉</Mutant_Razortooth_Meat.label>
+  <Mutant_Razortooth_Meat.description>利齒獸肉</Mutant_Razortooth_Meat.description>
+  <Mutant_Razortooth_Corpse.label>利齒獸屍體</Mutant_Razortooth_Corpse.label>
+  <Mutant_Razortooth_Corpse.description>利齒獸屍體</Mutant_Razortooth_Corpse.description>
+
+  <Mutant_Twisted.label>扭曲怪</Mutant_Twisted.label>
+  <Mutant_Twisted.description>生態大棚是一種嬌貴的設備。多年缺乏妥善保養之後，大棚會受到污染並導致故障。蠻族利用這些被污染的大棚惡毒地飼養奴隸。這些奴隸絕望地戰鬥着，因為唯有死亡方能擺脫悲慘的命運。</Mutant_Twisted.description>
+  <Mutant_Twisted_Leather.label>扭曲怪皮</Mutant_Twisted_Leather.label>
+  <Mutant_Twisted_Leather.description>扭曲怪皮</Mutant_Twisted_Leather.description>
+  <Mutant_Twisted_Leather.stuffProps.stuffAdjective>扭曲怪皮</Mutant_Twisted_Leather.stuffProps.stuffAdjective>
+  <!-- Use Meat From: Human -->
+  <Mutant_Twisted_Corpse.label>扭曲怪屍體</Mutant_Twisted_Corpse.label>
+  <Mutant_Twisted_Corpse.description>扭曲怪屍體</Mutant_Twisted_Corpse.description>
+
+
+</LanguageData>

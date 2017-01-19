@@ -162,7 +162,7 @@
     <projectile>
       <speed>15</speed>
 			<preExplosionSpawnThingDef>ClusterShell</preExplosionSpawnThingDef>
-			<explosionRadius >2.5</explosionRadius >
+			<explosionRadius >2</explosionRadius >
 			<damageDef>Bomb</damageDef>
 			<explosionSpawnChance>0.2</explosionSpawnChance>
 			<damageAmountBase>5</damageAmountBase>
@@ -176,7 +176,7 @@
   <ThingDef ParentName="BaseMutantGun">
     <defName>Feral_ClusterCannon</defName>
     <label>cluster cannon</label>
-    <description>Kaboom</description>
+    <description>Kaboom.</description>
     <menuHidden>True</menuHidden>
     <tradeability>Never</tradeability>
     <graphicData>
@@ -205,7 +205,7 @@
         <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
         <burstShotCount>1</burstShotCount>
         <range>60</range>
-        <forcedMissRadius>3</forcedMissRadius>
+        <forcedMissRadius>5</forcedMissRadius>
         <soundCast>ShotCrucifier</soundCast>
         <muzzleFlashScale>17</muzzleFlashScale>
         <soundCastTail>GunTail_Heavy</soundCastTail>

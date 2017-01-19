@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Apparel_HuskerHood.label>蠻族兜帽</Apparel_HuskerHood.label>
+  <Apparel_HuskerHood.description>堅固但製作粗糙的蠻族兜帽。</Apparel_HuskerHood.description>
+
+  <Apparel_SkulkerHood.label>蠻族兜帽</Apparel_SkulkerHood.label>
+  <Apparel_SkulkerHood.description>堅固但製作粗糙的蠻族兜帽。</Apparel_SkulkerHood.description>
+
+  <Apparel_ThumperHood.label>蠻族兜帽</Apparel_ThumperHood.label>
+  <Apparel_ThumperHood.description>堅固但製作粗糙的蠻族兜帽。</Apparel_ThumperHood.description>
+
+  <Apparel_GrinderHelmet.label>蠻族頭盔</Apparel_GrinderHelmet.label>
+  <Apparel_GrinderHelmet.description>樣式古怪，完全就是個生鏽的鐵桶。</Apparel_GrinderHelmet.description>
+
+  <Apparel_ScorcherHelmet.label>蠻族防毒面罩</Apparel_ScorcherHelmet.label>
+  <Apparel_ScorcherHelmet.description>樣式古怪的防毒面罩。</Apparel_ScorcherHelmet.description>
+
+  <Apparel_ScrapArmor.label>廢料護甲</Apparel_ScrapArmor.label>
+  <Apparel_ScrapArmor.description>用廢料製作的護甲。肅然很醜且不舒適，但能提供很好的防護。</Apparel_ScrapArmor.description>
+
+  <Apparel_FeralMail.label>蠻族板甲</Apparel_FeralMail.label>
+  <Apparel_FeralMail.description>笨重、不方便的鑄造盔甲。</Apparel_FeralMail.description>
+
+  <Apparel_FeralExo.label>蠻族外骨骼</Apparel_FeralExo.label>
+  <Apparel_FeralExo.description>蠻族回收利用的動力裝甲。每個蠻族勇士的夢想。</Apparel_FeralExo.description>
+
+  <Apparel_FeralExoH.label>蠻族外骨骼頭盔</Apparel_FeralExoH.label>
+  <Apparel_FeralExoH.description>一頂臨時配備的動力裝甲頭盔。</Apparel_FeralExoH.description>
+
+
+</LanguageData>

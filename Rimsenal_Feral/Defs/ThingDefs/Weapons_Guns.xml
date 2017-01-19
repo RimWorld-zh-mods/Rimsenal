@@ -64,6 +64,7 @@
     </verbs>
   </ThingDef>
 
+
   <!-- ============================================================== -->
 
 
@@ -203,7 +204,7 @@
     <projectile>
       <damageDef>Bullet</damageDef>
       <damageAmountBase>50</damageAmountBase>
-      <speed>130</speed>
+      <speed>80</speed>
     </projectile>
   </ThingDef>
 
@@ -263,7 +264,7 @@
     <projectile>
       <damageDef>Bullet</damageDef>
       <damageAmountBase>6</damageAmountBase>
-      <speed>60</speed>
+      <speed>70</speed>
     </projectile>
   </ThingDef>
 
