@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Mutant_Ogre.label>ogre</Mutant_Ogre.label>
+  <Mutant_Ogre.description>Originally designed for construction and heavy industry, the Ogron is a large, tough, thickheaded xenohuman. In rimworld condition, Many feral clans use them as brutal war beasts.</Mutant_Ogre.description>
+  <Mutant_Ogre_Leather.label>ogreskin</Mutant_Ogre_Leather.label>
+  <Mutant_Ogre_Leather.description>ogreskin</Mutant_Ogre_Leather.description>
+  <Mutant_Ogre_Leather.stuffProps.stuffAdjective>ogreskin</Mutant_Ogre_Leather.stuffProps.stuffAdjective>
+  <!-- Use Meat From: Human -->
+  <Mutant_Ogre_Corpse.label>ogre corpse</Mutant_Ogre_Corpse.label>
+  <Mutant_Ogre_Corpse.description>ogre corpse</Mutant_Ogre_Corpse.description>
+
+  <Mutant_OgreOgrenaut.label>ogre</Mutant_OgreOgrenaut.label>
+  <Mutant_OgreOgrenaut.description>Originally designed for construction and heavy industry, the Ogron�� is a large, tough, thickheaded xenohuman. In rimworld condition, Many feral clans use them as brutal war beasts.</Mutant_OgreOgrenaut.description>
+  <Mutant_OgreOgrenaut_Leather.label>ogreskin</Mutant_OgreOgrenaut_Leather.label>
+  <Mutant_OgreOgrenaut_Leather.description>ogreskin</Mutant_OgreOgrenaut_Leather.description>
+  <Mutant_OgreOgrenaut_Leather.stuffProps.stuffAdjective>ogreskin</Mutant_OgreOgrenaut_Leather.stuffProps.stuffAdjective>
+  <!-- Use Meat From: Human -->
+  <Mutant_OgreOgrenaut_Corpse.label>ogre corpse</Mutant_OgreOgrenaut_Corpse.label>
+  <Mutant_OgreOgrenaut_Corpse.description>ogre corpse</Mutant_OgreOgrenaut_Corpse.description>
+
+  <Mutant_OgreHellmaker.label>ogre</Mutant_OgreHellmaker.label>
+  <Mutant_OgreHellmaker.description>Originally designed for construction and heavy industry, the Ogron�� is a large, tough, thickheaded xenohuman. In rimworld condition, Many feral clans use them as brutal war beasts.</Mutant_OgreHellmaker.description>
+  <Mutant_OgreHellmaker_Leather.label>ogreskin</Mutant_OgreHellmaker_Leather.label>
+  <Mutant_OgreHellmaker_Leather.description>ogreskin</Mutant_OgreHellmaker_Leather.description>
+  <Mutant_OgreHellmaker_Leather.stuffProps.stuffAdjective>ogreskin</Mutant_OgreHellmaker_Leather.stuffProps.stuffAdjective>
+  <!-- Use Meat From: Human -->
+  <Mutant_OgreHellmaker_Corpse.label>ogre corpse</Mutant_OgreHellmaker_Corpse.label>
+  <Mutant_OgreHellmaker_Corpse.description>ogre corpse</Mutant_OgreHellmaker_Corpse.description>
+
+  <Mutant_Razortooth.label>razortooth</Mutant_Razortooth.label>
+  <Mutant_Razortooth.description>Chomper, dust leaper, skull ripper, this creature has been living in many other planets, so it has many different names. As you can imagine from the name, razortooth are extremely dangerous creatures. Well developed dual-jawed mouth, exceptional intelligence and ferocious behavior makes them alpha predator in any environment. Many feral warlords use them as some kind of warhound.</Mutant_Razortooth.description>
+  <Mutant_Razortooth_Leather.label>razortooth leather</Mutant_Razortooth_Leather.label>
+  <Mutant_Razortooth_Leather.description>razortooth leather</Mutant_Razortooth_Leather.description>
+  <Mutant_Razortooth_Leather.stuffProps.stuffAdjective>razortooth leather</Mutant_Razortooth_Leather.stuffProps.stuffAdjective>
+  <Mutant_Razortooth_Meat.label>razortooth meat</Mutant_Razortooth_Meat.label>
+  <Mutant_Razortooth_Meat.description>razortooth meat</Mutant_Razortooth_Meat.description>
+  <Mutant_Razortooth_Corpse.label>razortooth corpse</Mutant_Razortooth_Corpse.label>
+  <Mutant_Razortooth_Corpse.description>razortooth corpse</Mutant_Razortooth_Corpse.description>
+
+  <Mutant_Twisted.label>twisted</Mutant_Twisted.label>
+  <Mutant_Twisted.description>Growing vats are delicate equipment. Without proper maintenance for many years, vats will be contaminated and cause malfunctions. From these contaminated Vats, Ferals breed their wicked slaves. These slaves fight desperately. Because death is the only way to be free from their terrible fate.</Mutant_Twisted.description>
+  <Mutant_Twisted_Leather.label>twisted skin</Mutant_Twisted_Leather.label>
+  <Mutant_Twisted_Leather.description>twisted skin</Mutant_Twisted_Leather.description>
+  <Mutant_Twisted_Leather.stuffProps.stuffAdjective>twisted skin</Mutant_Twisted_Leather.stuffProps.stuffAdjective>
+  <!-- Use Meat From: Human -->
+  <Mutant_Twisted_Corpse.label>twisted corpse</Mutant_Twisted_Corpse.label>
+  <Mutant_Twisted_Corpse.description>twisted corpse</Mutant_Twisted_Corpse.description>
+
+
+</LanguageData>
