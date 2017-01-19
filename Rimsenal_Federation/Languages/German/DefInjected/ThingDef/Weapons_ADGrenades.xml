@@ -7,7 +7,7 @@
 
   <AD_Repose.label>plasma grenade</AD_Repose.label>
   <AD_Repose.description>"Repose" plasma grenades. Plasma grenade packs more punch than the standard frag grenade but It lacks of blast radius of conventional one.</AD_Repose.description>
-  <AD_Repose.verbs.0.label>throw molotov</AD_Repose.verbs.0.label>
+  <AD_Repose.verbs.0.label>throw plasma grenade</AD_Repose.verbs.0.label>
 
 
 </LanguageData>
