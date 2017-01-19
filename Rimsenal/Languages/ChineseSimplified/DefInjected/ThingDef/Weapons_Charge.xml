@@ -8,7 +8,7 @@
 
   <Bullet_ChargeShotgun.label>电荷弹</Bullet_ChargeShotgun.label>
 
-  <Gun_ChargeShotgun.label>电荷霰弹枪</Gun_ChargeShotgun.label>
+  <Gun_ChargeShotgun.label>电荷散射枪</Gun_ChargeShotgun.label>
   <Gun_ChargeShotgun.description>设计用于近距离枪战的电荷武器。</Gun_ChargeShotgun.description>
 
   <Bullet_ChargeSniper.label>电荷弹</Bullet_ChargeSniper.label>
@@ -25,6 +25,11 @@
 
   <Gun_ChargeCannon.label>电荷加农炮</Gun_ChargeCannon.label>
   <Gun_ChargeCannon.description>基于重型突击武器技术的电荷武器。</Gun_ChargeCannon.description>
+
+  <Bullet_ChargeBR.label>电荷弹</Bullet_ChargeBR.label>
+
+  <Gun_ChargeBR.label>电荷施法者</Gun_ChargeBR.label>
+  <Gun_ChargeBR.description>电荷施法者是电荷步枪的加强版，通常被成为「GEN 2」或者「电荷攻击枪」。降低了射速、提升了重量，换取而来的是延长的射程和更强的冲击力。</Gun_ChargeBR.description>
 
 
 </LanguageData>

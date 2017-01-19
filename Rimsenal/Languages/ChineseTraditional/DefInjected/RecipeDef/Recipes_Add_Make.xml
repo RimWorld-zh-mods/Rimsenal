@@ -82,25 +82,29 @@
   <Make_MRSKitS.description>製作MRS-LMG轉換套件。</Make_MRSKitS.description>
   <Make_MRSKitS.jobString>正在製作MRS-LMG轉換套件。</Make_MRSKitS.jobString>
 
-  <Make_Gun_ChargePistol.label>製作電荷手槍</Make_Gun_ChargePistol.label>
-  <Make_Gun_ChargePistol.description>製作電荷手槍。</Make_Gun_ChargePistol.description>
-  <Make_Gun_ChargePistol.jobString>正在製作電荷手槍。</Make_Gun_ChargePistol.jobString>
+  <Make_Gun_ChargePistol.label>製作光束手槍</Make_Gun_ChargePistol.label>
+  <Make_Gun_ChargePistol.description>製作光束手槍。</Make_Gun_ChargePistol.description>
+  <Make_Gun_ChargePistol.jobString>正在製作光束手槍。</Make_Gun_ChargePistol.jobString>
 
-  <Make_Gun_ChargeShotgun.label>製作電荷霰彈槍</Make_Gun_ChargeShotgun.label>
-  <Make_Gun_ChargeShotgun.description>製作電荷霰彈槍。</Make_Gun_ChargeShotgun.description>
-  <Make_Gun_ChargeShotgun.jobString>正在製作電荷霰彈槍。</Make_Gun_ChargeShotgun.jobString>
+  <Make_Gun_ChargeShotgun.label>製作光束散射槍</Make_Gun_ChargeShotgun.label>
+  <Make_Gun_ChargeShotgun.description>製作光束散射槍。</Make_Gun_ChargeShotgun.description>
+  <Make_Gun_ChargeShotgun.jobString>正在製作光束散射槍。</Make_Gun_ChargeShotgun.jobString>
 
-  <Make_Gun_ChargeSniper.label>製作電荷狙擊槍</Make_Gun_ChargeSniper.label>
-  <Make_Gun_ChargeSniper.description>製作電荷狙擊槍。</Make_Gun_ChargeSniper.description>
-  <Make_Gun_ChargeSniper.jobString>正在製作電荷狙擊槍。</Make_Gun_ChargeSniper.jobString>
+  <Make_Gun_ChargeSniper.label>製作光束狙擊槍</Make_Gun_ChargeSniper.label>
+  <Make_Gun_ChargeSniper.description>製作光束狙擊槍。</Make_Gun_ChargeSniper.description>
+  <Make_Gun_ChargeSniper.jobString>正在製作光束狙擊槍。</Make_Gun_ChargeSniper.jobString>
 
   <Make_Gun_EMPRifle.label>製作EMP步槍</Make_Gun_EMPRifle.label>
   <Make_Gun_EMPRifle.description>製作EMP步槍。</Make_Gun_EMPRifle.description>
   <Make_Gun_EMPRifle.jobString>正在製作EMP步槍。</Make_Gun_EMPRifle.jobString>
 
-  <Make_Gun_ChargeCannon.label>製作電荷加農炮</Make_Gun_ChargeCannon.label>
-  <Make_Gun_ChargeCannon.description>製作電荷加農炮。</Make_Gun_ChargeCannon.description>
-  <Make_Gun_ChargeCannon.jobString>正在製作電荷加農炮。</Make_Gun_ChargeCannon.jobString>
+  <Make_Gun_ChargeCannon.label>製作光束加農炮</Make_Gun_ChargeCannon.label>
+  <Make_Gun_ChargeCannon.description>製作光束加農炮。</Make_Gun_ChargeCannon.description>
+  <Make_Gun_ChargeCannon.jobString>正在製作光束加農炮。</Make_Gun_ChargeCannon.jobString>
+
+  <Make_Gun_ChargeBR.label>製作光束施法者</Make_Gun_ChargeBR.label>
+  <Make_Gun_ChargeBR.description>製作光束施法者。</Make_Gun_ChargeBR.description>
+  <Make_Gun_ChargeBR.jobString>正在製作光束施法者。</Make_Gun_ChargeBR.jobString>
 
   <Make_GD_Lynx.label>製作GD戰術手槍</Make_GD_Lynx.label>
   <Make_GD_Lynx.description>製作GD戰術手槍</Make_GD_Lynx.description>
@@ -130,6 +134,18 @@
   <Make_GD_Caracal.description>製作GD高速衝鋒槍</Make_GD_Caracal.description>
   <Make_GD_Caracal.jobString>正在製作GD高速衝鋒槍</Make_GD_Caracal.jobString>
 
+  <Make_Gun_RSBattleRifle.label>製作攻擊步槍</Make_Gun_RSBattleRifle.label>
+  <Make_Gun_RSBattleRifle.description>製作攻擊步槍。</Make_Gun_RSBattleRifle.description>
+  <Make_Gun_RSBattleRifle.jobString>正在製作攻擊步槍。</Make_Gun_RSBattleRifle.jobString>
+
+  <Make_Gun_RSCarbine.label>製作卡賓槍</Make_Gun_RSCarbine.label>
+  <Make_Gun_RSCarbine.description>製作卡賓槍。</Make_Gun_RSCarbine.description>
+  <Make_Gun_RSCarbine.jobString>正在製作卡賓槍。</Make_Gun_RSCarbine.jobString>
+
+  <Make_Gun_PistolRevolver.label>製作左輪手槍</Make_Gun_PistolRevolver.label>
+  <Make_Gun_PistolRevolver.description>製作左輪手槍。</Make_Gun_PistolRevolver.description>
+  <Make_Gun_PistolRevolver.jobString>正在製作左輪手槍。</Make_Gun_PistolRevolver.jobString>
+
   <Make_JI_Hrunting.label>製作JI熔火步槍</Make_JI_Hrunting.label>
   <Make_JI_Hrunting.description>製作JI熔火步槍</Make_JI_Hrunting.description>
   <Make_JI_Hrunting.jobString>正在製作JI熔火步槍。</Make_JI_Hrunting.jobString>
@@ -138,9 +154,9 @@
   <Make_JI_Trollsverd.description>製作JI熔火手槍</Make_JI_Trollsverd.description>
   <Make_JI_Trollsverd.jobString>正在製作JI熔火手槍。</Make_JI_Trollsverd.jobString>
 
-  <Make_JI_Fafnir.label>製作JI攻城霰彈槍</Make_JI_Fafnir.label>
-  <Make_JI_Fafnir.description>製作JI攻城霰彈槍</Make_JI_Fafnir.description>
-  <Make_JI_Fafnir.jobString>正在製作JI攻城霰彈槍。</Make_JI_Fafnir.jobString>
+  <Make_JI_Fafnir.label>製作JI攻城散射槍</Make_JI_Fafnir.label>
+  <Make_JI_Fafnir.description>製作JI攻城散射槍</Make_JI_Fafnir.description>
+  <Make_JI_Fafnir.jobString>正在製作JI攻城散射槍。</Make_JI_Fafnir.jobString>
 
   <Make_JI_Gramr.label>製作JI反機甲步槍</Make_JI_Gramr.label>
   <Make_JI_Gramr.description>製作JI反機甲步槍</Make_JI_Gramr.description>
@@ -153,6 +169,10 @@
   <Make_JI_Muspell.label>製作JI鎮壓者加農炮</Make_JI_Muspell.label>
   <Make_JI_Muspell.description>製作JI鎮壓者加農炮</Make_JI_Muspell.description>
   <Make_JI_Muspell.jobString>正在製作JI鎮壓者加農炮。</Make_JI_Muspell.jobString>
+
+  <Make_Bow_Compound.label>製作複合弓</Make_Bow_Compound.label>
+  <Make_Bow_Compound.description>製作複合弓。</Make_Bow_Compound.description>
+  <Make_Bow_Compound.jobString>正在製作複合弓。</Make_Bow_Compound.jobString>
 
 
   <!-- Recipe Users: ElectricSmithy, FueledSmithy -->
