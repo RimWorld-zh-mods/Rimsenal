@@ -1,8 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<!--[자동생성] 림월드 모드 번역 도우미 v1.7 by 가람이예요-->
 <LanguageData>
   <!--Bullet_ShardSentry-->
-  <Bullet_ShardSentry.label>파편</Bullet_ShardSentry.label>
+  <Bullet_ShardSentry.label>파편탄</Bullet_ShardSentry.label>
   <!--Gun_ShardSentry-->
   <Gun_ShardSentry.label>포탑 파편포</Gun_ShardSentry.label>
   <Gun_ShardSentry.description>파편 중화기입니다.</Gun_ShardSentry.description>
@@ -36,4 +35,7 @@
   <!--Gun_BC-->
   <Gun_BC.label>탄막포</Gun_BC.label>
   <Gun_BC.description>다연장 로켓 발사기입니다.</Gun_BC.description>
+
+
+
 </LanguageData>
