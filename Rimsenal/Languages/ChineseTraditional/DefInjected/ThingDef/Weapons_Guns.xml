@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Bullet_RSBattleRifle.label>攻擊步槍子彈</Bullet_RSBattleRifle.label>
+
+  <Gun_RSBattleRifle.label>攻擊步槍</Gun_RSBattleRifle.label>
+  <Gun_RSBattleRifle.description>突擊步槍的表親，攻擊步槍更大的口徑提供更大的威力和射程，儘管更重、後坐力更大使其在全自動火力模式下不甚理想。</Gun_RSBattleRifle.description>
+
+  <Bullet_RSCarbine.label>卡賓槍子彈</Bullet_RSCarbine.label>
+
+  <Gun_RSCarbine.label>卡賓槍</Gun_RSCarbine.label>
+  <Gun_RSCarbine.description>傳統突擊步槍的縮短版。較小的尺寸和重量使其更易於操作，近距離作戰非常理想。</Gun_RSCarbine.description>
+
+  <Bullet_PistolRevolver.label>左輪手槍子彈</Bullet_PistolRevolver.label>
+
+  <Gun_PistolRevolver.label>左輪手槍</Gun_PistolRevolver.label>
+  <Gun_PistolRevolver.description>古老样式的多發手槍。其大口徑子彈能確保最大程度的制止力。</Gun_PistolRevolver.description>
+
+
+</LanguageData>
