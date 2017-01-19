@@ -118,7 +118,7 @@
       <damageDef>Optic</damageDef>
       <explosionRadius>0.9</explosionRadius>
       <damageAmountBase>15</damageAmountBase>
-      <speed>180</speed>
+      <speed>85</speed>
     </projectile>
   </ThingDef>
 

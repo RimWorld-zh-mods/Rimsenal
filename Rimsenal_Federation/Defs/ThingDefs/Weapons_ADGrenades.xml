@@ -41,7 +41,7 @@
     </thingCategories>
     <verbs>
       <li>
-        <label>throw molotov</label>
+        <label>throw plasma grenade</label>
         <verbClass>Verb_LaunchProjectile</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <range>12</range>

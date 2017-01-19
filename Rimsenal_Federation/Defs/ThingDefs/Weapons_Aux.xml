@@ -135,7 +135,7 @@
     <projectile>
       <damageDef>Optic</damageDef>
       <damageAmountBase>8</damageAmountBase>
-      <speed>90</speed>
+      <speed>75</speed>
     </projectile>
   </ThingDef>
 

@@ -72,7 +72,7 @@
       <damageDef>Optic</damageDef>
       <explosionRadius>0.5</explosionRadius>
       <damageAmountBase>14</damageAmountBase>
-      <speed>300</speed>
+      <speed>100</speed>
     </projectile>
   </ThingDef>
 
@@ -135,7 +135,7 @@
       <damageDef>Optic</damageDef>
       <explosionRadius>0.5</explosionRadius>
       <damageAmountBase>10</damageAmountBase>
-      <speed>300</speed>
+      <speed>100</speed>
     </projectile>
   </ThingDef>
 
@@ -197,7 +197,7 @@
       <damageDef>Flame</damageDef>
       <explosionRadius>0.5</explosionRadius>
       <damageAmountBase>5</damageAmountBase>
-      <speed>300</speed>
+      <speed>100</speed>
     </projectile>
   </ThingDef>
 
@@ -259,7 +259,7 @@
       <damageDef>Optic</damageDef>
       <explosionRadius>0.5</explosionRadius>
       <damageAmountBase>20</damageAmountBase>
-      <speed>300</speed>
+      <speed>100</speed>
     </projectile>
   </ThingDef>
 
