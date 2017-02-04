@@ -41,7 +41,7 @@
     </products>
     <workSkill>Crafting</workSkill>
       <recipeUsers>
-        <li>TableMachining</li>
+        <li>GDTable</li>
       </recipeUsers>
   </RecipeDef>
 
@@ -85,7 +85,7 @@
     </products>
     <workSkill>Crafting</workSkill>
       <recipeUsers>
-        <li>TableMachining</li>
+        <li>GDTable</li>
       </recipeUsers>
   </RecipeDef>
 
@@ -129,7 +129,7 @@
     </products>
     <workSkill>Crafting</workSkill>
       <recipeUsers>
-        <li>TableMachining</li>
+        <li>GDTable</li>
       </recipeUsers>
   </RecipeDef>
 

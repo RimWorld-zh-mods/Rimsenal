@@ -55,7 +55,7 @@
       <effectWorking>Smith</effectWorking>
       <soundWorking>Recipe_Smith</soundWorking>
       <recipeUsers>
-        <li>TableMachining</li>
+        <li>TETable</li>
       </recipeUsers>
       <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
     </recipeMaker>
@@ -326,7 +326,7 @@
       <researchPrerequisite>KineticTech</researchPrerequisite>
     </recipeMaker>
     <equippedStatOffsets>
-      <MoveSpeed>-0.65</MoveSpeed>
+      <MoveSpeed>-0.7</MoveSpeed>
     </equippedStatOffsets>
     <statBases>
       <Mass>6.85</Mass>
@@ -393,6 +393,9 @@
     <recipeMaker>
       <researchPrerequisite>FocusTech</researchPrerequisite>
     </recipeMaker>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.6</MoveSpeed>
+    </equippedStatOffsets>
     <statBases>
       <Mass>5.9</Mass>
       <WorkToMake>59800</WorkToMake>

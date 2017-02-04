@@ -44,17 +44,4 @@
     </mote>
   </ThingDef>
 
-  <ThingDef ParentName="RSMoteBase">
-    <defName>ChargeMote</defName>
-    <graphicData>
-      <texPath>Things/Mote/ChargeMote</texPath>
-      <shaderType>MoteGlow</shaderType>
-    </graphicData>
-    <altitudeLayer>MoteOverhead</altitudeLayer>
-    <mote>
-      <solidTime>0</solidTime>
-      <fadeInTime>0.06</fadeInTime>
-      <fadeOutTime>0.08</fadeOutTime>
-    </mote>
-  </ThingDef>
 </Defs>

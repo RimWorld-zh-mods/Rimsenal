@@ -29,6 +29,9 @@
     </costList>
     <recipeMaker>
       <researchPrerequisite>DefenceTech</researchPrerequisite>
+      <recipeUsers>
+        <li>GDTable</li>
+      </recipeUsers>
     </recipeMaker>
     <verbs>
       <li>
@@ -55,6 +58,9 @@
     </statBases>
     <recipeMaker>
       <researchPrerequisite>ShardTech</researchPrerequisite>
+      <recipeUsers>
+        <li>YPTable</li>
+      </recipeUsers>
     </recipeMaker>
    <costList>
       <Steel>20</Steel>
@@ -86,6 +92,9 @@
       <MeleeWeapon_Cooldown>2.9</MeleeWeapon_Cooldown>
     </statBases>
     <recipeMaker>
+      <recipeUsers>
+        <li>JITable</li>
+      </recipeUsers>
       <researchPrerequisite>MoltenTech</researchPrerequisite>
     </recipeMaker>
     <equippedAngleOffset>0</equippedAngleOffset>
@@ -122,6 +131,9 @@
       <MeleeWeapon_Cooldown>1.1</MeleeWeapon_Cooldown>
     </statBases>
     <recipeMaker>
+      <recipeUsers>
+        <li>TETable</li>
+      </recipeUsers>
       <researchPrerequisite>KineticTech</researchPrerequisite>
     </recipeMaker>
     <equippedAngleOffset>35</equippedAngleOffset>
@@ -152,7 +164,7 @@
     <soundInteract>InteractPistol</soundInteract>
     <techLevel>Spacer</techLevel>
     <statBases>
-      <WorkToMake>16500</WorkToMake>
+      <WorkToMake>26500</WorkToMake>
       <MeleeWeapon_DamageAmount>10</MeleeWeapon_DamageAmount>
       <MeleeWeapon_Cooldown>1.8</MeleeWeapon_Cooldown>
     </statBases>
