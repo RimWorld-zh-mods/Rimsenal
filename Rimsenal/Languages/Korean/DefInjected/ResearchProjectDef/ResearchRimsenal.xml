@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-	<ShardTech.label>RS: 결정 파편 정제</ShardTech.label>
+	<ShardTech.label>RS: 파편 결정 정제</ShardTech.label>
 	<ShardTech.description>연화 정밀 장비를 생산할 수 있게 됩니다.</ShardTech.description>
 
 	<MicrowaveTech.label>RS: 극초단파 방출기</MicrowaveTech.label>
@@ -21,8 +21,5 @@
 
 	<DefenceTech.label>RS: 전술 장비 제작</DefenceTech.label>
 	<DefenceTech.description>그레이데일 디펜스 장비가 제작가능합니다.</DefenceTech.description>
-
-	<DirectedEMP.label>지향성 전자기 펄스</DirectedEMP.label>
-	<DirectedEMP.description>EMP 소총 제작에 필요한 기술입니다.</DirectedEMP.description>
 
 </LanguageData>

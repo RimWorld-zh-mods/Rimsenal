@@ -22,8 +22,5 @@
   <DefenceTech.label>RS: tactical equipment manufacturing</DefenceTech.label>
   <DefenceTech.description>Allows you to build Graydale weapons</DefenceTech.description>
 
-  <DirectedEMP.label>RS: directed electromagnetic pulse</DirectedEMP.label>
-  <DirectedEMP.description>It is a prerequisite to build EMP rifle.</DirectedEMP.description>
-
 
 </LanguageData>

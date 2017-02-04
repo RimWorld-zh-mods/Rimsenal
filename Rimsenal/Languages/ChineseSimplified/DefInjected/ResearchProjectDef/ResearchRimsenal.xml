@@ -16,14 +16,11 @@
   <KineticTech.label>RS：动能守恒胶体</KineticTech.label>
   <KineticTech.description>解锁「底西福涅」武器装备的制作。\n\n底西福涅公司：Tisiphone Enterprise</KineticTech.description>
 
-  <FocusTech.label>RS：集聚动能力场</FocusTech.label>
+  <FocusTech.label>RS：集聚动能场</FocusTech.label>
   <FocusTech.description>解锁「便携式发电机」和「动能标枪」的制作。</FocusTech.description>
 
   <DefenceTech.label>RS：防御技术</DefenceTech.label>
   <DefenceTech.description>解锁「灰谷防御」武器装备的制作。\n\n灰谷防御：Greydale Defence</DefenceTech.description>
-
-  <DirectedEMP.label>RS：定向电磁脉冲</DirectedEMP.label>
-  <DirectedEMP.description>解锁「EMP步枪」的制作。</DirectedEMP.description>
 
 
 </LanguageData>

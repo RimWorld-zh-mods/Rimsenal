@@ -10,17 +10,8 @@
   <Make_Carbonsuit.description>製作碳連體服</Make_Carbonsuit.description>
   <Make_Carbonsuit.jobString>正在製作碳連體服。</Make_Carbonsuit.jobString>
 
-  <Make_Apparel_TacVest.label>製作戰術背心</Make_Apparel_TacVest.label>
-  <Make_Apparel_TacVest.description>製作戰術背心</Make_Apparel_TacVest.description>
-  <Make_Apparel_TacVest.jobString>正在製作戰術背心。</Make_Apparel_TacVest.jobString>
 
-  <Make_Apparel_TacHelmet.label>製作戰術頭盔</Make_Apparel_TacHelmet.label>
-  <Make_Apparel_TacHelmet.description>製作戰術頭盔</Make_Apparel_TacHelmet.description>
-  <Make_Apparel_TacHelmet.jobString>正在製作戰術頭盔。</Make_Apparel_TacHelmet.jobString>
-
-  <Make_Apparel_Exoframe.label>製作外骨骼</Make_Apparel_Exoframe.label>
-  <Make_Apparel_Exoframe.description>製作外骨骼</Make_Apparel_Exoframe.description>
-  <Make_Apparel_Exoframe.jobString>正在製作外骨骼。</Make_Apparel_Exoframe.jobString>
+  <!-- Recipe Users: GDTable -->
 
   <Make_Apparel_Laconian.label>製作先驅者護甲</Make_Apparel_Laconian.label>
   <Make_Apparel_Laconian.description>製作先驅者護甲</Make_Apparel_Laconian.description>
@@ -30,13 +21,8 @@
   <Make_Apparel_LaconianH.description>製作先驅者頭盔</Make_Apparel_LaconianH.description>
   <Make_Apparel_LaconianH.jobString>正在製作先驅者頭盔。</Make_Apparel_LaconianH.jobString>
 
-  <Make_Apparel_CombatArmor.label>製作近戰護甲</Make_Apparel_CombatArmor.label>
-  <Make_Apparel_CombatArmor.description>製作近戰護甲。</Make_Apparel_CombatArmor.description>
-  <Make_Apparel_CombatArmor.jobString>正在製作近戰護甲。</Make_Apparel_CombatArmor.jobString>
 
-  <Make_Apparel_CombatHelmet.label>製作近戰頭盔</Make_Apparel_CombatHelmet.label>
-  <Make_Apparel_CombatHelmet.description>製作近戰頭盔。</Make_Apparel_CombatHelmet.description>
-  <Make_Apparel_CombatHelmet.jobString>正在製作近戰頭盔。</Make_Apparel_CombatHelmet.jobString>
+  <!-- Recipe Users: YPTable -->
 
   <Make_Apparel_Dropsuit.label>製作神降護甲</Make_Apparel_Dropsuit.label>
   <Make_Apparel_Dropsuit.description>製作神降護甲</Make_Apparel_Dropsuit.description>
@@ -54,6 +40,9 @@
   <Make_Apparel_NervesuitH.description>製作神勇頭盔</Make_Apparel_NervesuitH.description>
   <Make_Apparel_NervesuitH.jobString>正在製作神勇頭盔。</Make_Apparel_NervesuitH.jobString>
 
+
+  <!-- Recipe Users: JITable -->
+
   <Make_Apparel_Bjorn.label>製作突擊護甲</Make_Apparel_Bjorn.label>
   <Make_Apparel_Bjorn.description>製作突擊護甲</Make_Apparel_Bjorn.description>
   <Make_Apparel_Bjorn.jobString>正在製作突擊護甲。</Make_Apparel_Bjorn.jobString>
@@ -62,6 +51,9 @@
   <Make_Apparel_BjornH.description>製作突擊頭盔</Make_Apparel_BjornH.description>
   <Make_Apparel_BjornH.jobString>正在製作突擊頭盔。</Make_Apparel_BjornH.jobString>
 
+
+  <!-- Recipe Users: TETable -->
+
   <Make_Apparel_Nemesis.label>製作反射護甲</Make_Apparel_Nemesis.label>
   <Make_Apparel_Nemesis.description>製作反射護甲</Make_Apparel_Nemesis.description>
   <Make_Apparel_Nemesis.jobString>正在製作反射護甲。</Make_Apparel_Nemesis.jobString>
@@ -69,6 +61,20 @@
   <Make_Apparel_NemesisH.label>製作反射頭盔</Make_Apparel_NemesisH.label>
   <Make_Apparel_NemesisH.description>製作反射頭盔</Make_Apparel_NemesisH.description>
   <Make_Apparel_NemesisH.jobString>正在製作反射頭盔。</Make_Apparel_NemesisH.jobString>
+
+
+  <!-- Recipe Users: TableMachining -->
+
+  <Make_Apparel_CombatArmor.label>製作近戰護甲</Make_Apparel_CombatArmor.label>
+  <Make_Apparel_CombatArmor.description>製作近戰護甲。</Make_Apparel_CombatArmor.description>
+  <Make_Apparel_CombatArmor.jobString>正在製作近戰護甲。</Make_Apparel_CombatArmor.jobString>
+
+  <Make_Apparel_CombatHelmet.label>製作近戰頭盔</Make_Apparel_CombatHelmet.label>
+  <Make_Apparel_CombatHelmet.description>製作近戰頭盔。</Make_Apparel_CombatHelmet.description>
+  <Make_Apparel_CombatHelmet.jobString>正在製作近戰頭盔。</Make_Apparel_CombatHelmet.jobString>
+
+
+  <!-- Recipe Users: GDTable -->
 
   <Make_MRSKitR.label>製作MRS-步槍轉換套件</Make_MRSKitR.label>
   <Make_MRSKitR.description>製作MRS-步槍轉換套件。</Make_MRSKitR.description>
@@ -81,30 +87,6 @@
   <Make_MRSKitS.label>製作MRS-LMG轉換套件</Make_MRSKitS.label>
   <Make_MRSKitS.description>製作MRS-LMG轉換套件。</Make_MRSKitS.description>
   <Make_MRSKitS.jobString>正在製作MRS-LMG轉換套件。</Make_MRSKitS.jobString>
-
-  <Make_Gun_ChargePistol.label>製作光束手槍</Make_Gun_ChargePistol.label>
-  <Make_Gun_ChargePistol.description>製作光束手槍。</Make_Gun_ChargePistol.description>
-  <Make_Gun_ChargePistol.jobString>正在製作光束手槍。</Make_Gun_ChargePistol.jobString>
-
-  <Make_Gun_ChargeShotgun.label>製作光束散射槍</Make_Gun_ChargeShotgun.label>
-  <Make_Gun_ChargeShotgun.description>製作光束散射槍。</Make_Gun_ChargeShotgun.description>
-  <Make_Gun_ChargeShotgun.jobString>正在製作光束散射槍。</Make_Gun_ChargeShotgun.jobString>
-
-  <Make_Gun_ChargeSniper.label>製作光束狙擊槍</Make_Gun_ChargeSniper.label>
-  <Make_Gun_ChargeSniper.description>製作光束狙擊槍。</Make_Gun_ChargeSniper.description>
-  <Make_Gun_ChargeSniper.jobString>正在製作光束狙擊槍。</Make_Gun_ChargeSniper.jobString>
-
-  <Make_Gun_EMPRifle.label>製作EMP步槍</Make_Gun_EMPRifle.label>
-  <Make_Gun_EMPRifle.description>製作EMP步槍。</Make_Gun_EMPRifle.description>
-  <Make_Gun_EMPRifle.jobString>正在製作EMP步槍。</Make_Gun_EMPRifle.jobString>
-
-  <Make_Gun_ChargeCannon.label>製作光束加農炮</Make_Gun_ChargeCannon.label>
-  <Make_Gun_ChargeCannon.description>製作光束加農炮。</Make_Gun_ChargeCannon.description>
-  <Make_Gun_ChargeCannon.jobString>正在製作光束加農炮。</Make_Gun_ChargeCannon.jobString>
-
-  <Make_Gun_ChargeBR.label>製作光束施法者</Make_Gun_ChargeBR.label>
-  <Make_Gun_ChargeBR.description>製作光束施法者。</Make_Gun_ChargeBR.description>
-  <Make_Gun_ChargeBR.jobString>正在製作光束施法者。</Make_Gun_ChargeBR.jobString>
 
   <Make_GD_Lynx.label>製作GD戰術手槍</Make_GD_Lynx.label>
   <Make_GD_Lynx.description>製作GD戰術手槍</Make_GD_Lynx.description>
@@ -134,17 +116,8 @@
   <Make_GD_Caracal.description>製作GD高速衝鋒槍</Make_GD_Caracal.description>
   <Make_GD_Caracal.jobString>正在製作GD高速衝鋒槍</Make_GD_Caracal.jobString>
 
-  <Make_Gun_RSBattleRifle.label>製作攻擊步槍</Make_Gun_RSBattleRifle.label>
-  <Make_Gun_RSBattleRifle.description>製作攻擊步槍。</Make_Gun_RSBattleRifle.description>
-  <Make_Gun_RSBattleRifle.jobString>正在製作攻擊步槍。</Make_Gun_RSBattleRifle.jobString>
 
-  <Make_Gun_RSCarbine.label>製作卡賓槍</Make_Gun_RSCarbine.label>
-  <Make_Gun_RSCarbine.description>製作卡賓槍。</Make_Gun_RSCarbine.description>
-  <Make_Gun_RSCarbine.jobString>正在製作卡賓槍。</Make_Gun_RSCarbine.jobString>
-
-  <Make_Gun_PistolRevolver.label>製作左輪手槍</Make_Gun_PistolRevolver.label>
-  <Make_Gun_PistolRevolver.description>製作左輪手槍。</Make_Gun_PistolRevolver.description>
-  <Make_Gun_PistolRevolver.jobString>正在製作左輪手槍。</Make_Gun_PistolRevolver.jobString>
+  <!-- Recipe Users: JITable -->
 
   <Make_JI_Hrunting.label>製作JI熔火步槍</Make_JI_Hrunting.label>
   <Make_JI_Hrunting.description>製作JI熔火步槍</Make_JI_Hrunting.description>
@@ -162,43 +135,51 @@
   <Make_JI_Gramr.description>製作JI反機甲步槍</Make_JI_Gramr.description>
   <Make_JI_Gramr.jobString>正在製作JI反機甲步槍。</Make_JI_Gramr.jobString>
 
-  <Make_JI_Grendel.label>&gt;製作JI攻城炮</Make_JI_Grendel.label>
-  <Make_JI_Grendel.description>&gt;製作JI攻城炮</Make_JI_Grendel.description>
+  <Make_JI_Grendel.label>製作JI攻城炮</Make_JI_Grendel.label>
+  <Make_JI_Grendel.description>製作JI攻城炮</Make_JI_Grendel.description>
   <Make_JI_Grendel.jobString>正在製作JI攻城炮。</Make_JI_Grendel.jobString>
 
   <Make_JI_Muspell.label>製作JI鎮壓者加農炮</Make_JI_Muspell.label>
   <Make_JI_Muspell.description>製作JI鎮壓者加農炮</Make_JI_Muspell.description>
   <Make_JI_Muspell.jobString>正在製作JI鎮壓者加農炮。</Make_JI_Muspell.jobString>
 
-  <Make_Bow_Compound.label>製作複合弓</Make_Bow_Compound.label>
-  <Make_Bow_Compound.description>製作複合弓。</Make_Bow_Compound.description>
-  <Make_Bow_Compound.jobString>正在製作複合弓。</Make_Bow_Compound.jobString>
 
-
-  <!-- Recipe Users: ElectricSmithy, FueledSmithy -->
+  <!-- Recipe Users: ElectricSmithy, FueledSmithy, GDTable -->
 
   <Make_GD_Sabertooth.label>製作格鬥刀</Make_GD_Sabertooth.label>
   <Make_GD_Sabertooth.description>製作格鬥刀</Make_GD_Sabertooth.description>
   <Make_GD_Sabertooth.jobString>正在製作格鬥刀。</Make_GD_Sabertooth.jobString>
 
+
+  <!-- Recipe Users: ElectricSmithy, FueledSmithy, YPTable -->
+
   <Make_YP_BingJu.label>製作單手劍</Make_YP_BingJu.label>
   <Make_YP_BingJu.description>製作單手劍</Make_YP_BingJu.description>
   <Make_YP_BingJu.jobString>正在製作單手劍。</Make_YP_BingJu.jobString>
+
+
+  <!-- Recipe Users: ElectricSmithy, FueledSmithy, JITable -->
 
   <Make_JI_Ormbane.label>製作突擊錘</Make_JI_Ormbane.label>
   <Make_JI_Ormbane.description>製作突擊錘</Make_JI_Ormbane.description>
   <Make_JI_Ormbane.jobString>正在製作突擊錘。</Make_JI_Ormbane.jobString>
 
+
+  <!-- Recipe Users: ElectricSmithy, FueledSmithy, TETable -->
+
   <Make_TE_Eris.label>製作生存者刀</Make_TE_Eris.label>
   <Make_TE_Eris.description>製作生存者刀</Make_TE_Eris.description>
   <Make_TE_Eris.jobString>正在製作生存者刀。</Make_TE_Eris.jobString>
+
+
+  <!-- Recipe Users: ElectricSmithy, FueledSmithy -->
 
   <Make_MeleeWeapon_TorchSword.label>製作炬劍</Make_MeleeWeapon_TorchSword.label>
   <Make_MeleeWeapon_TorchSword.description>製作炬劍。</Make_MeleeWeapon_TorchSword.description>
   <Make_MeleeWeapon_TorchSword.jobString>正在製作炬劍。</Make_MeleeWeapon_TorchSword.jobString>
 
 
-  <!-- Recipe Users: TableMachining -->
+  <!-- Recipe Users: TETable -->
 
   <Make_KineticRifle.label>製作TE動能步槍</Make_KineticRifle.label>
   <Make_KineticRifle.description>製作TE動能步槍</Make_KineticRifle.description>
@@ -223,6 +204,9 @@
   <Make_KineticLance.label>製作TE動能標槍</Make_KineticLance.label>
   <Make_KineticLance.description>製作TE動能標槍。</Make_KineticLance.description>
   <Make_KineticLance.jobString>正在製作TE動能標槍。</Make_KineticLance.jobString>
+
+
+  <!-- Recipe Users: YPTable -->
 
   <Make_YP_SeoLi.label>製作YP晶刺步槍</Make_YP_SeoLi.label>
   <Make_YP_SeoLi.description>製作YP晶刺步槍</Make_YP_SeoLi.description>

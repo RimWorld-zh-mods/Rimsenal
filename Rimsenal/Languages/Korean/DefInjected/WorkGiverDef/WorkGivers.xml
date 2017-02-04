@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+
+    <DoBillsGDTable.label>작업</DoBillsGDTable.label>
+    <DoBillsGDTable.verb>작업</DoBillsGDTable.verb>
+    <DoBillsGDTable.gerund>작업</DoBillsGDTable.gerund>
+
+    <DoBillsYPTable.label>작업</DoBillsYPTable.label>
+    <DoBillsYPTable.verb>작업</DoBillsYPTable.verb>
+    <DoBillsYPTable.gerund>작업</DoBillsYPTable.gerund>
+
+    <DoBillsJITable.label>작업</DoBillsJITable.label>
+    <DoBillsJITable.verb>작업</DoBillsJITable.verb>
+    <DoBillsJITable.gerund>작업</DoBillsJITable.gerund>
+
+    <DoBillsTETable.label>작업</DoBillsTETable.label>
+    <DoBillsTETable.verb>작업</DoBillsTETable.verb>
+    <DoBillsTETable.gerund>작업</DoBillsTETable.gerund>
+
+</LanguageData>

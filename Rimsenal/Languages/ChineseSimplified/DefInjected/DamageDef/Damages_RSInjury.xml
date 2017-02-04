@@ -16,8 +16,5 @@
   <KineticImpactF.label>动能冲击</KineticImpactF.label>
   <KineticImpactF.deathMessage>{0}被打成了肉浆！</KineticImpactF.deathMessage>
 
-  <ChargedBolt.label>子弹</ChargedBolt.label>
-  <ChargedBolt.deathMessage>{0}被射杀了！</ChargedBolt.deathMessage>
-
 
 </LanguageData>

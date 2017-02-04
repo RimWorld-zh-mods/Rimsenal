@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+
+	<GDTable.label>장비 조립 설비</GDTable.label>
+	<GDTable.description>그레이데일 장비를 분해 조립하기 위한 시설입니다.</GDTable.description>
+
+	<YPTable.label>결정 구조 주조소</YPTable.label>
+	<YPTable.description>연화 정밀 장비를 조립하기 위한 시설입니다.</YPTable.description>
+
+	<JITable.label>자기 단조장</JITable.label>
+	<JITable.description>요튠 인터스텔라 장비를 조립하기 위한 시설입니다.</JITable.description>
+
+	<TETable.label>운동에너지 조작기</TETable.label>
+	<TETable.description>티시폰 엔터프라이즈 장비를 조립하기 위한 시설입니다.</TETable.description>
+
+
+
+</LanguageData>

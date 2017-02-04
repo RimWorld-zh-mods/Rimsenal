@@ -16,8 +16,4 @@
   <KineticImpactF.label>물리적 충격</KineticImpactF.label>
   <KineticImpactF.deathMessage>{0}은(는) 으깨져 죽었습니다.</KineticImpactF.deathMessage>
 
-  <ChargedBolt.label>子弹</ChargedBolt.label>
-  <ChargedBolt.deathMessage>{0}은(는) 폭사했습니다.</ChargedBolt.deathMessage>
-
-
 </LanguageData>
