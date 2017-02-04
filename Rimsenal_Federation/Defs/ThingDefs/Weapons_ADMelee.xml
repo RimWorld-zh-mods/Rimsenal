@@ -28,6 +28,12 @@
       <Component>6</Component>
     </costList>
     <equippedAngleOffset>0</equippedAngleOffset>
+    <recipeMaker>
+      <researchPrerequisite>CrucibleTech</researchPrerequisite>
+      <recipeUsers>
+        <li>FedTable</li>
+      </recipeUsers>
+    </recipeMaker>
     <verbs>
       <li>
         <verbClass>Verb_MeleeAttack</verbClass>

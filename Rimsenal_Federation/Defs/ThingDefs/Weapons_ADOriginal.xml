@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ThingDefs>
 
-  <ThingDef Name="BaseADGun" Abstract="True">
+  <ThingDef Name="BaseADOriginalGun" Abstract="True">
     <category>Item</category>
     <thingClass>ThingWithComps</thingClass>
     <equipmentType>Primary</equipmentType>
+    <menuHidden>True</menuHidden>
+    <tradeability>Never</tradeability>
     <pathCost>10</pathCost>
+    <destroyOnDrop>True</destroyOnDrop>
     <smeltable>true</smeltable>
     <useHitPoints>True</useHitPoints>
     <selectable>True</selectable>
@@ -23,9 +26,6 @@
     <alwaysHaulable>True</alwaysHaulable>
     <tickerType>Never</tickerType>
     <techLevel>Spacer</techLevel>
-    <thingCategories>
-      <li>ADWeapons</li>
-    </thingCategories>
     <inspectorTabs>
       <li>ITab_Art</li>
     </inspectorTabs>
@@ -46,37 +46,16 @@
     <weaponTags>
        <li>FedGun</li>
     </weaponTags>
-    <recipeMaker>
-      <workSpeedStat>SmithingSpeed</workSpeedStat>
-      <workSkill>Crafting</workSkill>
-      <effectWorking>Smith</effectWorking>
-      <soundWorking>Recipe_Smith</soundWorking>
-      <recipeUsers>
-        <li>FedTable</li>
-      </recipeUsers>
-      <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
-    </recipeMaker>
   </ThingDef>
 
   <!-- ============================================== -->
 
-  <ThingDef ParentName="BaseBullet">
-    <defName>Bullet_Pacificator</defName>
-    <label>energy bolt</label>
-    <graphicData>
-      <texPath>Things/Projectile/Laser</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <projectile>
-      <damageDef>Optic</damageDef>
-      <damageAmountBase>12</damageAmountBase>
-      <speed>100</speed>
-    </projectile>
-  </ThingDef>
-
-  <ThingDef ParentName="BaseADGun">
-    <defName>AD_Pacificator</defName>
+  <ThingDef ParentName="BaseADOriginalGun">
+    <defName>ADOriginal_Pacificator</defName>
     <label>crucible rifle</label>
+    <weaponTags>
+       <li>FedRifle</li>
+    </weaponTags>
     <description>The Arms Dynamics "Pacificator" crucible rifle, the standard issue rifle of the notorious Federation Peacekeepers. This rifle fires focused energy bolt that vaporise everything in their path. It has does however have a relatively slow fire late due to possible overheating.</description>
     <graphicData>
       <texPath>Things/A16/Pacificator</texPath>
@@ -96,9 +75,9 @@
       <RangedWeapon_Cooldown>1.3</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <CrucibleCore>4</CrucibleCore>
-      <Foerum>35</Foerum>
-      <Component>2</Component>
+      <Steel>12</Steel>
+      <Plasteel>30</Plasteel>
+      <Component>6</Component>
     </costList>
     <verbs>
       <li>
@@ -118,23 +97,12 @@
 
   <!-- ============================================== -->
 
-  <ThingDef ParentName="BaseBullet">
-    <defName>Bullet_Negotiator</defName>
-    <label>energy bolt</label>
-    <graphicData>
-      <texPath>Things/Projectile/Laser</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <projectile>
-      <damageDef>Optic</damageDef>
-      <damageAmountBase>10</damageAmountBase>
-      <speed>100</speed>
-    </projectile>
-  </ThingDef>
-
-  <ThingDef ParentName="BaseADGun">
-    <defName>AD_Negotiator</defName>
+  <ThingDef ParentName="BaseADOriginalGun">
+    <defName>ADOriginal_Negotiator</defName>
     <label>crucible pistol</label>
+    <weaponTags>
+       <li>FedPistol</li>
+    </weaponTags>
     <description>Arms Dynamics "Negotiator" is an crucible pistol with an unconventional fire mechanism called "the energy crucible". The negotiator's vulnerable point is its painfully slow rate of fire for a pistol. However, its fire power and high accuracy offset this flaw.</description>
     <graphicData>
       <texPath>Things/A16/Negotiator</texPath>
@@ -154,9 +122,9 @@
       <RangedWeapon_Cooldown>1.3</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <CrucibleCore>3</CrucibleCore>
-      <Foerum>25</Foerum>
-      <Component>2</Component>
+      <Steel>10</Steel>
+      <Plasteel>25</Plasteel>
+      <Component>4</Component>
     </costList>
     <verbs>
       <li>
@@ -175,25 +143,12 @@
 
   <!-- ============================================== -->
 
-  <ThingDef ParentName="BaseBullet">
-    <defName>Bullet_Arbiter</defName>
-    <label>heat bolt</label>
-    <graphicData>
-      <texPath>Things/Projectile/Pulse</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <thingClass>Projectile_Explosive</thingClass>
-    <projectile>
-      <damageDef>Flame</damageDef>
-      <explosionRadius>0.5</explosionRadius>
-      <damageAmountBase>5</damageAmountBase>
-      <speed>100</speed>
-    </projectile>
-  </ThingDef>
-
-  <ThingDef ParentName="BaseADGun">
-    <defName>AD_Arbiter</defName>
+  <ThingDef ParentName="BaseADOriginalGun">
+    <defName>ADOriginal_Arbiter</defName>
     <label>heat cannon</label>
+    <weaponTags>
+       <li>FedHeavy</li>
+    </weaponTags>
     <description>The Arms Dynamics "Arbiter". In the Federation, use of the Arbiter was rigorously controlled; As such, This incendiary energy weapon is reserved for Federation Peacemongers, the most capable of the already able Peacekeepers of the Federation.</description>
     <graphicData>
       <texPath>Things/A16/Arbiter</texPath>
@@ -216,9 +171,9 @@
       <MoveSpeed>-0.7</MoveSpeed>
     </equippedStatOffsets>
     <costList>
-      <CrucibleCore>6</CrucibleCore>
-      <Foerum>60</Foerum>
-      <Component>4</Component>
+      <Steel>30</Steel>
+      <Plasteel>60</Plasteel>
+      <Component>10</Component>
     </costList>
     <verbs>
       <li>
@@ -237,23 +192,12 @@
 
   <!-- ============================================== -->
 
-  <ThingDef ParentName="BaseBullet">
-    <defName>Bullet_Intercessor</defName>
-    <label>energy bolt</label>
-    <graphicData>
-      <texPath>Things/Projectile/Laser</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <projectile>
-      <damageDef>Optic</damageDef>
-      <damageAmountBase>20</damageAmountBase>
-      <speed>100</speed>
-    </projectile>
-  </ThingDef>
-
-  <ThingDef ParentName="BaseADGun">
-    <defName>AD_Intercessor</defName>
+  <ThingDef ParentName="BaseADOriginalGun">
+    <defName>ADOriginal_Intercessor</defName>
     <label>crucible precision rifle</label>
+    <weaponTags>
+       <li>FedSniper</li>
+    </weaponTags>
     <description>The favored weapon of the Federation Peacebringer assassin corps, Arms Dynamics "Intercessor" is a long range energy weapon. Although Intercessor's firepower is slightly lower than a conventional sniper rifle, it's high accuracy and longer range makes the Intercessor a most fearsome weapon.</description>
     <graphicData>
       <texPath>Things/A16/Intercessor</texPath>
@@ -273,9 +217,9 @@
       <RangedWeapon_Cooldown>3.5</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <CrucibleCore>6</CrucibleCore>
-      <Foerum>40</Foerum>
-      <Component>4</Component>
+      <Steel>20</Steel>
+      <Plasteel>30</Plasteel>
+      <Component>2</Component>
     </costList>
     <verbs>
       <li>
@@ -295,27 +239,12 @@
 
   <!-- ============================================== -->
 
-  <ThingDef ParentName="BaseBullet">
-    <defName>Bullet_Axiom</defName>
-    <label>plasma sphere</label>
-    <graphicData>
-      <texPath>Things/Projectile/Flux</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <shaderType>TransparentPostLight</shaderType>
-    </graphicData>
-    <thingClass>Projectile_Explosive</thingClass>
-    <projectile>
-      <speed>4</speed>
-      <damageDef>Plasma</damageDef>
-      <damageAmountBase>15</damageAmountBase>
-      <explosionRadius>2.5</explosionRadius>
-    </projectile>
-  </ThingDef>
-
-
-  <ThingDef ParentName="BaseADGun">
-    <defName>AD_Axiom</defName>
+  <ThingDef ParentName="BaseADOriginalGun">
+    <defName>ADOriginal_Axiom</defName>
     <label>plasma caster</label>
+    <weaponTags>
+       <li>FedDemolition</li>
+    </weaponTags>
     <description>The last argument of the Federation, the "Axiom" is the most infamous weapon available to the corps. A plasma sphere from the Axiom is a very slow and easy to avoid projectile. However, just one shot from a Axiom can ruin an entire building.</description>
     <graphicData>
       <texPath>Things/A16/Axiom</texPath>
@@ -338,9 +267,9 @@
       <researchPrerequisite>PlasmaTech</researchPrerequisite>
     </recipeMaker>
     <costList>
-      <CrucibleCore>10</CrucibleCore>
-      <Foerum>150</Foerum>
-      <Component>12</Component>
+      <Steel>135</Steel>
+      <Plasteel>65</Plasteel>
+      <Component>18</Component>
     </costList>
     <verbs>
       <li>

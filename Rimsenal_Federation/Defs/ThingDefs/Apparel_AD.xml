@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ThingDefs>
 
+
+  <ThingDef Name="FedArmorMakeableBase" ParentName="ApparelBase" Abstract="True">
+    <recipeMaker>
+      <recipeUsers>
+        <li>FedTable</li>
+      </recipeUsers>
+      <workSpeedStat>SmithingSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Machining</soundWorking>
+      <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+    </recipeMaker>
+  </ThingDef>
+
+  <ThingDef Name="FedArmorHelmetMakeableBase" ParentName="FedArmorMakeableBase" Abstract="True">
+    <thingCategories>
+      <li>Headgear</li>
+    </thingCategories>
+  </ThingDef>
+
+
   <ThingDef ParentName="ApparelBase">
     <defName>FedSuit</defName>
     <label>federation jumpsuit</label>
@@ -50,23 +71,21 @@
     </colorGenerator>
     </ThingDef>
 
-	<ThingDef ParentName="ArmorMakeableBase">
+	<ThingDef ParentName="FedArmorMakeableBase">
 		<defName>Apparel_Judicator</defName>
 		<label>riot gear</label>
 		<techLevel>Spacer</techLevel>
 		<description>A "Judicator" riot gear was produced by Arms Dynamics for Federation human commanders. This is a really great personal armor if you can withstand from scornful eyes of the people.</description>
 		<graphicData> <texPath>Things/Apparel/Judicator</texPath>
 		<graphicClass>Graphic_Single</graphicClass> </graphicData>
-		<thingCategories>
-			<li>Apparel</li>
-		</thingCategories>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <researchPrerequisite>PoweredArmor</researchPrerequisite>
     </recipeMaker>
     <costList>
-      <Component>16</Component>
-      <Plasteel>160</Plasteel>
+      <CrucibleCore>8</CrucibleCore>
+      <Foerum>120</Foerum>
+      <Component>12</Component>
     </costList>
 		<statBases>
       <Mass>14</Mass>
@@ -79,10 +98,13 @@
 			<Insulation_Cold>-45</Insulation_Cold>
 			<Insulation_Heat>45</Insulation_Heat>
 		</statBases>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
 		<equippedStatOffsets>
 			<WorkSpeedGlobal>-0.05</WorkSpeedGlobal>
 			<MoveSpeed>-0.05</MoveSpeed>
-			<SocialImpact>-0.5</SocialImpact>
+			<SocialImpact>-0.1</SocialImpact>
 		</equippedStatOffsets>
 		<apparel>
     		 <tags>
@@ -105,7 +127,7 @@
 		</apparel>
 	</ThingDef>
 
-	<ThingDef ParentName="ArmorHelmetMakeableBase">
+	<ThingDef ParentName="FedArmorHelmetMakeableBase">
 	<defName>Apparel_JudicatorH</defName>
 	<label>riot gear helmet</label>
 	<techLevel>Spacer</techLevel>
@@ -117,8 +139,9 @@
       <researchPrerequisite>PoweredArmor</researchPrerequisite>
     </recipeMaker>
     <costList>
-      <Component>8</Component>
-      <Plasteel>70</Plasteel>
+      <CrucibleCore>4</CrucibleCore>
+      <Foerum>60</Foerum>
+      <Component>6</Component>
     </costList>
 	<statBases>
       <Mass>2.4</Mass>
@@ -133,7 +156,7 @@
 	</statBases>
 	<equippedStatOffsets>
 		<MoveSpeed>-0.02</MoveSpeed>
-		<SocialImpact>-0.5</SocialImpact>
+		<SocialImpact>-0.1</SocialImpact>
 	</equippedStatOffsets>
 	<apparel>
       <defaultOutfitTags>
@@ -155,7 +178,7 @@
 
 
 
-	<ThingDef ParentName="ArmorMakeableBase">
+	<ThingDef ParentName="FedArmorMakeableBase">
 		<defName>Apparel_MarksmanGear</defName>
 		<label>marksman gear</label>
 		<techLevel>Spacer</techLevel>
@@ -170,8 +193,9 @@
       <researchPrerequisite>CrucibleTech</researchPrerequisite>
     </recipeMaker>
     <costList>
+      <CrucibleCore>4</CrucibleCore>
+      <Foerum>100</Foerum>
       <Component>10</Component>
-      <Plasteel>80</Plasteel>
     </costList>
 		<statBases>
       <Mass>6.5</Mass>
@@ -187,7 +211,7 @@
 		<equippedStatOffsets>
 			 <ShootingAccuracy>0.3</ShootingAccuracy>
 			<MoveSpeed>-0.05</MoveSpeed>
-			<SocialImpact>-0.5</SocialImpact>
+			<SocialImpact>-0.1</SocialImpact>
 		</equippedStatOffsets>
 		<apparel>
     		 <tags>
@@ -210,11 +234,11 @@
 		</apparel>
 	</ThingDef>
 
-	<ThingDef ParentName="ArmorHelmetMakeableBase">
+	<ThingDef ParentName="FedArmorHelmetMakeableBase">
 	<defName>Apparel_MarksmanGearH</defName>
 	<label>marksmangear helmet</label>
 	<techLevel>Spacer</techLevel>
-	<description>It is a helmet of the "Condemner" marksman gear. Integrated target spotter guarantees high accuracy and fast reaction.</description>
+	<description>It is a helmet of the "Condemner" marksman gear. Integrated target designator guarantees high accuracy.</description>
 	<graphicData> <texPath>Things/Apparel/CondemnerH</texPath>
 	<graphicClass>Graphic_Single</graphicClass> </graphicData>
     <recipeMaker>
@@ -222,8 +246,9 @@
       <researchPrerequisite>CrucibleTech</researchPrerequisite>
     </recipeMaker>
     <costList>
-      <Component>21</Component>
-      <Plasteel>65</Plasteel>
+      <CrucibleCore>2</CrucibleCore>
+      <Foerum>80</Foerum>
+      <Component>5</Component>
     </costList>
 	<statBases>
       <Mass>2.2</Mass>
@@ -238,8 +263,8 @@
 	</statBases>
 	<equippedStatOffsets>
 		<ShootingAccuracy>0.4</ShootingAccuracy>
-		<AimingDelayFactor>-0.1</AimingDelayFactor>
-		<SocialImpact>-0.5</SocialImpact>
+		<AimingDelayFactor>0.2</AimingDelayFactor>
+		<SocialImpact>-0.1</SocialImpact>
 	</equippedStatOffsets>
 	<apparel>
       <defaultOutfitTags>

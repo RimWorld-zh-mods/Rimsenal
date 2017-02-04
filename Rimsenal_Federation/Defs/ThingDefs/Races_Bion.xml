@@ -79,7 +79,7 @@
       <li>ShutDownMechanoid</li>
     </recipes>
     <butcherProducts>
-      <Plasteel>15</Plasteel>
+      <Foerum>15</Foerum>
       <Component>1</Component>
     </butcherProducts>
   </ThingDef>
@@ -140,7 +140,7 @@
       <li>ShutDownMechanoid</li>
     </recipes>
     <butcherProducts>
-      <Plasteel>5</Plasteel>
+      <Foerum>5</Foerum>
       <Component>3</Component>
     </butcherProducts>
   </ThingDef>
@@ -206,7 +206,7 @@
       <li>ShutDownMechanoid</li>
     </recipes>
     <butcherProducts>
-      <Plasteel>150</Plasteel>
+      <Foerum>150</Foerum>
       <Component>5</Component>
     </butcherProducts>
   </ThingDef>
@@ -268,7 +268,7 @@
       <li>ShutDownMechanoid</li>
     </recipes>
     <butcherProducts>
-      <Plasteel>25</Plasteel>
+      <Foerum>25</Foerum>
       <Component>2</Component>
     </butcherProducts>
   </ThingDef>

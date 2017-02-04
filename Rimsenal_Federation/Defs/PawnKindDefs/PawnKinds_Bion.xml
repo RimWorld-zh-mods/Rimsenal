@@ -27,6 +27,18 @@
     <weaponTags>
       <li>FedRifle</li>
     </weaponTags>
+    <inventoryOptions>
+      <skipChance>0</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <thingDef>CrucibleCore</thingDef>
+          <countRange>
+            <min>1</min>
+            <max>1</max>
+          </countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
   </PawnKindDef>
 
   <PawnKindDef>
@@ -55,6 +67,18 @@
       <li>FedSniper</li>
       <li>FedPistol</li>
     </weaponTags>
+    <inventoryOptions>
+      <skipChance>0</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <thingDef>CrucibleCore</thingDef>
+          <countRange>
+            <min>1</min>
+            <max>1</max>
+          </countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
   </PawnKindDef>
 
   <PawnKindDef>
@@ -83,6 +107,18 @@
        <li>FedHeavy</li>
        <li>FedDemolition</li>
     </weaponTags>
+    <inventoryOptions>
+      <skipChance>0</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <thingDef>CrucibleCore</thingDef>
+          <countRange>
+            <min>2</min>
+            <max>4</max>
+          </countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
   </PawnKindDef>
 
 </PawnKindDefs>

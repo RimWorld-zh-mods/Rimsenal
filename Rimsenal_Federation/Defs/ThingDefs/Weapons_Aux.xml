@@ -14,8 +14,8 @@
     <projectile>
       <damageDef>Plasma</damageDef>
       <explosionRadius>1.5</explosionRadius>
-      <damageAmountBase>25</damageAmountBase>
-      <speed>25</speed>
+      <damageAmountBase>15</damageAmountBase>
+      <speed>20</speed>
     </projectile>
   </ThingDef>
 
@@ -179,5 +179,63 @@
       </li>
     </verbs>
   </ThingDef>
+
+  <!-- ============================================== -->
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_MCrucibleRifle</defName>
+    <label>energy bolt</label>
+    <projectile>
+      <damageDef>Optic</damageDef>
+      <damageAmountBase>13</damageAmountBase>
+      <speed>95</speed>
+    </projectile>
+    <graphicData>
+      <texPath>Things/Projectile/Laser</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>Gun_MCrucibleRifle</defName>
+    <label>makeshift crucible rifle</label>
+    <description>An improvised crucible firearm, constructed by adapting broken federation weapon parts. While it sharing some features of real crucible weapons, its crude design limits its performance as a slow firing, low quality weapon.</description>
+    <graphicData>
+      <texPath>Things/A16/MCrucibleRifle</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractRifle</soundInteract>
+    <statBases>
+      <WorkToMake>20000</WorkToMake>
+      <Mass>4.2</Mass>
+      <AccuracyTouch>0.75</AccuracyTouch>
+      <AccuracyShort>0.66</AccuracyShort>
+      <AccuracyMedium>0.76</AccuracyMedium>
+      <AccuracyLong>0.720</AccuracyLong>
+      <RangedWeapon_Cooldown>1.26</RangedWeapon_Cooldown>
+    </statBases>
+    <weaponTags>
+      <li>FeralGun</li>
+      <li>FeralRifle</li>
+    </weaponTags>
+    <costList>
+      <CrucibleCore>1</CrucibleCore>
+      <Steel>30</Steel>
+      <Component>2</Component>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <projectileDef>Bullet_MCrucibleRifle</projectileDef>
+        <warmupTime>1.5</warmupTime>
+        <range>30</range>
+        <soundCast>RS_ShotCP</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+  </ThingDef>
+
 
 </ThingDefs>
