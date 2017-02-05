@@ -16,5 +16,10 @@
   <AD_AuxPistol.label>奴隸手槍</AD_AuxPistol.label>
   <AD_AuxPistol.description>「談判者」熔爐手槍的粗制量產版。</AD_AuxPistol.description>
 
+  <Bullet_MCrucibleRifle.label>能量子彈</Bullet_MCrucibleRifle.label>
+
+  <Gun_MCrucibleRifle.label>簡易熔爐步槍</Gun_MCrucibleRifle.label>
+  <Gun_MCrucibleRifle.description>簡易的熔爐槍械，由損壞的聯邦武器部件拼湊而成。雖然擁有部分熔爐武器的特性，但粗糙的做功限制了它的性能，射速慢的低質量武器。</Gun_MCrucibleRifle.description>
+
 
 </LanguageData>
