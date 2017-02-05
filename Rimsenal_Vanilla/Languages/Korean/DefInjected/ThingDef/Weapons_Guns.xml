@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Bullet_RSBattleRifle.label>전투소총탄</Bullet_RSBattleRifle.label>
+
+  <Gun_RSBattleRifle.label>전투소총</Gun_RSBattleRifle.label>
+  <Gun_RSBattleRifle.description>돌격소총의 덩치 큰 사촌격인 물건으로, 대구경탄을 사용하는 덕에 화력이 높고 사거리도 깁니다. 하지만 중량이 무거운데다 반동이 강해 완전 자동사격으로 갈기기에는 부적합합니다.</Gun_RSBattleRifle.description>
+
+  <Bullet_RSCarbine.label>카빈탄</Bullet_RSCarbine.label>
+
+  <Gun_RSCarbine.label>카빈</Gun_RSCarbine.label>
+  <Gun_RSCarbine.description>단축형 돌격소총입니다. 크기가 작고 무게도 가벼워 다루기 쉽고, 근거리 총격전에 요긴합니다.</Gun_RSCarbine.description>
+
+  <Bullet_PistolRevolver.label>대구경 권총탄</Bullet_PistolRevolver.label>
+
+  <Gun_PistolRevolver.label>리볼버</Gun_PistolRevolver.label>
+  <Gun_PistolRevolver.description>고전적인 방식의 연발 권총입니다. 대구경탄이 강력한 저지력을 보장합니다.</Gun_PistolRevolver.description>
+
+</LanguageData>
