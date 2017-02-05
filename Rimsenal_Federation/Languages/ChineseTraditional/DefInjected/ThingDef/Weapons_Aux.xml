@@ -16,5 +16,10 @@
   <AD_AuxPistol.label>奴隸手槍</AD_AuxPistol.label>
   <AD_AuxPistol.description>「談判者」熔爐手槍的粗制量產版。</AD_AuxPistol.description>
 
+  <Bullet_MCrucibleRifle.label>energy bolt</Bullet_MCrucibleRifle.label>
+
+  <Gun_MCrucibleRifle.label>makeshift crucible rifle</Gun_MCrucibleRifle.label>
+  <Gun_MCrucibleRifle.description>An improvised crucible firearm, constructed by adapting broken federation weapon parts. While it sharing some features of real crucible weapons, its crude design limits its performance as a slow firing, low quality weapon.</Gun_MCrucibleRifle.description>
+
 
 </LanguageData>

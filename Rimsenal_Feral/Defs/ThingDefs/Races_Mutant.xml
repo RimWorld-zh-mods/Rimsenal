@@ -22,7 +22,7 @@
   <ThingDef ParentName="BaseMutant">
     <defName>Mutant_Ogre</defName>
     <label>ogre</label>
-    <description>Originally designed for construction and heavy industry, the Ogron¢â is a large, tough, thickheaded xenohuman. In rimworld condition, Many feral clans use them as brutal war beasts.</description>
+    <description>Originally designed for construction and heavy industry, the Ogron is a large, tough, thickheaded xenohuman. In rimworld condition, Many feral clans use them as brutal war beasts.</description>
     <statBases>
       <MoveSpeed>4.7</MoveSpeed>
       <ArmorRating_Blunt>0.2</ArmorRating_Blunt>
@@ -82,7 +82,7 @@
   <ThingDef ParentName="BaseMutant">
     <defName>Mutant_OgreOgrenaut</defName>
     <label>ogre</label>
-    <description>Originally designed for construction and heavy industry, the Ogron¢â is a large, tough, thickheaded xenohuman. In rimworld condition, Many feral clans use them as brutal war beasts.</description>
+    <description>Originally designed for construction and heavy industry, the Ogron is a large, tough, thickheaded xenohuman. In rimworld condition, Many feral clans use them as brutal war beasts.</description>
     <statBases>
       <MoveSpeed>4.5</MoveSpeed>
       <ArmorRating_Blunt>0.35</ArmorRating_Blunt>
@@ -142,7 +142,7 @@
   <ThingDef ParentName="BaseMutant">
     <defName>Mutant_OgreHellmaker</defName>
     <label>ogre</label>
-    <description>Originally designed for construction and heavy industry, the Ogron¢â is a large, tough, thickheaded xenohuman. In rimworld condition, Many feral clans use them as brutal war beasts.</description>
+    <description>Originally designed for construction and heavy industry, the Ogron is a large, tough, thickheaded xenohuman. In rimworld condition, Many feral clans use them as brutal war beasts.</description>
     <statBases>
       <MoveSpeed>4</MoveSpeed>
       <ArmorRating_Blunt>0.5</ArmorRating_Blunt>
