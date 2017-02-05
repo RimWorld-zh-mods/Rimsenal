@@ -34,9 +34,9 @@
   <Make_Gun_ChargeShotgun.description>製作光束散射槍。</Make_Gun_ChargeShotgun.description>
   <Make_Gun_ChargeShotgun.jobString>正在製作光束散射槍。</Make_Gun_ChargeShotgun.jobString>
 
-  <Make_Gun_ChargeSniper.label>製作光束狙擊槍</Make_Gun_ChargeSniper.label>
-  <Make_Gun_ChargeSniper.description>製作光束狙擊槍。</Make_Gun_ChargeSniper.description>
-  <Make_Gun_ChargeSniper.jobString>正在製作光束狙擊槍。</Make_Gun_ChargeSniper.jobString>
+  <Make_Gun_ChargeSniper.label>製作光束加速槍</Make_Gun_ChargeSniper.label>
+  <Make_Gun_ChargeSniper.description>製作光束加速槍。</Make_Gun_ChargeSniper.description>
+  <Make_Gun_ChargeSniper.jobString>正在製作光束加速槍。</Make_Gun_ChargeSniper.jobString>
 
   <Make_Gun_EMPRifle.label>製作EMP步槍</Make_Gun_EMPRifle.label>
   <Make_Gun_EMPRifle.description>製作EMP步槍。</Make_Gun_EMPRifle.description>

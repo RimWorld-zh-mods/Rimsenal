@@ -34,9 +34,9 @@
   <Make_Gun_ChargeShotgun.description>制作电荷散射枪。</Make_Gun_ChargeShotgun.description>
   <Make_Gun_ChargeShotgun.jobString>正在制作电荷散射枪。</Make_Gun_ChargeShotgun.jobString>
 
-  <Make_Gun_ChargeSniper.label>制作电荷狙击枪</Make_Gun_ChargeSniper.label>
-  <Make_Gun_ChargeSniper.description>制作电荷狙击枪。</Make_Gun_ChargeSniper.description>
-  <Make_Gun_ChargeSniper.jobString>正在制作电荷狙击枪。</Make_Gun_ChargeSniper.jobString>
+  <Make_Gun_ChargeSniper.label>制作电荷加速枪</Make_Gun_ChargeSniper.label>
+  <Make_Gun_ChargeSniper.description>制作电荷加速枪。</Make_Gun_ChargeSniper.description>
+  <Make_Gun_ChargeSniper.jobString>正在制作电荷加速枪。</Make_Gun_ChargeSniper.jobString>
 
   <Make_Gun_EMPRifle.label>制作EMP步枪</Make_Gun_EMPRifle.label>
   <Make_Gun_EMPRifle.description>制作EMP步枪。</Make_Gun_EMPRifle.description>
