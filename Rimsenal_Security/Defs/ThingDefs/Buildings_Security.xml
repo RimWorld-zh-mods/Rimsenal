@@ -325,7 +325,7 @@
       <li Class="CompProperties_Flickable"/>
       <li Class="CompProperties_Breakdownable"/>
     </comps>
-    <description>Reliably Propelling a molten metal projectile, Molten cannon is the main anti heavy Mechanoid weapon of Jotunheim Prime.</description>
+    <description>Reliably Propelling a molten metal projectile, Molten cannon is the main anti heavy Mechanoid weapon of Jotunheim Prime. Needs molten shell for firing.</description>
     <size>(2,2)</size>
     <passability>PassThroughOnly</passability>
     <pathCost>50</pathCost>
@@ -342,7 +342,7 @@
     <constructEffect>ConstructMetal</constructEffect>
     <specialDisplayRadius>50</specialDisplayRadius>
     <building>
-      <turretShellDef>MortarShell</turretShellDef>
+      <turretShellDef>MoltenShell</turretShellDef>
       <ai_combatDangerous>true</ai_combatDangerous>
       <turretGunDef>Gun_MC</turretGunDef>
       <turretBurstwarmupTime>1.2</turretBurstwarmupTime>
@@ -388,7 +388,7 @@
       <li Class="CompProperties_Flickable"/>
       <li Class="CompProperties_Breakdownable"/>
     </comps>
-    <description>Designed for long range fire support, the barrage cannon shoots destructive rocket salvo</description>
+    <description>Designed for long range fire support, the barrage cannon shoots destructive rocket salvo.  Needs salvo pack for firing.</description>
     <size>(2,2)</size>
     <passability>PassThroughOnly</passability>
     <pathCost>50</pathCost>
@@ -404,7 +404,7 @@
     <designationCategory>Security</designationCategory>
     <constructEffect>ConstructMetal</constructEffect>
     <building>
-      <turretShellDef>MortarShell</turretShellDef>
+      <turretShellDef>SalvoPack</turretShellDef>
       <ai_combatDangerous>true</ai_combatDangerous>
       <turretGunDef>Gun_BC</turretGunDef>
       <turretBurstwarmupTime>3.5</turretBurstwarmupTime>
