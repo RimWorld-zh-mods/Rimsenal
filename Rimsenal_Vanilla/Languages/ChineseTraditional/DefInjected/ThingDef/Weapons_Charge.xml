@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Bullet_ChargePistol.label>高能光束</Bullet_ChargePistol.label>
+
+  <Gun_ChargePistol.label>光束手槍</Gun_ChargePistol.label>
+  <Gun_ChargePistol.description>設計用於單手握持和射擊的光束武器。</Gun_ChargePistol.description>
+
+  <Bullet_ChargeShotgun.label>高能光束</Bullet_ChargeShotgun.label>
+
+  <Gun_ChargeShotgun.label>光束散射槍</Gun_ChargeShotgun.label>
+  <Gun_ChargeShotgun.description>射擊用於近距離槍戰的光束武器。</Gun_ChargeShotgun.description>
+
+  <Bullet_ChargeSniper.label>高能光束</Bullet_ChargeSniper.label>
+
+  <Gun_ChargeSniper.label>光束加速枪</Gun_ChargeSniper.label>
+  <Gun_ChargeSniper.description>基於遠距離精準武器技術的光束武器。</Gun_ChargeSniper.description>
+
+  <Bullet_EMPRifle.label>EMP衝擊波</Bullet_EMPRifle.label>
+
+  <Gun_EMPRifle.label>EMP步槍</Gun_EMPRifle.label>
+  <Gun_EMPRifle.description>定向電磁脈衝釋能器。用於壓制高級電子設備。</Gun_EMPRifle.description>
+
+  <Bullet_ChargeCannon.label>光束衝擊波</Bullet_ChargeCannon.label>
+
+  <Gun_ChargeCannon.label>光束加農炮</Gun_ChargeCannon.label>
+  <Gun_ChargeCannon.description>基於中性突擊武器技術的光束武器。</Gun_ChargeCannon.description>
+
+  <Bullet_ChargeBR.label>高能光束</Bullet_ChargeBR.label>
+
+  <Gun_ChargeBR.label>光束施法者</Gun_ChargeBR.label>
+  <Gun_ChargeBR.description>光束施法者是光束步槍的加強版，通常被稱為「GEN 2」或者「光束攻擊槍」。降低了射速、提升了重量，換取而來的是延長的射程和更強的衝擊力。</Gun_ChargeBR.description>
+
+
+</LanguageData>
