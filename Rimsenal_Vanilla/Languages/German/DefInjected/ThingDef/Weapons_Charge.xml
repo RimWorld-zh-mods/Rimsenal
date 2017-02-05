@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Bullet_ChargePistol.label>charge shot</Bullet_ChargePistol.label>
+
+  <Gun_ChargePistol.label>charge pistol</Gun_ChargePistol.label>
+  <Gun_ChargePistol.description>Charged-shot weapon designed to carry and fire with one hand.</Gun_ChargePistol.description>
+
+  <Bullet_ChargeShotgun.label>charge shot</Bullet_ChargeShotgun.label>
+
+  <Gun_ChargeShotgun.label>scatter charger</Gun_ChargeShotgun.label>
+  <Gun_ChargeShotgun.description>Charged-shot weapon that designed for use in close range gunfight.</Gun_ChargeShotgun.description>
+
+  <Bullet_ChargeSniper.label>charge shot</Bullet_ChargeSniper.label>
+
+  <Gun_ChargeSniper.label>charge driver</Gun_ChargeSniper.label>
+  <Gun_ChargeSniper.description>Charged-shot technology based long range precision weapon.</Gun_ChargeSniper.description>
+
+  <Bullet_EMPRifle.label>EMP blast</Bullet_EMPRifle.label>
+
+  <Gun_EMPRifle.label>EMP rifle</Gun_EMPRifle.label>
+  <Gun_EMPRifle.description>Directed electromagnetic pulse discharger. Used for neutralize advanced electronics.</Gun_EMPRifle.description>
+
+  <Bullet_ChargeCannon.label>charge blast</Bullet_ChargeCannon.label>
+
+  <Gun_ChargeCannon.label>charge cannon</Gun_ChargeCannon.label>
+  <Gun_ChargeCannon.description>Charged-shot technology based heavy assault weapon.</Gun_ChargeCannon.description>
+
+  <Bullet_ChargeBR.label>charge shot</Bullet_ChargeBR.label>
+
+  <Gun_ChargeBR.label>charge caster</Gun_ChargeBR.label>
+  <Gun_ChargeBR.description>Usually referred as "GEN 2" or "Charge battle rifle", the charge caster is a heavier variant of the charge rifle. It earned lengthened range and higher punch in exchange for slow fire rate and increased weight.</Gun_ChargeBR.description>
+
+
+</LanguageData>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Bullet_RSBattleRifle.label>battle rifle bullet</Bullet_RSBattleRifle.label>
+
+  <Gun_RSBattleRifle.label>battle rifle</Gun_RSBattleRifle.label>
+  <Gun_RSBattleRifle.description>Big cousin of assault rifles, the battle rifles higher-caliber rounds provide greater power and range, though they have have greater weight and produce stronger recoil, making them less than ideal for fully automatic fire.</Gun_RSBattleRifle.description>
+
+  <Bullet_RSCarbine.label>carbine bullet</Bullet_RSCarbine.label>
+
+  <Gun_RSCarbine.label>carbine</Gun_RSCarbine.label>
+  <Gun_RSCarbine.description>Shortened versions of conventional assault rifles. The smaller size and lighter weight of carbines make them easier to handle, ideal for close quarter combat.</Gun_RSCarbine.description>
+
+  <Bullet_PistolRevolver.label>revolver bullet</Bullet_PistolRevolver.label>
+
+  <Gun_PistolRevolver.label>revolver</Gun_PistolRevolver.label>
+  <Gun_PistolRevolver.description>Ancient pattern repeating handgun. It's large caliber ammunition guarantees a great deal of stopping power.</Gun_PistolRevolver.description>
+
+
+</LanguageData>
