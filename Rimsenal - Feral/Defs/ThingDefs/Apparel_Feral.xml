@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ThingDefs>
+
+  <ThingDef ParentName="ApparelBase">
+    <defName>Apparel_PatchedShirt</defName>
+    <label>patched shirt</label>
+    <description>A rough and coarse shirt.</description>
+    <graphicData>
+      <texPath>Apparel/PatchedShirt</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>50</costStuffCount>
+    <stuffCategories>
+      <li>Leathery</li>
+    </stuffCategories>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <generateCommonality>0.2</generateCommonality>
+    <statBases>
+      <SellPriceFactor>0.1</SellPriceFactor>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>0.4</Mass>
+      <ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.05</ArmorRating_Sharp>
+      <Insulation_Cold>-5</Insulation_Cold>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Shoulders</li>
+      </bodyPartGroups>
+      <worngraphicPath>Apparel/PatchedShirt</worngraphicPath>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      <tags>
+        <li>FeralOutfit</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_StandardApparel" />
+  </ThingDef>
+
+
+    
+  <ThingDef ParentName="HatBase">
+    <defName>Apparel_HuskerHood</defName>
+    <label>feral hood</label>
+    <description>A crude but rugged hood of the ferals.</description>
+    <graphicData>
+      <texPath>Apparel/HuskerHood</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <SellPriceFactor>0.1</SellPriceFactor>
+      <Mass>0.42</Mass>
+      <MarketValue>135</MarketValue>
+      <ArmorRating_Blunt>0.09</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.04</ArmorRating_Sharp>
+      <Insulation_Heat>2</Insulation_Heat>
+      <Insulation_Cold>-5</Insulation_Cold>
+    </statBases>
+    <equippedStatOffsets>
+      <SocialImpact>-0.2</SocialImpact>
+    </equippedStatOffsets>
+    <generateCommonality>0.5</generateCommonality>
+     <CostList>
+       <Steel>20</Steel>
+     </CostList>
+    <apparel>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <worngraphicPath>Apparel/HuskerHood</worngraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>FeralOutfit</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
+
+
+  <ThingDef ParentName="HatBase">
+    <defName>Apparel_SkulkerHood</defName>
+    <label>feral hood</label>
+    <description>A crude but rugged hood of the ferals.</description>
+    <graphicData>
+      <texPath>Apparel/SkulkerHood</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>42</costStuffCount>
+    <statBases>
+      <SellPriceFactor>0.1</SellPriceFactor>
+      <Mass>0.42</Mass>
+      <MarketValue>135</MarketValue>
+      <ArmorRating_Blunt>0.09</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.04</ArmorRating_Sharp>
+      <Insulation_Heat>2</Insulation_Heat>
+      <Insulation_Cold>-5</Insulation_Cold>
+    </statBases>
+     <CostList>
+       <Steel>20</Steel>
+     </CostList>
+    <equippedStatOffsets>
+      <SocialImpact>-0.2</SocialImpact>
+    </equippedStatOffsets>
+    <generateCommonality>0.5</generateCommonality>
+    <apparel>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <worngraphicPath>Apparel/SkulkerHood</worngraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>FeralOutfit</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
+
+
+  <ThingDef ParentName="HatBase">
+    <defName>Apparel_ThumperHood</defName>
+    <label>feral hood</label>
+    <description>A crude but rugged hood of the ferals.</description>
+    <graphicData>
+      <texPath>Apparel/ThumperHood</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <SellPriceFactor>0.1</SellPriceFactor>
+      <Mass>0.42</Mass>
+      <MarketValue>135</MarketValue>
+      <ArmorRating_Blunt>0.09</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.04</ArmorRating_Sharp>
+      <Insulation_Heat>2</Insulation_Heat>
+      <Insulation_Cold>-5</Insulation_Cold>
+    </statBases>
+     <CostList>
+       <Steel>20</Steel>
+     </CostList>
+    <equippedStatOffsets>
+      <SocialImpact>-0.2</SocialImpact>
+    </equippedStatOffsets>
+    <generateCommonality>0.5</generateCommonality>
+    <apparel>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <worngraphicPath>Apparel/ThumperHood</worngraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>FeralOutfit</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
+
+
+  <ThingDef ParentName="HatBase">
+    <defName>Apparel_GrinderHelmet</defName>
+    <label>feral helmet</label>
+    <description>A odd looking rusty bucket helmet.</description>
+    <techLevel>Industrial</techLevel>
+    <graphicData>
+      <texPath>Apparel/GrinderHelmet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>20</costStuffCount>
+    <statBases>
+      <SellPriceFactor>0.1</SellPriceFactor>
+      <Mass>2.2</Mass>
+      <MarketValue>135</MarketValue>
+      <MaxHitPoints>100</MaxHitPoints>
+      <ArmorRating_Blunt>0.3</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.45</ArmorRating_Sharp>
+    </statBases>
+     <CostList>
+       <Steel>80</Steel>
+     </CostList>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.09</MoveSpeed>
+      <PsychicSensitivity>-0.2</PsychicSensitivity>
+      <SocialImpact>-0.2</SocialImpact>
+    </equippedStatOffsets>
+    <generateCommonality>0.5</generateCommonality>
+    <apparel>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <worngraphicPath>Apparel/GrinderHelmet</worngraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>FeralOutfit</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
+
+
+  <ThingDef ParentName="HatBase">
+    <defName>Apparel_ScorcherHelmet</defName>
+    <label>feral gas mask</label>
+    <description>A odd looking gas mask.</description>
+    <techLevel>Industrial</techLevel>
+    <graphicData>
+      <texPath>Apparel/ScorcherHelmet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <SellPriceFactor>0.1</SellPriceFactor>
+      <Mass>1.23</Mass>
+      <MarketValue>135</MarketValue>
+      <MaxHitPoints>100</MaxHitPoints>
+      <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+      <ArmorRating_Heat>0.5</ArmorRating_Heat>
+    </statBases>
+     <CostList>
+       <Steel>40</Steel>
+     </CostList>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.04</MoveSpeed>
+      <PsychicSensitivity>-0.25</PsychicSensitivity>
+      <SocialImpact>-0.2</SocialImpact>
+    </equippedStatOffsets>
+    <generateCommonality>0.5</generateCommonality>
+    <apparel>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <worngraphicPath>Apparel/ScorcherHelmet</worngraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>FeralOutfit</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
+
+  <ThingDef ParentName="ArmorMakeableBase">
+    <defName>Apparel_ScrapArmor</defName>
+    <label>scrap armor</label>
+    <description>Armor made of scraps. While ugly and uncomfortable, it provides a great deal of protection.</description>
+    <techLevel>Industrial</techLevel>
+    <recipeMaker>
+      <recipeUsers>
+        <li>FeralTable</li>
+      </recipeUsers>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Apparel/ScrapArmor</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <WorkToMake>8500</WorkToMake>
+      <MaxHitPoints>160</MaxHitPoints>
+      <MarketValue>300</MarketValue>
+      <Mass>8</Mass>
+      <ArmorRating_Blunt>0.3</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.45</ArmorRating_Sharp>
+    </statBases>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.1</MoveSpeed>
+      <WorkSpeedGlobal>-0.1</WorkSpeedGlobal>
+    </equippedStatOffsets>
+    <costList>
+      <Steel>100</Steel>
+      <ChunkSlagSteel>1</ChunkSlagSteel>
+    </costList>
+    <generateCommonality>0.5</generateCommonality>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <worngraphicPath>Apparel/ScrapArmor</worngraphicPath>
+      <layers>
+        <li>Middle</li>
+      </layers>
+      <tags>
+        <li>FeralOutfit</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags> </apparel>
+  </ThingDef>
+
+
+  <ThingDef ParentName="ArmorMakeableBase">
+    <defName>Apparel_FeralMail</defName>
+    <label>feral mail</label>
+    <description>Heavy, inconvenient cast armor</description>
+    <techLevel>Industrial</techLevel>
+    <recipeMaker>
+      <recipeUsers>
+        <li>FeralTable</li>
+      </recipeUsers>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Apparel/FeralMail</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <WorkToMake>28500</WorkToMake>
+      <MaxHitPoints>160</MaxHitPoints>
+      <MarketValue>400</MarketValue>
+      <Mass>15</Mass>
+      <ArmorRating_Blunt>0.5</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.65</ArmorRating_Sharp>
+    </statBases>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.5</MoveSpeed>
+      <WorkSpeedGlobal>-0.2</WorkSpeedGlobal>
+    </equippedStatOffsets>
+    <costList>
+      <Steel>150</Steel>
+      <ChunkSlagSteel>1</ChunkSlagSteel>
+    </costList>
+    <generateCommonality>0.5</generateCommonality>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <worngraphicPath>Apparel/FeralMail</worngraphicPath>
+      <layers>
+        <li>Middle</li>
+      </layers>
+      <tags>
+        <li>FeralOutfit</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags> </apparel>
+  </ThingDef>
+
+
+
+  <ThingDef ParentName="ArmorMakeableBase">
+    <defName>Apparel_FeralExo</defName>
+    <label>feral exosuit</label>
+    <description>Feral's salvaged power armor. The wet dream of every feral warrior.</description>
+    <techLevel>Spacer</techLevel>
+    <recipeMaker>
+      <recipeUsers>
+        <li>FeralTable</li>
+      </recipeUsers>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <researchPrerequisite>PoweredArmor</researchPrerequisite>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Apparel/FeralExo</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <WorkToMake>135000</WorkToMake>
+      <MaxHitPoints>450</MaxHitPoints>
+      <MarketValue>3600</MarketValue>
+      <Mass>18</Mass>
+      <ArmorRating_Blunt>0.42</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.61</ArmorRating_Sharp>
+      <ArmorRating_Heat>0.29</ArmorRating_Heat>
+      <Insulation_Cold>-42</Insulation_Cold>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.2</MoveSpeed>
+      <WorkSpeedGlobal>-0.25</WorkSpeedGlobal>
+    </equippedStatOffsets>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <costList>
+      <Steel>148</Steel>
+      <ChunkSlagSteel>1</ChunkSlagSteel>
+      <Component>12</Component>
+      <Plasteel>52</Plasteel>
+    </costList>
+    <generateCommonality>0.5</generateCommonality>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <worngraphicPath>Apparel/FeralExo</worngraphicPath>
+      <layers>
+        <li>Middle</li>
+        <li>Shell</li>
+      </layers>
+      <tags>
+        <li>FeralOutfit</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
+
+  <ThingDef ParentName="ArmorHelmetMakeableBase">
+    <defName>Apparel_FeralExoH</defName>
+    <label>feral exosuit helmet</label>
+    <description>A jury rigged power armor helmet.</description>
+    <techLevel>Spacer</techLevel>
+    <recipeMaker>
+      <recipeUsers>
+        <li>FeralTable</li>
+      </recipeUsers>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <researchPrerequisite>PoweredArmor</researchPrerequisite>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Apparel/FeralExoH</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <WorkToMake>32000</WorkToMake>
+      <MaxHitPoints>180</MaxHitPoints>
+      <MarketValue>1500</MarketValue>
+      <Mass>3.4</Mass>
+      <ArmorRating_Blunt>0.42</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.53</ArmorRating_Sharp>
+      <ArmorRating_Heat>0.42</ArmorRating_Heat>
+      <ArmorRating_Electric>0</ArmorRating_Electric>
+      <Insulation_Cold>-3</Insulation_Cold>
+      <Insulation_Heat>3</Insulation_Heat>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.08</MoveSpeed>
+    </equippedStatOffsets>
+    <costList>
+      <Steel>71</Steel>
+      <ChunkSlagSteel>1</ChunkSlagSteel>
+      <Component>5</Component>
+      <Plasteel>23</Plasteel>
+    </costList>
+    <generateCommonality>0.5</generateCommonality>
+    <apparel>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <worngraphicPath>Apparel/FeralExoH</worngraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>FeralOutfit</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
+
+
+</ThingDefs>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<FactionDefs>
+
+  <FactionDef>
+		<defName>Feral</defName>
+		<label>feral clan</label>
+<description>So who are the ferals? Think about all the people living in the ruins of collapsed civilization. They've had to sacrifice lots of things to survive: Technology, culture, history, and above all, their humanity. 
+
+They are the groups of savages who pillage, plunder, murder, or otherwise ruin the days of anyone unfortunate enough to not be one of them. Although usually not very powerful on their own, ferals are most often encountered in groups. With a random mix of scrap weapons and makeshift firearms, they can prove to be formidable opponents for a lonesome colony.</description>
+    <pawnsPlural>ferals</pawnsPlural>
+    <baseSelectionWeight>0.5</baseSelectionWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <canMakeRandomly>true</canMakeRandomly>
+    <raidCommonality>100</raidCommonality>
+    <canSiege>false</canSiege>
+    <canStageAttacks>true</canStageAttacks>
+    <leaderTitle>tyrant</leaderTitle>
+    <earliestRaidDays>14</earliestRaidDays>
+    <appreciative>false</appreciative>
+    <expandingIconTexture>Things/FeralIcon</expandingIconTexture>
+    <colorSpectrum>
+      <li>(0.35, 0.35, 0)</li>
+      <li>(0.4, 0.2, 0)</li>
+    </colorSpectrum>
+    <startingGoodwill>
+      <min>-95</min>
+      <max>-85</max>
+    </startingGoodwill>
+		<factionNameMaker>NamerFeralBase</factionNameMaker>
+		<BaseNameMaker>NamerFeralBase</BaseNameMaker>
+		<techLevel>Industrial</techLevel>
+		<backstoryCategory>Raider</backstoryCategory>
+		<hairTags>
+			<li>Punk</li>
+			<li>Rural</li>
+		</hairTags>
+    <naturalColonyGoodwill>
+      <min>-99</min>
+      <max>-95</max>
+    </naturalColonyGoodwill>
+    <allowedArrivalTemperatureRange>
+      <min>-40</min>
+      <max>50</max>
+    </allowedArrivalTemperatureRange>
+
+    <pawnGroupMakers>
+      <li>
+        <kindDef>Normal</kindDef>
+        <commonality>100</commonality>
+        <options>
+          <FeralHusker>200</FeralHusker>
+          <FeralMangler>200</FeralMangler>
+          <FeralGrinder>50</FeralGrinder>
+          <FeralScorcher>30</FeralScorcher>
+          <FeralBoomer>20</FeralBoomer>
+          <FeralThumper>30</FeralThumper>
+          <FeralLeader>10</FeralLeader>
+          <FeralTwisted>100</FeralTwisted>
+          <FeralSkullBuster>50</FeralSkullBuster>
+          <FeralOgrenaut>20</FeralOgrenaut>
+          <FeralHellmaker>10</FeralHellmaker>
+          <FeralGutcher>30</FeralGutcher>
+          <FeralShriker>50</FeralShriker>
+        </options>
+      </li>
+      <li>
+        <kindDef>Normal</kindDef>
+        <commonality>25</commonality>
+        <options>
+          <FeralSkulker>40</FeralSkulker>
+          <FeralShriker>30</FeralShriker>
+          <FeralRazortooth>200</FeralRazortooth>
+        </options>
+      </li>
+      <li>
+        <kindDef>Normal</kindDef>
+        <commonality>25</commonality>
+        <options>
+          <FeralGrinder>100</FeralGrinder>
+          <FeralRazortooth>50</FeralRazortooth>
+          <FeralTwisted>50</FeralTwisted>
+          <FeralShriker>50</FeralShriker>
+          <FeralGutcher>50</FeralGutcher>
+        </options>
+      </li>
+      <li>
+        <kindDef>FactionBase</kindDef>
+        <options>
+          <FeralHusker>200</FeralHusker>
+          <FeralMangler>200</FeralMangler>
+          <FeralGrinder>50</FeralGrinder>
+          <FeralScorcher>30</FeralScorcher>
+          <FeralBoomer>20</FeralBoomer>
+          <FeralThumper>30</FeralThumper>
+          <FeralLeader>10</FeralLeader>
+          <FeralOgrenaut>20</FeralOgrenaut>
+          <FeralSkulker>20</FeralSkulker>
+          <FeralSkullBuster>20</FeralSkullBuster>
+        </options>
+      </li>
+    </pawnGroupMakers>
+    <homeIconPath>World/WorldObjects/DefaultFactionBase</homeIconPath>
+  </FactionDef>
+</FactionDefs>

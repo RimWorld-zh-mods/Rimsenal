@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ThingDefs>
+
+
+  <ThingDef Name="BaseMutantGun" Abstract="True">
+    <category>Item</category>
+    <thingClass>ThingWithComps</thingClass>
+    <equipmentType>Primary</equipmentType>
+    <pathCost>10</pathCost>
+    <useHitPoints>True</useHitPoints>
+    <selectable>True</selectable>
+    <graphicData>
+      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+    </graphicData>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>2</DeteriorationRate>
+      <SellPriceFactor>0.5</SellPriceFactor>
+    </statBases>
+    <altitudeLayer>Item</altitudeLayer>
+    <alwaysHaulable>True</alwaysHaulable>
+    <tickerType>Never</tickerType>
+    <techLevel>Industrial</techLevel>
+    <thingCategories>
+      <li>WeaponsRanged</li>
+    </thingCategories>
+    <inspectorTabs>
+      <li>ITab_Art</li>
+    </inspectorTabs>
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
+      <li>
+        <compClass>CompEquippable</compClass>
+      </li>
+    </comps>
+    <smeltProducts>
+      <Steel>20</Steel>
+    </smeltProducts>
+  </ThingDef>
+
+  <!-- ============================================== -->
+
+  <ThingDef ParentName="BaseMutantGun">
+    <defName>Feral_ScatterCannon</defName>
+    <label>scatter cannon</label>
+    <description>An oversized hand cannon. It spit out a huge amount of metal fragments.</description>
+    <menuHidden>True</menuHidden>
+    <tradeability>Never</tradeability>
+    <graphicData>
+      <texPath>Things/A13/ScatterCannon</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractRifle</soundInteract>
+    <statBases>
+      <MarketValue>1000</MarketValue>
+      <AccuracyTouch>0.3</AccuracyTouch>
+      <AccuracyShort>0.3</AccuracyShort>
+      <AccuracyMedium>0.2</AccuracyMedium>
+      <AccuracyLong>0.1</AccuracyLong>
+      <RangedWeapon_Cooldown>2.5</RangedWeapon_Cooldown>
+    </statBases>
+    <equippedAngleOffset>45</equippedAngleOffset>
+    <destroyOnDrop>True</destroyOnDrop>
+    <weaponTags>
+      <li>Ogrenaut</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <projectileDef>Bullet_ScatterStick</projectileDef>
+        <warmupTime>1.3</warmupTime>
+        <forcedMissRadius>1.5</forcedMissRadius>
+        <range>18</range>
+        <burstShotCount>10</burstShotCount>
+        <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
+        <soundCast>ShotScatterStick</soundCast>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+      </li>
+    </verbs>
+  </ThingDef>
+
+
+  <!-- ============================================== -->
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_RivetCannon</defName>
+    <label>rivet</label>
+    <graphicData>
+      <texPath>Projectile/Crucifier</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>13</damageAmountBase>
+      <speed>100</speed>
+    </projectile>
+  </ThingDef>
+
+
+  <ThingDef ParentName="BaseMutantGun">
+    <defName>Feral_RivetCannon</defName>
+    <label>rivet cannon</label>
+    <description>A heavily modified industrial rivet gun.</description>
+    <menuHidden>True</menuHidden>
+    <tradeability>Never</tradeability>
+    <graphicData>
+      <texPath>Things/A13/Rivetter</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractRifle</soundInteract>
+    <destroyOnDrop>True</destroyOnDrop>
+    <statBases>
+      <MarketValue>1000</MarketValue>
+      <AccuracyTouch>0.5</AccuracyTouch>
+      <AccuracyShort>0.4</AccuracyShort>
+      <AccuracyMedium>0.3</AccuracyMedium>
+      <AccuracyLong>0.2</AccuracyLong>
+      <RangedWeapon_Cooldown>2.5</RangedWeapon_Cooldown>
+    </statBases>
+    <equippedAngleOffset>45</equippedAngleOffset>
+    <weaponTags>
+      <li>Ogrenaut</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <projectileDef>Bullet_RivetCannon</projectileDef>
+        <warmupTime>1.65</warmupTime>
+        <range>29</range>
+        <burstShotCount>8</burstShotCount>
+        <ticksBetweenBurstShots>15</ticksBetweenBurstShots>
+        <soundCast>ShotCrucifier</soundCast>
+        <muzzleFlashScale>17</muzzleFlashScale>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+      </li>
+    </verbs>
+  </ThingDef>
+
+  <!-- ============================================== -->
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_DMG</defName>
+    <label>bullet</label>
+    <graphicData>
+      <texPath>Projectile/Crucifier</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>10</damageAmountBase>
+      <speed>100</speed>
+    </projectile>
+  </ThingDef>
+
+
+  <ThingDef ParentName="BaseMutantGun">
+    <defName>Feral_DMG</defName>
+    <label>dual machine gun</label>
+    <description>Double the gun, double the fun</description>
+    <menuHidden>True</menuHidden>
+    <tradeability>Never</tradeability>
+    <graphicData>
+      <texPath>Things/A13/DMG</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractRifle</soundInteract>
+    <destroyOnDrop>True</destroyOnDrop>
+    <statBases>
+      <MarketValue>1000</MarketValue>
+      <AccuracyTouch>0.5</AccuracyTouch>
+      <AccuracyShort>0.4</AccuracyShort>
+      <AccuracyMedium>0.3</AccuracyMedium>
+      <AccuracyLong>0.2</AccuracyLong>
+      <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+    </statBases>
+    <equippedAngleOffset>45</equippedAngleOffset>
+    <weaponTags>
+      <li>Hellmaker</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <projectileDef>Bullet_DMG</projectileDef>
+        <warmupTime>3.25</warmupTime>
+        <range>35</range>
+        <burstShotCount>35</burstShotCount>
+        <forcedMissRadius>2</forcedMissRadius>
+        <ticksBetweenBurstShots>9</ticksBetweenBurstShots>
+        <soundCast>ShotThrasher</soundCast>
+        <muzzleFlashScale>10</muzzleFlashScale>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+      </li>
+    </verbs>
+  </ThingDef>
+
+
+  <!-- ============================================== -->
+
+
+  <ThingDef Name="BaseMutantMelee" Abstract="True">
+    <category>Item</category>
+    <thingClass>ThingWithComps</thingClass>
+    <equipmentType>Primary</equipmentType>
+    <pathCost>10</pathCost>
+    <useHitPoints>True</useHitPoints>
+    <selectable>True</selectable>
+    <graphicData>
+      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+    </graphicData>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>1</DeteriorationRate>
+      <SellPriceFactor>0.5</SellPriceFactor>
+    </statBases>
+    <altitudeLayer>Item</altitudeLayer>
+    <alwaysHaulable>True</alwaysHaulable>
+    <tickerType>Never</tickerType>
+    <techLevel>Industrial</techLevel>
+    <thingCategories>
+      <li>WeaponsMelee</li>
+    </thingCategories>
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
+      <li>
+        <compClass>CompEquippable</compClass>
+      </li>
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+      <li Class="CompProperties_Art">
+        <nameMaker>ArtName_WeaponMelee</nameMaker>
+        <descriptionMaker>ArtDescription_WeaponMelee</descriptionMaker>
+        <minQualityForArtistic>Excellent</minQualityForArtistic>
+      </li>
+    </comps>
+    <inspectorTabs>
+      <li>ITab_Art</li>
+    </inspectorTabs>
+  </ThingDef>
+
+  
+  <ThingDef ParentName="BaseMutantMelee">
+    <defName>Sunderer</defName>
+    <label>sunder</label>
+    <menuHidden>True</menuHidden>
+    <tradeability>Never</tradeability>
+    <description>A massive cleaver.</description>
+    <destroyOnDrop>True</destroyOnDrop>
+    <graphicData>
+      <texPath>Things/A13/Sunderer</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractPistol</soundInteract>
+    <weaponTags>
+      <li>Gutcher</li>
+    </weaponTags>
+    <statBases>
+      <MarketValue>1000</MarketValue>
+      <MeleeWeapon_DamageAmount>39</MeleeWeapon_DamageAmount>
+      <MeleeWeapon_Cooldown>2.45</MeleeWeapon_Cooldown>
+    </statBases>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <verbs>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <meleeDamageDef>Cut</meleeDamageDef>
+      </li>
+    </verbs>
+  </ThingDef>
+
+
+  <!-- ============================================== -->
+
+
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_SporeSmoker</defName>
+    <label>smoke spore</label>
+    <graphicData> <texPath>Projectile/SmokeSpore</texPath>
+    <graphicClass>Graphic_Single</graphicClass> </graphicData>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <flyOverhead>True</flyOverhead>
+      <speed>25</speed>
+      <soundHitThickRoof>ArtilleryHitThickRoof</soundHitThickRoof>
+      <damageDef>Spore</damageDef>
+      <damageAmountBase>1</damageAmountBase>
+      <explosionRadius>1.5</explosionRadius>
+      <explosionSpawnChance>0.7</explosionSpawnChance>
+      <preExplosionSpawnThingDef>Gas_Smoke</preExplosionSpawnThingDef>
+    </projectile>
+  </ThingDef>
+
+
+  <ThingDef ParentName="BaseMutantGun">
+    <defName>Feral_SporeSmoker</defName>
+    <label>smoke spore</label>
+    <description>Symbiont swarm of toxic spores. Making thick smoke cloud on impact.</description>
+    <menuHidden>True</menuHidden>
+    <tradeability>Never</tradeability>
+    <graphicData>
+      <texPath>Things/A13/Null</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractRifle</soundInteract>
+    <destroyOnDrop>True</destroyOnDrop>
+    <statBases>
+      <MarketValue>1000</MarketValue>
+      <AccuracyTouch>0.5</AccuracyTouch>
+      <AccuracyShort>0.4</AccuracyShort>
+      <AccuracyMedium>0.3</AccuracyMedium>
+      <AccuracyLong>0.2</AccuracyLong>
+      <RangedWeapon_Cooldown>6.5</RangedWeapon_Cooldown>
+    </statBases>
+    <weaponTags>
+      <li>SmokeSpore</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <projectileDef>Bullet_SporeSmoker</projectileDef>
+        <warmupTime>1.55</warmupTime>
+        <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+        <burstShotCount>1</burstShotCount>
+        <range>21</range>
+        <forcedMissRadius>1</forcedMissRadius>
+        <soundCast>Shriker</soundCast>
+        <muzzleFlashScale>3</muzzleFlashScale>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+      </li>
+    </verbs>
+  </ThingDef>
+
+
+</ThingDefs>
