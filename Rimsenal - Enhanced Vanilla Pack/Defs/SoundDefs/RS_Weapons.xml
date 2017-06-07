@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DefPackage-SoundDef>
+
+	<SoundDef>
+		<defName>RS_ShotCarbine</defName>
+		<eventNames />   <context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Things/Carbine</clipPath>
+					</li>
+				</grains>
+				<pitchRange>
+					<min>0.9152174</min>
+					<max>1.042391</max>
+				</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>RS_ShotMilitiaRifle</defName>
+		<eventNames />   <context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Things/MilitiaRifle</clipPath>
+					</li>
+				</grains>
+				<pitchRange>
+					<min>0.9152174</min>
+					<max>1.042391</max>
+				</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+
+
+	<SoundDef>
+		<defName>RS_ShotBattleRifle</defName>
+		<eventNames />   <context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Things/BattleRifle</clipPath>
+					</li>
+				</grains>
+				<pitchRange>
+					<min>0.9152174</min>
+					<max>1.042391</max>
+				</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+
+	<SoundDef>
+		<defName>RS_ShotRevolver</defName>
+		<eventNames />   <context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Things/Revolver</clipPath>
+					</li>
+				</grains>
+				<pitchRange>
+					<min>0.9152174</min>
+					<max>1.042391</max>
+				</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>RS_ShotAMRifle</defName>
+		<eventNames />   <context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Things/AMRifle</clipPath>
+					</li>
+				</grains>
+				<pitchRange>
+					<min>0.9152174</min>
+					<max>1.042391</max>
+				</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>RS_ShotSmartRifle</defName>
+		<eventNames />   <context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Things/SmartRifle</clipPath>
+					</li>
+				</grains>
+				<pitchRange>
+					<min>0.9152174</min>
+					<max>1.042391</max>
+				</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+
+	<SoundDef>
+		<defName>RS_ShotSmartPistol</defName>
+		<eventNames />   <context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Things/SmartPistol</clipPath>
+					</li>
+				</grains>
+				<pitchRange>
+					<min>0.9152174</min>
+					<max>1.042391</max>
+				</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>RS_ShotSmartSMG</defName>
+		<eventNames />   <context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Things/SmartSMG</clipPath>
+					</li>
+				</grains>
+				<pitchRange>
+					<min>0.9152174</min>
+					<max>1.042391</max>
+				</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>RS_ShotSmartMG</defName>
+		<eventNames />   <context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Things/SmartMG</clipPath>
+					</li>
+				</grains>
+				<pitchRange>
+					<min>0.9152174</min>
+					<max>1.042391</max>
+				</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>RS_ShotSSR</defName>
+		<eventNames />   <context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Things/SmartSniperRifle</clipPath>
+					</li>
+				</grains>
+				<pitchRange>
+					<min>0.9152174</min>
+					<max>1.042391</max>
+				</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+</DefPackage-SoundDef>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ResearchProjectDef>
+    <defName>DirectedEMP</defName>
+    <label>directed electromagnetic pulse</label>
+    <tab>RimsenalResearch</tab>
+    <techLevel>Spacer</techLevel>
+    <description>It is a prerequisite to build EMP rifle.</description>
+    <baseCost>550</baseCost>
+    <prerequisites>
+      <li>ChargedShot</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+		<researchViewX>0</researchViewX>
+		<researchViewY>0</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>SmartWeapons</defName>
+    <label>smart weapons</label>
+    <tab>RimsenalResearch</tab>
+    <techLevel>Spacer</techLevel>
+    <description>Research the designing and making of advanced smart weapon.</description>
+    <baseCost>1500</baseCost>
+    <prerequisites>
+        <li>MultiAnalyzer</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <researchViewX>0</researchViewX>
+    <researchViewY>1</researchViewY>
+  </ResearchProjectDef>
+
+
+</Defs>

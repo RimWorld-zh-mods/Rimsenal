@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Bullet_RSBattleRifle.label>전투소총탄</Bullet_RSBattleRifle.label>
+
+  <Gun_RSBattleRifle.label>전투소총</Gun_RSBattleRifle.label>
+  <Gun_RSBattleRifle.description>돌격소총의 덩치 큰 사촌격인 물건으로, 대구경탄을 사용하는 덕에 화력이 높고 사거리도 깁니다. 하지만 중량이 무거운데다 반동이 강해 완전 자동사격으로 갈기기에는 부적합합니다.</Gun_RSBattleRifle.description>
+
+  <Bullet_RSCarbine.label>카빈탄</Bullet_RSCarbine.label>
+
+  <Gun_RSCarbine.label>카빈</Gun_RSCarbine.label>
+  <Gun_RSCarbine.description>단축형 돌격소총입니다. 크기가 작고 무게도 가벼워 다루기 쉽고, 근거리 총격전에 요긴합니다.</Gun_RSCarbine.description>
+
+  <Bullet_PistolRevolver.label>대구경 권총탄</Bullet_PistolRevolver.label>
+
+  <Gun_PistolRevolver.label>리볼버</Gun_PistolRevolver.label>
+  <Gun_PistolRevolver.description>고전적인 방식의 연발 권총입니다. 대구경탄이 강력한 저지력을 보장합니다.</Gun_PistolRevolver.description>
+
+
+  <Bullet_Repeater.label>연발소총탄</Bullet_Repeater.label>
+
+  <Gun_Repeater.label>연발소총</Gun_Repeater.label>
+  <Gun_Repeater.description>변경계 기준으로도 구식인 연발총으로, 머팔로 몰이꾼들 사이에 널리 퍼져 있습니다. 중거리 속사 화기입니다.</Gun_Repeater.description>
+  <Bullet_AutomaticRifle.label>자동소총탄</Bullet_AutomaticRifle.label>
+
+  <Gun_AutomaticRifle.label>자동소총</Gun_AutomaticRifle.label>
+  <Gun_AutomaticRifle.description>육중한 자동지원화기입니다. 경기관총보다 연사속도가 느리지만 대구경탄을 쓰는 덕에 화력이 강합니다.</Gun_AutomaticRifle.description>
+
+  <Bullet_RSAMRifle.label>대물저격총탄</Bullet_RSAMRifle.label>
+
+  <Gun_RSAMRifle.label>대물저격총</Gun_RSAMRifle.label>
+  <Gun_RSAMRifle.description>변경계에서 "깡통따개"라 일컬어지는 육중한 대구경 저격소총입니다. 두꺼운 장갑을 두른 목표물을 제거하기 위해 설계됐습니다.</Gun_RSAMRifle.description>
+
+
+  <Bullet_MilitiaRifle.label>소총탄</Bullet_MilitiaRifle.label>
+
+  <Gun_MilitiaRifle.label>소총</Gun_MilitiaRifle.label>
+  <Gun_MilitiaRifle.description>이건 3천년도 넘게 다른 이들의 피를 흘려온 진정한 대량살상 무기입니다. 튼튼하고 사용하기 쉬운데다 값도 싸서, 민병대들이 참으로 좋아하는 무기이기도 합니다. 돌격소총보다 살짝 화력이 높지만 다른 모든면에서 열등합니다.</Gun_MilitiaRifle.description>
+
+</LanguageData>
