@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ResearchProjectDef>
+    <defName>CrucibleTech</defName>
+    <label>energy crucible</label>
+    <tab>RimsenalResearch</tab>
+    <techLevel>Spacer</techLevel>
+    <description>Allows you to build the Federation's weapons and armors.</description>
+    <baseCost>1750</baseCost>
+    <prerequisites>
+      <li>MultiAnalyzer</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+		<researchViewX>2</researchViewX>
+		<researchViewY>0</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>PlasmaTech</defName>
+    <label>magnetic plasma matrix</label>
+    <tab>RimsenalResearch</tab>
+    <techLevel>Spacer</techLevel>
+    <description>Allows you to build plasma weapons.</description>
+    <baseCost>750</baseCost>
+    <prerequisites>
+      <li>CrucibleTech</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+		<researchViewX>4</researchViewX>
+		<researchViewY>0</researchViewY>
+  </ResearchProjectDef>
+  
+
+  <ResearchProjectDef>
+    <defName>PlasmaMortarTech</defName>
+    <label>plasma accelerator</label>
+    <tab>RimsenalResearch</tab>
+    <techLevel>Spacer</techLevel>
+    <description>Allows you to build plasma bombards.</description>
+    <baseCost>1000</baseCost>
+    <prerequisites>
+      <li>PlasmaTech</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+		<researchViewX>4.5</researchViewX>
+		<researchViewY>0.5</researchViewY>
+  </ResearchProjectDef>
+
+</Defs>
