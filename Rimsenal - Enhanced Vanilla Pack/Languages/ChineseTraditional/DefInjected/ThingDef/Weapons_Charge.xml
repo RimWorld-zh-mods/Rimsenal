@@ -28,11 +28,8 @@
 
   <Bullet_BurstCharger.label>高能光束</Bullet_BurstCharger.label>
 
-  <Gun_BurstCharger.label>光束施法者</Gun_BurstCharger.label>
-  <Gun_BurstCharger.description>光束施法者是光束步槍的加強版，通常被稱為「GEN 2」或者「光束攻擊槍」。降低了射速、提升了重量，換取而來的是延長的射程和更強的衝擊力。</Gun_BurstCharger.description>
+  <Gun_BurstCharger.label>光束爆裂槍</Gun_BurstCharger.label>
+  <Gun_BurstCharger.description>光束爆裂槍是光束步槍的加強版，通常被稱為「GEN 2」或者「光束攻擊槍」。降低了射速、提升了重量，換取而來的是延長的射程和更強的衝擊力。</Gun_BurstCharger.description>
 
 
 </LanguageData>
-
-
-

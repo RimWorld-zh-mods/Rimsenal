@@ -6,5 +6,20 @@
   <Bow_Compound.label>複合弓</Bow_Compound.label>
   <Bow_Compound.description>一張現代的複合弓。射出的箭矢具有極高的速度。</Bow_Compound.description>
 
+  <Bullet_Blowgun.label>飛鏢</Bullet_Blowgun.label>
+
+  <Gun_Blowgun.label>吹箭筒</Gun_Blowgun.label>
+  <Gun_Blowgun.description>一種簡單的武器，狹長的管子用來發射輕質的彈丸或飛鏢。雖然飛鏢本身不怎麼致命，但尖端會塗上毒藥。</Gun_Blowgun.description>
+
+  <Bullet_ThrowingAxes.label>飛斧</Bullet_ThrowingAxes.label>
+
+  <Gun_ThrowingAxes.label>飛斧</Gun_ThrowingAxes.label>
+  <Gun_ThrowingAxes.description>金屬鍛造的飛斧。在老手手上，近戰和遠程中都是一種致命武器。</Gun_ThrowingAxes.description>
+
+  <Bullet_ThrowingClubs.label>投棍</Bullet_ThrowingClubs.label>
+
+  <Gun_ThrowingClubs.label>投棍</Gun_ThrowingClubs.label>
+  <Gun_ThrowingClubs.description>人類最早使用的遠程武器之一，投棍在近戰和遠程攻擊中都能使用。</Gun_ThrowingClubs.description>
+
 
 </LanguageData>

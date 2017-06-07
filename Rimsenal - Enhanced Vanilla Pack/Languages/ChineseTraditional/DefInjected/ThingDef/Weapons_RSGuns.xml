@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Bullet_RSBattleRifle.label>攻擊步槍子彈</Bullet_RSBattleRifle.label>
+
+  <Gun_RSBattleRifle.label>攻擊步槍</Gun_RSBattleRifle.label>
+  <Gun_RSBattleRifle.description>突擊步槍的表親，攻擊步槍更大的口徑提供更大的威力和射程，儘管更重、後坐力更大使其在全自動火力模式下不甚理想。</Gun_RSBattleRifle.description>
+
+  <Bullet_RSCarbine.label>卡賓槍子彈</Bullet_RSCarbine.label>
+
+  <Gun_RSCarbine.label>卡賓槍</Gun_RSCarbine.label>
+  <Gun_RSCarbine.description>傳統突擊步槍的縮短版。較小的尺寸和重量使其更易於操作，近距離作戰非常理想。</Gun_RSCarbine.description>
+
+  <Bullet_PistolRevolver.label>左輪手槍子彈</Bullet_PistolRevolver.label>
+
+  <Gun_PistolRevolver.label>左輪手槍</Gun_PistolRevolver.label>
+  <Gun_PistolRevolver.description>古老样式的多發手槍。其大口徑子彈能確保最大程度的制止力。</Gun_PistolRevolver.description>
+
+  <Bullet_RSAMRifle.label>反器材步槍子彈</Bullet_RSAMRifle.label>
+
+  <Gun_RSAMRifle.label>反器材步槍</Gun_RSAMRifle.label>
+  <Gun_RSAMRifle.description>在邊緣世界中通常被稱為「開罐器」，反器材步槍是一種大口徑、重型狙擊步槍，為對抗重裝甲目標而設計。</Gun_RSAMRifle.description>
+
+  <Bullet_Repeater.label>連發步槍子彈</Bullet_Repeater.label>
+
+  <Gun_Repeater.label>連發步槍</Gun_Repeater.label>
+  <Gun_Repeater.description>即使是以邊緣世界的標準來看也是陳舊的設計，連發步槍在野犛牛牧民中非常受歡迎。射程中等，射速快。</Gun_Repeater.description>
+
+  <Bullet_AutomaticRifle.label>自動步槍子彈</Bullet_AutomaticRifle.label>
+
+  <Gun_AutomaticRifle.label>自動步槍</Gun_AutomaticRifle.label>
+  <Gun_AutomaticRifle.description>重型自動武器。雖然射速比輕機槍低，但大口徑子彈保證了可觀的火力。</Gun_AutomaticRifle.description>
+
+  <Bullet_MilitiaRifle.label>步槍子彈</Bullet_MilitiaRifle.label>
+
+  <Gun_MilitiaRifle.label>民兵步槍</Gun_MilitiaRifle.label>
+  <Gun_MilitiaRifle.description>關窗了人類血腥歷史超過3000年，是真正意義上的大規模殺傷性武器。粗糙、易於使用而且廉價，是每個民兵最愛的武器。威力稍微高於突擊步槍，雖然其他任何方面都要更差。</Gun_MilitiaRifle.description>
+
+
+</LanguageData>

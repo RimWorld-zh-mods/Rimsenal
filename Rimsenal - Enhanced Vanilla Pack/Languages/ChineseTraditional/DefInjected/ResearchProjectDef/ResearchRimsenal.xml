@@ -1,8 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <DirectedEMP.label>RS：定向電磁脈衝</DirectedEMP.label>
+  <DirectedEMP.label>定向電磁脈衝</DirectedEMP.label>
   <DirectedEMP.description>解鎖「EMP步槍」的製作。</DirectedEMP.description>
+
+  <SmartWeapons.label>智能武器</SmartWeapons.label>
+  <SmartWeapons.description>研究先進的智能武器的設計與製作。</SmartWeapons.description>
 
 
 </LanguageData>

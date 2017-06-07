@@ -1,6 +1,4 @@
-﻿
-
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
   <Bullet_ChargeSidearm.label>电荷弹</Bullet_ChargeSidearm.label>
@@ -30,8 +28,8 @@
 
   <Bullet_BurstCharger.label>电荷弹</Bullet_BurstCharger.label>
 
-  <Gun_BurstCharger.label>电荷施法者</Gun_BurstCharger.label>
-  <Gun_BurstCharger.description>电荷施法者是电荷步枪的加强版，通常被成为「GEN 2」或者「电荷攻击枪」。降低了射速、提升了重量，换取而来的是延长的射程和更强的冲击力。</Gun_BurstCharger.description>
+  <Gun_BurstCharger.label>电荷爆裂枪</Gun_BurstCharger.label>
+  <Gun_BurstCharger.description>电荷爆裂枪是电荷步枪的加强版，通常被称为「GEN 2」或者「电荷攻击枪」。降低了射速、提升了重量，换取而来的是延长的射程和更强的冲击力。</Gun_BurstCharger.description>
 
 
 </LanguageData>
