@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ResearchProjectDef>
+    <defName>ShardSentryTech</defName>
+    <label>shard sentry</label>
+    <tab>RimsenalResearch</tab>
+    <techLevel>Spacer</techLevel>
+    <description>Allows you to build shard sentry.</description>
+    <baseCost>250</baseCost>
+    <prerequisites>
+      <li>ShardTech</li>
+      <li>GunTurrets</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+		<researchViewX>2.5</researchViewX>
+		<researchViewY>1.5</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>MicrowaveTurretTech</defName>
+    <label>microwave turret</label>
+    <tab>RimsenalResearch</tab>
+    <techLevel>Spacer</techLevel>
+    <description>Allows you to build mircrowave turret</description>
+    <baseCost>350</baseCost>
+    <prerequisites>
+      <li>MicrowaveTech</li>
+      <li>GunTurrets</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+		<researchViewX>4.5</researchViewX>
+		<researchViewY>1.5</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>SiegeEmplacementTech</defName>
+    <label>siege emplacement</label>
+    <tab>RimsenalResearch</tab>
+    <techLevel>Spacer</techLevel>
+    <description>Allows you to build siege emplacement.</description>
+    <baseCost>650</baseCost>
+    <prerequisites>
+      <li>SiegeTech</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+		<researchViewX>4.5</researchViewX>
+		<researchViewY>2.5</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>DefenceEmplacementTech</defName>
+    <label>defence emplacement</label>
+    <tab>RimsenalResearch</tab>
+    <prerequisites>
+      <li>DefenceTech</li>
+    </prerequisites>
+    <techLevel>Industrial</techLevel>
+    <description>Allows you to build defence emplacement</description>
+    <baseCost>500</baseCost>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+  		<researchViewX>1.5</researchViewX>
+		<researchViewY>5.5</researchViewY>
+  </ResearchProjectDef>
+
+</Defs>
