@@ -21,10 +21,10 @@
   <Gun_NestMMG.label>中型機槍</Gun_NestMMG.label>
   <Gun_NestMMG.description>中型機槍。</Gun_NestMMG.description>
 
-  <Bullet_NestAGS.label>榴彈</Bullet_NestAGS.label>
+  <Bullet_AGS.label>榴彈</Bullet_AGS.label>
 
-  <Gun_NestAGS.label>自動榴彈發射器</Gun_NestAGS.label>
-  <Gun_NestAGS.description>自動榴彈發射器。</Gun_NestAGS.description>
+  <Gun_AGS.label>自動榴彈發射器</Gun_AGS.label>
+  <Gun_AGS.description>自動榴彈發射器。</Gun_AGS.description>
 
   <Bullet_MC.label>熔火炮彈</Bullet_MC.label>
 
@@ -35,6 +35,16 @@
 
   <Gun_BC.label>彈幕加農炮</Gun_BC.label>
   <Gun_BC.description>智能火箭發射器。</Gun_BC.description>
+
+  <Bullet_FakeRifle.label>空包彈</Bullet_FakeRifle.label>
+
+  <Gun_FakeRifle.label>假槍</Gun_FakeRifle.label>
+  <Gun_FakeRifle.description>假槍。</Gun_FakeRifle.description>
+
+  <Bullet_SuvTurret.label>動能彈</Bullet_SuvTurret.label>
+
+  <Gun_SuvTurret.label>動能長步槍</Gun_SuvTurret.label>
+  <Gun_SuvTurret.description>重型動能武器。</Gun_SuvTurret.description>
 
 
 </LanguageData>
