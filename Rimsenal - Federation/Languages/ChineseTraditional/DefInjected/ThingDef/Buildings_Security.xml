@@ -5,11 +5,13 @@
   <Harvester.description>這種型號的激光脈衝炮被成為「收割者」。恰如其名，這種重型炮台可以瞬間收割成片的敵人。</Harvester.description>
   <Harvester_Blueprint.label>收割者 (藍圖)</Harvester_Blueprint.label>
   <Harvester_Frame.label>收割者 (建造中)</Harvester_Frame.label>
+  <Harvester_Frame.description>這種型號的激光脈衝炮被成為「收割者」。恰如其名，這種重型炮台可以瞬間收割成片的敵人。</Harvester_Frame.description>
 
   <Harmonizer.label>電漿轟擊炮</Harmonizer.label>
   <Harmonizer.description>重型電漿轟擊炮，速度慢但威力巨大。</Harmonizer.description>
   <Harmonizer_Blueprint.label>電漿轟擊炮 (藍圖)</Harmonizer_Blueprint.label>
   <Harmonizer_Frame.label>電漿轟擊炮 (建造中)</Harmonizer_Frame.label>
+  <Harmonizer_Frame.description>重型電漿轟擊炮，速度慢但威力巨大。</Harmonizer_Frame.description>
 
 
 </LanguageData>

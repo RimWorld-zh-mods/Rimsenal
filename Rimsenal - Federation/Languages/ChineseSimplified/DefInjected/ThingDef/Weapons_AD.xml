@@ -26,5 +26,10 @@
   <AD_Axiom.label>电浆投射器</AD_Axiom.label>
   <AD_Axiom.description>联邦最后一样武力，「公理」是提供给部队的武器中最臭名昭著的。「公理」发射的电浆球飞行非常缓慢，很容易躲过。然而一个「公理」一发就能摧毁整座建筑。</AD_Axiom.description>
 
+  <Bullet_CrucibleCarbine.label>能量子弹</Bullet_CrucibleCarbine.label>
+
+  <AD_CrucibleCarbine.label>熔炉卡宾枪</AD_CrucibleCarbine.label>
+  <AD_CrucibleCarbine.description>「安定者」卡宾枪在联合卫兵中更为常见，是联邦「平定者」熔炉步枪的近距离作战版本。</AD_CrucibleCarbine.description>
+
 
 </LanguageData>

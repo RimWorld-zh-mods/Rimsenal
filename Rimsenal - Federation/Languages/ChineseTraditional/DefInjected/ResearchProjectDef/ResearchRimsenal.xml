@@ -1,11 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <CrucibleTech.label>RS：能量熔爐</CrucibleTech.label>
+  <CrucibleTech.label>能量熔爐</CrucibleTech.label>
   <CrucibleTech.description>解鎖「聯邦」武器裝備的製作。\n\n聯邦維和部隊：Federation Peacekeeper Corps\n武裝動力：Arms Dynamics</CrucibleTech.description>
 
-  <PlasmaTech.label>RS：磁力等離子矩陣</PlasmaTech.label>
+  <PlasmaTech.label>磁力等離子矩陣</PlasmaTech.label>
   <PlasmaTech.description>解鎖電漿武器的製作。</PlasmaTech.description>
+
+  <PlasmaMortarTech.label>電漿加速裝置</PlasmaMortarTech.label>
+  <PlasmaMortarTech.description>解鎖製作「電漿轟擊炮」</PlasmaMortarTech.description>
 
 
 </LanguageData>

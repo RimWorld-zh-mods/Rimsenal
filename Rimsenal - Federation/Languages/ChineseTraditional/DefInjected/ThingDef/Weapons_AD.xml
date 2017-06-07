@@ -26,5 +26,10 @@
   <AD_Axiom.label>電漿投射器</AD_Axiom.label>
   <AD_Axiom.description>聯邦最後一樣武力，「公理」是提供給部隊的武器中最臭名昭著的。「公理」發射的電漿球飛行非常緩慢，很容易躲過。然而一個「公理」一發就能摧毀整座建築。</AD_Axiom.description>
 
+  <Bullet_CrucibleCarbine.label>能量子彈</Bullet_CrucibleCarbine.label>
+
+  <AD_CrucibleCarbine.label>熔爐卡賓槍</AD_CrucibleCarbine.label>
+  <AD_CrucibleCarbine.description>「安定者」卡賓槍在聯合衛兵中更為常見，是聯邦「平定者」熔爐步槍的近距離作戰版本。</AD_CrucibleCarbine.description>
+
 
 </LanguageData>

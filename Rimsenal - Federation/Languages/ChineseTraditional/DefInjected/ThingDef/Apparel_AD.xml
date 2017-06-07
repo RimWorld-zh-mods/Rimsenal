@@ -16,5 +16,14 @@
   <Apparel_MarksmanGearH.label>神射手頭盔</Apparel_MarksmanGearH.label>
   <Apparel_MarksmanGearH.description>「宣判者」神射手護甲頭盔。集成的目標指示器保證了高精確度。</Apparel_MarksmanGearH.description>
 
+  <Apparel_UGCuirass.label>聯合衛兵護甲</Apparel_UGCuirass.label>
+  <Apparel_UGCuirass.description>聯邦聯合衛兵的標準制式護甲。</Apparel_UGCuirass.description>
+
+  <Apparel_UGHelmet.label>聯合衛兵頭盔</Apparel_UGHelmet.label>
+  <Apparel_UGHelmet.description>聯邦聯合衛兵的標準制式頭盔。</Apparel_UGHelmet.description>
+
+  <Apparel_UGCloak.label>聯合衛兵披風</Apparel_UGCloak.label>
+  <Apparel_UGCloak.description>通常由聯邦聯合衛兵所穿的披風。看起來更像是裝飾品而不是戰術裝備。</Apparel_UGCloak.description>
+
 
 </LanguageData>
