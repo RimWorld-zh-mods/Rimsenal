@@ -28,11 +28,23 @@
   <Apparel_BjornH.label>突擊頭盔</Apparel_BjornH.label>
   <Apparel_BjornH.description>堅固耐用且安全可靠的「比約恩」突擊護甲頭盔。</Apparel_BjornH.description>
 
+  <Apparel_FSArmor.label>支援護甲</Apparel_FSArmor.label>
+  <Apparel_FSArmor.description>如果你需要一個移動炮臺，請呼叫「獨狼」火力支援護甲。急速裝填系統、附加彈藥倉、內建火控系統，獨狼的一切都是為了火力支援。作為代價，獨狼在近戰中非常脆弱。</Apparel_FSArmor.description>
+
+  <Apparel_FSArmorH.label>支援頭盔</Apparel_FSArmorH.label>
+  <Apparel_FSArmorH.description>「獨狼」火力支援護甲的頭盔。共享火力支援護甲的特性。</Apparel_FSArmorH.description>
+
   <Apparel_Nemesis.label>反射護甲</Apparel_Nemesis.label>
-  <Apparel_Nemesis.description>一款為狩獵聯邦殘余而打造的動力裝甲，以希腊神話中的復仇女神「涅墨西斯」命名。幾乎免疫熱能攻擊，「底西福涅獵人特遣隊」的精英獵人會裝備這種護甲。</Apparel_Nemesis.description>
+  <Apparel_Nemesis.description>一款為狩獵聯邦殘余而打造的動力裝甲，以希腊神話中的復仇三女神之一「涅墨西斯」命名。幾乎免疫熱能攻擊，「底西福涅獵人特遣隊」的精英獵人會裝備這種護甲。</Apparel_Nemesis.description>
 
   <Apparel_NemesisH.label>反射頭盔</Apparel_NemesisH.label>
   <Apparel_NemesisH.description>集成了一套完整的熱量反射系統的頭盔。</Apparel_NemesisH.description>
+
+  <Apparel_HazardCarapace.label>險境護甲</Apparel_HazardCarapace.label>
+  <Apparel_HazardCarapace.description>「阿勒克圖」險境護甲是為了在惡劣環境中執行任務而射擊的。在極端寒冷地區、在熱浪中，甚至在充滿輻射的廢土中，底西福涅獵人也能繼續無休止的狩獵。阿勒克圖：希臘神話復仇三女神之一。</Apparel_HazardCarapace.description>
+
+  <Apparel_HazardCarapaceH.label>險境頭盔</Apparel_HazardCarapaceH.label>
+  <Apparel_HazardCarapaceH.description>「阿勒克圖」險境護甲的頭盔。這種頭盔提供了優秀的環境保護性。</Apparel_HazardCarapaceH.description>
 
   <Apparel_CombatArmor.label>格斗護甲</Apparel_CombatArmor.label>
   <Apparel_CombatArmor.description>「精益」是一種內置護盾的動力裝甲，具備機動性、持久性和殺傷力的近身作戰裝備。</Apparel_CombatArmor.description>

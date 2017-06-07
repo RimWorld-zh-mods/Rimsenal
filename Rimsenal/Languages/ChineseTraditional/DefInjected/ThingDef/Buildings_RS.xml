@@ -5,21 +5,25 @@
   <GDTable.description>配備了工具的桌子，用於裝配和拆解「灰谷防禦」裝備。</GDTable.description>
   <GDTable_Blueprint.label>裝備裝配設施（藍圖）</GDTable_Blueprint.label>
   <GDTable_Frame.label>裝備裝配設施（建造中）</GDTable_Frame.label>
+  <GDTable_Frame.description>配備了工具的桌子，用於裝配和拆解「灰谷防禦」裝備。</GDTable_Frame.description>
 
   <YPTable.label>晶體鑄造設施</YPTable.label>
   <YPTable.description>配備了工具的桌子，用於裝配和拆解「允和高精」裝備。</YPTable.description>
   <YPTable_Blueprint.label>晶體鑄造設施（藍圖）</YPTable_Blueprint.label>
   <YPTable_Frame.label>晶體鑄造設施（建造中）</YPTable_Frame.label>
+  <YPTable_Frame.description>配備了工具的桌子，用於裝配和拆解「允和高精」裝備。</YPTable_Frame.description>
 
   <JITable.label>磁力鍛造設施</JITable.label>
   <JITable.description>配備了工具的桌子，用於裝配和拆解「巨人星際」裝備。</JITable.description>
   <JITable_Blueprint.label>磁力鍛造設施（藍圖）</JITable_Blueprint.label>
   <JITable_Frame.label>磁力鍛造設施（建造中）</JITable_Frame.label>
+  <JITable_Frame.description>配備了工具的桌子，用於裝配和拆解「巨人星際」裝備。</JITable_Frame.description>
 
   <TETable.label>動能場操作機</TETable.label>
   <TETable.description>配備了工具的桌子，用於裝配和拆解「底西福涅」裝備。</TETable.description>
   <TETable_Blueprint.label>動能場操作機（藍圖）</TETable_Blueprint.label>
   <TETable_Frame.label>動能場操作機（建造中）</TETable_Frame.label>
+  <TETable_Frame.description>配備了工具的桌子，用於裝配和拆解「底西福涅」裝備。</TETable_Frame.description>
 
 
 </LanguageData>

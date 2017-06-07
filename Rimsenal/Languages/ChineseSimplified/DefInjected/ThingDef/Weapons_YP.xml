@@ -26,5 +26,10 @@
   <YP_GeugGwang.label>YP微波发射器</YP_GeugGwang.label>
   <YP_GeugGwang.description>「允和高精」的「极光」微波发射器发射的毫米波能让目标皮肤水份沸腾的，产生无法忍受的痛苦。完美的人群控制武器。</YP_GeugGwang.description>
 
+  <Bullet_VectorShot.label>智能弹</Bullet_VectorShot.label>
+
+  <YP_VectorShot.label>YP矢量射枪</YP_VectorShot.label>
+  <YP_VectorShot.description>「允和高精」的「冰雹」矢量射枪是一种用于城市作战的武器，发射集成了制导系统的智能子弹。借助多光谱扫描仪，冰雹可以瞄准隐藏在掩体后的目标。虽然无视墙体确实是一种非常强大的特点，但由于极短的射程，冰雹只适合作为突击专家的武器。</YP_VectorShot.description>
+
 
 </LanguageData>
