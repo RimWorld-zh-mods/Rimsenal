@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <FeralTable.label>廢土工作臺</FeralTable.label>
+  <FeralTable.description>配備了工具用於組裝簡易裝備的桌子。</FeralTable.description>
+  <FeralTable_Blueprint.label>廢土工作臺（藍圖）</FeralTable_Blueprint.label>
+  <FeralTable_Frame.label>廢土工作臺（建造中）</FeralTable_Frame.label>
+  <FeralTable_Frame.description>配備了工具用於組裝簡易裝備的桌子。</FeralTable_Frame.description>
+
+
+</LanguageData>

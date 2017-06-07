@@ -2,14 +2,31 @@
 <LanguageData>
 
   <FeralHusker.label>剝皮工</FeralHusker.label>
+  <FeralHusker.labelPlural>剝皮工</FeralHusker.labelPlural>
+
   <FeralMangler.label>絞肉機</FeralMangler.label>
+  <FeralMangler.labelPlural>絞肉機</FeralMangler.labelPlural>
+
   <FeralScorcher.label>縱火狂</FeralScorcher.label>
+  <FeralScorcher.labelPlural>縱火狂</FeralScorcher.labelPlural>
+
   <FeralBoomer.label>炸彈兵</FeralBoomer.label>
+  <FeralBoomer.labelPlural>炸彈兵</FeralBoomer.labelPlural>
+
   <FeralThumper.label>火箭兵</FeralThumper.label>
+  <FeralThumper.labelPlural>火箭兵</FeralThumper.labelPlural>
+
   <FeralGrinder.label>分屍狂</FeralGrinder.label>
+  <FeralGrinder.labelPlural>分屍狂</FeralGrinder.labelPlural>
+
   <FeralSkulker.label>潛伏者</FeralSkulker.label>
+  <FeralSkulker.labelPlural>潛伏者</FeralSkulker.labelPlural>
+
   <FeralLeader.label>頭目</FeralLeader.label>
+  <FeralLeader.labelPlural>頭目</FeralLeader.labelPlural>
+
   <FeralSkullBuster.label>骷髅破坏者</FeralSkullBuster.label>
+  <FeralSkullBuster.labelPlural>骷髅破坏者</FeralSkullBuster.labelPlural>
 
 
 </LanguageData>
