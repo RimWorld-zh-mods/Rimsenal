@@ -30,8 +30,8 @@
   <Make_Apparel_Nervesuit.description>신경복 제작</Make_Apparel_Nervesuit.description>
   <Make_Apparel_Nervesuit.jobString>신경복 제작.</Make_Apparel_Nervesuit.jobString>
 
-  <Make_Apparel_NervesuitH.label>신경복 제작</Make_Apparel_NervesuitH.label>
-  <Make_Apparel_NervesuitH.description>신경복 제작</Make_Apparel_NervesuitH.description>
+  <Make_Apparel_NervesuitH.label>신경복 헬멧 제작</Make_Apparel_NervesuitH.label>
+  <Make_Apparel_NervesuitH.description>신경복 헬멧 제작</Make_Apparel_NervesuitH.description>
   <Make_Apparel_NervesuitH.jobString>신경복 제작.</Make_Apparel_NervesuitH.jobString>
 
   <Make_Apparel_Bjorn.label>강습장갑복 제작</Make_Apparel_Bjorn.label>
@@ -50,33 +50,45 @@
   <Make_Apparel_NemesisH.description>반사 피갑복 헬멧 제작</Make_Apparel_NemesisH.description>
   <Make_Apparel_NemesisH.jobString>반사 피갑복 헬멧 제작.</Make_Apparel_NemesisH.jobString>
 
-  <Make_GD_Lynx.label>GD 전술권총 제작</Make_GD_Lynx.label>
-  <Make_GD_Lynx.description>GD 전술권총 제작</Make_GD_Lynx.description>
-  <Make_GD_Lynx.jobString>GD 전술권총 제작.</Make_GD_Lynx.jobString>
+  <Make_GD_TacticalPistol.label>GD 전술권총 제작</Make_GD_TacticalPistol.label>
+  <Make_GD_TacticalPistol.description>GD 전술권총 제작</Make_GD_TacticalPistol.description>
+  <Make_GD_TacticalPistol.jobString>GD 전술권총 제작.</Make_GD_TacticalPistol.jobString>
 
   <Make_GD_ModularCarbine.label>GD 모듈형 카빈 제작</Make_GD_ModularCarbine.label>
   <Make_GD_ModularCarbine.description>GD 모듈형 카빈 제작</Make_GD_ModularCarbine.description>
   <Make_GD_ModularCarbine.jobString>GD 모듈형 카빈 제작.</Make_GD_ModularCarbine.jobString>
 
-  <Make_GD_GRC.label>GD 모듈형 소총 제작</Make_GD_GRC.label>
-  <Make_GD_GRC.description>GD 모듈형 소총 제작</Make_GD_GRC.description>
-  <Make_GD_GRC.jobString>GD 모듈형 소총 제작.</Make_GD_GRC.jobString>
+  <Make_GD_ModularRifle.label>GD 모듈형 소총 제작</Make_GD_ModularRifle.label>
+  <Make_GD_ModularRifle.description>GD 모듈형 소총 제작</Make_GD_ModularRifle.description>
+  <Make_GD_ModularRifle.jobString>GD 모듈형 소총 제작.</Make_GD_ModularRifle.jobString>
 
-  <Make_GD_GRM.label>GD 모듈형 DMR 제작</Make_GD_GRM.label>
-  <Make_GD_GRM.description>GD 모듈형 DMR 제작</Make_GD_GRM.description>
-  <Make_GD_GRM.jobString>GD 모듈형 DMR 제작.</Make_GD_GRM.jobString>
+  <Make_GD_ModularDMR.label>GD 모듈형 DMR 제작</Make_GD_ModularDMR.label>
+  <Make_GD_ModularDMR.description>GD 모듈형 DMR 제작</Make_GD_ModularDMR.description>
+  <Make_GD_ModularDMR.jobString>GD 모듈형 DMR 제작.</Make_GD_ModularDMR.jobString>
 
-  <Make_GD_GRS.label>GD 모듈형 LMG 제작</Make_GD_GRS.label>
-  <Make_GD_GRS.description>GD 모듈형 LMG 제작</Make_GD_GRS.description>
-  <Make_GD_GRS.jobString>GD 모듈형 LMG 제작.</Make_GD_GRS.jobString>
+  <Make_GD_ModularLMG.label>GD 모듈형 LMG 제작</Make_GD_ModularLMG.label>
+  <Make_GD_ModularLMG.description>GD 모듈형 LMG 제작</Make_GD_ModularLMG.description>
+  <Make_GD_ModularLMG.jobString>GD 모듈형 LMG 제작.</Make_GD_ModularLMG.jobString>
 
-  <Make_GD_Jaguar.label>GD 유탄발사기 제작</Make_GD_Jaguar.label>
-  <Make_GD_Jaguar.description>GD 유탄발사기 제작</Make_GD_Jaguar.description>
-  <Make_GD_Jaguar.jobString>GD 유탄발사기 제작.</Make_GD_Jaguar.jobString>
+  <Make_GD_GrenadeLauncher.label>GD 다목적 발사기 제작</Make_GD_GrenadeLauncher.label>
+  <Make_GD_GrenadeLauncher.description>그레이데일제 재규어 다목적 발사기를 제작합니다.</Make_GD_GrenadeLauncher.description>
+  <Make_GD_GrenadeLauncher.jobString>GD 다목적 발사기 제작.</Make_GD_GrenadeLauncher.jobString>
 
-  <Make_GD_Caracal.label>GD 고속 기관단총 제작</Make_GD_Caracal.label>
-  <Make_GD_Caracal.description>GD 고속 기관단총 제작</Make_GD_Caracal.description>
-  <Make_GD_Caracal.jobString>GD 고속 기관단총 제작.</Make_GD_Caracal.jobString>
+  <Make_GD_BSLauncher.label>GD 산탄 발사기 제작</Make_GD_BSLauncher.label>
+  <Make_GD_BSLauncher.description>그레이데일제 재규어 산탄 발사기를 제작합니다.</Make_GD_BSLauncher.description>
+  <Make_GD_BSLauncher.jobString>GD 산탄 발사기 제작.</Make_GD_BSLauncher.jobString>
+
+  <Make_GD_INGrenadeLauncher.label>GD 소이탄 발사기 제작</Make_GD_INGrenadeLauncher.label>
+  <Make_GD_INGrenadeLauncher.description>그레이데일제 재규어 소이탄 발사기를 제작합니다.</Make_GD_INGrenadeLauncher.description>
+  <Make_GD_INGrenadeLauncher.jobString>GD 소이탄 발사기 제작.</Make_GD_INGrenadeLauncher.jobString>
+
+  <Make_GD_SKGrenadeLauncher.label>GD 연막탄 발사기 제작</Make_GD_SKGrenadeLauncher.label>
+  <Make_GD_SKGrenadeLauncher.description>그레이데일제 재규어 연막탄 발사기를 제작합니다.</Make_GD_SKGrenadeLauncher.description>
+  <Make_GD_SKGrenadeLauncher.jobString>GD 연막탄 발사기 제작.</Make_GD_SKGrenadeLauncher.jobString>
+
+  <Make_GD_HVSMG.label>GD 고속 기관단총 제작</Make_GD_HVSMG.label>
+  <Make_GD_HVSMG.description>GD 고속 기관단총 제작</Make_GD_HVSMG.description>
+  <Make_GD_HVSMG.jobString>GD 고속 기관단총 제작.</Make_GD_HVSMG.jobString>
 
   <Make_JI_Hrunting.label>JI 융용소총 제작</Make_JI_Hrunting.label>
   <Make_JI_Hrunting.description>JI 융용소총 제작</Make_JI_Hrunting.description>

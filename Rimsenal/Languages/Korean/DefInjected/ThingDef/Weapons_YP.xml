@@ -6,6 +6,7 @@
   <Bullet_SangAe.label>결정 스파이크</Bullet_SangAe.label>
   <Bullet_SeolHwa.label>결정 파편</Bullet_SeolHwa.label>
   <Bullet_GeugGwang.label>극초단파</Bullet_GeugGwang.label>
+  <Bullet_VectorShot.label>스마트 볼트</Bullet_VectorShot.label>
 
 	<YP_SeoLi.label>연화 파편 소총</YP_SeoLi.label>
 	<YP_SeoLi.description>재래식 돌격소총에 비하면 연화 정밀의 '서리' 파편 소총은 장탄량이 많고 연사속도가 높은 편입니다. 하지만 이를 위해 화력과 사거리, 장갑 관통 능력을 희생해야만 했습니다.</YP_SeoLi.description>
@@ -21,6 +22,10 @@
 
 	<YP_GeugGwang.label>연화 극초단파 방출기</YP_GeugGwang.label>
 	<YP_GeugGwang.description>연화 정밀의 '극광'은 목표의 피부 수분을 끓어오르게 만드는 극초단파를 방출합니다. 엄청난 고통을 일으키며, 군중 제어 무기로 완벽합니다.</YP_GeugGwang.description>
+
+
+	<YP_VectorShot.label>연화 벡터샷</YP_VectorShot.label>
+	<YP_VectorShot.description>"누리(우박)" 벡터샷은 유도 시스템이 내장된 스마트 볼트를 쏘는 시가전 화기입니다. 다중파장 스캐너를 이용해 엄폐물 뒤에 숨은 적도 조준할 수 있습니다. 벽을 무시한다는 건 아주 쓸만한 강점입니다만, 사거리가 워낙 짧아 근거리 사격전을 위한 특수화기로 용도가 제한됩니다.</YP_VectorShot.description>
 
 
 

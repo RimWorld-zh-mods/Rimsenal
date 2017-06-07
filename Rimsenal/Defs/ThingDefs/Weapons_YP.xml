@@ -18,7 +18,7 @@
       <MaxHitPoints>100</MaxHitPoints>
       <Flammability>1.0</Flammability>
       <DeteriorationRate>2</DeteriorationRate>
-      <SellPriceFactor>0.5</SellPriceFactor>
+      <SellPriceFactor>0.2</SellPriceFactor>
     </statBases>
     <altitudeLayer>Item</altitudeLayer>
     <alwaysHaulable>True</alwaysHaulable>
@@ -46,7 +46,6 @@
       </li>
     </comps>
     <weaponTags>
-       <li>AdvancedGun</li>
        <li>YPGun</li>
     </weaponTags>
     <recipeMaker>
@@ -73,7 +72,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <projectile>
-      <damageDef>Bullet</damageDef>
+      <damageDef>Shredder</damageDef>
       <damageAmountBase>5</damageAmountBase>
       <speed>80</speed>
     </projectile>
@@ -82,7 +81,7 @@
   <ThingDef ParentName="BaseYPGun">
     <defName>YP_SeoLi</defName>
     <label>YP shard rifle</label>
-    <description>Compared to a conventional assault rifle, the Yunwha Precision 'Seoli(Frost)' shard rifle is equipped with a larger clip and a higher rate of fire. However, to achieve this the rifle sacrifices damage and armor piecing capability.</description>
+    <description>Compared to a conventional assault rifle, the Yunwha Precision 'Seoli(Frost)' shard rifle is equipped with a larger clip and a higher rate of fire. However, to achieve this the rifle sacrifices damage and armor piercing capability.</description>
     <graphicData>
       <texPath>Things/A16/SeoLi</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -130,7 +129,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <projectile>
-      <damageDef>Bullet</damageDef>
+      <damageDef>Shredder</damageDef>
       <damageAmountBase>7</damageAmountBase>
       <speed>70</speed>
     </projectile>
@@ -187,7 +186,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <projectile>
-      <damageDef>ArmorPiercing</damageDef>
+      <damageDef>Shredder</damageDef>
       <damageAmountBase>16</damageAmountBase>
       <speed>80</speed>
     </projectile>
@@ -245,7 +244,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <projectile>
-      <damageDef>Bullet</damageDef>
+      <damageDef>Shredder</damageDef>
       <damageAmountBase>5</damageAmountBase>
       <speed>90</speed>
     </projectile>
@@ -353,4 +352,68 @@
     </verbs>
   </ThingDef>
 
+
+  <!-- ============================================== -->
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_VectorShot</defName>
+    <label>smart bolt</label>
+    <graphicData>
+      <texPath>Things/Projectile/Harrower</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <soundHitThickRoof>BulletImpactMetal</soundHitThickRoof>
+      <damageDef>Shredder</damageDef>
+      <damageAmountBase>7</damageAmountBase>
+      <flyOverhead>True</flyOverhead>
+      <speed>45</speed>
+      <explosionRadius>0.5</explosionRadius>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseYPGun">
+    <defName>YP_VectorShot</defName>
+    <label>YP vector shot</label>
+    <description>"NuRi(Hail)" vector shot is a weapon for urban warfare, shots guided system integrated smart bolts. With an aid of multi-spectral scanners, NuRi can aim at targets hidden in cover. While ignoring wall is a really strong feature, however, because of extremely short range, NuRi's function is limited to an assault specialist weapon.</description>
+    <graphicData>
+      <texPath>Things/A16/VectorShot</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractYPWeapons</soundInteract>
+    <recipeMaker>
+      <researchPrerequisite>ShardTech</researchPrerequisite>
+    </recipeMaker>
+    <statBases>
+      <Mass>3.06</Mass>
+      <WorkToMake>58500</WorkToMake>
+      <AccuracyTouch>0.6</AccuracyTouch>
+      <AccuracyShort>0.8</AccuracyShort>
+      <AccuracyMedium>0.5</AccuracyMedium>
+      <AccuracyLong>0.3</AccuracyLong>
+      <RangedWeapon_Cooldown>0.96</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Plasteel>35</Plasteel>
+      <Component>12</Component>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <projectileDef>Bullet_VectorShot</projectileDef>
+        <warmupTime>1.05</warmupTime>
+        <range>10</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+        <soundCast>RS_ShotShard</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>10</muzzleFlashScale>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+    </verbs>
+  </ThingDef>
 </ThingDefs>

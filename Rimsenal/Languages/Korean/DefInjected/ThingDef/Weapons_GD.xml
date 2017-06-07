@@ -1,34 +1,45 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <Bullet_Lynx.label>권총탄</Bullet_Lynx.label>
+  <Bullet_TacticalPistol.label>권총탄</Bullet_TacticalPistol.label>
   <Bullet_ModularCarbine.label>카빈탄</Bullet_ModularCarbine.label>
-  <Bullet_GRC.label>소총탄</Bullet_GRC.label>
-  <Bullet_GRM.label>대구경 소총탄</Bullet_GRM.label>
-  <Bullet_GRS.label>기관총탄</Bullet_GRS.label>
-  <Bullet_Jaguar.label>유탄</Bullet_Jaguar.label>
-  <Bullet_Caracal.label>고속탄</Bullet_Caracal.label>
+  <Bullet_ModularRifle.label>소총탄</Bullet_ModularRifle.label>
+  <Bullet_ModularDMR.label>대구경 소총탄</Bullet_ModularDMR.label>
+  <Bullet_ModularLMG.label>기관총탄</Bullet_ModularLMG.label>
+  <Bullet_GrenadeLauncher.label>유탄</Bullet_GrenadeLauncher.label>
+  <Bullet_INGrenadeLauncher.label>소이탄</Bullet_INGrenadeLauncher.label>
+  <Bullet_SKGrenadeLauncher.label>연막탄</Bullet_SKGrenadeLauncher.label>
+  <Bullet_HVSMG.label>고속탄</Bullet_HVSMG.label>
 
-	<GD_Lynx.label>그레이데일 전술 권총</GD_Lynx.label>
-	<GD_Lynx.description>그레이데일 디펜스 "링스" 전술 권총입니다. 가볍고 사용하기 쉬워 호신 무기로 이상적입니다. 플라스틸 피갑을 두른 소구경 초고속 장갑관통탄을 사용합니다.</GD_Lynx.description>
+	<GD_TacticalPistol.label>그레이데일 전술 권총</GD_TacticalPistol.label>
+	<GD_TacticalPistol.description>그레이데일 디펜스 "링스" 전술 권총입니다. 가볍고 사용하기 쉬워 호신 무기로 이상적입니다. 플라스틸 피갑을 두른 소구경 초고속 장갑관통탄을 사용합니다.</GD_TacticalPistol.description>
 
 	<GD_ModularCarbine.label>그레이데일 모듈형 카빈</GD_ModularCarbine.label>
 	<GD_ModularCarbine.description>그레이데일 디펜스 "팬서" 모듈형 소총 체계. 이 카빈 모델은 작고 가벼워 보안 임무에 주로 사용됩니다. 다른 모듈형 소총 체계의 기반입니다.</GD_ModularCarbine.description>
 
-	<GD_GRC.label>그레이데일 모듈형 소총</GD_GRC.label>
-	<GD_GRC.description>그레이데일 디펜스 "팬서" 모듈형 소총 체계. 튼튼하고 단순한 디자인 덕에 이 소총 모델은 변두리 개척지 민병대 사이에서 인기가 높습니다.</GD_GRC.description>
+	<GD_ModularRifle.label>그레이데일 모듈형 소총</GD_ModularRifle.label>
+	<GD_ModularRifle.description>그레이데일 디펜스 "팬서" 모듈형 소총 체계. 튼튼하고 단순한 디자인 덕에 이 소총 모델은 변두리 개척지 민병대 사이에서 인기가 높습니다.</GD_ModularRifle.description>
 
-	<GD_GRM.label>그레이데일 모듈형 DMR</GD_GRM.label>
-	<GD_GRM.description>그레이데일 디펜스 "팬서" 모듈형 소총 체계. 이 지정 사수 소총 모델은 사냥과 정밀 화력지원 모두에 이상적입니다.</GD_GRM.description>
+	<GD_ModularDMR.label>그레이데일 모듈형 DMR</GD_ModularDMR.label>
+	<GD_ModularDMR.description>그레이데일 디펜스 "팬서" 모듈형 소총 체계. 이 지정 사수 소총 모델은 사냥과 정밀 화력지원 모두에 이상적입니다.</GD_ModularDMR.description>
 
-	<GD_GRS.label>그레이데일 모듈형 경기관총</GD_GRS.label>
-	<GD_GRS.description>그레이데일 디펜스 "팬서" 모듈형 소총 체계. 이 경기관총 모델은 끊임없는 속사로 병력을 지원하기에 좋습니다.</GD_GRS.description>
+	<GD_ModularLMG.label>그레이데일 모듈형 경기관총</GD_ModularLMG.label>
+	<GD_ModularLMG.description>그레이데일 디펜스 "팬서" 모듈형 소총 체계. 이 경기관총 모델은 끊임없는 속사로 병력을 지원하기에 좋습니다.</GD_ModularLMG.description>
 
-	<GD_Jaguar.label>그레이데일 유탄발사기</GD_Jaguar.label>
-	<GD_Jaguar.description>그레이데일 디펜스가 설계한 "재규어"는 단순하지만 효과적인 간접화력 지원 무기입니다.</GD_Jaguar.description>
+	<GD_GrenadeLauncher.label>그레이데일 다목적 발사기</GD_GrenadeLauncher.label>
+	<GD_GrenadeLauncher.description>그레이데일 디펜스가 설계한 "재규어" 다목적 발사기는 다재다능한 간접화력 지원 무기입니다. 이 기본버전은 파편 유탄을 발사합니다.</GD_GrenadeLauncher.description>
 
-	<GD_Caracal.label>그레이데일 고속 기관단총</GD_Caracal.label>
-	<GD_Caracal.description>"카라칼"은 그레이데일 제 기관단총으로, 근접 강습전에 맞춰 설계되었습니다. 장갑을 관통하는 특수한 소구경 초고속탄을 발사합니다.</GD_Caracal.description>
+	<GD_BSLauncher.label>그레이데일 산탄 발사기</GD_BSLauncher.label>
+	<GD_BSLauncher.description>그레이데일 디펜스가 설계한 "재규어" 다목적 발사기는 다재다능한 간접화력 지원 무기입니다. 사실 이건 간접화력 지원무기는 아니고, 근접전용 산탄 발사기입니다.</GD_BSLauncher.description>
+
+	<GD_INGrenadeLauncher.label>그레이데일 소이탄 발사기</GD_INGrenadeLauncher.label>
+	<GD_INGrenadeLauncher.description>그레이데일 디펜스가 설계한 "재규어" 다목적 발사기는 다재다능한 간접화력 지원 무기입니다. 이 버전은 불을 붙이는 소이탄을 발사합니다.</GD_INGrenadeLauncher.description>
+
+	<GD_SKGrenadeLauncher.label>그레이데일 연막탄 발사기</GD_SKGrenadeLauncher.label>
+	<GD_SKGrenadeLauncher.description>그레이데일 디펜스가 설계한 "재규어" 다목적 발사기는 다재다능한 간접화력 지원 무기입니다. 이 버전은 연막탄을 발사해 아군에게 엄폐를 제공합니다.</GD_SKGrenadeLauncher.description>
+
+	<GD_HVSMG.label>그레이데일 고속 기관단총</GD_HVSMG.label>
+	<GD_HVSMG.description>"카라칼"은 그레이데일 제 기관단총으로, 근접 강습전에 맞춰 설계되었습니다. 장갑을 관통하는 특수한 소구경 초고속탄을 발사합니다.</GD_HVSMG.description>
 
 
 </LanguageData>

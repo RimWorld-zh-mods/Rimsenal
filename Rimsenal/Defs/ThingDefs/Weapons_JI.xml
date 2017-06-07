@@ -19,7 +19,7 @@
       <MaxHitPoints>100</MaxHitPoints>
       <Flammability>1.0</Flammability>
       <DeteriorationRate>2</DeteriorationRate>
-      <SellPriceFactor>0.5</SellPriceFactor>
+      <SellPriceFactor>0.2</SellPriceFactor>
     </statBases>
     <altitudeLayer>Item</altitudeLayer>
     <alwaysHaulable>True</alwaysHaulable>
@@ -46,7 +46,6 @@
       </li>
     </comps>
     <weaponTags>
-       <li>AdvancedGun</li>
        <li>JIGun</li>
     </weaponTags>
     <recipeMaker>
@@ -72,7 +71,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <projectile>
-      <damageDef>ArmorPiercing</damageDef>
+      <damageDef>Bullet</damageDef>
       <damageAmountBase>25</damageAmountBase>
       <speed>65</speed>
     </projectile>
@@ -100,7 +99,7 @@
       <RangedWeapon_Cooldown>1.1</RangedWeapon_Cooldown>
     </statBases>
     <equippedStatOffsets>
-      <MoveSpeed>-0.6</MoveSpeed>
+      <MoveSpeed>-0.15</MoveSpeed>
     </equippedStatOffsets>
     <costList>
       <Steel>50</Steel>
@@ -131,8 +130,8 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <projectile>
-      <damageDef>ArmorPiercing</damageDef>
-      <damageAmountBase>19</damageAmountBase>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>20</damageAmountBase>
       <speed>80</speed>
     </projectile>
   </ThingDef>
@@ -156,7 +155,7 @@
       <AccuracyShort>0.7</AccuracyShort>
       <AccuracyMedium>0.45</AccuracyMedium>
       <AccuracyLong>0.25</AccuracyLong>
-      <RangedWeapon_Cooldown>1.25</RangedWeapon_Cooldown>
+      <RangedWeapon_Cooldown>1.15</RangedWeapon_Cooldown>
     </statBases>
     <costList>
       <Steel>40</Steel>
@@ -188,8 +187,8 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <projectile>
-      <damageDef>ArmorPiercing</damageDef>
-      <damageAmountBase>12</damageAmountBase>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>14</damageAmountBase>
       <speed>80</speed>
     </projectile>
   </ThingDef>
@@ -221,7 +220,7 @@
       <Component>8</Component>
     </costList>
     <equippedStatOffsets>
-      <MoveSpeed>-0.65</MoveSpeed>
+      <MoveSpeed>-0.25</MoveSpeed>
     </equippedStatOffsets>
     <verbs>
       <li>
@@ -229,8 +228,8 @@
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_Fafnir</projectileDef>
         <warmupTime>0.95</warmupTime>
-        <range>15</range>
-        <burstShotCount>4</burstShotCount>
+        <range>13</range>
+        <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
         <soundCast>RS_ShotFafnir</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
@@ -249,7 +248,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <projectile>
-      <damageDef>ArmorPiercing</damageDef>
+      <damageDef>Bullet</damageDef>
       <damageAmountBase>55</damageAmountBase>
       <speed>90</speed>
     </projectile>
@@ -277,7 +276,7 @@
       <RangedWeapon_Cooldown>3</RangedWeapon_Cooldown>
     </statBases>
     <equippedStatOffsets>
-      <MoveSpeed>-0.8</MoveSpeed>
+      <MoveSpeed>-0.3</MoveSpeed>
     </equippedStatOffsets>
     <costList>
       <Steel>80</Steel>
@@ -289,7 +288,7 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <projectileDef>Bullet_Gramr</projectileDef>
-        <warmupTime>4.5</warmupTime>
+        <warmupTime>4</warmupTime>
         <range>50</range>
         <soundCast>RS_ShotJI</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
@@ -405,7 +404,7 @@
       <RangedWeapon_Cooldown>0.60</RangedWeapon_Cooldown>
     </statBases>
     <equippedStatOffsets>
-      <MoveSpeed>-0.9</MoveSpeed>
+      <MoveSpeed>-0.3</MoveSpeed>
     </equippedStatOffsets>
     <costList>
       <Steel>60</Steel>

@@ -34,10 +34,10 @@
   <Apparel_NemesisH.label>反射頭盔</Apparel_NemesisH.label>
   <Apparel_NemesisH.description>集成了一套完整的熱量反射系統的頭盔。</Apparel_NemesisH.description>
 
-  <Apparel_CombatArmor.label>近戰護甲</Apparel_CombatArmor.label>
+  <Apparel_CombatArmor.label>格斗護甲</Apparel_CombatArmor.label>
   <Apparel_CombatArmor.description>「精益」是一種內置護盾的動力裝甲，具備機動性、持久性和殺傷力的近身作戰裝備。</Apparel_CombatArmor.description>
 
-  <Apparel_CombatHelmet.label>近戰頭盔</Apparel_CombatHelmet.label>
+  <Apparel_CombatHelmet.label>格斗頭盔</Apparel_CombatHelmet.label>
   <Apparel_CombatHelmet.description>「精益」格鬥護甲的頭盔。通過伸進近身格鬥增益系統來輔助穿戴者。</Apparel_CombatHelmet.description>
 
 

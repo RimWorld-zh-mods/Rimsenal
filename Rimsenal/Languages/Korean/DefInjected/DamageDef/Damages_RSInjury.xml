@@ -2,10 +2,7 @@
 <LanguageData>
 
   <Microwave.label>극초단파</Microwave.label>
-  <Microwave.deathMessage>{0}은(는) 체액이 끓어오르는 고통 속에 울부짖다 죽었습니다. 끔찍하네요.</Microwave.deathMessage>
-
-  <ArmorPiercing.label>장갑관통</ArmorPiercing.label>
-  <ArmorPiercing.deathMessage>{0}은 총에 맞아 죽었습니다.</ArmorPiercing.deathMessage>
+  <Microwave.deathMessage>{0}은(는) 온몸의 체액이 끓어오르는 고통 속에 울부짖다 죽었습니다. 소름끼치네요.</Microwave.deathMessage>
 
   <KineticImpact.label>물리적 충격</KineticImpact.label>
   <KineticImpact.deathMessage>{0}은(는) 으깨져 죽었습니다.</KineticImpact.deathMessage>

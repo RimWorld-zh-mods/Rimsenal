@@ -27,12 +27,15 @@
         <li>GDWeapons</li>
       </categories>
       <exceptedThingDefs>
-        <li>GD_GRM</li>
-        <li>GD_GRS</li>
-        <li>GD_Lynx</li>
-        <li>GD_Jaguar</li>
-        <li>GD_Caracal</li>
-        <li>GD_ModularCarbine</li>		
+        <li>GD_ModularDMR</li>
+        <li>GD_ModularLMG</li>
+        <li>GD_TacticalPistol</li>
+        <li>GD_GrenadeLauncher</li>
+        <li>GD_HVSMG</li>
+        <li>GD_ModularCarbine</li>	
+        <li>GD_INGrenadeLauncher</li>
+        <li>GD_SKGrenadeLauncher</li>
+        <li>GD_BSLauncher</li>
       </exceptedThingDefs>
     </fixedIngredientFilter>
     <products>
@@ -71,12 +74,15 @@
         <li>GDWeapons</li>
       </categories>
       <exceptedThingDefs>
-        <li>GD_GRM</li>
-        <li>GD_GRC</li>
-        <li>GD_Lynx</li>
-        <li>GD_Jaguar</li>
-        <li>GD_Caracal</li>
-        <li>GD_ModularCarbine</li>		
+        <li>GD_ModularDMR</li>
+        <li>GD_ModularRifle</li>
+        <li>GD_TacticalPistol</li>
+        <li>GD_GrenadeLauncher</li>
+        <li>GD_HVSMG</li>
+        <li>GD_ModularCarbine</li>	
+        <li>GD_INGrenadeLauncher</li>
+        <li>GD_SKGrenadeLauncher</li>
+        <li>GD_BSLauncher</li>
       </exceptedThingDefs>
     </fixedIngredientFilter>
     <products>
@@ -115,17 +121,64 @@
         <li>GDWeapons</li>
       </categories>
       <exceptedThingDefs>
-        <li>GD_GRC</li>
-        <li>GD_GRS</li>
-        <li>GD_Lynx</li>
-        <li>GD_Jaguar</li>
-        <li>GD_Caracal</li>
-        <li>GD_ModularCarbine</li>		
+        <li>GD_ModularRifle</li>
+        <li>GD_ModularLMG</li>
+        <li>GD_TacticalPistol</li>
+        <li>GD_GrenadeLauncher</li>
+        <li>GD_HVSMG</li>
+        <li>GD_ModularCarbine</li>
+        <li>GD_INGrenadeLauncher</li>
+        <li>GD_SKGrenadeLauncher</li>
+        <li>GD_BSLauncher</li>
       </exceptedThingDefs>
     </fixedIngredientFilter>
     <products>
       <MRSKitM>1</MRSKitM>
       <GD_ModularCarbine>1</GD_ModularCarbine>
+    </products>
+    <workSkill>Crafting</workSkill>
+      <recipeUsers>
+        <li>GDTable</li>
+      </recipeUsers>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>ResetMultiLauncher</defName>
+    <label>reset multi launcher setting</label>
+    <description>reset multi launcher setting to basic frag launcher.</description>
+    <jobString>reset multi launcher setting.</jobString>
+    <workSpeedStat>SmithingSpeed</workSpeedStat>
+    <effectWorking>Smith</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>10</workAmount>
+    <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+      <categories>
+        <li>GDWeapons</li>
+      </categories>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>GDWeapons</li>
+      </categories>
+      <exceptedThingDefs>
+        <li>GD_ModularRifle</li>
+        <li>GD_ModularLMG</li>
+        <li>GD_ModularDMR</li>
+        <li>GD_TacticalPistol</li>
+        <li>GD_GrenadeLauncher</li>
+        <li>GD_HVSMG</li>
+        <li>GD_ModularCarbine</li>	
+      </exceptedThingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <GD_GrenadeLauncher>1</GD_GrenadeLauncher>
     </products>
     <workSkill>Crafting</workSkill>
       <recipeUsers>

@@ -3,7 +3,8 @@
 
   <ResearchProjectDef>
     <defName>ShardTech</defName>
-    <label>RS: refined crystalline shard</label>
+    <label>refined crystalline shard</label>
+    <tab>RimsenalResearch</tab>
     <techLevel>Spacer</techLevel>
     <description>Allows you to build Yunhwa precision's weapons and armors.</description>
     <baseCost>1750</baseCost>
@@ -14,13 +15,14 @@
     <requiredResearchFacilities>
       <li>MultiAnalyzer</li>
     </requiredResearchFacilities>
-		<researchViewX>9.5</researchViewX>
+		<researchViewX>2</researchViewX>
 		<researchViewY>1</researchViewY>
   </ResearchProjectDef>
 
   <ResearchProjectDef>
     <defName>MicrowaveTech</defName>
-    <label>RS: microwave emitter</label>
+    <label>microwave emitter</label>
+    <tab>RimsenalResearch</tab>
     <techLevel>Spacer</techLevel>
     <description>Allows you to build the mircrowave emmiter</description>
     <baseCost>1000</baseCost>
@@ -31,13 +33,14 @@
     <requiredResearchFacilities>
       <li>MultiAnalyzer</li>
     </requiredResearchFacilities>
-		<researchViewX>10.5</researchViewX>
+		<researchViewX>4</researchViewX>
 		<researchViewY>1</researchViewY>
   </ResearchProjectDef>
 
   <ResearchProjectDef>
     <defName>MoltenTech</defName>
-    <label>RS: micro furnace</label>
+    <label>micro furnace</label>
+    <tab>RimsenalResearch</tab>
     <techLevel>Spacer</techLevel>
     <description>Allows you to build the Jotun Interstellar's weapons and armors.</description>
     <baseCost>1750</baseCost>
@@ -48,13 +51,14 @@
     <requiredResearchFacilities>
       <li>MultiAnalyzer</li>
     </requiredResearchFacilities>
-		<researchViewX>9.5</researchViewX>
+		<researchViewX>2</researchViewX>
 		<researchViewY>2</researchViewY>
   </ResearchProjectDef>
 
   <ResearchProjectDef>
     <defName>SiegeTech</defName>
-    <label>RS: siege gun</label>
+    <label>siege gun</label>
+    <tab>RimsenalResearch</tab>
     <techLevel>Spacer</techLevel>
     <description>Allows you to build the portable siege gun.</description>
     <baseCost>1000</baseCost>
@@ -65,13 +69,14 @@
     <requiredResearchFacilities>
       <li>MultiAnalyzer</li>
     </requiredResearchFacilities>
-		<researchViewX>10.5</researchViewX>
+		<researchViewX>4</researchViewX>
 		<researchViewY>2</researchViewY>
   </ResearchProjectDef>
 
   <ResearchProjectDef>
     <defName>KineticTech</defName>
-    <label>RS: kinetic energy conservation gel</label>
+    <label>kinetic energy conservation gel</label>
+    <tab>RimsenalResearch</tab>
     <techLevel>Spacer</techLevel>
     <description>It is a prerequisite to build Tisiphone equipment.</description>
     <baseCost>1750</baseCost>
@@ -82,13 +87,14 @@
     <requiredResearchFacilities>
       <li>MultiAnalyzer</li>
     </requiredResearchFacilities>
-		<researchViewX>9.5</researchViewX>
+		<researchViewX>2</researchViewX>
 		<researchViewY>3</researchViewY>
   </ResearchProjectDef>
 
   <ResearchProjectDef>
     <defName>FocusTech</defName>
-    <label>RS: focused kinetic field</label>
+    <label>focused kinetic field</label>
+    <tab>RimsenalResearch</tab>
     <techLevel>Spacer</techLevel>
     <description>Allows you to build the portable reactor and kinetic lance.</description>
     <baseCost>1000</baseCost>
@@ -99,13 +105,14 @@
     <requiredResearchFacilities>
       <li>MultiAnalyzer</li>
     </requiredResearchFacilities>
-		<researchViewX>10.5</researchViewX>
+		<researchViewX>4</researchViewX>
 		<researchViewY>3</researchViewY>
   </ResearchProjectDef>
 
   <ResearchProjectDef>
     <defName>DefenceTech</defName>
-    <label>RS: tactical equipment manufacturing</label>
+    <label>tactical equipment manufacturing</label>
+    <tab>RimsenalResearch</tab>
     <prerequisites>
       <li>MicroelectronicsBasics</li>
     </prerequisites>
@@ -113,8 +120,8 @@
     <description>Allows you to build Graydale weapons</description>
     <baseCost>2000</baseCost>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-  		<researchViewX>7.5</researchViewX>
-		<researchViewY>1</researchViewY>
+  		<researchViewX>1</researchViewX>
+		<researchViewY>5</researchViewY>
   </ResearchProjectDef>
 
 </Defs>

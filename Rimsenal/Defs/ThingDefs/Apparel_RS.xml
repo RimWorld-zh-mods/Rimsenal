@@ -43,6 +43,7 @@
     <thingCategories>
       <li>Apparel</li>
     </thingCategories>
+     <generateCommonality>0.1</generateCommonality>
     <apparel>
      <tags>
        <li>ADJS</li>
@@ -55,7 +56,6 @@
 			<layers>
 			    <li>OnSkin</li>
 			</layers>
-     <commonality>0.1</commonality>
 			<bodyPartGroups>
 				<li>Shoulders</li>
 				<li>Torso</li>
@@ -67,8 +67,8 @@
       <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
     </recipeMaker>
     <costList>
-      <Cloth>70</Cloth>
-      <Plasteel>20</Plasteel>
+      <Cloth>75</Cloth>
+      <Plasteel>15</Plasteel>
     </costList>
     <colorGenerator Class="ColorGenerator_Options">
       <options>
@@ -109,9 +109,10 @@
     <costList>
       <Steel>150</Steel>
       <Component>15</Component>
-      <Plasteel>120</Plasteel>
+      <Plasteel>74</Plasteel>
     </costList>
     <statBases>
+      <Mass>15.8</Mass>
      <WorkToMake>105000</WorkToMake>
       <MaxHitPoints>350</MaxHitPoints>
       <MarketValue>3500</MarketValue>
@@ -127,6 +128,7 @@
       <MiningSpeed>0.1</MiningSpeed>
       <MoveSpeed>-0.09</MoveSpeed>
     </equippedStatOffsets>
+      <generateCommonality>0.1</generateCommonality>
     <apparel>
       <bodyPartGroups>
         <li>Torso</li>
@@ -139,7 +141,6 @@
         <li>Middle</li>
         <li>Shell</li>
       </layers>
-      <commonality>0.1</commonality>
       <tags>
         <li>Military</li>
       </tags>
@@ -164,12 +165,12 @@
       <ArmorRating_Blunt>0.35</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.40</ArmorRating_Sharp>
       <ArmorRating_Heat>0.3</ArmorRating_Heat>
-			<Insulation_Cold>-5</Insulation_Cold>
-			<Insulation_Heat>5</Insulation_Heat>
+			<Insulation_Cold>-15</Insulation_Cold>
+			<Insulation_Heat>15</Insulation_Heat>
     </statBases>
     <equippedStatOffsets>
       <MoveSpeed>-0.02</MoveSpeed>
-      <AimingDelayFactor>-0.05</AimingDelayFactor>
+      <AimingDelayFactor>-0.1</AimingDelayFactor>
     </equippedStatOffsets>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
@@ -181,8 +182,9 @@
     <costList>
       <Steel>75</Steel>
       <Component>7</Component>
-      <Plasteel>60</Plasteel>
+      <Plasteel>37</Plasteel>
     </costList>
+      <generateCommonality>0.1</generateCommonality>
     <apparel>
       <bodyPartGroups>
         <li>FullHead</li>
@@ -191,7 +193,6 @@
       <layers>
         <li>Overhead</li>
       </layers>
-      <commonality>0.1</commonality>
       <tags>
         <li>Military</li>
       </tags>
@@ -226,7 +227,7 @@
     <costList>
       <Steel>50</Steel>
       <Component>22</Component>
-      <Plasteel>150</Plasteel>
+      <Plasteel>100</Plasteel>
     </costList>
     <statBases>
       <Mass>12</Mass>
@@ -236,13 +237,14 @@
       <ArmorRating_Blunt>0.25</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.50</ArmorRating_Sharp>
       <ArmorRating_Heat>0.3</ArmorRating_Heat>
-      <Insulation_Cold>-45</Insulation_Cold>
-      <Insulation_Heat>45</Insulation_Heat>
+      <Insulation_Cold>-60</Insulation_Cold>
+      <Insulation_Heat>60</Insulation_Heat>
     </statBases>
     <equippedStatOffsets>
       <MoveSpeed>1.2</MoveSpeed>
       <WorkSpeedGlobal>-0.10</WorkSpeedGlobal>
     </equippedStatOffsets>
+     <generateCommonality>0.1</generateCommonality>
     <apparel>
       <worngraphicPath>Things/Apparel/JanYeong</worngraphicPath>
       <layers>
@@ -275,9 +277,9 @@
       </recipeUsers>
     </recipeMaker>
     <costList>
-      <Steel>5</Steel>
+      <Steel>25</Steel>
       <Component>12</Component>
-      <Plasteel>70</Plasteel>
+      <Plasteel>50</Plasteel>
     </costList>
     <statBases>
       <Mass>2.1</Mass>
@@ -287,20 +289,20 @@
 		<ArmorRating_Blunt>0.25</ArmorRating_Blunt>
 		<ArmorRating_Sharp>0.50</ArmorRating_Sharp>
 		<ArmorRating_Heat>0.3</ArmorRating_Heat>
-		<Insulation_Cold>-45</Insulation_Cold>
-		<Insulation_Heat>45</Insulation_Heat>
+		<Insulation_Cold>-30</Insulation_Cold>
+		<Insulation_Heat>30</Insulation_Heat>
     </statBases>
     <equippedStatOffsets>
 		<WorkSpeedGlobal>-0.05</WorkSpeedGlobal>
 		<ShootingAccuracy>0.10</ShootingAccuracy>
 		<AimingDelayFactor>-0.05</AimingDelayFactor>
     </equippedStatOffsets>
+     <generateCommonality>0.1</generateCommonality>
     <apparel>
       <worngraphicPath>Things/Apparel/JanYeongH</worngraphicPath>
         <layers>
           <li>Overhead</li>
         </layers>
-     <commonality>0.1</commonality>
      <bodyPartGroups>
        <li>FullHead</li>
      </bodyPartGroups>
@@ -310,6 +312,7 @@
     </apparel>
     </ThingDef>
 
+ <!-- ============================================== -->
 
   <ThingDef ParentName="RSArmorMakeableBase">
     <defName>Apparel_Nervesuit</defName>
@@ -331,7 +334,7 @@
     <costList>
       <Steel>30</Steel>
       <Component>25</Component>
-      <Plasteel>80</Plasteel>
+      <Plasteel>70</Plasteel>
     </costList>
     <statBases>
       <Mass>6.5</Mass>
@@ -345,12 +348,12 @@
       <Insulation_Heat>25</Insulation_Heat>
     </statBases>
     <equippedStatOffsets>
-      <MoveSpeed>2</MoveSpeed>
-      <MeleeWeapon_Cooldown>-0.1</MeleeWeapon_Cooldown>
+      <MoveSpeed>3</MoveSpeed>
       <WorkSpeedGlobal>-0.10</WorkSpeedGlobal>
-      <ShootingAccuracy>-0.05</ShootingAccuracy>
+      <ShootingAccuracy>-0.1</ShootingAccuracy>
       <AimingDelayFactor>-0.4</AimingDelayFactor>
     </equippedStatOffsets>
+     <generateCommonality>0.1</generateCommonality>
     <apparel>
       <worngraphicPath>Things/Apparel/JinCheon</worngraphicPath>
       <layers>
@@ -382,9 +385,9 @@
       </recipeUsers>
     </recipeMaker>
     <costList>
-      <Steel>3</Steel>
+      <Steel>30</Steel>
       <Component>15</Component>
-      <Plasteel>50</Plasteel>
+      <Plasteel>25</Plasteel>
     </costList>
     <statBases>
       <Mass>1.8</Mass>
@@ -398,18 +401,17 @@
 		<Insulation_Heat>15</Insulation_Heat>
     </statBases>
     <equippedStatOffsets>
-      <MoveSpeed>2</MoveSpeed>
-      <MeleeWeapon_Cooldown>-0.1</MeleeWeapon_Cooldown>
-      <WorkSpeedGlobal>-0.10</WorkSpeedGlobal>
+      <MoveSpeed>1</MoveSpeed>
+      <WorkSpeedGlobal>-0.05</WorkSpeedGlobal>
       <ShootingAccuracy>-0.05</ShootingAccuracy>
       <AimingDelayFactor>-0.4</AimingDelayFactor>
     </equippedStatOffsets>
+     <generateCommonality>0.1</generateCommonality>
     <apparel>
       <worngraphicPath>Things/Apparel/JinCheonH</worngraphicPath>
         <layers>
           <li>Overhead</li>
         </layers>
-     <commonality>0.1</commonality>
      <bodyPartGroups>
        <li>FullHead</li>
      </bodyPartGroups>
@@ -418,6 +420,8 @@
      </defaultOutfitTags>
     </apparel>
     </ThingDef>
+
+ <!-- ============================================== -->
 	
   	<ThingDef ParentName="RSArmorMakeableBase">
 		<defName>Apparel_Bjorn</defName>
@@ -440,30 +444,30 @@
     <costList>
       <Steel>200</Steel>
       <Component>18</Component>
-      <Plasteel>210</Plasteel>
+      <Plasteel>110</Plasteel>
     </costList>
 		<statBases>
-      <Mass>20</Mass>
+      <Mass>18.9</Mass>
 			<WorkToMake>174000</WorkToMake>
 			<MaxHitPoints>650</MaxHitPoints>
 			<MarketValue>4850</MarketValue>
-			<ArmorRating_Blunt>0.95</ArmorRating_Blunt>
-			<ArmorRating_Sharp>0.80</ArmorRating_Sharp>
-			<ArmorRating_Heat>0.80</ArmorRating_Heat>
+			<ArmorRating_Blunt>0.7</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.8</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.7</ArmorRating_Heat>
 			<Insulation_Cold>-45</Insulation_Cold>
 			<Insulation_Heat>45</Insulation_Heat>
 		</statBases>
 		<equippedStatOffsets>
-			<MoveSpeed>-2.0</MoveSpeed>
+			<MoveSpeed>-1</MoveSpeed>
 			<WorkSpeedGlobal>-0.20</WorkSpeedGlobal>
 		</equippedStatOffsets>
+			<generateCommonality>0.1</generateCommonality>
 		<apparel>
 <worngraphicPath>Things/Apparel/Bjorn</worngraphicPath>
 			<layers>
 			    <li>Middle</li>
 			    <li>Shell</li>
 			</layers>
-			<commonality>0.2</commonality>
 			<bodyPartGroups>
 				<li>Shoulders</li>
 				<li>Torso</li>
@@ -478,7 +482,7 @@
 
 	<ThingDef ParentName="RSArmorHelmetMakeableBase">
 	<defName>Apparel_BjornH</defName>
-	<label>assault armor helmet</label>
+	<label>assault helmet</label>
 	<techLevel>Spacer</techLevel>
 	<description>Rugged and trustworthy helmet of the assault armor.</description>
 	<graphicData> <texPath>Things/Apparel/BjornH</texPath>
@@ -493,28 +497,28 @@
     <costList>
       <Steel>100</Steel>
       <Component>8</Component>
-      <Plasteel>100</Plasteel>
+      <Plasteel>50</Plasteel>
     </costList>
 	<statBases>
-      <Mass>3</Mass>
+      <Mass>4.1</Mass>
      <WorkToMake>41000</WorkToMake>
 		<MaxHitPoints>510</MaxHitPoints>
 		<MarketValue>1355</MarketValue>
-		<ArmorRating_Blunt>0.95</ArmorRating_Blunt>
-		<ArmorRating_Sharp>0.80</ArmorRating_Sharp>
-		<ArmorRating_Heat>0.80</ArmorRating_Heat>
-		<Insulation_Cold>-45</Insulation_Cold>
-		<Insulation_Heat>45</Insulation_Heat>
+		<ArmorRating_Blunt>0.7</ArmorRating_Blunt>
+		<ArmorRating_Sharp>0.8</ArmorRating_Sharp>
+		<ArmorRating_Heat>0.7</ArmorRating_Heat>
+		<Insulation_Cold>-25</Insulation_Cold>
+		<Insulation_Heat>25</Insulation_Heat>
 	</statBases>
 	<equippedStatOffsets>
-			<MoveSpeed>-0.50</MoveSpeed>
+			<MoveSpeed>-0.25</MoveSpeed>
 	</equippedStatOffsets>
+			<generateCommonality>0.1</generateCommonality>
 	<apparel>
 		<worngraphicPath>Things/Apparel/BjornH</worngraphicPath>
 		<layers>
 			<li>Overhead</li>
 		</layers>
-		<commonality>0.1</commonality>
 		<bodyPartGroups>
 			<li>FullHead</li>
 		</bodyPartGroups>
@@ -523,6 +527,118 @@
       </defaultOutfitTags>
 	</apparel>
 	</ThingDef>
+
+ <!-- ============================================== -->
+	
+  	<ThingDef ParentName="RSArmorMakeableBase">
+		<defName>Apparel_FSArmor</defName>
+		<techLevel>Spacer</techLevel>
+		<label>fire support armor</label>
+		<description>If you need a walking turret, call the "Varg" fire support armor. Rapid reloading system, additional ammo container, built in fire control system, everything of the Varg focused on fire support. In return, the Varg is very vulnerable to close combat.</description>
+		<graphicData> <texPath>Things/Apparel/FSArmor</texPath>
+		<graphicClass>Graphic_Single</graphicClass> </graphicData>
+		<tickerType>Normal</tickerType>
+		<thingCategories>
+			<li>Apparel</li>
+		</thingCategories>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <researchPrerequisite>PoweredArmor</researchPrerequisite>
+      <recipeUsers>
+        <li>JITable</li>
+      </recipeUsers>
+    </recipeMaker>
+    <costList>
+      <Steel>200</Steel>
+      <Component>20</Component>
+      <Plasteel>110</Plasteel>
+    </costList>
+		<statBases>
+      <Mass>18.5</Mass>
+			<WorkToMake>180000</WorkToMake>
+			<MaxHitPoints>550</MaxHitPoints>
+			<MarketValue>4850</MarketValue>
+			<ArmorRating_Blunt>0.4</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.65</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.4</ArmorRating_Heat>
+			<Insulation_Cold>-45</Insulation_Cold>
+			<Insulation_Heat>45</Insulation_Heat>
+		</statBases>
+		<equippedStatOffsets>
+			<MeleeHitChance>-0.45</MeleeHitChance>
+			<MoveSpeed>-1.5</MoveSpeed>
+			<WorkSpeedGlobal>-0.2</WorkSpeedGlobal>
+			<AimingDelayFactor>-0.75</AimingDelayFactor>
+		</equippedStatOffsets>
+			<generateCommonality>0.1</generateCommonality>
+		<apparel>
+<worngraphicPath>Things/Apparel/FSArmor</worngraphicPath>
+			<layers>
+			    <li>Middle</li>
+			    <li>Shell</li>
+			</layers>
+			<bodyPartGroups>
+				<li>Shoulders</li>
+				<li>Torso</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="RSArmorHelmetMakeableBase">
+	<defName>Apparel_FSArmorH</defName>
+	<label>fire support helmet</label>
+	<techLevel>Spacer</techLevel>
+	<description>Helmet of the Varg fire support armor. Share the features with the fire support armor.</description>
+	<graphicData> <texPath>Things/Apparel/FSArmorH</texPath>
+	<graphicClass>Graphic_Single</graphicClass> </graphicData>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <researchPrerequisite>PoweredArmor</researchPrerequisite>
+      <recipeUsers>
+        <li>JITable</li>
+      </recipeUsers>
+    </recipeMaker>
+    <costList>
+      <Steel>100</Steel>
+      <Component>10</Component>
+      <Plasteel>55</Plasteel>
+    </costList>
+	<statBases>
+      <Mass>3</Mass>
+     <WorkToMake>42000</WorkToMake>
+		<MaxHitPoints>450</MaxHitPoints>
+		<MarketValue>1355</MarketValue>
+		<ArmorRating_Blunt>0.4</ArmorRating_Blunt>
+		<ArmorRating_Sharp>0.65</ArmorRating_Sharp>
+		<ArmorRating_Heat>0.4</ArmorRating_Heat>
+		<Insulation_Cold>-25</Insulation_Cold>
+		<Insulation_Heat>25</Insulation_Heat>
+	</statBases>
+	<equippedStatOffsets>
+			<MeleeHitChance>-0.15</MeleeHitChance>
+			<MoveSpeed>-0.50</MoveSpeed>
+			<AimingDelayFactor>-0.25</AimingDelayFactor>
+	</equippedStatOffsets>
+			<generateCommonality>0.1</generateCommonality>
+	<apparel>
+		<worngraphicPath>Things/Apparel/FSArmorH</worngraphicPath>
+		<layers>
+			<li>Overhead</li>
+		</layers>
+		<bodyPartGroups>
+			<li>FullHead</li>
+		</bodyPartGroups>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+	</apparel>
+	</ThingDef>
+
 
 
  <!-- ============================================== -->
@@ -549,11 +665,11 @@
     <costList>
       <Component>15</Component>
       <Steel>75</Steel>
-      <Plasteel>150</Plasteel>
+      <Plasteel>100</Plasteel>
     </costList>
 		<statBases>
       <Mass>13.9</Mass>
-			<WorkToMake>161000</WorkToMake>
+			<WorkToMake>151000</WorkToMake>
 			<MaxHitPoints>500</MaxHitPoints>
 			<MarketValue>4850</MarketValue>
 			<ArmorRating_Blunt>0.35</ArmorRating_Blunt>
@@ -566,13 +682,13 @@
 			<WorkSpeedGlobal>-0.05</WorkSpeedGlobal>
 			<MoveSpeed>-0.1</MoveSpeed>
 		</equippedStatOffsets>
+		<generateCommonality>0.1</generateCommonality>
 		<apparel>
 <worngraphicPath>Things/Apparel/Nemesis</worngraphicPath>
 			<layers>
 			    <li>Middle</li>
 			    <li>Shell</li>
 			</layers>
-			<commonality>0.2</commonality>
 			<bodyPartGroups>
 				<li>Shoulders</li>
 				<li>Torso</li>
@@ -602,22 +718,23 @@
     <costList>
       <Component>6</Component>
       <Steel>75</Steel>
-      <Plasteel>30</Plasteel>
+      <Plasteel>50</Plasteel>
     </costList>
 	<statBases>
       <Mass>2.01</Mass>
-     <WorkToMake>38900</WorkToMake>
+     <WorkToMake>35900</WorkToMake>
 		<MaxHitPoints>450</MaxHitPoints>
 		<MarketValue>1420</MarketValue>
 			<ArmorRating_Blunt>0.35</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.5</ArmorRating_Sharp>
 			<ArmorRating_Heat>0.85</ArmorRating_Heat>
-			<Insulation_Cold>-45</Insulation_Cold>
+			<Insulation_Cold>-25</Insulation_Cold>
 			<Insulation_Heat>50</Insulation_Heat>
 	</statBases>
 	<equippedStatOffsets>
 		<MoveSpeed>-0.02</MoveSpeed>
 	</equippedStatOffsets>
+	<generateCommonality>0.2</generateCommonality>
 	<apparel>
       <defaultOutfitTags>
         <li>Soldier</li>
@@ -626,7 +743,117 @@
 		<layers>
 			<li>Overhead</li>
 		</layers>
-		<commonality>0.1</commonality>
+		<bodyPartGroups>
+			<li>FullHead</li>
+		</bodyPartGroups>
+	</apparel>
+	</ThingDef>
+
+ <!-- ============================================== -->
+
+
+
+	<ThingDef ParentName="RSArmorMakeableBase">
+		<defName>Apparel_HazardCarapace</defName>
+		<label>hazard carapace</label>
+		<techLevel>Spacer</techLevel>
+		<description>The "Alecto" hazard carapace is designed to carry out mission even in the worst environment. In extreme cold area, in a heat wave, and even in radioactive wasteland, Tisiphone hunters can continue their endless hunting.</description>
+		<graphicData> <texPath>Things/Apparel/HazardCarapace</texPath>
+		<graphicClass>Graphic_Single</graphicClass> </graphicData>
+		<thingCategories>
+			<li>Apparel</li>
+		</thingCategories>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <researchPrerequisite>PoweredArmor</researchPrerequisite>
+      <recipeUsers>
+        <li>TETable</li>
+      </recipeUsers>
+    </recipeMaker>
+    <costList>
+      <Component>18</Component>
+      <Steel>45</Steel>
+      <Plasteel>110</Plasteel>
+    </costList>
+		<statBases>
+      <Mass>14.3</Mass>
+			<WorkToMake>175000</WorkToMake>
+			<MaxHitPoints>500</MaxHitPoints>
+			<ArmorRating_Blunt>0.5</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.55</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.6</ArmorRating_Heat>
+			<Insulation_Cold>-150</Insulation_Cold>
+			<Insulation_Heat>150</Insulation_Heat>
+		</statBases>
+		<equippedStatOffsets>
+			<WorkSpeedGlobal>-0.05</WorkSpeedGlobal>
+			<MoveSpeed>-0.1</MoveSpeed>
+			<ToxicSensitivity>-0.75</ToxicSensitivity>
+			<PsychicSensitivity>-0.25</PsychicSensitivity>
+		</equippedStatOffsets>
+		<generateCommonality>0.1</generateCommonality>
+		<apparel>
+<worngraphicPath>Things/Apparel/HazardCarapace</worngraphicPath>
+			<layers>
+			    <li>Middle</li>
+			    <li>Shell</li>
+			</layers>
+			<bodyPartGroups>
+				<li>Shoulders</li>
+				<li>Torso</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="RSArmorHelmetMakeableBase">
+	<defName>Apparel_HazardCarapaceH</defName>
+	<label>hazard helmet</label>
+	<techLevel>Spacer</techLevel>
+	<description>A helmet of the "Alecto" hazard carapace. This helmet provides excellent environmental protection.</description>
+	<graphicData> <texPath>Things/Apparel/HazardCarapaceH</texPath>
+	<graphicClass>Graphic_Single</graphicClass> </graphicData>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <researchPrerequisite>PoweredArmor</researchPrerequisite>
+      <recipeUsers>
+        <li>TETable</li>
+      </recipeUsers>
+    </recipeMaker>
+    <costList>
+      <Component>5</Component>
+      <Steel>35</Steel>
+      <Plasteel>55</Plasteel>
+    </costList>
+	<statBases>
+      <Mass>2.53</Mass>
+     <WorkToMake>41900</WorkToMake>
+		<MaxHitPoints>450</MaxHitPoints>
+		<MarketValue>1420</MarketValue>
+			<ArmorRating_Blunt>0.4</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.45</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.6</ArmorRating_Heat>
+			<Insulation_Cold>-25</Insulation_Cold>
+			<Insulation_Heat>25</Insulation_Heat>
+	</statBases>
+	<equippedStatOffsets>
+		<ToxicSensitivity>-0.25</ToxicSensitivity>
+		<PsychicSensitivity>-0.75</PsychicSensitivity>
+		<MoveSpeed>-0.02</MoveSpeed>
+	</equippedStatOffsets>
+	<generateCommonality>0.2</generateCommonality>
+	<apparel>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+		<worngraphicPath>Things/Apparel/HazardCarapaceH</worngraphicPath>
+		<layers>
+			<li>Overhead</li>
+		</layers>
 		<bodyPartGroups>
 			<li>FullHead</li>
 		</bodyPartGroups>
@@ -638,7 +865,7 @@
 
 
   <ThingDef ParentName="ArmorMakeableBase">
-    <thingClass>PersonalShield</thingClass>
+    <thingClass>ShieldBelt</thingClass>
     <defName>Apparel_CombatArmor</defName>
     <tickerType>Normal</tickerType>
     <label>close combat armor</label>
@@ -656,9 +883,10 @@
     <costList>
       <Component>20</Component>
       <Plasteel>120</Plasteel>
+      <Uranium>5</Uranium>
     </costList>
     <statBases>
-      <WorkToMake>185000</WorkToMake>
+      <WorkToMake>175000</WorkToMake>
       <MaxHitPoints>600</MaxHitPoints>
       <MarketValue>4500</MarketValue>
       <Mass>16</Mass>
@@ -666,14 +894,16 @@
       <ArmorRating_Sharp>0.6</ArmorRating_Sharp>
       <ArmorRating_Heat>0.30</ArmorRating_Heat>
       <Insulation_Cold>-45</Insulation_Cold>
-      <Insulation_Heat>20</Insulation_Heat>
-      <PersonalShieldRechargeRate>0.3</PersonalShieldRechargeRate>
-      <PersonalShieldEnergyMax>0.8</PersonalShieldEnergyMax>
+      <Insulation_Heat>35</Insulation_Heat>
+      <EnergyShieldRechargeRate>0.3</EnergyShieldRechargeRate>
+      <EnergyShieldEnergyMax>0.8</EnergyShieldEnergyMax>
     </statBases>
     <equippedStatOffsets>
       <MoveSpeed>0.5</MoveSpeed>
-      <WorkSpeedGlobal>-0.10</WorkSpeedGlobal>
+      <MeleeDodgeChance>2</MeleeDodgeChance>
+      <WorkSpeedGlobal>-0.2</WorkSpeedGlobal>
     </equippedStatOffsets>
+	<generateCommonality>0.2</generateCommonality>
     <apparel>
       <bodyPartGroups>
         <li>Torso</li>
@@ -686,7 +916,6 @@
         <li>Middle</li>
         <li>Shell</li>
       </layers>
-      <commonality>0.1</commonality>
       <tags>
         <li>Military</li>
       </tags>
@@ -715,7 +944,8 @@
 			<Insulation_Heat>5</Insulation_Heat>
     </statBases>
     <equippedStatOffsets>
-      <WorkSpeedGlobal>-0.5</WorkSpeedGlobal>
+      <MeleeHitChance>0.4</MeleeHitChance>
+      <WorkSpeedGlobal>-0.1</WorkSpeedGlobal>
     </equippedStatOffsets>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
@@ -725,6 +955,7 @@
       <Component>8</Component>
       <Plasteel>55</Plasteel>
     </costList>
+	<generateCommonality>0.2</generateCommonality>
     <apparel>
       <bodyPartGroups>
         <li>FullHead</li>
@@ -733,7 +964,6 @@
       <layers>
         <li>Overhead</li>
       </layers>
-      <commonality>0.1</commonality>
       <tags>
         <li>Military</li>
       </tags>

@@ -15,13 +15,12 @@
     <statBases>
       <Mass>1.42</Mass>
       <WorkToMake>20500</WorkToMake>
-      <MarketValue>1150</MarketValue>
       <MeleeWeapon_DamageAmount>19</MeleeWeapon_DamageAmount>
       <MeleeWeapon_Cooldown>1.8</MeleeWeapon_Cooldown>
     </statBases>
-    <equippedAngleOffset>35</equippedAngleOffset>
+    <equippedAngleOffset>-35</equippedAngleOffset>
     <equippedStatOffsets>
-      <PlantWorkSpeed>0.4</PlantWorkSpeed>
+      <PlantWorkSpeed>0.2</PlantWorkSpeed>
     </equippedStatOffsets>
     <costList>
       <Steel>75</Steel>
@@ -52,8 +51,7 @@
     <statBases>
       <Mass>0.85</Mass>
       <WorkToMake>32000</WorkToMake>
-      <MarketValue>1365</MarketValue>
-      <MeleeWeapon_DamageAmount>12</MeleeWeapon_DamageAmount>
+      <MeleeWeapon_DamageAmount>10</MeleeWeapon_DamageAmount>
       <MeleeWeapon_Cooldown>0.85</MeleeWeapon_Cooldown>
     </statBases>
     <recipeMaker>
@@ -64,7 +62,7 @@
     </recipeMaker>
    <costList>
       <Steel>20</Steel>
-      <Plasteel>60</Plasteel>
+      <Plasteel>50</Plasteel>
       <Component>6</Component>
     </costList>
     <equippedAngleOffset>0</equippedAngleOffset>
@@ -87,8 +85,7 @@
     <statBases>
       <Mass>10</Mass>
       <WorkToMake>38500</WorkToMake>
-      <MarketValue>1550</MarketValue>
-      <MeleeWeapon_DamageAmount>38</MeleeWeapon_DamageAmount>
+      <MeleeWeapon_DamageAmount>32</MeleeWeapon_DamageAmount>
       <MeleeWeapon_Cooldown>2.9</MeleeWeapon_Cooldown>
     </statBases>
     <recipeMaker>
@@ -104,7 +101,7 @@
       <Component>4</Component>
     </costList>
     <equippedStatOffsets>
-      <MoveSpeed>-0.6</MoveSpeed>
+      <MoveSpeed>-0.3</MoveSpeed>
     </equippedStatOffsets>
     <verbs>
       <li>
@@ -126,7 +123,6 @@
     <statBases>
       <Mass>0.52</Mass>
       <WorkToMake>15500</WorkToMake>
-      <MarketValue>650</MarketValue>
       <MeleeWeapon_DamageAmount>9</MeleeWeapon_DamageAmount>
       <MeleeWeapon_Cooldown>1.1</MeleeWeapon_Cooldown>
     </statBases>
@@ -136,9 +132,9 @@
       </recipeUsers>
       <researchPrerequisite>KineticTech</researchPrerequisite>
     </recipeMaker>
-    <equippedAngleOffset>35</equippedAngleOffset>
+    <equippedAngleOffset>-35</equippedAngleOffset>
     <equippedStatOffsets>
-      <WorkSpeedGlobal>0.2</WorkSpeedGlobal>
+      <WorkSpeedGlobal>0.1</WorkSpeedGlobal>
     </equippedStatOffsets>
     <costList>
       <Steel>45</Steel>
@@ -161,6 +157,16 @@
       <texPath>Things/A16/TorchSword</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+    <recipeMaker>
+      <workSpeedStat>SmithingSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+      <recipeUsers>
+        <li>TableMachining</li>
+      </recipeUsers>
+      <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+    </recipeMaker>
     <soundInteract>InteractPistol</soundInteract>
     <techLevel>Spacer</techLevel>
     <statBases>
@@ -171,7 +177,7 @@
     <equippedAngleOffset>-5</equippedAngleOffset>
     <costList>
       <Steel>75</Steel>
-      <Plasteel>100</Plasteel>
+      <Plasteel>35</Plasteel>
       <Component>6</Component>
     </costList>
     <verbs>
