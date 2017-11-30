@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
   
-  <ThingDef ParentName="ResourceBase">
+  <thingDef ParentName="ResourceBase">
     <defName>MRSKitR</defName>
     <label>MRS rifle conversion kit</label>
     <description>All the parts necessary to convert an phanter-C modular carbine to the rifle configuration. In order to reconfigure an already-configured panther Modular Rifle System, you'll need to disassemble it to the carbine, then assemble with the parts you prefer.</description>
@@ -39,9 +39,9 @@
     <thingCategories>
       <li>MRSKit</li>
     </thingCategories>
-  </ThingDef>
+  </thingDef>
   
-  <ThingDef ParentName="ResourceBase">
+  <thingDef ParentName="ResourceBase">
     <defName>MRSKitM</defName>
     <label>MRS DMR conversion kit</label>
     <description>All the parts necessary to convert an phanter-C modular carbine to the Designated Marksman's Rifle configuration. In order to reconfigure an already-configured panther Modular Rifle System, you'll need to disassemble it to the carbine, then assemble with the parts you prefer.</description>
@@ -79,9 +79,9 @@
     <thingCategories>
       <li>MRSKit</li>
     </thingCategories>
-  </ThingDef>
+  </thingDef>
 
-  <ThingDef ParentName="ResourceBase">
+  <thingDef ParentName="ResourceBase">
     <defName>MRSKitS</defName>
     <label>MRS LMG conversion kit</label>
     <description>All the parts necessary to convert an phanter-C modular carbine to the Light Machine Gun configuration. In order to reconfigure an already-configured panther Modular Rifle System, you'll need to disassemble it to the carbine, then assemble with the parts you prefer.</description>
@@ -119,6 +119,6 @@
     <thingCategories>
       <li>MRSKit</li>
     </thingCategories>
-  </ThingDef>
+  </thingDef>
 
 </Defs>

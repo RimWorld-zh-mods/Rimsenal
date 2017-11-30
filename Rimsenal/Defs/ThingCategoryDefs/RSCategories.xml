@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ThingCategoryDefs>
+<Defs>
   
 	<ThingCategoryDef>
 		<defName>YPWeapons</defName>
@@ -29,6 +29,7 @@
 		<defName>MRSKit</defName>
 		<label>MRS conversion kit</label>
 		<parent>Manufactured</parent>
+		<iconPath>UI/Icons/ThingCategories/Manufactured</iconPath>
 	</ThingCategoryDef>
 
-</ThingCategoryDefs>
+</Defs>

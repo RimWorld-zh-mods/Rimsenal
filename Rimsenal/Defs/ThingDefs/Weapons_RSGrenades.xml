@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+<Defs>
 
   <!-- ==================== Microwave grenade ========================== -->
 
@@ -51,7 +51,7 @@
         <targetParams>
           <canTargetLocations>true</canTargetLocations>
         </targetParams>
-        <projectileDef>Proj_BaegYa</projectileDef>
+        <defaultProjectile>Proj_BaegYa</defaultProjectile>
       </li>
     </verbs>
     <smeltProducts>
@@ -110,7 +110,7 @@
         <targetParams>
           <canTargetLocations>true</canTargetLocations>
         </targetParams>
-        <projectileDef>Proj_Dunder</projectileDef>
+        <defaultProjectile>Proj_Dunder</defaultProjectile>
       </li>
     </verbs>
   </ThingDef>
@@ -130,7 +130,7 @@
       <damageDef>Bomb</damageDef>
       <damageAmountBase>10</damageAmountBase>
       <explosionDelay>80</explosionDelay>
-      <Speed>10</Speed>
+      <speed>10</speed>
     </projectile>
   </ThingDef>
 
@@ -174,7 +174,7 @@
         <targetParams>
           <canTargetLocations>true</canTargetLocations>
         </targetParams>
-        <projectileDef>Proj_Bobcat</projectileDef>
+        <defaultProjectile>Proj_Bobcat</defaultProjectile>
       </li>
     </verbs>
   </ThingDef>
@@ -195,7 +195,7 @@
       <damageDef>KineticImpact</damageDef>
       <damageAmountBase>10</damageAmountBase>
       <explosionDelay>80</explosionDelay>
-      <Speed>10</Speed>
+      <speed>10</speed>
     </projectile>
   </ThingDef>
 
@@ -233,9 +233,9 @@
         <targetParams>
           <canTargetLocations>true</canTargetLocations>
         </targetParams>
-        <projectileDef>Proj_Grief</projectileDef>
+        <defaultProjectile>Proj_Grief</defaultProjectile>
       </li>
     </verbs>
   </ThingDef>
 
-</ThingDefs>
+</Defs>

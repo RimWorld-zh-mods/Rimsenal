@@ -1,42 +1,16 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+<Defs>
 
-  <ThingDef Name="BaseGDGun" Abstract="True">
-    <category>Item</category>
-    <smeltable>true</smeltable>
-    <thingClass>ThingWithComps</thingClass>
-    <equipmentType>Primary</equipmentType>
-    <pathCost>10</pathCost>
-    <useHitPoints>True</useHitPoints>
-    <selectable>True</selectable>
-    <graphicData>
-      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
-    </graphicData>
-    <drawGUIOverlay>true</drawGUIOverlay>
-    <statBases>
-      <MaxHitPoints>100</MaxHitPoints>
-      <Flammability>1.0</Flammability>
-      <DeteriorationRate>2</DeteriorationRate>
-      <SellPriceFactor>0.2</SellPriceFactor>
-    </statBases>
-    <generateCommonality>0.4</generateCommonality>
-    <altitudeLayer>Item</altitudeLayer>
-    <alwaysHaulable>True</alwaysHaulable>
-    <tickerType>Never</tickerType>
-    <techLevel>Industrial</techLevel>
+  <ThingDef Name="BaseGDGun" Abstract="True" ParentName="BaseWeapon">
+		<techLevel>Industrial</techLevel>
+		<smeltable>true</smeltable>
+		<thingCategories>
+      <li>GDWeapons</li>
+    </thingCategories>
     <weaponTags>
        <li>AdvancedGun</li>
        <li>GDGun</li>
     </weaponTags>
-    <thingCategories>
-      <li>GDWeapons</li>
-    </thingCategories>
-    <comps>
-      <li Class="CompProperties_Forbiddable"/>
-      <li>
-        <compClass>CompEquippable</compClass>
-      </li>
-    </comps>
     <recipeMaker>
       <workSpeedStat>SmithingSpeed</workSpeedStat>
       <workSkill>Crafting</workSkill>
@@ -46,6 +20,7 @@
         <li>GDTable</li>
       </recipeUsers>
       <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+      <researchPrerequisite>DefenceTech</researchPrerequisite>
     </recipeMaker>
   </ThingDef>
 
@@ -54,7 +29,7 @@
 
   <ThingDef ParentName="BaseBullet">
     <defName>Bullet_TacticalPistol</defName>
-    <label>pistol bullet</label>
+    <label>tactical pistol bullet</label>
     <graphicData>
       <texPath>Things/Projectile/Gbullet</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -62,124 +37,67 @@
     <projectile>
       <flyOverhead>false</flyOverhead>
       <damageDef>Bullet</damageDef>
-      <DamageAmountBase>8</DamageAmountBase>
-      <Speed>65</Speed>
+      <damageAmountBase>8</damageAmountBase>
+      <speed>65</speed>
     </projectile>
   </ThingDef>
-
-
+  
   <ThingDef ParentName="BaseGDGun">
     <defName>GD_TacticalPistol</defName>
-    <label>GD tactical pistol</label>
+    <label>tactical pistol</label>
     <description>A Greydale Defense "Lynx". Light and easy to use, ideal personal defense weapon. It use small-caliber, high-velocity plasteel tipped cartridge.</description>
     <graphicData>
       <texPath>Things/A16/Lynx</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractPistol</soundInteract>
+    <soundInteract>InteractAutopistol</soundInteract>
     <statBases>
-      <Mass>1.34</Mass>
+      <Mass>1.25</Mass>
       <WorkToMake>22000</WorkToMake>
       <AccuracyTouch>0.9</AccuracyTouch>
       <AccuracyShort>0.8</AccuracyShort>
       <AccuracyMedium>0.6</AccuracyMedium>
       <AccuracyLong>0.4</AccuracyLong>
-      <RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
+      <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
+      <Weapon_Bulk>0.5</Weapon_Bulk>
     </statBases>
     <costList>
       <Plasteel>2</Plasteel>
       <Steel>25</Steel>
-      <Component>4</Component>
+      <Component>3</Component>
     </costList>
-    <recipeMaker>
-      <researchPrerequisite>DefenceTech</researchPrerequisite>
-    </recipeMaker>
-    <comps>
-      <li>
-        <compClass>CompQuality</compClass>
-      </li>
-      <li Class="CompProperties_Art">
-        <nameMaker>ArtName_WeaponGun</nameMaker>
-        <descriptionMaker>ArtDescription_WeaponGun</descriptionMaker>
-        <minQualityForArtistic>Excellent</minQualityForArtistic>
-      </li>
-    </comps>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_TacticalPistol</projectileDef>
-        <warmupTime>0.4</warmupTime>
+        <defaultProjectile>Bullet_TacticalPistol</defaultProjectile>
+        <warmupTime>0.25</warmupTime>
         <range>20</range>
-        <burstShotCount>2</burstShotCount>
-        <ticksBetweenBurstShots>15</ticksBetweenBurstShots>
         <soundCast>ShotLynx</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
     </verbs>
-  </ThingDef>
-
-  <!-- ============================================== -->
-
-
-  <ThingDef ParentName="BaseBullet">
-    <defName>Bullet_ModularCarbine</defName>
-    <label>carbine bullet</label>
-    <graphicData>
-      <texPath>Things/Projectile/Gbullet</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <projectile>
-      <flyOverhead>false</flyOverhead>
-      <damageDef>Bullet</damageDef>
-      <DamageAmountBase>7</DamageAmountBase>
-      <Speed>80</Speed>
-    </projectile>
-  </ThingDef>
-
-
-  <ThingDef ParentName="BaseGDGun">
-    <defName>GD_ModularCarbine</defName>
-    <label>GD modular carbine</label>
-    <description>Greydale Defense "Panther" Modular Rifle System. This carbine model's light and compact design makes it suitable for security mission. It is a base platform of other MRS.</description>
-    <graphicData>
-      <texPath>Things/A16/MRS-C</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <soundInteract>InteractGDWeapons</soundInteract>
-    <statBases>
-      <Mass>2.56</Mass>
-      <WorkToMake>41000</WorkToMake>
-      <AccuracyTouch>0.85</AccuracyTouch>
-      <AccuracyShort>0.95</AccuracyShort>
-      <AccuracyMedium>0.65</AccuracyMedium>
-      <AccuracyLong>0.5</AccuracyLong>
-      <RangedWeapon_Cooldown>1.02</RangedWeapon_Cooldown>
-    </statBases>
-    <costList>
-      <Steel>50</Steel>
-      <Component>5</Component>
-    </costList>
-    <recipeMaker>
-      <researchPrerequisite>DefenceTech</researchPrerequisite>
-    </recipeMaker>
-    <verbs>
+    <tools>
       <li>
-        <verbClass>Verb_Shoot</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_ModularRifle</projectileDef>
-        <warmupTime>0.75</warmupTime>
-        <range>23</range>
-        <burstShotCount>3</burstShotCount>
-        <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
-        <soundCast>ShotGRC</soundCast>
-        <soundCastTail>GunTail_Medium</soundCastTail>
-        <muzzleFlashScale>9</muzzleFlashScale>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.6</cooldownTime>
       </li>
-    </verbs>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+    </tools>
   </ThingDef>
-
 
   <!-- ============================================== -->
 
@@ -192,17 +110,77 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <projectile>
-      <flyOverhead>false</flyOverhead>
       <damageDef>Bullet</damageDef>
-      <DamageAmountBase>7</DamageAmountBase>
-      <Speed>80</Speed>
+      <damageAmountBase>10</damageAmountBase>
+      <speed>70</speed>
     </projectile>
   </ThingDef>
+  
+  <ThingDef ParentName="BaseGDGun">
+    <defName>GD_ModularCarbine</defName>
+    <label>modular carbine</label>
+    <description>Greydale Defense "Panther" Modular Rifle System. This carbine model's light and compact design makes it suitable for security mission. It is a base platform of other MRS.</description>
+    <graphicData>
+      <texPath>Things/A16/MRS-C</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractGDWeapons</soundInteract>
+    <statBases>
+      <WorkToMake>41000</WorkToMake>
+      <Mass>2.5</Mass>
+      <AccuracyTouch>0.85</AccuracyTouch>
+      <AccuracyShort>0.8</AccuracyShort>
+      <AccuracyMedium>0.45</AccuracyMedium>
+      <AccuracyLong>0.3</AccuracyLong>
+      <RangedWeapon_Cooldown>1.36</RangedWeapon_Cooldown>
+      <Weapon_Bulk>0.5</Weapon_Bulk>
+    </statBases>
+    <costList>
+      <Steel>50</Steel>
+      <Component>5</Component>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_ModularRifle</defaultProjectile>
+        <warmupTime>0.9</warmupTime>
+        <range>18</range>
+        <burstShotCount>4</burstShotCount>
+        <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+        <soundCast>ShotGRC</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+
+  <!-- ============================================== -->
 
 
   <ThingDef ParentName="BaseGDGun">
     <defName>GD_ModularRifle</defName>
-    <label>GD modular rifle</label>
+    <label>modular carbine</label>
     <description>Greydale Defense "Panther" Modular Rifle System. Because of its durable and simple design, this rifle model is very popular among remote colonies militia.</description>
     <graphicData>
       <texPath>Things/A16/MRS-R</texPath>
@@ -210,13 +188,14 @@
     </graphicData>
     <soundInteract>InteractGDWeapons</soundInteract>
     <statBases>
-      <Mass>3.32</Mass>
       <WorkToMake>50</WorkToMake>
-      <AccuracyTouch>0.7</AccuracyTouch>
+      <Mass>3.5</Mass>
+      <AccuracyTouch>0.70</AccuracyTouch>
       <AccuracyShort>0.85</AccuracyShort>
       <AccuracyMedium>0.7</AccuracyMedium>
-      <AccuracyLong>0.65</AccuracyLong>
-      <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
+      <AccuracyLong>0.6</AccuracyLong>
+      <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+      <Weapon_Bulk>1.0</Weapon_Bulk>
     </statBases>
     <costList>
       <GD_ModularCarbine>1</GD_ModularCarbine>
@@ -226,40 +205,57 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_ModularRifle</projectileDef>
-        <warmupTime>1</warmupTime>
-        <range>29</range>
-        <burstShotCount>4</burstShotCount>
-        <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+        <defaultProjectile>Bullet_ModularRifle</defaultProjectile>
+        <warmupTime>0.9</warmupTime>
+        <range>30</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>9</ticksBetweenBurstShots>
         <soundCast>ShotGRC</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
     </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>1.9</cooldownTime>
+      </li>
+    </tools>
   </ThingDef>
+
 
   <!-- ============================================== -->
 
-
   <ThingDef ParentName="BaseBullet">
     <defName>Bullet_ModularDMR</defName>
-    <label>rifle bullet</label>
+    <label>marksman rifle bullet</label>
     <graphicData>
       <texPath>Things/Projectile/Gbullet</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <projectile>
-      <flyOverhead>false</flyOverhead>
       <damageDef>Bullet</damageDef>
-      <DamageAmountBase>25</DamageAmountBase>
-      <Speed>80</Speed>
+      <damageAmountBase>25</damageAmountBase>
+      <speed>80</speed>
     </projectile>
   </ThingDef>
-
-
+  
   <ThingDef ParentName="BaseGDGun">
     <defName>GD_ModularDMR</defName>
-    <label>GD modular DMR</label>
+    <label>modular DMR</label>
     <description>Greydale Defense "Panther" Modular Rifle System. This marksman rifle model is a great tool for precision fire support or hunting.</description>
     <graphicData>
       <texPath>Things/A16/MRS-M</texPath>
@@ -267,13 +263,14 @@
     </graphicData>
     <soundInteract>InteractGDWeapons</soundInteract>
     <statBases>
-      <Mass>3.91</Mass>
       <WorkToMake>50</WorkToMake>
+      <Mass>3.91</Mass>
       <AccuracyTouch>0.65</AccuracyTouch>
       <AccuracyShort>0.7</AccuracyShort>
       <AccuracyMedium>0.9</AccuracyMedium>
       <AccuracyLong>0.8</AccuracyLong>
       <RangedWeapon_Cooldown>1.55</RangedWeapon_Cooldown>
+      <Weapon_Bulk>1.7</Weapon_Bulk>
     </statBases>
     <costList>
       <MRSKitM>1</MRSKitM>
@@ -283,15 +280,33 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_ModularDMR</projectileDef>
+        <defaultProjectile>Bullet_ModularDMR</defaultProjectile>
         <warmupTime>2.25</warmupTime>
         <range>39</range>
-        <burstShotCount>1</burstShotCount>
         <soundCast>ShotGRM</soundCast>
-        <soundCastTail>GunTail_Medium</soundCastTail>
-        <muzzleFlashScale>12</muzzleFlashScale>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
       </li>
     </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>1.9</cooldownTime>
+      </li>
+    </tools>
     <weaponTags>
       <li>SniperRifle</li>
     </weaponTags>
@@ -299,65 +314,71 @@
 
   <!-- ============================================== -->
 
-
-  <ThingDef ParentName="BaseBullet">
-    <defName>Bullet_ModularLMG</defName>
-    <label>bullet</label>
-    <graphicData>
-      <texPath>Things/Projectile/GbulletBig</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <projectile>
-      <flyOverhead>false</flyOverhead>
-      <damageDef>Bullet</damageDef>
-      <DamageAmountBase>7</DamageAmountBase>
-      <Speed>80</Speed>
-    </projectile>
-  </ThingDef>
-
-
-  <ThingDef ParentName="BaseGDGun">
-    <defName>GD_ModularLMG</defName>
-    <label>GD modular LMG</label>
-    <description>Greydale Defense "Panther" Modular Rifle System. This LMG model is good for support troops with its unceasing bursts.</description>
-    <graphicData>
-      <texPath>Things/A16/MRS-S</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <soundInteract>InteractGDWeapons</soundInteract>
-    <statBases>
-      <Mass>4.6</Mass>
-      <WorkToMake>50</WorkToMake>
-      <AccuracyTouch>0.55</AccuracyTouch>
-      <AccuracyShort>0.65</AccuracyShort>
-      <AccuracyMedium>0.6</AccuracyMedium>
-      <AccuracyLong>0.55</AccuracyLong>
-      <RangedWeapon_Cooldown>1.95</RangedWeapon_Cooldown>
-    </statBases>
-    <costList>
-      <MRSKitS>1</MRSKitS>
-      <GD_ModularCarbine>1</GD_ModularCarbine>
-    </costList>
-    <verbs>
+	<ThingDef ParentName="BaseGDGun">
+		<defName>GD_ModularLMG</defName>
+		<label>modular LMG</label>
+		<description>Greydale Defense "Panther" Modular Rifle System. This LMG model is good for support troops with its unceasing bursts.</description>
+		<graphicData>
+			<texPath>Things/A16/MRS-S</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>InteractGDWeapons</soundInteract>
+		<statBases>
+			<WorkToMake>50</WorkToMake>
+			<Mass>6.8</Mass>
+			<AccuracyTouch>0.55</AccuracyTouch>
+			<AccuracyShort>0.65</AccuracyShort>
+			<AccuracyMedium>0.6</AccuracyMedium>
+			<AccuracyLong>0.5</AccuracyLong>
+			<RangedWeapon_Cooldown>1.9</RangedWeapon_Cooldown>
+      <Weapon_Bulk>1.85</Weapon_Bulk>
+		</statBases>
+		<costList>
+         <MRSKitS>1</MRSKitS>
+         <GD_ModularCarbine>1</GD_ModularCarbine>
+		</costList>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Bullet_ModularRifle</defaultProjectile>
+				<warmupTime>2</warmupTime>
+				<range>32</range>
+				<ticksBetweenBurstShots>15</ticksBetweenBurstShots>
+				<burstShotCount>8</burstShotCount>
+				<soundCast>ShotGRS</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+		<weaponTags>
+			<li>EliteGun</li>
+		</weaponTags>
+    <tools>
       <li>
-        <verbClass>Verb_Shoot</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_ModularLMG</projectileDef>
-        <warmupTime>2.1</warmupTime>
-        <range>32</range>
-        <burstShotCount>9</burstShotCount>
-        <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
-        <soundCast>ShotGRS</soundCast>
-        <soundCastTail>GunTail_Medium</soundCastTail>
-        <muzzleFlashScale>9</muzzleFlashScale>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.8</cooldownTime>
       </li>
-    </verbs>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>1.9</cooldownTime>
+      </li>
+    </tools>
   </ThingDef>
 
   <!-- ============================================== -->
 
 
-  <ThingDef ParentName="BaseBullet">
+  <thingDef ParentName="BaseBullet">
     <defName>Bullet_HVSMG</defName>
     <label>pistol bullet</label>
     <graphicData>
@@ -367,13 +388,13 @@
     <projectile>
       <flyOverhead>false</flyOverhead>
       <damageDef>Bullet</damageDef>
-      <DamageAmountBase>8</DamageAmountBase>
-      <Speed>85</Speed>
+      <damageAmountBase>8</damageAmountBase>
+      <speed>85</speed>
     </projectile>
-  </ThingDef>
+  </thingDef>
 
 
-  <ThingDef ParentName="BaseGDGun">
+  <thingDef ParentName="BaseGDGun">
     <defName>GD_HVSMG</defName>
     <label>GD HV SMG</label>
     <description>The "Caracal" is a SMG that manufactured by Graydale Defence. It was designed for close assault and fires special small calibre high velocity cartridges.</description>
@@ -381,7 +402,7 @@
       <texPath>Things/A16/Caracal</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractPistol</soundInteract>
+    <soundInteract>InteractAutopistol</soundInteract>
     <statBases>
       <Mass>2.31</Mass>
       <WorkToMake>38000</WorkToMake>
@@ -399,21 +420,11 @@
     <recipeMaker>
       <researchPrerequisite>DefenceTech</researchPrerequisite>
     </recipeMaker>
-    <comps>
-      <li>
-        <compClass>CompQuality</compClass>
-      </li>
-      <li Class="CompProperties_Art">
-        <nameMaker>ArtName_WeaponGun</nameMaker>
-        <descriptionMaker>ArtDescription_WeaponGun</descriptionMaker>
-        <minQualityForArtistic>Excellent</minQualityForArtistic>
-      </li>
-    </comps>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_HVSMG</projectileDef>
+        <defaultProjectile>Bullet_HVSMG</defaultProjectile>
         <warmupTime>0.75</warmupTime>
         <range>16</range>
         <burstShotCount>4</burstShotCount>
@@ -423,32 +434,36 @@
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
     </verbs>
-  </ThingDef>
+  </thingDef>
 
 
 
 
   <!-- ============================================= -->
 
-  <ThingDef ParentName="BaseBullet">
-    <defName>Bullet_GrenadeLauncher</defName>
-    <label>frag grenade</label>
-    <graphicData> <texPath>Things/Projectile/GShell</texPath>
-    <graphicClass>Graphic_Single</graphicClass> </graphicData>
-    <thingClass>Projectile_Explosive</thingClass>
-    <projectile>
-      <speed>25</speed>
-      <damageDef>Bomb</damageDef>
-      <damageAmountBase>10</damageAmountBase>
-      <explosionRadius>3.5</explosionRadius>
-    </projectile>
-  </ThingDef>
+
+  	<ThingDef ParentName="BaseBullet">
+		<defName>Bullet_MultiLauncher</defName>
+		<label>frag grenade</label>
+		<graphicData>
+			<texPath>Things/Projectile/GShell</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+		</graphicData>
+		<thingClass>Projectile_Explosive</thingClass>
+		<projectile>
+			<speed>25</speed>
+			<damageDef>Bomb</damageDef>
+			<damageAmountBase>10</damageAmountBase>
+			<explosionRadius>3.5</explosionRadius>
+		</projectile>
+	</ThingDef>
 
 
-  <ThingDef ParentName="BaseGDGun">
-    <defName>GD_GrenadeLauncher</defName>
-    <label>GD multi launcher</label>
-    <description>One of the most versatile fire support weapons, the "Jaguar" multi launcher is a reliable and effective fire support weapon. With a simple manipulation, if you have appropriate tools, you can change its setting.
+	<ThingDef ParentName="BaseGDGun">
+		<defName>GD_GrenadeLauncher</defName>
+		<label>GD multi launcher</label>
+		<description>One of the most versatile fire support weapons, the "Jaguar" multi launcher is a reliable and effective fire support weapon. With a simple manipulation, if you have appropriate tools, you can change its setting.
   
 Frag: Basic setting of the multi launcher. Low damage, affects large area.
 Buckshot: Cloce quater combat setting. Fires multiple bucks at once.
@@ -459,48 +474,65 @@ Smoke: Deals no damage. Provide smoke screen on target area.</description>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>InteractGDWeapons</soundInteract>
-    <statBases>
-      <Mass>5.21</Mass>
-      <WorkToMake>55000</WorkToMake>
-      <AccuracyTouch>0.7</AccuracyTouch>
-      <AccuracyShort>0.4</AccuracyShort>
-      <AccuracyMedium>0.3</AccuracyMedium>
-      <AccuracyLong>0.2</AccuracyLong>
-      <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
-    </statBases>
-    <costList>
-      <Steel>75</Steel>
-      <Component>9</Component>
-    </costList>
-    <generateCommonality>0.1</generateCommonality>
-    <recipeMaker>
-      <researchPrerequisite>DefenceTech</researchPrerequisite>
-    </recipeMaker>
+		<generateCommonality>0.4</generateCommonality>
+		<statBases>
+			<WorkToMake>55000</WorkToMake>
+			<Mass>5.5</Mass>
+			<AccuracyTouch>0.7</AccuracyTouch>
+			<AccuracyShort>0.4</AccuracyShort>
+			<AccuracyMedium>0.3</AccuracyMedium>
+			<AccuracyLong>0.2</AccuracyLong>
+			<RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+      <Weapon_Bulk>2</Weapon_Bulk>
+		</statBases>
+		<costList>
+			<Steel>75</Steel>
+			<Component>8</Component>
+		</costList>
     <equippedStatOffsets>
       <MoveSpeed>-0.2</MoveSpeed>
     </equippedStatOffsets>
-    <verbs>
-      <li>
-        <forcedMissRadius>1.5</forcedMissRadius>
-        <verbClass>Verb_Shoot</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_GrenadeLauncher</projectileDef>
-        <warmupTime>2.8</warmupTime>
-        <range>20</range>
-        <burstShotCount>1</burstShotCount>
-        <soundCast>ShotGdgrenade</soundCast>
-        <soundCastTail>GunTail_Heavy</soundCastTail>
-        <muzzleFlashScale>15</muzzleFlashScale>
+		<verbs>
+			<li> 
+				<forcedMissRadius>1.5</forcedMissRadius>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Bullet_MultiLauncher</defaultProjectile>
+				<warmupTime>3.0</warmupTime>
+				<range>24</range>
+				<burstShotCount>1</burstShotCount>
+				<soundCast>ShotGdgrenade</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>14</muzzleFlashScale>
         <targetParams>
           <canTargetLocations>true</canTargetLocations>
         </targetParams>
+			</li>
+		</verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.8</cooldownTime>
       </li>
-    </verbs>
-  </ThingDef>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>1.9</cooldownTime>
+      </li>
+    </tools>
+	</ThingDef>
 
   <!-- ============================================= -->
 
-  <ThingDef ParentName="BaseBullet">
+  <thingDef ParentName="BaseBullet">
     <defName>Bullet_INGrenadeLauncher</defName>
     <label>incendiary grenade</label>
     <graphicData> <texPath>Things/Projectile/GShellIN</texPath>
@@ -513,10 +545,10 @@ Smoke: Deals no damage. Provide smoke screen on target area.</description>
       <explosionRadius>1.3</explosionRadius>
       <preExplosionSpawnThingDef>FilthFuel</preExplosionSpawnThingDef>
     </projectile>
-  </ThingDef>
+  </thingDef>
 
 
-  <ThingDef ParentName="BaseGDGun">
+  <thingDef ParentName="BaseGDGun">
     <defName>GD_INGrenadeLauncher</defName>
     <label>GD incendiary launcher</label>
     <description>One of the most versatile fire support weapons, the "Jaguar" multi launcher is a reliable and effective fire support weapon. With a simple manipulation, if you have appropriate tools, you can change its setting.
@@ -554,7 +586,7 @@ Smoke: Deals no damage. Provide smoke screen on target area.</description>
         <forcedMissRadius>1.5</forcedMissRadius>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_INGrenadeLauncher</projectileDef>
+        <defaultProjectile>Bullet_INGrenadeLauncher</defaultProjectile>
         <warmupTime>2.8</warmupTime>
         <range>20</range>
         <burstShotCount>1</burstShotCount>
@@ -566,11 +598,30 @@ Smoke: Deals no damage. Provide smoke screen on target area.</description>
         </targetParams>
       </li>
     </verbs>
-  </ThingDef>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>1.9</cooldownTime>
+      </li>
+    </tools>
+  </thingDef>
 
   <!-- ============================================= -->
 
-  <ThingDef ParentName="BaseBullet">
+  <thingDef ParentName="BaseBullet">
     <defName>Bullet_SKGrenadeLauncher</defName>
     <label>smoke grenade</label>
     <graphicData> <texPath>Things/Projectile/GShellSK</texPath>
@@ -583,10 +634,10 @@ Smoke: Deals no damage. Provide smoke screen on target area.</description>
       <explosionRadius>3.5</explosionRadius>
       <preExplosionSpawnThingDef>Gas_Smoke</preExplosionSpawnThingDef>
     </projectile>
-  </ThingDef>
+  </thingDef>
 
 
-  <ThingDef ParentName="BaseGDGun">
+  <thingDef ParentName="BaseGDGun">
     <defName>GD_SKGrenadeLauncher</defName>
     <label>GD smoke launcher</label>
     <description>One of the most versatile fire support weapons, the "Jaguar" multi launcher is a reliable and effective fire support weapon. With a simple manipulation, if you have appropriate tools, you can change its setting.
@@ -624,7 +675,7 @@ Smoke: Deals no damage. Provide smoke screen on target area.</description>
         <forcedMissRadius>1.5</forcedMissRadius>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_SKGrenadeLauncher</projectileDef>
+        <defaultProjectile>Bullet_SKGrenadeLauncher</defaultProjectile>
         <warmupTime>2.8</warmupTime>
         <range>20</range>
         <onlyManualCast>true</onlyManualCast>
@@ -637,11 +688,30 @@ Smoke: Deals no damage. Provide smoke screen on target area.</description>
         </targetParams>
       </li>
     </verbs>
-  </ThingDef>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>1.9</cooldownTime>
+      </li>
+    </tools>
+  </thingDef>
 
   <!-- ============================================= -->
 
-  <ThingDef ParentName="BaseBullet">
+  <thingDef ParentName="BaseBullet">
     <defName>Bullet_BSLauncher</defName>
     <label>buckshot</label>
     <graphicData>
@@ -651,13 +721,13 @@ Smoke: Deals no damage. Provide smoke screen on target area.</description>
     <projectile>
       <flyOverhead>false</flyOverhead>
       <damageDef>Bullet</damageDef>
-      <DamageAmountBase>8</DamageAmountBase>
-      <Speed>75</Speed>
+      <damageAmountBase>8</damageAmountBase>
+      <speed>75</speed>
     </projectile>
-  </ThingDef>
+  </thingDef>
 
 
-  <ThingDef ParentName="BaseGDGun">
+  <thingDef ParentName="BaseGDGun">
     <defName>GD_BSLauncher</defName>
     <label>GD buckshot launcher</label>
     <description>One of the most versatile fire support weapons, the "Jaguar" multi launcher is a reliable and effective fire support weapon. With a simple manipulation, if you have appropriate tools, you can change its setting.
@@ -695,7 +765,7 @@ Smoke: Deals no damage. Provide smoke screen on target area.</description>
         <forcedMissRadius>0.5</forcedMissRadius>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_BSLauncher</projectileDef>
+        <defaultProjectile>Bullet_BSLauncher</defaultProjectile>
         <warmupTime>0.5</warmupTime>
         <range>13</range>
         <burstShotCount>5</burstShotCount>
@@ -705,6 +775,25 @@ Smoke: Deals no damage. Provide smoke screen on target area.</description>
         <muzzleFlashScale>6</muzzleFlashScale>
       </li>
     </verbs>
-  </ThingDef>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>1.9</cooldownTime>
+      </li>
+    </tools>
+  </thingDef>
 
-</ThingDefs>
+</Defs>

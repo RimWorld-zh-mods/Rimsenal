@@ -9,7 +9,7 @@
     <description>Allows you to build Yunhwa precision's weapons and armors.</description>
     <baseCost>1750</baseCost>
     <prerequisites>
-      <li>MultiAnalyzer</li>
+      <li>ChargedShot</li>
     </prerequisites>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
     <requiredResearchFacilities>
@@ -45,7 +45,7 @@
     <description>Allows you to build the Jotun Interstellar's weapons and armors.</description>
     <baseCost>1750</baseCost>
     <prerequisites>
-      <li>MultiAnalyzer</li>
+      <li>ChargedShot</li>
     </prerequisites>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
     <requiredResearchFacilities>
@@ -81,7 +81,7 @@
     <description>It is a prerequisite to build Tisiphone equipment.</description>
     <baseCost>1750</baseCost>
     <prerequisites>
-      <li>MultiAnalyzer</li>
+      <li>ChargedShot</li>
     </prerequisites>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
     <requiredResearchFacilities>
@@ -111,14 +111,14 @@
 
   <ResearchProjectDef>
     <defName>DefenceTech</defName>
-    <label>tactical equipment manufacturing</label>
+    <label>modular equipment manufacturing</label>
     <tab>RimsenalResearch</tab>
     <prerequisites>
-      <li>MicroelectronicsBasics</li>
+      <li>PrecisionRifling</li>
     </prerequisites>
     <techLevel>Industrial</techLevel>
     <description>Allows you to build Graydale weapons</description>
-    <baseCost>2000</baseCost>
+    <baseCost>1500</baseCost>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
   		<researchViewX>1</researchViewX>
 		<researchViewY>5</researchViewY>

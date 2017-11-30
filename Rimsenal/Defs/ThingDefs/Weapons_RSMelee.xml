@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
-<ThingDefs>
+<Defs>
   
   <!-- ============================================================== -->
 
@@ -10,17 +10,15 @@
     <description>A "Sabertooth" combat blade of Greydale Defence. Good for chop down trees or enemies limbs.</description>
     <graphicData> <texPath>Things/A16/Sabertooth</texPath>
     <graphicClass>Graphic_Single</graphicClass> </graphicData>
-    <soundInteract>InteractPistol</soundInteract>
+    <soundInteract>InteractAutopistol</soundInteract>
     <techLevel>Spacer</techLevel>
     <statBases>
       <Mass>1.42</Mass>
       <WorkToMake>20500</WorkToMake>
-      <MeleeWeapon_DamageAmount>19</MeleeWeapon_DamageAmount>
-      <MeleeWeapon_Cooldown>1.8</MeleeWeapon_Cooldown>
     </statBases>
     <equippedAngleOffset>-35</equippedAngleOffset>
     <equippedStatOffsets>
-      <PlantWorkSpeed>0.2</PlantWorkSpeed>
+      <PlantWorkSpeed>0.1</PlantWorkSpeed>
     </equippedStatOffsets>
     <costList>
       <Steel>75</Steel>
@@ -32,13 +30,24 @@
         <li>GDTable</li>
       </recipeUsers>
     </recipeMaker>
-    <verbs>
+    <tools>
       <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <meleeDamageDef>Cut</meleeDamageDef>
+        <label>edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>14</power>
+        <cooldownTime>2.1</cooldownTime>
       </li>
-    </verbs>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>1</cooldownTime>
+      </li>
+    </tools>
   </ThingDef>
 
   <ThingDef ParentName="BaseMeleeWeapon_Sharp">
@@ -47,12 +56,10 @@
     <description>Light but extremely sharp, the "BingJu(Ice pillar)" is the close combat weapon of Yunhwa Precision's private army.</description>
     <graphicData> <texPath>Things/A16/BingJu</texPath>
     <graphicClass>Graphic_Single</graphicClass> </graphicData>
-    <soundInteract>InteractPistol</soundInteract>
+    <soundInteract>InteractAutopistol</soundInteract>
     <statBases>
       <Mass>0.85</Mass>
       <WorkToMake>32000</WorkToMake>
-      <MeleeWeapon_DamageAmount>10</MeleeWeapon_DamageAmount>
-      <MeleeWeapon_Cooldown>0.85</MeleeWeapon_Cooldown>
     </statBases>
     <recipeMaker>
       <researchPrerequisite>ShardTech</researchPrerequisite>
@@ -66,13 +73,32 @@
       <Component>6</Component>
     </costList>
     <equippedAngleOffset>0</equippedAngleOffset>
-    <verbs>
+    <tools>
       <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <meleeDamageDef>Cut</meleeDamageDef>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>0.7</cooldownTime>
       </li>
-    </verbs>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>11</power>
+        <cooldownTime>1.1</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>0.8</cooldownTime>
+      </li>
+    </tools>
   </ThingDef>
 
   <ThingDef ParentName="BaseMeleeWeapon_Blunt">
@@ -85,8 +111,6 @@
     <statBases>
       <Mass>10</Mass>
       <WorkToMake>38500</WorkToMake>
-      <MeleeWeapon_DamageAmount>32</MeleeWeapon_DamageAmount>
-      <MeleeWeapon_Cooldown>2.9</MeleeWeapon_Cooldown>
     </statBases>
     <recipeMaker>
       <recipeUsers>
@@ -103,13 +127,23 @@
     <equippedStatOffsets>
       <MoveSpeed>-0.3</MoveSpeed>
     </equippedStatOffsets>
-    <verbs>
+    <tools>
       <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <meleeDamageDef>Blunt</meleeDamageDef>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>1.6</cooldownTime>
       </li>
-    </verbs>
+      <li>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>32.3</power>
+        <cooldownTime>3.1</cooldownTime>
+      </li>
+    </tools>
   </ThingDef>
 
   <ThingDef ParentName="BaseMeleeWeapon_Sharp">
@@ -118,13 +152,11 @@
     <description>Survival knife of the Tisiphone Hunter Contingent. It can be used in a variety of tasks.</description>
     <graphicData> <texPath>Things/A16/Eris</texPath>
     <graphicClass>Graphic_Single</graphicClass> </graphicData>
-    <soundInteract>InteractPistol</soundInteract>
+    <soundInteract>InteractAutopistol</soundInteract>
     <techLevel>Spacer</techLevel>
     <statBases>
       <Mass>0.52</Mass>
       <WorkToMake>15500</WorkToMake>
-      <MeleeWeapon_DamageAmount>9</MeleeWeapon_DamageAmount>
-      <MeleeWeapon_Cooldown>1.1</MeleeWeapon_Cooldown>
     </statBases>
     <recipeMaker>
       <recipeUsers>
@@ -134,19 +166,38 @@
     </recipeMaker>
     <equippedAngleOffset>-35</equippedAngleOffset>
     <equippedStatOffsets>
-      <WorkSpeedGlobal>0.1</WorkSpeedGlobal>
+      <WorkSpeedGlobal>0.05</WorkSpeedGlobal>
     </equippedStatOffsets>
     <costList>
       <Steel>45</Steel>
       <Component>2</Component>
     </costList>
-    <verbs>
+    <tools>
       <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <meleeDamageDef>Cut</meleeDamageDef>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.6</cooldownTime>
       </li>
-    </verbs>
+      <li>
+        <label>blade</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>10.7</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+    </tools>
   </ThingDef>
 
   <ThingDef ParentName="BaseMeleeWeapon_Sharp">
@@ -167,12 +218,10 @@
       </recipeUsers>
       <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
     </recipeMaker>
-    <soundInteract>InteractPistol</soundInteract>
+    <soundInteract>InteractAutopistol</soundInteract>
     <techLevel>Spacer</techLevel>
     <statBases>
       <WorkToMake>26500</WorkToMake>
-      <MeleeWeapon_DamageAmount>10</MeleeWeapon_DamageAmount>
-      <MeleeWeapon_Cooldown>1.8</MeleeWeapon_Cooldown>
     </statBases>
     <equippedAngleOffset>-5</equippedAngleOffset>
     <costList>
@@ -180,15 +229,34 @@
       <Plasteel>35</Plasteel>
       <Component>6</Component>
     </costList>
-    <verbs>
+    <tools>
       <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <meleeDamageDef>Flame</meleeDamageDef>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>2.5</cooldownTime>
       </li>
-    </verbs>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>16</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>21</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+    </tools>
   </ThingDef>
 
 
 
-</ThingDefs>
+</Defs>

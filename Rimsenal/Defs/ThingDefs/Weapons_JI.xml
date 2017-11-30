@@ -1,41 +1,20 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+<Defs>
 
 
-  <ThingDef Name="BaseJIGun" Abstract="True">
-    <category>Item</category>
-    <smeltable>true</smeltable>
-    <thingClass>ThingWithComps</thingClass>
-    <equipmentType>Primary</equipmentType>
-    <pathCost>10</pathCost>
-    <useHitPoints>True</useHitPoints>
-    <selectable>True</selectable>
-    <graphicData>
-      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
-    </graphicData>
-    <drawGUIOverlay>true</drawGUIOverlay>
-    <generateCommonality>0.1</generateCommonality>
-    <statBases>
-      <MaxHitPoints>100</MaxHitPoints>
-      <Flammability>1.0</Flammability>
-      <DeteriorationRate>2</DeteriorationRate>
-      <SellPriceFactor>0.2</SellPriceFactor>
-    </statBases>
-    <altitudeLayer>Item</altitudeLayer>
-    <alwaysHaulable>True</alwaysHaulable>
-    <tickerType>Never</tickerType>
-    <techLevel>Spacer</techLevel>
+  <thingDef Name="BaseJIGun" Abstract="True" ParentName="BaseWeapon">
+		<techLevel>Spacer</techLevel>
+		<smeltable>true</smeltable>
     <thingCategories>
       <li>JIWeapons</li>
     </thingCategories>
+    <weaponTags>
+       <li>JIGun</li>
+    </weaponTags>
     <inspectorTabs>
       <li>ITab_Art</li>
     </inspectorTabs>
     <comps>
-      <li Class="CompProperties_Forbiddable"/>
-      <li>
-        <compClass>CompEquippable</compClass>
-      </li>
       <li>
         <compClass>CompQuality</compClass>
       </li>
@@ -45,9 +24,6 @@
         <minQualityForArtistic>Excellent</minQualityForArtistic>
       </li>
     </comps>
-    <weaponTags>
-       <li>JIGun</li>
-    </weaponTags>
     <recipeMaker>
       <workSpeedStat>SmithingSpeed</workSpeedStat>
       <workSkill>Crafting</workSkill>
@@ -57,13 +33,15 @@
         <li>JITable</li>
       </recipeUsers>
       <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+      <researchPrerequisite>Gunsmithing</researchPrerequisite>
     </recipeMaker>
+  </thingDef>
 
-  </ThingDef>
+
 
   <!-- ============================================== -->
 
-  <ThingDef ParentName="BaseBullet">
+  <thingDef ParentName="BaseBullet">
     <defName>Bullet_Hrunting</defName>
     <label>hrunting slug</label>
     <graphicData>
@@ -75,9 +53,9 @@
       <damageAmountBase>25</damageAmountBase>
       <speed>65</speed>
     </projectile>
-  </ThingDef>
+  </thingDef>
 
-  <ThingDef ParentName="BaseJIGun">
+  <thingDef ParentName="BaseJIGun">
     <defName>JI_Hrunting</defName>
     <label>JI molten rifle</label>
     <description>A "Hrunting" molten rifle, manufactured by Jotun Interstellar. This weapon fires molten metal as its bullet. The designer of the Hrunting was never concerned about ascetics. What he focused on was just pure fire power.</description>
@@ -110,7 +88,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_Hrunting</projectileDef>
+        <defaultProjectile>Bullet_Hrunting</defaultProjectile>
         <warmupTime>1.25</warmupTime>
         <range>29</range>
         <soundCast>RS_ShotJI</soundCast>
@@ -118,11 +96,11 @@
         <muzzleFlashScale>12</muzzleFlashScale>
       </li>
     </verbs>
-  </ThingDef>
+  </thingDef>
 
   <!-- ============================================== -->
 
-  <ThingDef ParentName="BaseBullet">
+  <thingDef ParentName="BaseBullet">
     <defName>Bullet_Trollsverd</defName>
     <label>trollsverd slug</label>
     <graphicData>
@@ -134,9 +112,9 @@
       <damageAmountBase>20</damageAmountBase>
       <speed>80</speed>
     </projectile>
-  </ThingDef>
+  </thingDef>
 
-  <ThingDef ParentName="BaseJIGun">
+  <thingDef ParentName="BaseJIGun">
     <defName>JI_Trollsverd</defName>
     <label>JI molten pistol</label>
     <description>A "Trollsverd" is a heavy pistol made by Jotun Interstellar. Fires molten metal projectiles, fire from a Trollbane can solve most of lonely colonies problems.</description>
@@ -166,7 +144,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_Trollsverd</projectileDef>
+        <defaultProjectile>Bullet_Trollsverd</defaultProjectile>
         <warmupTime>0.45</warmupTime>
         <range>18</range>
         <soundCast>RS_ShotJI</soundCast>
@@ -174,12 +152,12 @@
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
     </verbs>
-  </ThingDef>
+  </thingDef>
 
 
   <!-- ============================================== -->
 
-  <ThingDef ParentName="BaseBullet">
+  <thingDef ParentName="BaseBullet">
     <defName>Bullet_Fafnir</defName>
     <label>fafnir bucks</label>
     <graphicData>
@@ -191,9 +169,9 @@
       <damageAmountBase>14</damageAmountBase>
       <speed>80</speed>
     </projectile>
-  </ThingDef>
+  </thingDef>
 
-  <ThingDef ParentName="BaseJIGun">
+  <thingDef ParentName="BaseJIGun">
     <defName>JI_Fafnir</defName>
     <label>JI siege shotgun</label>
     <description>This oversized shotgun is the Jotun Interstellar "Fafnir", Made by splinting multiple AA gun barrel's together. The Fafnir is a weapon used to fight against mechanoids in urban warfare. If a person was to accidently take a burst from this siege shotgun, they would be instantly turned into sticky red mist.</description>
@@ -226,7 +204,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_Fafnir</projectileDef>
+        <defaultProjectile>Bullet_Fafnir</defaultProjectile>
         <warmupTime>0.95</warmupTime>
         <range>13</range>
         <burstShotCount>3</burstShotCount>
@@ -236,11 +214,11 @@
         <muzzleFlashScale>14</muzzleFlashScale>
       </li>
     </verbs>
-  </ThingDef>
+  </thingDef>
 
   <!-- ============================================== -->
 
-  <ThingDef ParentName="BaseBullet">
+  <thingDef ParentName="BaseBullet">
     <defName>Bullet_Gramr</defName>
     <label>gramr slug</label>
     <graphicData>
@@ -252,9 +230,9 @@
       <damageAmountBase>55</damageAmountBase>
       <speed>90</speed>
     </projectile>
-  </ThingDef>
+  </thingDef>
 
-  <ThingDef ParentName="BaseJIGun">
+  <thingDef ParentName="BaseJIGun">
     <defName>JI_Gramr</defName>
     <label>JI AMR</label>
     <description>A Jotun Interstellar's "Gramr" anti-mechanoid rifle. As heavy as a small truck and just as hard to wield, the recoil from a Gramr is as strong as the kick from a mule. But the firepower justifies everything.</description>
@@ -287,7 +265,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_Gramr</projectileDef>
+        <defaultProjectile>Bullet_Gramr</defaultProjectile>
         <warmupTime>4</warmupTime>
         <range>50</range>
         <soundCast>RS_ShotJI</soundCast>
@@ -295,11 +273,11 @@
         <muzzleFlashScale>15</muzzleFlashScale>
       </li>
     </verbs>
-  </ThingDef>
+  </thingDef>
 
   <!-- ============================================== -->
 
-  <ThingDef ParentName="BaseBullet">
+  <thingDef ParentName="BaseBullet">
     <defName>Bullet_Grendel</defName>
     <label>grendel shell</label>
     <graphicData>
@@ -308,15 +286,15 @@
 </graphicData>
     <thingClass>Projectile_Explosive</thingClass>
     <projectile>
-	<flyOverhead>True</flyOverhead>
+	<flyOverhead>False</flyOverhead>
 	<damageDef>Bomb</damageDef>
-	<damageAmountBase>50</damageAmountBase>
-	<explosionRadius>2</explosionRadius>
+	<damageAmountBase>30</damageAmountBase>
+	<explosionRadius>2.5</explosionRadius>
 	<speed>30</speed>
     </projectile>
-  </ThingDef>
+  </thingDef>
 
-  <ThingDef ParentName="BaseJIGun">
+  <thingDef ParentName="BaseJIGun">
     <defName>JI_Grendel</defName>
     <label>JI siege gun</label>
     <description>The legacy of a grim mechanoid war, Jotun Interstellar's the "Grendel" siege gun is a one of the most formidable man-portable siege weapons acrosss the galaxy.</description>
@@ -338,7 +316,7 @@
       <AccuracyShort>0.55</AccuracyShort>
       <AccuracyMedium>0.55</AccuracyMedium>
       <AccuracyLong>0.55</AccuracyLong>
-      <RangedWeapon_Cooldown>8.5</RangedWeapon_Cooldown>
+      <RangedWeapon_Cooldown>3.8</RangedWeapon_Cooldown>
     </statBases>
     <costList>
       <Steel>150</Steel>
@@ -349,26 +327,26 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_Grendel</projectileDef>
-        <burstShotCount>3</burstShotCount>			               <ticksBetweenBurstShots>40</ticksBetweenBurstShots>
+        <defaultProjectile>Bullet_Grendel</defaultProjectile>
+        <burstShotCount>1</burstShotCount>
         <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
-        <forcedMissRadius>3</forcedMissRadius>
-        <warmupTime>5</warmupTime>
-        <range>60</range>
-        <minRange>10</minRange>
+        <forcedMissRadius>1</forcedMissRadius>
+        <warmupTime>4.2</warmupTime>
+        <range>20</range>
         <soundCast>RS_ShotGrendel</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
+		<onlyManualCast>true</onlyManualCast>
         <muzzleFlashScale>0</muzzleFlashScale>
         <targetParams>
           <canTargetLocations>true</canTargetLocations>
         </targetParams>
       </li>
     </verbs>
-  </ThingDef>
+  </thingDef>
 
   <!-- ============================================== -->
 
-  <ThingDef ParentName="BaseBullet">
+  <thingDef ParentName="BaseBullet">
     <defName>Bullet_Muspell</defName>
     <label>fragment</label>
     <graphicData>
@@ -380,9 +358,9 @@
       <damageAmountBase>7</damageAmountBase>
       <speed>65</speed>
     </projectile>
-  </ThingDef>
+  </thingDef>
 
-  <ThingDef ParentName="BaseJIGun">
+  <thingDef ParentName="BaseJIGun">
     <defName>JI_Muspell</defName>
     <label>JI suppressor cannon</label>
     <description>The "Muspell" suppressor cannon is a Jotun Interstellar's answer to small "crawler" type mechanoid swarm. The Muspell ceaselessly fires super heated metal fragments.</description>
@@ -415,7 +393,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_Muspell</projectileDef>
+        <defaultProjectile>Bullet_Muspell</defaultProjectile>
         <warmupTime>0.8</warmupTime>
         <forcedMissRadius>1</forcedMissRadius>
         <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
@@ -426,7 +404,7 @@
         <muzzleFlashScale>12</muzzleFlashScale>
       </li>
     </verbs>
-  </ThingDef>
+  </thingDef>
 
 
-</ThingDefs>
+</Defs>

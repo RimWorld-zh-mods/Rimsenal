@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<HediffDefs>
+<Defs>
 
   <!-- Injuries -->
 
@@ -8,6 +8,7 @@
 	<HediffDef ParentName="InjuryBase">
 		<defName>Teared</defName>
 		<label>teared</label>
+    <labelNoun>a teared wound</labelNoun>
     <comps>
       <li Class="HediffCompProperties_TendDuration">
         <labelTendedWell>bandaged</labelTendedWell>
@@ -15,7 +16,7 @@
         <labelSolidTendedWell>set</labelSolidTendedWell>
       </li>
       <li Class="HediffCompProperties_Infecter">
-        <infectionChance>0.1</infectionChance>
+        <infectionChance>0.05</infectionChance>
       </li>
       <li Class="HediffCompProperties_GetsOld">
         <oldLabel>cut scar</oldLabel>
@@ -24,11 +25,11 @@
 		<injuryProps>
 			<painPerSeverity>0.025</painPerSeverity>
       <averagePainPerSeverityOld>0.00625</averagePainPerSeverityOld>
-			<bleedRate>0.05</bleedRate>
+			<bleedRate>0.02</bleedRate>
 			<canMerge>false</canMerge>
 			<destroyedLabel>Cut off</destroyedLabel>
 			<destroyedOutLabel>Cut out</destroyedOutLabel>
 		</injuryProps>
 	</HediffDef>
 	
-</HediffDefs>
+</Defs>

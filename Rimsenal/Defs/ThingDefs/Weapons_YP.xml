@@ -1,41 +1,20 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+<Defs>
 
 
-  <ThingDef Name="BaseYPGun" Abstract="True">
-    <category>Item</category>
-    <smeltable>true</smeltable>
-    <thingClass>ThingWithComps</thingClass>
-    <equipmentType>Primary</equipmentType>
-    <pathCost>10</pathCost>
-    <useHitPoints>True</useHitPoints>
-    <selectable>True</selectable>
-    <graphicData>
-      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
-    </graphicData>
-    <drawGUIOverlay>true</drawGUIOverlay>
-    <statBases>
-      <MaxHitPoints>100</MaxHitPoints>
-      <Flammability>1.0</Flammability>
-      <DeteriorationRate>2</DeteriorationRate>
-      <SellPriceFactor>0.2</SellPriceFactor>
-    </statBases>
-    <altitudeLayer>Item</altitudeLayer>
-    <alwaysHaulable>True</alwaysHaulable>
-    <tickerType>Never</tickerType>
-    <techLevel>Spacer</techLevel>
-    <generateCommonality>0.1</generateCommonality>
+  <thingDef Name="BaseYPGun" Abstract="True" ParentName="BaseWeapon">
+		<techLevel>Spacer</techLevel>
+		<smeltable>true</smeltable>
     <thingCategories>
       <li>YPWeapons</li>
     </thingCategories>
+    <weaponTags>
+       <li>YPGun</li>
+    </weaponTags>
     <inspectorTabs>
       <li>ITab_Art</li>
     </inspectorTabs>
     <comps>
-      <li Class="CompProperties_Forbiddable"/>
-      <li>
-        <compClass>CompEquippable</compClass>
-      </li>
       <li>
         <compClass>CompQuality</compClass>
       </li>
@@ -45,9 +24,6 @@
         <minQualityForArtistic>Excellent</minQualityForArtistic>
       </li>
     </comps>
-    <weaponTags>
-       <li>YPGun</li>
-    </weaponTags>
     <recipeMaker>
       <workSpeedStat>SmithingSpeed</workSpeedStat>
       <workSkill>Crafting</workSkill>
@@ -57,14 +33,14 @@
         <li>YPTable</li>
       </recipeUsers>
       <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+      <researchPrerequisite>Gunsmithing</researchPrerequisite>
     </recipeMaker>
-  </ThingDef>
-
+  </thingDef>
 
 
   <!-- ============================================== -->
 
-  <ThingDef ParentName="BaseBullet">
+  <thingDef ParentName="BaseBullet">
     <defName>Bullet_SeoLi</defName>
     <label>seoli shard</label>
     <graphicData>
@@ -76,9 +52,9 @@
       <damageAmountBase>5</damageAmountBase>
       <speed>80</speed>
     </projectile>
-  </ThingDef>
+  </thingDef>
 
-  <ThingDef ParentName="BaseYPGun">
+  <thingDef ParentName="BaseYPGun">
     <defName>YP_SeoLi</defName>
     <label>YP shard rifle</label>
     <description>Compared to a conventional assault rifle, the Yunwha Precision 'Seoli(Frost)' shard rifle is equipped with a larger clip and a higher rate of fire. However, to achieve this the rifle sacrifices damage and armor piercing capability.</description>
@@ -107,7 +83,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_SeoLi</projectileDef>
+        <defaultProjectile>Bullet_SeoLi</defaultProjectile>
         <warmupTime>0.8</warmupTime>
         <range>21</range>
         <burstShotCount>7</burstShotCount>
@@ -117,11 +93,30 @@
         <muzzleFlashScale>4</muzzleFlashScale>
       </li>
     </verbs>
-  </ThingDef>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>1.9</cooldownTime>
+      </li>
+    </tools>
+  </thingDef>
 
   <!-- ============================================== -->
 
-  <ThingDef ParentName="BaseBullet">
+  <thingDef ParentName="BaseBullet">
     <defName>Bullet_SagPung</defName>
     <label>sagpung swarm</label>
     <graphicData>
@@ -133,9 +128,9 @@
       <damageAmountBase>7</damageAmountBase>
       <speed>70</speed>
     </projectile>
-  </ThingDef>
+  </thingDef>
 
-  <ThingDef ParentName="BaseYPGun">
+  <thingDef ParentName="BaseYPGun">
     <defName>YP_SagPung</defName>
     <label>YP swarmer</label>
     <description>The Yunhwa Precision 'SagPung(Boreas)' swarmer is the short range nanotech weapon. It shoots intelligent nano swarm as its bullet. Fast and incredibly accurate, it is an ideal tool for dealing with soft targets at close range.</description>
@@ -164,7 +159,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_SagPung</projectileDef>
+        <defaultProjectile>Bullet_SagPung</defaultProjectile>
         <warmupTime>0.9</warmupTime>
         <range>15</range>
         <burstShotCount>4</burstShotCount>
@@ -174,11 +169,30 @@
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
     </verbs>
-  </ThingDef>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>1.9</cooldownTime>
+      </li>
+    </tools>
+  </thingDef>
 
   <!-- ============================================== -->
 
-  <ThingDef ParentName="BaseBullet">
+  <thingDef ParentName="BaseBullet">
     <defName>Bullet_SangAe</defName>
     <label>sangae spike</label>
     <graphicData>
@@ -190,9 +204,9 @@
       <damageAmountBase>16</damageAmountBase>
       <speed>80</speed>
     </projectile>
-  </ThingDef>
+  </thingDef>
 
-  <ThingDef ParentName="BaseYPGun">
+  <thingDef ParentName="BaseYPGun">
     <defName>YP_SangAe</defName>
     <label>YP spike rifle</label>
     <description>Yunhwa precision's 'SangAe(Frost haze)'. Unlike more common rifles, the frost haze fires armor piercing spikes of carbon crystal.</description>
@@ -222,7 +236,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_SangAe</projectileDef>
+        <defaultProjectile>Bullet_SangAe</defaultProjectile>
         <warmupTime>2.1</warmupTime>
         <range>35</range>
         <burstShotCount>1</burstShotCount>
@@ -231,12 +245,31 @@
         <muzzleFlashScale>8</muzzleFlashScale>
       </li>
     </verbs>
-  </ThingDef>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>1.9</cooldownTime>
+      </li>
+    </tools>
+  </thingDef>
 
 
   <!-- ============================================== -->
 
-  <ThingDef ParentName="BaseBullet">
+  <thingDef ParentName="BaseBullet">
     <defName>Bullet_SeolHwa</defName>
     <label>seolhwa shard</label>
     <graphicData>
@@ -248,9 +281,9 @@
       <damageAmountBase>5</damageAmountBase>
       <speed>90</speed>
     </projectile>
-  </ThingDef>
+  </thingDef>
 
-  <ThingDef ParentName="BaseYPGun">
+  <thingDef ParentName="BaseYPGun">
     <defName>YP_SeolHwa</defName>
     <label>YP dual wield shard pistols</label>
     <description>A pair of Yunhwa Precision "SeolHwa(Snow blossom)" pistols. The SeolHwa has an extremely short range but while within close range the pistol can tear enemies to pieces.</description>
@@ -279,7 +312,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_SeolHwa</projectileDef>
+        <defaultProjectile>Bullet_SeolHwa</defaultProjectile>
         <warmupTime>0.3</warmupTime>
         <range>9</range>
         <burstShotCount>6</burstShotCount>
@@ -289,11 +322,30 @@
         <muzzleFlashScale>3</muzzleFlashScale>
       </li>
     </verbs>
-  </ThingDef>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+      <li>
+        <label>blade</label>
+        <capacities>
+          <li>Cut</li>
+          <li>Poke</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+    </tools>
+  </thingDef>
 
   <!-- ============================================== -->
 
-  <ThingDef ParentName="BaseBullet">
+  <thingDef ParentName="BaseBullet">
     <defName>Bullet_GeugGwang</defName>
     <label>microwave</label>
     <graphicData>
@@ -307,10 +359,11 @@
       <damageDef>Microwave</damageDef>
       <damageAmountBase>1</damageAmountBase>
       <explosionRadius>1.5</explosionRadius>
+      <ai_IsIncendiary>true</ai_IsIncendiary>
     </projectile>
-  </ThingDef>
+  </thingDef>
 
-  <ThingDef ParentName="BaseYPGun">
+  <thingDef ParentName="BaseYPGun">
     <defName>YP_GeugGwang</defName>
     <label>YP microwave emmiter</label>
     <description>Yunhwa Precision "GeugGwang(Aurora)" is a millimeter wave source that boils the water in the target's skin and thus causes incapacitating pain. It is a perfect crowd control weapon.</description>
@@ -340,8 +393,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_GeugGwang</projectileDef>
-        <ai_IsIncendiary>true</ai_IsIncendiary>
+        <defaultProjectile>Bullet_GeugGwang</defaultProjectile>
         <warmupTime>1.25</warmupTime>
         <range>28</range>
         <burstShotCount>1</burstShotCount>
@@ -350,12 +402,31 @@
         <muzzleFlashScale>14</muzzleFlashScale>
       </li>
     </verbs>
-  </ThingDef>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>1.9</cooldownTime>
+      </li>
+    </tools>
+  </thingDef>
 
 
   <!-- ============================================== -->
 
-  <ThingDef ParentName="BaseBullet">
+  <thingDef ParentName="BaseBullet">
     <defName>Bullet_VectorShot</defName>
     <label>smart bolt</label>
     <graphicData>
@@ -371,9 +442,9 @@
       <speed>45</speed>
       <explosionRadius>0.5</explosionRadius>
     </projectile>
-  </ThingDef>
+  </thingDef>
 
-  <ThingDef ParentName="BaseYPGun">
+  <thingDef ParentName="BaseYPGun">
     <defName>YP_VectorShot</defName>
     <label>YP vector shot</label>
     <description>"NuRi(Hail)" vector shot is a weapon for urban warfare, shots guided system integrated smart bolts. With an aid of multi-spectral scanners, NuRi can aim at targets hidden in cover. While ignoring wall is a really strong feature, however, because of extremely short range, NuRi's function is limited to an assault specialist weapon.</description>
@@ -402,8 +473,9 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_VectorShot</projectileDef>
+        <defaultProjectile>Bullet_VectorShot</defaultProjectile>
         <warmupTime>1.05</warmupTime>
+        <requireLineOfSight>false</requireLineOfSight>
         <range>10</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
@@ -415,5 +487,24 @@
         </targetParams>
       </li>
     </verbs>
-  </ThingDef>
-</ThingDefs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>1.9</cooldownTime>
+      </li>
+    </tools>
+  </thingDef>
+</Defs>

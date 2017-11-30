@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+<Defs>
 
-  <ThingDef Name="RSArmorMakeableBase" ParentName="ApparelBase" Abstract="True">
+  <thingDef Name="RSArmorMakeableBase" ParentName="ApparelBase" Abstract="True">
     <recipeMaker>
       <workSpeedStat>SmithingSpeed</workSpeedStat>
       <workSkill>Crafting</workSkill>
@@ -9,17 +9,17 @@
       <soundWorking>Recipe_Machining</soundWorking>
       <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
     </recipeMaker>
-  </ThingDef>
+  </thingDef>
 
-  <ThingDef Name="RSArmorHelmetMakeableBase" ParentName="RSArmorMakeableBase" Abstract="True">
+  <thingDef Name="RSArmorHelmetMakeableBase" ParentName="RSArmorMakeableBase" Abstract="True">
     <thingCategories>
       <li>Headgear</li>
     </thingCategories>
-  </ThingDef>
+  </thingDef>
 
  
 
-  <ThingDef ParentName="ArmorMakeableBase">
+  <thingDef ParentName="ArmorMakeableBase">
     <defName>Carbonsuit</defName>
     <label>Carbon jumpsuit</label>
     <techLevel>Spacer</techLevel>
@@ -52,11 +52,12 @@
         <li>Worker</li>
         <li>Soldier</li>
      </defaultOutfitTags>
-     <worngraphicPath>Things/Apparel/Carbon</worngraphicPath>
+     <wornGraphicPath>Things/Apparel/Carbon</wornGraphicPath>
 			<layers>
 			    <li>OnSkin</li>
 			</layers>
 			<bodyPartGroups>
+			    <li>Neck</li>
 				<li>Shoulders</li>
 				<li>Torso</li>
 				<li>Arms</li>
@@ -82,14 +83,14 @@
 				</li>
       </options>
     </colorGenerator>
-    </ThingDef>
+    </thingDef>
 
   
 
 
 
 
-  <ThingDef ParentName="RSArmorMakeableBase">
+  <thingDef ParentName="RSArmorMakeableBase">
     <defName>Apparel_Laconian</defName>
     <label>pioneer armor</label>
     <description>An armor designed primarily for combat engineer, Greydale "Laconian" pioneer armor has integrated tool set. It's a pretty good gear for builds something while gunfight.</description>
@@ -131,12 +132,13 @@
       <generateCommonality>0.1</generateCommonality>
     <apparel>
       <bodyPartGroups>
+		<li>Neck</li>
         <li>Torso</li>
         <li>Shoulders</li>
         <li>Arms</li>
         <li>Legs</li>
       </bodyPartGroups>
-      <worngraphicPath>Things/Apparel/Laconian</worngraphicPath>
+      <wornGraphicPath>Things/Apparel/Laconian</wornGraphicPath>
       <layers>
         <li>Middle</li>
         <li>Shell</li>
@@ -148,9 +150,9 @@
         <li>Soldier</li>
       </defaultOutfitTags>
     </apparel>
-  </ThingDef>
+  </thingDef>
 
-  <ThingDef ParentName="RSArmorHelmetMakeableBase">
+  <thingDef ParentName="RSArmorHelmetMakeableBase">
     <defName>Apparel_LaconianH</defName>
     <label>pioneer helmet</label>
     <description>A helmet of the Laconian pioneer armor. A simple target assist system integrated.</description>
@@ -189,7 +191,7 @@
       <bodyPartGroups>
         <li>FullHead</li>
       </bodyPartGroups>
-      <worngraphicPath>Things/Apparel/LaconianH</worngraphicPath>
+      <wornGraphicPath>Things/Apparel/LaconianH</wornGraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>
@@ -200,18 +202,18 @@
         <li>Soldier</li>
       </defaultOutfitTags>
     </apparel>
-  </ThingDef>
+  </thingDef>
 
 
  <!-- ============================================== -->
 
 
 
-  <ThingDef ParentName="RSArmorMakeableBase">
+  <thingDef ParentName="RSArmorMakeableBase">
     <defName>Apparel_Dropsuit</defName>
     <label>drop suit</label>
     <techLevel>Spacer</techLevel>
-      <description>It is the Yunhwa Precision's 'JanYeong(shadow remains)' drop suit, produced for Corp world drop troops. This completely enclosed suit was designed to operate in extreme environments like the void of space. It has thrusters for reinforcing a wearer's movement speed.</description>
+      <description>It is the Yunhwa Precision's 'JanYeong(shadow remains)' drop suit, produced for Corp world drop troops. This completely enclosed suit was designed to operate in extreme environments like the void of space. It has thrusters for reinforcing a wearer's movement Speed.</description>
     <graphicData> <texPath>Things/Apparel/JanYeong</texPath>
     <graphicClass>Graphic_Single</graphicClass> </graphicData>
     <thingCategories>
@@ -246,7 +248,7 @@
     </equippedStatOffsets>
      <generateCommonality>0.1</generateCommonality>
     <apparel>
-      <worngraphicPath>Things/Apparel/JanYeong</worngraphicPath>
+      <wornGraphicPath>Things/Apparel/JanYeong</wornGraphicPath>
       <layers>
         <li>Middle</li>
         <li>Shell</li>
@@ -255,15 +257,16 @@
         <li>Soldier</li>
       </defaultOutfitTags>
       <bodyPartGroups>
+	    <li>Neck</li>
         <li>Shoulders</li>
         <li>Torso</li>
         <li>Arms</li>
         <li>Legs</li>
       </bodyPartGroups>
      </apparel>
-   </ThingDef>
+   </thingDef>
 
-  <ThingDef ParentName="RSArmorHelmetMakeableBase">
+  <thingDef ParentName="RSArmorHelmetMakeableBase">
     <defName>Apparel_DropsuitH</defName>
     <label>dropsuit helmet</label>
     <description>It is a state-of-the-art helmet, optimized for EVA and orbital drop operations. This helmet has lots of shiny gadgets. Of course, all of these flashing toys are useless in the surface environment except the targeting assist pseudo A.I.</description>
@@ -299,7 +302,7 @@
     </equippedStatOffsets>
      <generateCommonality>0.1</generateCommonality>
     <apparel>
-      <worngraphicPath>Things/Apparel/JanYeongH</worngraphicPath>
+      <wornGraphicPath>Things/Apparel/JanYeongH</wornGraphicPath>
         <layers>
           <li>Overhead</li>
         </layers>
@@ -310,11 +313,11 @@
         <li>Soldier</li>
      </defaultOutfitTags>
     </apparel>
-    </ThingDef>
+    </thingDef>
 
  <!-- ============================================== -->
 
-  <ThingDef ParentName="RSArmorMakeableBase">
+  <thingDef ParentName="RSArmorMakeableBase">
     <defName>Apparel_Nervesuit</defName>
     <label>nerve suit</label>
     <techLevel>Spacer</techLevel>
@@ -355,7 +358,7 @@
     </equippedStatOffsets>
      <generateCommonality>0.1</generateCommonality>
     <apparel>
-      <worngraphicPath>Things/Apparel/JinCheon</worngraphicPath>
+      <wornGraphicPath>Things/Apparel/JinCheon</wornGraphicPath>
       <layers>
         <li>Middle</li>
         <li>Shell</li>
@@ -364,14 +367,16 @@
         <li>Soldier</li>
       </defaultOutfitTags>
       <bodyPartGroups>
+	    <li>Neck</li>
+        <li>Shoulders</li>
         <li>Torso</li>
         <li>Arms</li>
         <li>Legs</li>
       </bodyPartGroups>
      </apparel>
-   </ThingDef>
+   </thingDef>
 
-  <ThingDef ParentName="RSArmorHelmetMakeableBase">
+  <thingDef ParentName="RSArmorHelmetMakeableBase">
     <defName>Apparel_NervesuitH</defName>
     <label>nervesuit helmet</label>
     <description>A helmet of delicate nerve suit. Sophisticated artificial nerve system inside this helmet makes wearer to act faster. This rapid reaction function costs accurate manipulation capability.</description>
@@ -408,7 +413,7 @@
     </equippedStatOffsets>
      <generateCommonality>0.1</generateCommonality>
     <apparel>
-      <worngraphicPath>Things/Apparel/JinCheonH</worngraphicPath>
+      <wornGraphicPath>Things/Apparel/JinCheonH</wornGraphicPath>
         <layers>
           <li>Overhead</li>
         </layers>
@@ -419,11 +424,11 @@
         <li>Soldier</li>
      </defaultOutfitTags>
     </apparel>
-    </ThingDef>
+    </thingDef>
 
  <!-- ============================================== -->
 	
-  	<ThingDef ParentName="RSArmorMakeableBase">
+  	<thingDef ParentName="RSArmorMakeableBase">
 		<defName>Apparel_Bjorn</defName>
 		<techLevel>Spacer</techLevel>
 		<label>assault armor</label>
@@ -463,24 +468,25 @@
 		</equippedStatOffsets>
 			<generateCommonality>0.1</generateCommonality>
 		<apparel>
-<worngraphicPath>Things/Apparel/Bjorn</worngraphicPath>
+<wornGraphicPath>Things/Apparel/Bjorn</wornGraphicPath>
 			<layers>
 			    <li>Middle</li>
 			    <li>Shell</li>
 			</layers>
 			<bodyPartGroups>
-				<li>Shoulders</li>
-				<li>Torso</li>
-				<li>Arms</li>
-				<li>Legs</li>
+	    <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Torso</li>
+        <li>Arms</li>
+        <li>Legs</li>
 			</bodyPartGroups>
       <defaultOutfitTags>
         <li>Soldier</li>
       </defaultOutfitTags>
 		</apparel>
-	</ThingDef>
+	</thingDef>
 
-	<ThingDef ParentName="RSArmorHelmetMakeableBase">
+	<thingDef ParentName="RSArmorHelmetMakeableBase">
 	<defName>Apparel_BjornH</defName>
 	<label>assault helmet</label>
 	<techLevel>Spacer</techLevel>
@@ -515,7 +521,7 @@
 	</equippedStatOffsets>
 			<generateCommonality>0.1</generateCommonality>
 	<apparel>
-		<worngraphicPath>Things/Apparel/BjornH</worngraphicPath>
+		<wornGraphicPath>Things/Apparel/BjornH</wornGraphicPath>
 		<layers>
 			<li>Overhead</li>
 		</layers>
@@ -526,11 +532,11 @@
         <li>Soldier</li>
       </defaultOutfitTags>
 	</apparel>
-	</ThingDef>
+	</thingDef>
 
  <!-- ============================================== -->
 	
-  	<ThingDef ParentName="RSArmorMakeableBase">
+  	<thingDef ParentName="RSArmorMakeableBase">
 		<defName>Apparel_FSArmor</defName>
 		<techLevel>Spacer</techLevel>
 		<label>fire support armor</label>
@@ -572,24 +578,25 @@
 		</equippedStatOffsets>
 			<generateCommonality>0.1</generateCommonality>
 		<apparel>
-<worngraphicPath>Things/Apparel/FSArmor</worngraphicPath>
+<wornGraphicPath>Things/Apparel/FSArmor</wornGraphicPath>
 			<layers>
 			    <li>Middle</li>
 			    <li>Shell</li>
 			</layers>
 			<bodyPartGroups>
-				<li>Shoulders</li>
-				<li>Torso</li>
-				<li>Arms</li>
-				<li>Legs</li>
+	    <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Torso</li>
+        <li>Arms</li>
+        <li>Legs</li>
 			</bodyPartGroups>
       <defaultOutfitTags>
         <li>Soldier</li>
       </defaultOutfitTags>
 		</apparel>
-	</ThingDef>
+	</thingDef>
 
-	<ThingDef ParentName="RSArmorHelmetMakeableBase">
+	<thingDef ParentName="RSArmorHelmetMakeableBase">
 	<defName>Apparel_FSArmorH</defName>
 	<label>fire support helmet</label>
 	<techLevel>Spacer</techLevel>
@@ -626,7 +633,7 @@
 	</equippedStatOffsets>
 			<generateCommonality>0.1</generateCommonality>
 	<apparel>
-		<worngraphicPath>Things/Apparel/FSArmorH</worngraphicPath>
+		<wornGraphicPath>Things/Apparel/FSArmorH</wornGraphicPath>
 		<layers>
 			<li>Overhead</li>
 		</layers>
@@ -637,7 +644,7 @@
         <li>Soldier</li>
       </defaultOutfitTags>
 	</apparel>
-	</ThingDef>
+	</thingDef>
 
 
 
@@ -645,7 +652,7 @@
 
 
 
-	<ThingDef ParentName="RSArmorMakeableBase">
+	<thingDef ParentName="RSArmorMakeableBase">
 		<defName>Apparel_Nemesis</defName>
 		<label>reflactor carapace</label>
 		<techLevel>Spacer</techLevel>
@@ -684,24 +691,25 @@
 		</equippedStatOffsets>
 		<generateCommonality>0.1</generateCommonality>
 		<apparel>
-<worngraphicPath>Things/Apparel/Nemesis</worngraphicPath>
+<wornGraphicPath>Things/Apparel/Nemesis</wornGraphicPath>
 			<layers>
 			    <li>Middle</li>
 			    <li>Shell</li>
 			</layers>
 			<bodyPartGroups>
-				<li>Shoulders</li>
-				<li>Torso</li>
-				<li>Arms</li>
-				<li>Legs</li>
+	    <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Torso</li>
+        <li>Arms</li>
+        <li>Legs</li>
 			</bodyPartGroups>
       <defaultOutfitTags>
         <li>Soldier</li>
       </defaultOutfitTags>
 		</apparel>
-	</ThingDef>
+	</thingDef>
 
-	<ThingDef ParentName="RSArmorHelmetMakeableBase">
+	<thingDef ParentName="RSArmorHelmetMakeableBase">
 	<defName>Apparel_NemesisH</defName>
 	<label>Reflactor helmet</label>
 	<techLevel>Spacer</techLevel>
@@ -739,7 +747,7 @@
       <defaultOutfitTags>
         <li>Soldier</li>
       </defaultOutfitTags>
-		<worngraphicPath>Things/Apparel/NemesisH</worngraphicPath>
+		<wornGraphicPath>Things/Apparel/NemesisH</wornGraphicPath>
 		<layers>
 			<li>Overhead</li>
 		</layers>
@@ -747,13 +755,13 @@
 			<li>FullHead</li>
 		</bodyPartGroups>
 	</apparel>
-	</ThingDef>
+	</thingDef>
 
  <!-- ============================================== -->
 
 
 
-	<ThingDef ParentName="RSArmorMakeableBase">
+	<thingDef ParentName="RSArmorMakeableBase">
 		<defName>Apparel_HazardCarapace</defName>
 		<label>hazard carapace</label>
 		<techLevel>Spacer</techLevel>
@@ -793,24 +801,25 @@
 		</equippedStatOffsets>
 		<generateCommonality>0.1</generateCommonality>
 		<apparel>
-<worngraphicPath>Things/Apparel/HazardCarapace</worngraphicPath>
+<wornGraphicPath>Things/Apparel/HazardCarapace</wornGraphicPath>
 			<layers>
 			    <li>Middle</li>
 			    <li>Shell</li>
 			</layers>
 			<bodyPartGroups>
-				<li>Shoulders</li>
-				<li>Torso</li>
-				<li>Arms</li>
-				<li>Legs</li>
+	    <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Torso</li>
+        <li>Arms</li>
+        <li>Legs</li>
 			</bodyPartGroups>
       <defaultOutfitTags>
         <li>Soldier</li>
       </defaultOutfitTags>
 		</apparel>
-	</ThingDef>
+	</thingDef>
 
-	<ThingDef ParentName="RSArmorHelmetMakeableBase">
+	<thingDef ParentName="RSArmorHelmetMakeableBase">
 	<defName>Apparel_HazardCarapaceH</defName>
 	<label>hazard helmet</label>
 	<techLevel>Spacer</techLevel>
@@ -850,7 +859,7 @@
       <defaultOutfitTags>
         <li>Soldier</li>
       </defaultOutfitTags>
-		<worngraphicPath>Things/Apparel/HazardCarapaceH</worngraphicPath>
+		<wornGraphicPath>Things/Apparel/HazardCarapaceH</wornGraphicPath>
 		<layers>
 			<li>Overhead</li>
 		</layers>
@@ -858,13 +867,13 @@
 			<li>FullHead</li>
 		</bodyPartGroups>
 	</apparel>
-	</ThingDef>
+	</thingDef>
 
 
  <!-- ============================================== -->
 
 
-  <ThingDef ParentName="ArmorMakeableBase">
+  <thingDef ParentName="ArmorMakeableBase">
     <thingClass>ShieldBelt</thingClass>
     <defName>Apparel_CombatArmor</defName>
     <tickerType>Normal</tickerType>
@@ -906,12 +915,13 @@
 	<generateCommonality>0.2</generateCommonality>
     <apparel>
       <bodyPartGroups>
-        <li>Torso</li>
+	    <li>Neck</li>
         <li>Shoulders</li>
+        <li>Torso</li>
         <li>Arms</li>
         <li>Legs</li>
       </bodyPartGroups>
-      <worngraphicPath>Things/Apparel/CombatArmor</worngraphicPath>
+      <wornGraphicPath>Things/Apparel/CombatArmor</wornGraphicPath>
       <layers>
         <li>Middle</li>
         <li>Shell</li>
@@ -923,9 +933,9 @@
         <li>Soldier</li>
       </defaultOutfitTags>
     </apparel>
-  </ThingDef>
+  </thingDef>
 
-  <ThingDef ParentName="ArmorHelmetMakeableBase">
+  <thingDef ParentName="ArmorHelmetMakeableBase">
     <defName>Apparel_CombatHelmet</defName>
     <label>close combat helmet</label>
     <description>Helmet of a "Excelsior" close combat armor. It assist wearer with neural close combat enhancement system.</description>
@@ -960,7 +970,7 @@
       <bodyPartGroups>
         <li>FullHead</li>
       </bodyPartGroups>
-      <worngraphicPath>Things/Apparel/CombatHelmet</worngraphicPath>
+      <wornGraphicPath>Things/Apparel/CombatHelmet</wornGraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>
@@ -971,7 +981,7 @@
         <li>Soldier</li>
       </defaultOutfitTags>
     </apparel>
-  </ThingDef>
+  </thingDef>
 
 
-</ThingDefs>
+</Defs>

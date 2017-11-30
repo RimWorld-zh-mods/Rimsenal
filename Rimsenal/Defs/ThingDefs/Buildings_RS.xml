@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+<Defs>
 
-  <ThingDef ParentName="BenchBase">
-    <DefName>GDTable</DefName>
+  <thingDef ParentName="BenchBase">
+    <defName>GDTable</defName>
     <label>equipment assembly facility</label>
-    <ThingClass>Building_WorkTable</ThingClass>
-    <Description>A table with equipments for assembling and disassembling Greydale equipments.</Description>
+    <thingClass>Building_WorkTable</thingClass>
+    <description>A table with equipments for assembling and disassembling Greydale equipments.</description>
     <graphicData>
       <texPath>Things/Building/GDTable</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
@@ -17,11 +17,11 @@
         <cornerBR>Damage/Corner</cornerBR>
       </damageData>
     </graphicData>
-    <CostList>
+    <costList>
       <Steel>120</Steel>
       <Component>4</Component>
-    </CostList>
-    <AltitudeLayer>Building</AltitudeLayer>
+    </costList>
+    <altitudeLayer>Building</altitudeLayer>
     <fillPercent>0.5</fillPercent>
     <useHitPoints>True</useHitPoints>
     <statBases>
@@ -30,9 +30,9 @@
       <Flammability>1.0</Flammability>
       <Cleanliness>-2</Cleanliness>
     </statBases>
-    <Size>(3,1)</Size>
-    <DesignationCategory>Production</DesignationCategory>
-    <Passability>PassThroughOnly</Passability>
+    <size>(3,1)</size>
+    <designationCategory>Production</designationCategory>
+    <passability>PassThroughOnly</passability>
     <pathCost>70</pathCost>
     <hasInteractionCell>True</hasInteractionCell>
     <interactionCellOffset>(0,0,-1)</interactionCellOffset>
@@ -66,13 +66,13 @@
 		<placeWorkers>
 			<li>PlaceWorker_ShowFacilitiesConnections</li>
 		</placeWorkers>
-  </ThingDef>
+  </thingDef>
 
-  <ThingDef ParentName="BenchBase">
-    <DefName>YPTable</DefName>
+  <thingDef ParentName="BenchBase">
+    <defName>YPTable</defName>
     <label>crystalline structure foundry</label>
-    <ThingClass>Building_WorkTable</ThingClass>
-    <Description>A table with equipments for assembling Yunhwa Precision equipments.</Description>
+    <thingClass>Building_WorkTable</thingClass>
+    <description>A table with equipments for assembling Yunhwa Precision equipments.</description>
     <graphicData>
       <texPath>Things/Building/YPTable</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
@@ -84,12 +84,12 @@
         <cornerBR>Damage/Corner</cornerBR>
       </damageData>
     </graphicData>
-    <CostList>
+    <costList>
       <Steel>20</Steel>
       <Plasteel>40</Plasteel>
       <Component>8</Component>
-    </CostList>
-    <AltitudeLayer>Building</AltitudeLayer>
+    </costList>
+    <altitudeLayer>Building</altitudeLayer>
     <fillPercent>0.5</fillPercent>
     <useHitPoints>True</useHitPoints>
     <statBases>
@@ -98,9 +98,9 @@
       <Flammability>1.0</Flammability>
       <Cleanliness>-2</Cleanliness>
     </statBases>
-    <Size>(3,1)</Size>
-    <DesignationCategory>Production</DesignationCategory>
-    <Passability>PassThroughOnly</Passability>
+    <size>(3,1)</size>
+    <designationCategory>Production</designationCategory>
+    <passability>PassThroughOnly</passability>
     <pathCost>70</pathCost>
     <hasInteractionCell>True</hasInteractionCell>
     <interactionCellOffset>(0,0,-1)</interactionCellOffset>
@@ -134,13 +134,13 @@
 		<placeWorkers>
 			<li>PlaceWorker_ShowFacilitiesConnections</li>
 		</placeWorkers>
-  </ThingDef>
+  </thingDef>
 
-  <ThingDef ParentName="BenchBase">
-    <DefName>JITable</DefName>
+  <thingDef ParentName="BenchBase">
+    <defName>JITable</defName>
     <label>magnetic forge</label>
-    <ThingClass>Building_WorkTable</ThingClass>
-    <Description>A table with equipments for assembling Jotun Interstellar equipments.</Description>
+    <thingClass>Building_WorkTable</thingClass>
+    <description>A table with equipments for assembling Jotun Interstellar equipments.</description>
     <graphicData>
       <texPath>Things/Building/JITable</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
@@ -152,12 +152,12 @@
         <cornerBR>Damage/Corner</cornerBR>
       </damageData>
     </graphicData>
-    <CostList>
+    <costList>
       <Steel>150</Steel>
       <Plasteel>20</Plasteel>
       <Component>8</Component>
-    </CostList>
-    <AltitudeLayer>Building</AltitudeLayer>
+    </costList>
+    <altitudeLayer>Building</altitudeLayer>
     <fillPercent>0.5</fillPercent>
     <useHitPoints>True</useHitPoints>
     <statBases>
@@ -166,9 +166,9 @@
       <Flammability>1.0</Flammability>
       <Cleanliness>-2</Cleanliness>
     </statBases>
-    <Size>(3,1)</Size>
-    <DesignationCategory>Production</DesignationCategory>
-    <Passability>PassThroughOnly</Passability>
+    <size>(3,1)</size>
+    <designationCategory>Production</designationCategory>
+    <passability>PassThroughOnly</passability>
     <pathCost>70</pathCost>
     <hasInteractionCell>True</hasInteractionCell>
     <interactionCellOffset>(0,0,-1)</interactionCellOffset>
@@ -202,13 +202,13 @@
 		<placeWorkers>
 			<li>PlaceWorker_ShowFacilitiesConnections</li>
 		</placeWorkers>
-  </ThingDef>
+  </thingDef>
 
-  <ThingDef ParentName="BenchBase">
-    <DefName>TETable</DefName>
+  <thingDef ParentName="BenchBase">
+    <defName>TETable</defName>
     <label>kinetic field manipulator</label>
-    <ThingClass>Building_WorkTable</ThingClass>
-    <Description>A table with equipments for assembling Tisiphone Enterprise equipments.</Description>
+    <thingClass>Building_WorkTable</thingClass>
+    <description>A table with equipments for assembling Tisiphone Enterprise equipments.</description>
     <graphicData>
       <texPath>Things/Building/TETable</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
@@ -220,12 +220,12 @@
         <cornerBR>Damage/Corner</cornerBR>
       </damageData>
     </graphicData>
-    <CostList>
+    <costList>
       <Steel>75</Steel>
       <Plasteel>30</Plasteel>
       <Component>8</Component>
-    </CostList>
-    <AltitudeLayer>Building</AltitudeLayer>
+    </costList>
+    <altitudeLayer>Building</altitudeLayer>
     <fillPercent>0.5</fillPercent>
     <useHitPoints>True</useHitPoints>
     <statBases>
@@ -234,9 +234,9 @@
       <Flammability>1.0</Flammability>
       <Cleanliness>-2</Cleanliness>
     </statBases>
-    <Size>(3,1)</Size>
-    <DesignationCategory>Production</DesignationCategory>
-    <Passability>PassThroughOnly</Passability>
+    <size>(3,1)</size>
+    <designationCategory>Production</designationCategory>
+    <passability>PassThroughOnly</passability>
     <pathCost>70</pathCost>
     <hasInteractionCell>True</hasInteractionCell>
     <interactionCellOffset>(0,0,-1)</interactionCellOffset>
@@ -270,5 +270,5 @@
 		<placeWorkers>
 			<li>PlaceWorker_ShowFacilitiesConnections</li>
 		</placeWorkers>
-  </ThingDef>
-</ThingDefs>
+  </thingDef>
+</Defs>

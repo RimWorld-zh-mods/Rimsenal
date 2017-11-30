@@ -1,40 +1,20 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+<Defs>
 
 
-  <ThingDef Name="BaseTEGun" Abstract="True">
-    <category>Item</category>
-    <smeltable>true</smeltable>
-    <thingClass>ThingWithComps</thingClass>
-    <equipmentType>Primary</equipmentType>
-    <pathCost>10</pathCost>
-    <useHitPoints>True</useHitPoints>
-    <selectable>True</selectable>
-    <graphicData>
-      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
-    </graphicData>
-    <drawGUIOverlay>true</drawGUIOverlay>
-    <statBases>
-      <MaxHitPoints>100</MaxHitPoints>
-      <Flammability>1.0</Flammability>
-      <DeteriorationRate>2</DeteriorationRate>
-      <SellPriceFactor>0.2</SellPriceFactor>
-    </statBases>
-    <altitudeLayer>Item</altitudeLayer>
-    <alwaysHaulable>True</alwaysHaulable>
-    <tickerType>Never</tickerType>
-    <techLevel>Spacer</techLevel>
+  <thingDef Name="BaseTEGun" Abstract="True" ParentName="BaseWeapon">
+		<techLevel>Spacer</techLevel>
+		<smeltable>true</smeltable>
     <thingCategories>
       <li>TEWeapons</li>
     </thingCategories>
+    <weaponTags>
+       <li>TEGun</li>
+    </weaponTags>
     <inspectorTabs>
       <li>ITab_Art</li>
     </inspectorTabs>
     <comps>
-      <li Class="CompProperties_Forbiddable"/>
-      <li>
-        <compClass>CompEquippable</compClass>
-      </li>
       <li>
         <compClass>CompQuality</compClass>
       </li>
@@ -44,10 +24,6 @@
         <minQualityForArtistic>Excellent</minQualityForArtistic>
       </li>
     </comps>
-    <weaponTags>
-       <li>TEGun</li>
-    </weaponTags>
-    <generateCommonality>0.1</generateCommonality>
     <recipeMaker>
       <workSpeedStat>SmithingSpeed</workSpeedStat>
       <workSkill>Crafting</workSkill>
@@ -57,13 +33,15 @@
         <li>TETable</li>
       </recipeUsers>
       <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+      <researchPrerequisite>Gunsmithing</researchPrerequisite>
     </recipeMaker>
-  </ThingDef>
+  </thingDef>
+
 
 
   <!-- ============================================== -->
 
-  <ThingDef ParentName="BaseBullet">
+  <thingDef ParentName="BaseBullet">
     <defName>Bullet_Tyrant</defName>
     <label>impact shell</label>
     <graphicData>
@@ -75,9 +53,9 @@
       <damageAmountBase>13</damageAmountBase>
       <speed>75</speed>
     </projectile>
-  </ThingDef>
+  </thingDef>
 
-  <ThingDef ParentName="BaseTEGun">
+  <thingDef ParentName="BaseTEGun">
     <defName>KineticRifle</defName>
     <label>TE kinetic rifle</label>
     <description>The "Tyrant" is a service rifle of the Tisiphone Hunter Contingent. Created for close quarters combat, one of the great advantages of the Tyrant is its cutting edge targeting systems for rapid target acquiring and tracking.</description>
@@ -107,7 +85,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_Tyrant</projectileDef>
+        <defaultProjectile>Bullet_Tyrant</defaultProjectile>
         <warmupTime>0.5</warmupTime>
         <range>25</range>
         <burstShotCount>1</burstShotCount>
@@ -116,11 +94,11 @@
         <muzzleFlashScale>8</muzzleFlashScale>
       </li>
     </verbs>
-  </ThingDef>
+  </thingDef>
 
   <!-- ============================================== -->
 
-  <ThingDef ParentName="BaseBullet">
+  <thingDef ParentName="BaseBullet">
     <defName>Bullet_Tormentor</defName>
     <label>impact shell</label>
     <graphicData>
@@ -132,9 +110,9 @@
       <damageAmountBase>10</damageAmountBase>
       <speed>75</speed>
     </projectile>
-  </ThingDef>
+  </thingDef>
 
-  <ThingDef ParentName="BaseTEGun">
+  <thingDef ParentName="BaseTEGun">
     <defName>KineticPistol</defName>
     <label>TE kinetic pistol</label>
     <description>Standard issue sidearm of the Tisiphone Hunter Contingent, the "Tormentor" is a fast firing personal defense weapon.</description>
@@ -164,7 +142,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_Tormentor</projectileDef>
+        <defaultProjectile>Bullet_Tormentor</defaultProjectile>
         <warmupTime>0.35</warmupTime>
         <range>16</range>
         <burstShotCount>1</burstShotCount>
@@ -173,11 +151,11 @@
         <muzzleFlashScale>8</muzzleFlashScale>
       </li>
     </verbs>
-  </ThingDef>
+  </thingDef>
 
   <!-- ============================================== -->
 
-  <ThingDef ParentName="BaseBullet">
+  <thingDef ParentName="BaseBullet">
     <defName>Bullet_Oppressor</defName>
     <label>kinetic canister</label>
     <graphicData>
@@ -192,9 +170,9 @@
 	<explosionRadius>1</explosionRadius>
 	<speed>75</speed>
     </projectile>
-  </ThingDef>
+  </thingDef>
 
-  <ThingDef ParentName="BaseTEGun">
+  <thingDef ParentName="BaseTEGun">
     <defName>ThuddGun</defName>
     <label>TE thudd gun</label>
     <description>Unlike other ordinary close quarter combat weapon, the "Oppressor" canister rifle fires charged kinetic energy canister. It can be dangerous, even from afar.</description>
@@ -225,7 +203,7 @@
         <forcedMissRadius>1.0</forcedMissRadius>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_Oppressor</projectileDef>
+        <defaultProjectile>Bullet_Oppressor</defaultProjectile>
         <warmupTime>0.8</warmupTime>
         <range>20</range>
         <soundCast>ImpactB</soundCast>
@@ -234,11 +212,11 @@
         <muzzleFlashScale>12</muzzleFlashScale>
       </li>
     </verbs>
-  </ThingDef>
+  </thingDef>
 
   <!-- ============================================== -->
 
-  <ThingDef ParentName="BaseBullet">
+  <thingDef ParentName="BaseBullet">
     <defName>Bullet_Wailer</defName>
     <label>impact shell</label>
     <graphicData>
@@ -250,9 +228,9 @@
       <damageAmountBase>28</damageAmountBase>
       <speed>80</speed>
     </projectile>
-  </ThingDef>
+  </thingDef>
 
-  <ThingDef ParentName="BaseTEGun">
+  <thingDef ParentName="BaseTEGun">
     <defName>KineticLongRifle</defName>
     <label>TE kinetic long rifle</label>
     <description>Built for rapid counter snipe against the Federation snipers, the greatest strength of the "Wailer" is surprisingly fast target acquisition capability for the sniper rifle.</description>
@@ -282,7 +260,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_Wailer</projectileDef>
+        <defaultProjectile>Bullet_Wailer</defaultProjectile>
         <warmupTime>2.35</warmupTime>
         <range>41</range>
         <soundCast>ImpactL</soundCast>
@@ -291,11 +269,11 @@
         <muzzleFlashScale>12</muzzleFlashScale>
       </li>
     </verbs>
-  </ThingDef>
+  </thingDef>
 
   <!-- ============================================== -->
 
-  <ThingDef ParentName="BaseBullet">
+  <thingDef ParentName="BaseBullet">
     <defName>Bullet_Atrocity</defName>
     <label>kinetic canister</label>
     <graphicData>
@@ -310,9 +288,9 @@
 	<explosionRadius>1</explosionRadius>
 	<speed>75</speed>
     </projectile>
-  </ThingDef>
+  </thingDef>
 
-  <ThingDef ParentName="BaseTEGun">
+  <thingDef ParentName="BaseTEGun">
     <defName>StormCannon</defName>
     <label>TE storm cannon</label>
     <description>The "Atrocity" area suppression system was designed for suppressing multiple target from afar. The Atrocity's great maneuverability made its reputation as a fearsome support weapon.</description>
@@ -349,7 +327,7 @@
         <forcedMissRadius>2</forcedMissRadius>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_Atrocity</projectileDef>
+        <defaultProjectile>Bullet_Atrocity</defaultProjectile>
         <warmupTime>2.43</warmupTime>
         <range>25</range>
         <soundCast>ImpactB</soundCast>
@@ -359,11 +337,11 @@
         <muzzleFlashScale>12</muzzleFlashScale>
       </li>
     </verbs>
-  </ThingDef>
+  </thingDef>
 
   <!-- ============================================== -->
 
-  <ThingDef ParentName="BaseBullet">
+  <thingDef ParentName="BaseBullet">
     <defName>Bullet_Harrower</defName>
     <label>kinetic energy</label>
     <graphicData>
@@ -378,9 +356,9 @@
 	<explosionRadius>0.5</explosionRadius>
 	<speed>300</speed>
     </projectile>
-  </ThingDef>
+  </thingDef>
 
-  <ThingDef ParentName="BaseTEGun">
+  <thingDef ParentName="BaseTEGun">
     <defName>KineticLance</defName>
     <label>TE kinetic lance</label>
     <description>Tisiphone's answer to the Federation's mechsuits, the "Harrower" kinetic lance fires continuous focused kinetic energy field. This weapon literally carves the target.</description>
@@ -416,7 +394,7 @@
         </targetParams>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_Harrower</projectileDef>
+        <defaultProjectile>Bullet_Harrower</defaultProjectile>
         <warmupTime>3.2</warmupTime>
         <range>20</range>
         <soundCast>SoundHarrower</soundCast>
@@ -426,6 +404,6 @@
         <muzzleFlashScale>18</muzzleFlashScale>
       </li>
     </verbs>
-  </ThingDef>
+  </thingDef>
 
-</ThingDefs>
+</Defs>

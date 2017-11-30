@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef Name="RSMoteBase" Abstract="True">
+  <thingDef Name="RSMoteBase" Abstract="True">
     <thingClass>MoteThrown</thingClass>
     <label>Mote</label>
     <category>Mote</category>
@@ -14,9 +14,9 @@
     <useHitPoints>false</useHitPoints>
     <isSaveable>false</isSaveable>
     <rotatable>false</rotatable>
-  </ThingDef>
+  </thingDef>
 
-  <ThingDef ParentName="RSMoteBase">
+  <thingDef ParentName="RSMoteBase">
     <defName>Mote_BlastMicrowave</defName>
     <graphicData>
       <texPath>Things/Mote/BlastMicrowave</texPath>
@@ -28,9 +28,9 @@
       <fadeInTime>0.06</fadeInTime>
       <fadeOutTime>0.08</fadeOutTime>
     </mote>
-  </ThingDef>
+  </thingDef>
 
-  <ThingDef ParentName="RSMoteBase">
+  <thingDef ParentName="RSMoteBase">
     <defName>ImpactMote</defName>
     <graphicData>
       <texPath>Things/Mote/ImpactMote</texPath>
@@ -42,6 +42,6 @@
       <fadeInTime>0.06</fadeInTime>
       <fadeOutTime>0.08</fadeOutTime>
     </mote>
-  </ThingDef>
+  </thingDef>
 
 </Defs>
