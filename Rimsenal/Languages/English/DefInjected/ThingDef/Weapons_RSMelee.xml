@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <GD_Sabertooth.label>combat blade</GD_Sabertooth.label>
+  <GD_Sabertooth.description>A "Sabertooth" combat blade of Greydale Defence. Good for chop down trees or enemies limbs.</GD_Sabertooth.description>
+  <GD_Sabertooth.tools.0.label>edge</GD_Sabertooth.tools.0.label>
+  <GD_Sabertooth.tools.1.label>handle</GD_Sabertooth.tools.1.label>
+
+  <YP_BingJu.label>Vibrosword</YP_BingJu.label>
+  <YP_BingJu.description>Light but extremely sharp, the "BingJu(Ice pillar)" is the close combat weapon of Yunhwa Precision's private army.</YP_BingJu.description>
+  <YP_BingJu.tools.0.label>handle</YP_BingJu.tools.0.label>
+  <YP_BingJu.tools.1.label>point</YP_BingJu.tools.1.label>
+  <YP_BingJu.tools.2.label>edge</YP_BingJu.tools.2.label>
+
+  <JI_Ormbane.label>Assault hammer</JI_Ormbane.label>
+  <JI_Ormbane.description>"Ormbane" is a massive combat sledge hammer that manufactured from Jotun Interstellar.</JI_Ormbane.description>
+  <JI_Ormbane.tools.0.label>handle</JI_Ormbane.tools.0.label>
+
+  <TE_Eris.label>survival knife</TE_Eris.label>
+  <TE_Eris.description>Survival knife of the Tisiphone Hunter Contingent. It can be used in a variety of tasks.</TE_Eris.description>
+  <TE_Eris.tools.0.label>handle</TE_Eris.tools.0.label>
+  <TE_Eris.tools.1.label>blade</TE_Eris.tools.1.label>
+  <TE_Eris.tools.2.label>point</TE_Eris.tools.2.label>
+
+  <MeleeWeapon_TorchSword.label>torch sword</MeleeWeapon_TorchSword.label>
+  <MeleeWeapon_TorchSword.description>The "Purifier" torch sword is a high capacity plasma torch with grip and blade. Set a fire on target.</MeleeWeapon_TorchSword.description>
+  <MeleeWeapon_TorchSword.tools.0.label>handle</MeleeWeapon_TorchSword.tools.0.label>
+  <MeleeWeapon_TorchSword.tools.1.label>point</MeleeWeapon_TorchSword.tools.1.label>
+  <MeleeWeapon_TorchSword.tools.2.label>edge</MeleeWeapon_TorchSword.tools.2.label>
+
+
+</LanguageData>

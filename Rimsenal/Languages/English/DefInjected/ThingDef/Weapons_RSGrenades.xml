@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Microwave grenade -->
+
+  <Proj_BaegYa.label>microwave grenade</Proj_BaegYa.label>
+
+  <YP_BaegYa.label>microwave grenades</YP_BaegYa.label>
+  <YP_BaegYa.description>Yunhwa Precision "BaegYa(white night)" microwave grenades. This small device emit the painful millimeter wave for a brief time. It is a surprisingly effective crowd control weapon.</YP_BaegYa.description>
+  <YP_BaegYa.verbs.0.label>throw microwave grenade</YP_BaegYa.verbs.0.label>
+
+
+  <!-- Satchel charge -->
+
+  <Proj_Dunder.label>Satchel charge</Proj_Dunder.label>
+
+  <JI_Dunder.label>Satchel charge</JI_Dunder.label>
+  <JI_Dunder.description>A "Dunder" Satchel charge. Combat engineer's best friend.</JI_Dunder.description>
+  <JI_Dunder.verbs.0.label>throw satchel charge</JI_Dunder.verbs.0.label>
+
+
+  <!-- Mini grenade -->
+
+  <Proj_Bobcat.label>mini grenade</Proj_Bobcat.label>
+
+  <GD_Bobcat.label>mini grenades</GD_Bobcat.label>
+  <GD_Bobcat.description>"Bobcat" mini grenades. Due to its small size, a considerable number could be carried.</GD_Bobcat.description>
+  <GD_Bobcat.verbs.0.label>throw grenades</GD_Bobcat.verbs.0.label>
+
+
+  <!-- Impact grenade -->
+
+  <Proj_Grief.label>impact grenade</Proj_Grief.label>
+
+  <TE_Grief.label>impact grenades</TE_Grief.label>
+  <TE_Grief.description>When it exploded, the "Grief" impact grenade releases some sort of shock wave. Although it's low damage, the Grief affects a wider range than conventional grenades.</TE_Grief.description>
+  <TE_Grief.verbs.0.label>throw grenades</TE_Grief.verbs.0.label>
+
+
+</LanguageData>

@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Bullet_TacticalPistol.label>tactical pistol bullet</Bullet_TacticalPistol.label>
+
+  <GD_TacticalPistol.label>tactical pistol</GD_TacticalPistol.label>
+  <GD_TacticalPistol.description>A Greydale Defense "Lynx". Light and easy to use, ideal personal defense weapon. It use small-caliber, high-velocity plasteel tipped cartridge.</GD_TacticalPistol.description>
+  <GD_TacticalPistol.tools.0.label>grip</GD_TacticalPistol.tools.0.label>
+  <GD_TacticalPistol.tools.1.label>barrel</GD_TacticalPistol.tools.1.label>
+
+  <Bullet_ModularRifle.label>rifle bullet</Bullet_ModularRifle.label>
+
+  <GD_ModularCarbine.label>modular carbine</GD_ModularCarbine.label>
+  <GD_ModularCarbine.description>Greydale Defense "Panther" Modular Rifle System. This carbine model's light and compact design makes it suitable for security mission. It is a base platform of other MRS.</GD_ModularCarbine.description>
+  <GD_ModularCarbine.tools.0.label>stock</GD_ModularCarbine.tools.0.label>
+  <GD_ModularCarbine.tools.1.label>barrel</GD_ModularCarbine.tools.1.label>
+
+  <GD_ModularRifle.label>modular carbine</GD_ModularRifle.label>
+  <GD_ModularRifle.description>Greydale Defense "Panther" Modular Rifle System. Because of its durable and simple design, this rifle model is very popular among remote colonies militia.</GD_ModularRifle.description>
+  <GD_ModularRifle.tools.0.label>stock</GD_ModularRifle.tools.0.label>
+  <GD_ModularRifle.tools.1.label>barrel</GD_ModularRifle.tools.1.label>
+
+  <Bullet_ModularDMR.label>marksman rifle bullet</Bullet_ModularDMR.label>
+
+  <GD_ModularDMR.label>modular DMR</GD_ModularDMR.label>
+  <GD_ModularDMR.description>Greydale Defense "Panther" Modular Rifle System. This marksman rifle model is a great tool for precision fire support or hunting.</GD_ModularDMR.description>
+  <GD_ModularDMR.tools.0.label>stock</GD_ModularDMR.tools.0.label>
+  <GD_ModularDMR.tools.1.label>barrel</GD_ModularDMR.tools.1.label>
+
+  <GD_ModularLMG.label>modular LMG</GD_ModularLMG.label>
+  <GD_ModularLMG.description>Greydale Defense "Panther" Modular Rifle System. This LMG model is good for support troops with its unceasing bursts.</GD_ModularLMG.description>
+  <GD_ModularLMG.tools.0.label>stock</GD_ModularLMG.tools.0.label>
+  <GD_ModularLMG.tools.1.label>barrel</GD_ModularLMG.tools.1.label>
+
+  <Bullet_HVSMG.label>pistol bullet</Bullet_HVSMG.label>
+
+  <GD_HVSMG.label>GD HV SMG</GD_HVSMG.label>
+  <GD_HVSMG.description>The "Caracal" is a SMG that manufactured by Graydale Defence. It was designed for close assault and fires special small calibre high velocity cartridges.</GD_HVSMG.description>
+
+  <Bullet_MultiLauncher.label>frag grenade</Bullet_MultiLauncher.label>
+
+  <GD_GrenadeLauncher.label>GD multi launcher</GD_GrenadeLauncher.label>
+  <GD_GrenadeLauncher.description>One of the most versatile fire support weapons, the "Jaguar" multi launcher is a reliable and effective fire support weapon. With a simple manipulation, if you have appropriate tools, you can change its setting.
+  
+Frag: Basic setting of the multi launcher. Low damage, affects large area.
+Buckshot: Cloce quater combat setting. Fires multiple bucks at once.
+Incendiary: Deals flame damage and sets target on fire.
+Smoke: Deals no damage. Provide smoke screen on target area.</GD_GrenadeLauncher.description>
+  <GD_GrenadeLauncher.tools.0.label>stock</GD_GrenadeLauncher.tools.0.label>
+  <GD_GrenadeLauncher.tools.1.label>barrel</GD_GrenadeLauncher.tools.1.label>
+
+  <Bullet_INGrenadeLauncher.label>incendiary grenade</Bullet_INGrenadeLauncher.label>
+
+  <GD_INGrenadeLauncher.label>GD incendiary launcher</GD_INGrenadeLauncher.label>
+  <GD_INGrenadeLauncher.description>One of the most versatile fire support weapons, the "Jaguar" multi launcher is a reliable and effective fire support weapon. With a simple manipulation, if you have appropriate tools, you can change its setting.
+  
+Frag: Basic setting of the multi launcher. Low damage, affects large area.
+Buckshot: Cloce quater combat setting. Fires multiple bucks at once.
+Incendiary: Deals flame damage and sets target on fire.
+Smoke: Deals no damage. Provide smoke screen on target area.</GD_INGrenadeLauncher.description>
+  <GD_INGrenadeLauncher.tools.0.label>stock</GD_INGrenadeLauncher.tools.0.label>
+  <GD_INGrenadeLauncher.tools.1.label>barrel</GD_INGrenadeLauncher.tools.1.label>
+
+  <Bullet_SKGrenadeLauncher.label>smoke grenade</Bullet_SKGrenadeLauncher.label>
+
+  <GD_SKGrenadeLauncher.label>GD smoke launcher</GD_SKGrenadeLauncher.label>
+  <GD_SKGrenadeLauncher.description>One of the most versatile fire support weapons, the "Jaguar" multi launcher is a reliable and effective fire support weapon. With a simple manipulation, if you have appropriate tools, you can change its setting.
+  
+Frag: Basic setting of the multi launcher. Low damage, affects large area.
+Buckshot: Cloce quater combat setting. Fires multiple bucks at once.
+Incendiary: Deals flame damage and sets target on fire.
+Smoke: Deals no damage. Provide smoke screen on target area.</GD_SKGrenadeLauncher.description>
+  <GD_SKGrenadeLauncher.tools.0.label>stock</GD_SKGrenadeLauncher.tools.0.label>
+  <GD_SKGrenadeLauncher.tools.1.label>barrel</GD_SKGrenadeLauncher.tools.1.label>
+
+  <Bullet_BSLauncher.label>buckshot</Bullet_BSLauncher.label>
+
+  <GD_BSLauncher.label>GD buckshot launcher</GD_BSLauncher.label>
+  <GD_BSLauncher.description>One of the most versatile fire support weapons, the "Jaguar" multi launcher is a reliable and effective fire support weapon. With a simple manipulation, if you have appropriate tools, you can change its setting.
+  
+Frag: Basic setting of the multi launcher. Low damage, affects large area.
+Buckshot: Cloce quater combat setting. Fires multiple bucks at once.
+Incendiary: Deals flame damage and sets target on fire.
+Smoke: Deals no damage. Provide smoke screen on target area.</GD_BSLauncher.description>
+  <GD_BSLauncher.tools.0.label>stock</GD_BSLauncher.tools.0.label>
+  <GD_BSLauncher.tools.1.label>barrel</GD_BSLauncher.tools.1.label>
+
+
+</LanguageData>

@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Bullet_SeoLi.label>seoli shard</Bullet_SeoLi.label>
+
+  <YP_SeoLi.label>YP shard rifle</YP_SeoLi.label>
+  <YP_SeoLi.description>Compared to a conventional assault rifle, the Yunwha Precision 'Seoli(Frost)' shard rifle is equipped with a larger clip and a higher rate of fire. However, to achieve this the rifle sacrifices damage and armor piercing capability.</YP_SeoLi.description>
+  <YP_SeoLi.tools.0.label>stock</YP_SeoLi.tools.0.label>
+  <YP_SeoLi.tools.1.label>barrel</YP_SeoLi.tools.1.label>
+
+  <Bullet_SagPung.label>sagpung swarm</Bullet_SagPung.label>
+
+  <YP_SagPung.label>YP swarmer</YP_SagPung.label>
+  <YP_SagPung.description>The Yunhwa Precision 'SagPung(Boreas)' swarmer is the short range nanotech weapon. It shoots intelligent nano swarm as its bullet. Fast and incredibly accurate, it is an ideal tool for dealing with soft targets at close range.</YP_SagPung.description>
+  <YP_SagPung.tools.0.label>stock</YP_SagPung.tools.0.label>
+  <YP_SagPung.tools.1.label>barrel</YP_SagPung.tools.1.label>
+
+  <Bullet_SangAe.label>sangae spike</Bullet_SangAe.label>
+
+  <YP_SangAe.label>YP spike rifle</YP_SangAe.label>
+  <YP_SangAe.description>Yunhwa precision's 'SangAe(Frost haze)'. Unlike more common rifles, the frost haze fires armor piercing spikes of carbon crystal.</YP_SangAe.description>
+  <YP_SangAe.tools.0.label>stock</YP_SangAe.tools.0.label>
+  <YP_SangAe.tools.1.label>barrel</YP_SangAe.tools.1.label>
+
+  <Bullet_SeolHwa.label>seolhwa shard</Bullet_SeolHwa.label>
+
+  <YP_SeolHwa.label>YP dual wield shard pistols</YP_SeolHwa.label>
+  <YP_SeolHwa.description>A pair of Yunhwa Precision "SeolHwa(Snow blossom)" pistols. The SeolHwa has an extremely short range but while within close range the pistol can tear enemies to pieces.</YP_SeolHwa.description>
+  <YP_SeolHwa.tools.0.label>grip</YP_SeolHwa.tools.0.label>
+  <YP_SeolHwa.tools.1.label>blade</YP_SeolHwa.tools.1.label>
+
+  <Bullet_GeugGwang.label>microwave</Bullet_GeugGwang.label>
+
+  <YP_GeugGwang.label>YP microwave emmiter</YP_GeugGwang.label>
+  <YP_GeugGwang.description>Yunhwa Precision "GeugGwang(Aurora)" is a millimeter wave source that boils the water in the target's skin and thus causes incapacitating pain. It is a perfect crowd control weapon.</YP_GeugGwang.description>
+  <YP_GeugGwang.tools.0.label>stock</YP_GeugGwang.tools.0.label>
+  <YP_GeugGwang.tools.1.label>barrel</YP_GeugGwang.tools.1.label>
+
+  <Bullet_VectorShot.label>smart bolt</Bullet_VectorShot.label>
+
+  <YP_VectorShot.label>YP vector shot</YP_VectorShot.label>
+  <YP_VectorShot.description>"NuRi(Hail)" vector shot is a weapon for urban warfare, shots guided system integrated smart bolts. With an aid of multi-spectral scanners, NuRi can aim at targets hidden in cover. While ignoring wall is a really strong feature, however, because of extremely short range, NuRi's function is limited to an assault specialist weapon.</YP_VectorShot.description>
+  <YP_VectorShot.tools.0.label>stock</YP_VectorShot.tools.0.label>
+  <YP_VectorShot.tools.1.label>barrel</YP_VectorShot.tools.1.label>
+
+
+</LanguageData>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Injuries -->
+
+  <Teared.label>teared</Teared.label>
+  <Teared.comps.0.labelTendedWell>bandaged</Teared.comps.0.labelTendedWell>
+  <Teared.comps.0.labelTendedWellInner>sutured</Teared.comps.0.labelTendedWellInner>
+  <Teared.comps.0.labelSolidTendedWell>set</Teared.comps.0.labelSolidTendedWell>
+  <Teared.comps.2.oldLabel>cut scar</Teared.comps.2.oldLabel>
+  <Teared.injuryProps.destroyedLabel>Cut off</Teared.injuryProps.destroyedLabel>
+  <Teared.injuryProps.destroyedOutLabel>Cut out</Teared.injuryProps.destroyedOutLabel>
+  <Teared.labelNoun>a teared wound</Teared.labelNoun>
+
+
+</LanguageData>
