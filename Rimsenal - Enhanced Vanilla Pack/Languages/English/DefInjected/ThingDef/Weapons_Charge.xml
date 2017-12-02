@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Bullet_ChargeSidearm.label>charge shot</Bullet_ChargeSidearm.label>
+
+  <Gun_ChargeSidearm.label>charge sidearm</Gun_ChargeSidearm.label>
+  <Gun_ChargeSidearm.description>Charged-shot weapon designed to carry and fire with one hand.</Gun_ChargeSidearm.description>
+  <Gun_ChargeSidearm.tools.0.label>grip</Gun_ChargeSidearm.tools.0.label>
+  <Gun_ChargeSidearm.tools.1.label>barrel</Gun_ChargeSidearm.tools.1.label>
+
+  <Bullet_ScatterCharger.label>charge shot</Bullet_ScatterCharger.label>
+
+  <Gun_ScatterCharger.label>scatter charger</Gun_ScatterCharger.label>
+  <Gun_ScatterCharger.description>Charged-shot weapon that designed for use in close range gunfight.</Gun_ScatterCharger.description>
+  <Gun_ScatterCharger.tools.0.label>stock</Gun_ScatterCharger.tools.0.label>
+  <Gun_ScatterCharger.tools.1.label>barrel</Gun_ScatterCharger.tools.1.label>
+
+  <Bullet_ChargeDriver.label>charge shot</Bullet_ChargeDriver.label>
+
+  <Gun_ChargeDriver.label>charge driver</Gun_ChargeDriver.label>
+  <Gun_ChargeDriver.description>Charged-shot technology based long range precision weapon.</Gun_ChargeDriver.description>
+  <Gun_ChargeDriver.tools.0.label>stock</Gun_ChargeDriver.tools.0.label>
+  <Gun_ChargeDriver.tools.1.label>barrel</Gun_ChargeDriver.tools.1.label>
+
+  <Bullet_EMPRifle.label>EMP blast</Bullet_EMPRifle.label>
+
+  <Gun_EMPRifle.label>EMP rifle</Gun_EMPRifle.label>
+  <Gun_EMPRifle.description>Directed electromagnetic pulse discharger. Used for neutralize advanced electronics.</Gun_EMPRifle.description>
+  <Gun_EMPRifle.tools.0.label>stock</Gun_EMPRifle.tools.0.label>
+  <Gun_EMPRifle.tools.1.label>barrel</Gun_EMPRifle.tools.1.label>
+
+  <Bullet_AssaultCharger.label>charge shot</Bullet_AssaultCharger.label>
+
+  <Gun_AssaultCharger.label>assault chager</Gun_AssaultCharger.label>
+  <Gun_AssaultCharger.description>Charged-shot technology based heavy assault weapon.</Gun_AssaultCharger.description>
+  <Gun_AssaultCharger.tools.0.label>stock</Gun_AssaultCharger.tools.0.label>
+  <Gun_AssaultCharger.tools.1.label>barrel</Gun_AssaultCharger.tools.1.label>
+
+  <Bullet_BurstCharger.label>charge shot</Bullet_BurstCharger.label>
+
+  <Gun_BurstCharger.label>burst charger</Gun_BurstCharger.label>
+  <Gun_BurstCharger.description>Usually referred as "GEN 2" or "Charge battle rifle", the burst charger is a heavier variant of the charge rifle. It earned lengthened range and higher punch in exchange for slow fire rate and increased weight.</Gun_BurstCharger.description>
+  <Gun_BurstCharger.tools.0.label>stock</Gun_BurstCharger.tools.0.label>
+  <Gun_BurstCharger.tools.1.label>barrel</Gun_BurstCharger.tools.1.label>
+
+
+</LanguageData>

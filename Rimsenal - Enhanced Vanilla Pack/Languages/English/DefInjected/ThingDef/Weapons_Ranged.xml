@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Arrow_Compound.label>carbon arrow</Arrow_Compound.label>
+
+  <Bow_Compound.label>compound bow</Bow_Compound.label>
+  <Bow_Compound.description>A modern compound bow. Fires a high velocity arrow fast.</Bow_Compound.description>
+
+  <Bullet_Blowgun.label>dart</Bullet_Blowgun.label>
+
+  <Gun_Blowgun.label>blowgun</Gun_Blowgun.label>
+  <Gun_Blowgun.description>A simple weapon consisting of a narrow, long tube for firing light projectiles or darts. While dart itself is not so lethal, it has poison on the tip.</Gun_Blowgun.description>
+
+  <Bullet_ThrowingAxes.label>throwing axe</Bullet_ThrowingAxes.label>
+
+  <Gun_ThrowingAxes.label>throwing axes</Gun_ThrowingAxes.label>
+  <Gun_ThrowingAxes.description>Metal forged throwing axes. In the trained hands, these can be a devastating tool both in melee and ranged combat.</Gun_ThrowingAxes.description>
+  <Gun_ThrowingAxes.tools.0.label>handle</Gun_ThrowingAxes.tools.0.label>
+  <Gun_ThrowingAxes.tools.1.label>edge</Gun_ThrowingAxes.tools.1.label>
+
+  <Bullet_ThrowingClubs.label>throwing club</Bullet_ThrowingClubs.label>
+
+  <Gun_ThrowingClubs.label>throwing clubs</Gun_ThrowingClubs.label>
+  <Gun_ThrowingClubs.description>The one of the first ranged weapons used by early humans, throwing club can be used in both melee and ranged attack.</Gun_ThrowingClubs.description>
+  <Gun_ThrowingClubs.tools.0.label>handle</Gun_ThrowingClubs.tools.0.label>
+
+
+</LanguageData>

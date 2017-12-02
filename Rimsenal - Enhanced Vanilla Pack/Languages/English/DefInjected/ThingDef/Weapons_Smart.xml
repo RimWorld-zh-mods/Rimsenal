@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Bullet_SmartRifle.label>rifle bullet</Bullet_SmartRifle.label>
+
+  <Gun_SmartRifle.label>smart rifle</Gun_SmartRifle.label>
+  <Gun_SmartRifle.description> The development of firearms is not made solely by firepower. Developments have been made in other areas, such as improved aiming optics, ergonomic and convenient design, and integrated fire control system. And this rifle performs exceptionally well in these "other areas".</Gun_SmartRifle.description>
+  <Gun_SmartRifle.tools.0.label>stock</Gun_SmartRifle.tools.0.label>
+  <Gun_SmartRifle.tools.1.label>barrel</Gun_SmartRifle.tools.1.label>
+
+  <Bullet_SmartPistol.label>pistol bullet</Bullet_SmartPistol.label>
+
+  <Gun_SmartPistol.label>smart pistol</Gun_SmartPistol.label>
+  <Gun_SmartPistol.description>A smart system integrated pistol. The performance of the pistol itself is not much different from a conventional pistol, but the improved target acquisition system makes aiming much faster.</Gun_SmartPistol.description>
+  <Gun_SmartPistol.tools.0.label>grip</Gun_SmartPistol.tools.0.label>
+  <Gun_SmartPistol.tools.1.label>barrel</Gun_SmartPistol.tools.1.label>
+
+  <Bullet_SmartSMG.label>SMG bullet</Bullet_SmartSMG.label>
+
+  <Gun_SMG.label>smart SMG</Gun_SMG.label>
+  <Gun_SMG.description>A rapid firing anti personnel firearm with an integrated smart system. It excels in close quarter combat due to its compact size and high fire rate.</Gun_SMG.description>
+  <Gun_SMG.tools.0.label>stock</Gun_SMG.tools.0.label>
+  <Gun_SMG.tools.1.label>barrel</Gun_SMG.tools.1.label>
+
+
+  <!-- MG -->
+
+  <Bullet_SmartMG.label>Machine gun bullet</Bullet_SmartMG.label>
+
+  <SmartMG.label>smart machine gun</SmartMG.label>
+  <SmartMG.description>A man portable machine gun with automatic targeting system. This is a best tool when you need to sweep away acidic blooded creatures.</SmartMG.description>
+  <SmartMG.tools.0.label>stock</SmartMG.tools.0.label>
+  <SmartMG.tools.1.label>barrel</SmartMG.tools.1.label>
+
+  <Bullet_SSR.label>sniper rifle bullet</Bullet_SSR.label>
+
+  <Gun_SmartSniperRifle.label>smart sniper rifle</Gun_SmartSniperRifle.label>
+  <Gun_SmartSniperRifle.description>An advanced precision rifle. Integrated ballistic computer guarantees high accuracy at long-range.</Gun_SmartSniperRifle.description>
+  <Gun_SmartSniperRifle.tools.0.label>stock</Gun_SmartSniperRifle.tools.0.label>
+  <Gun_SmartSniperRifle.tools.1.label>barrel</Gun_SmartSniperRifle.tools.1.label>
+
+
+</LanguageData>

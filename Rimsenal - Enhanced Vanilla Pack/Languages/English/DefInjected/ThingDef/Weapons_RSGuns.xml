@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Bullet_RSBattleRifle.label>battle rifle bullet</Bullet_RSBattleRifle.label>
+
+  <Gun_RSBattleRifle.label>battle rifle</Gun_RSBattleRifle.label>
+  <Gun_RSBattleRifle.description>Big cousin of assault rifles, the battle rifles higher-caliber rounds provide greater power and range, though they have have greater weight and produce stronger recoil, making them less than ideal for fully automatic fire.</Gun_RSBattleRifle.description>
+  <Gun_RSBattleRifle.tools.0.label>stock</Gun_RSBattleRifle.tools.0.label>
+  <Gun_RSBattleRifle.tools.1.label>barrel</Gun_RSBattleRifle.tools.1.label>
+
+  <Bullet_RSCarbine.label>carbine bullet</Bullet_RSCarbine.label>
+
+  <Gun_RSCarbine.label>carbine</Gun_RSCarbine.label>
+  <Gun_RSCarbine.description>Shortened versions of conventional assault rifles. The smaller size and lighter weight of carbines make them easier to handle, ideal for close quarter combat.</Gun_RSCarbine.description>
+  <Gun_RSCarbine.tools.0.label>stock</Gun_RSCarbine.tools.0.label>
+  <Gun_RSCarbine.tools.1.label>barrel</Gun_RSCarbine.tools.1.label>
+
+  <Bullet_PistolHeavyRevolver.label>revolver bullet</Bullet_PistolHeavyRevolver.label>
+
+  <Gun_PistolHeavyRevolver.label>heavy revolver</Gun_PistolHeavyRevolver.label>
+  <Gun_PistolHeavyRevolver.description>Ancient pattern repeating handgun. It's large caliber ammunition guarantees a great deal of stopping power.</Gun_PistolHeavyRevolver.description>
+  <Gun_PistolHeavyRevolver.tools.0.label>grip</Gun_PistolHeavyRevolver.tools.0.label>
+  <Gun_PistolHeavyRevolver.tools.1.label>barrel</Gun_PistolHeavyRevolver.tools.1.label>
+
+  <Bullet_RSAMRifle.label>anti material rifle bullet</Bullet_RSAMRifle.label>
+
+  <Gun_RSAMRifle.label>anti-material rifle</Gun_RSAMRifle.label>
+  <Gun_RSAMRifle.description>Usually referred to as a "can opener" in the rimworlds, the anti-material rifle is a large-caliber, heavy sniper rifle designed for use against heavily armored target.</Gun_RSAMRifle.description>
+  <Gun_RSAMRifle.tools.0.label>stock</Gun_RSAMRifle.tools.0.label>
+  <Gun_RSAMRifle.tools.1.label>barrel</Gun_RSAMRifle.tools.1.label>
+
+  <Bullet_Repeater.label>repeater bullet</Bullet_Repeater.label>
+
+  <Gun_Repeater.label>repeating rifle</Gun_Repeater.label>
+  <Gun_Repeater.description>Archaic design even in the rimworld standard, the repeating rifle is popular among muffalo herders. Medium range, quick firing weapon.</Gun_Repeater.description>
+  <Gun_Repeater.tools.0.label>stock</Gun_Repeater.tools.0.label>
+  <Gun_Repeater.tools.1.label>barrel</Gun_Repeater.tools.1.label>
+
+  <Bullet_AutomaticRifle.label>automatic rifle bullet</Bullet_AutomaticRifle.label>
+
+  <Gun_AutomaticRifle.label>automatic rifle</Gun_AutomaticRifle.label>
+  <Gun_AutomaticRifle.description>Heavy, automatic support weapon. While it has a slower fire rate than LMG, its large calibre bullet guarantees impressive firepower.</Gun_AutomaticRifle.description>
+  <Gun_AutomaticRifle.tools.0.label>stock</Gun_AutomaticRifle.tools.0.label>
+  <Gun_AutomaticRifle.tools.1.label>barrel</Gun_AutomaticRifle.tools.1.label>
+
+  <Bullet_MilitiaRifle.label>rifle bullet</Bullet_MilitiaRifle.label>
+
+  <Gun_MilitiaRifle.label>militia rifle</Gun_MilitiaRifle.label>
+  <Gun_MilitiaRifle.description>This, has spilled someone's blood over 3000 years, is a real weapon of mass destruction. Rugged, easy to use and cheap, it is an every militia's favorite weapon. It has a slightly better firepower than the assault rifle, while inferior everything else.</Gun_MilitiaRifle.description>
+  <Gun_MilitiaRifle.tools.0.label>stock</Gun_MilitiaRifle.tools.0.label>
+  <Gun_MilitiaRifle.tools.1.label>barrel</Gun_MilitiaRifle.tools.1.label>
+
+
+</LanguageData>

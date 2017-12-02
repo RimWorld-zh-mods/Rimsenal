@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <DirectedEMP.label>directed electromagnetic pulse</DirectedEMP.label>
+  <DirectedEMP.description>It is a prerequisite to build EMP rifle.</DirectedEMP.description>
+
+  <SmartWeapons.label>smart weapons</SmartWeapons.label>
+  <SmartWeapons.description>Research the designing and making of advanced smart weapon.</SmartWeapons.description>
+
+
+</LanguageData>

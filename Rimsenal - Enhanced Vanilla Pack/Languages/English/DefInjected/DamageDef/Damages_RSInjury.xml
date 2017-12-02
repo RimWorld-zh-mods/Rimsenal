@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ChargedBolt.label>bullet</ChargedBolt.label>
+  <ChargedBolt.deathMessage>{0} has been shot to death.</ChargedBolt.deathMessage>
+
+  <Dart.label>dart</Dart.label>
+  <Dart.deathMessage>{0} has been cut to death.</Dart.deathMessage>
+
+
+</LanguageData>
