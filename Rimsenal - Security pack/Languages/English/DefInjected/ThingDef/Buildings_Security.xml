@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- YP -->
+
+  <ShardSentry.label>shard sentry</ShardSentry.label>
+  <ShardSentry.description>Sentry gun with a shard cannon. High fire rate and low fire power, this turret explodes when destroyed. Can be redeployed.</ShardSentry.description>
+  <ShardSentry_Blueprint.label>shard sentry (blueprint)</ShardSentry_Blueprint.label>
+  <ShardSentry_Blueprint_Install.label>shard sentry (blueprint)</ShardSentry_Blueprint_Install.label>
+  <ShardSentry_Frame.label>shard sentry (building)</ShardSentry_Frame.label>
+  <ShardSentry_Frame.description>Sentry gun with a shard cannon. High fire rate and low fire power, this turret explodes when destroyed. Can be redeployed.</ShardSentry_Frame.description>
+
+  <WaveEmitter.label>wave emitter</WaveEmitter.label>
+  <WaveEmitter.description>Powerful fixed microwave emitter. Ultimate crowd control weapon. This turret explodes when destroyed. Can be redeployed.</WaveEmitter.description>
+  <WaveEmitter_Blueprint.label>wave emitter (blueprint)</WaveEmitter_Blueprint.label>
+  <WaveEmitter_Blueprint_Install.label>wave emitter (blueprint)</WaveEmitter_Blueprint_Install.label>
+  <WaveEmitter_Frame.label>wave emitter (building)</WaveEmitter_Frame.label>
+  <WaveEmitter_Frame.description>Powerful fixed microwave emitter. Ultimate crowd control weapon. This turret explodes when destroyed. Can be redeployed.</WaveEmitter_Frame.description>
+
+
+  <!-- GD -->
+
+  <NestHMG.label>HMG Nest</NestHMG.label>
+  <NestHMG.description>Fixed gun nest with a mounted heavy machine gun. Simple but effective defense building.</NestHMG.description>
+  <NestHMG_Blueprint.label>HMG Nest (blueprint)</NestHMG_Blueprint.label>
+  <NestHMG_Frame.label>HMG Nest (building)</NestHMG_Frame.label>
+  <NestHMG_Frame.description>Fixed gun nest with a mounted heavy machine gun. Simple but effective defense building.</NestHMG_Frame.description>
+
+  <NestAGS.label>AGS Nest</NestAGS.label>
+  <NestAGS.description>Fixed gun nest with a mounted automatic grenade launcher. Greatly effective against massed enemies.</NestAGS.description>
+  <NestAGS_Blueprint.label>AGS Nest (blueprint)</NestAGS_Blueprint.label>
+  <NestAGS_Frame.label>AGS Nest (building)</NestAGS_Frame.label>
+  <NestAGS_Frame.description>Fixed gun nest with a mounted automatic grenade launcher. Greatly effective against massed enemies.</NestAGS_Frame.description>
+
+  <NestMMG.label>MMG Nest</NestMMG.label>
+  <NestMMG.description>Fixed medium machine gun on a tripod. Simple but effective defense building. Can be redeployed.</NestMMG.description>
+  <NestMMG_Blueprint.label>MMG Nest (blueprint)</NestMMG_Blueprint.label>
+  <NestMMG_Blueprint_Install.label>MMG Nest (blueprint)</NestMMG_Blueprint_Install.label>
+  <NestMMG_Frame.label>MMG Nest (building)</NestMMG_Frame.label>
+  <NestMMG_Frame.description>Fixed medium machine gun on a tripod. Simple but effective defense building. Can be redeployed.</NestMMG_Frame.description>
+
+  <PortableReactor.label>portable reactor</PortableReactor.label>
+  <PortableReactor.description>Small, portable field reactor that produce power by consuming uranium. It is useful when you need a power source that can be deployed quickly. Explodes when destroyed.</PortableReactor.description>
+  <PortableReactor_Blueprint.label>portable reactor (blueprint)</PortableReactor_Blueprint.label>
+  <PortableReactor_Blueprint_Install.label>portable reactor (blueprint)</PortableReactor_Blueprint_Install.label>
+  <PortableReactor_Frame.label>portable reactor (building)</PortableReactor_Frame.label>
+  <PortableReactor_Frame.description>Small, portable field reactor that produce power by consuming uranium. It is useful when you need a power source that can be deployed quickly. Explodes when destroyed.</PortableReactor_Frame.description>
+
+  <SuvTurret.label>surveillance turret</SuvTurret.label>
+  <SuvTurret.description>Long range sniper turret. Can be redeployed.</SuvTurret.description>
+  <SuvTurret_Blueprint.label>surveillance turret (blueprint)</SuvTurret_Blueprint.label>
+  <SuvTurret_Blueprint_Install.label>surveillance turret (blueprint)</SuvTurret_Blueprint_Install.label>
+  <SuvTurret_Frame.label>surveillance turret (building)</SuvTurret_Frame.label>
+  <SuvTurret_Frame.description>Long range sniper turret. Can be redeployed.</SuvTurret_Frame.description>
+
+  <ImpactMine.label>impact mine</ImpactMine.label>
+  <ImpactMine.description>Advanced mine with motion tracker. This mine explodes immediately when an enemy is detected.</ImpactMine.description>
+  <ImpactMine_Blueprint.label>impact mine (blueprint)</ImpactMine_Blueprint.label>
+  <ImpactMine_Blueprint_Install.label>impact mine (blueprint)</ImpactMine_Blueprint_Install.label>
+  <ImpactMine_Frame.label>impact mine (building)</ImpactMine_Frame.label>
+  <ImpactMine_Frame.description>Advanced mine with motion tracker. This mine explodes immediately when an enemy is detected.</ImpactMine_Frame.description>
+
+  <FuelBarrel.label>fuel barrel</FuelBarrel.label>
+  <FuelBarrel.description>The big red barrel that contains chemical fuel. As you expect, explode when destroyed.</FuelBarrel.description>
+  <FuelBarrel_Blueprint.label>fuel barrel (blueprint)</FuelBarrel_Blueprint.label>
+  <FuelBarrel_Blueprint_Install.label>fuel barrel (blueprint)</FuelBarrel_Blueprint_Install.label>
+  <FuelBarrel_Frame.label>fuel barrel (building)</FuelBarrel_Frame.label>
+  <FuelBarrel_Frame.description>The big red barrel that contains chemical fuel. As you expect, explode when destroyed.</FuelBarrel_Frame.description>
+
+  <RSDummy.label>dummy</RSDummy.label>
+  <RSDummy.description>A dummy with a fake rifle. At least, it can draw attention of your enemy.</RSDummy.description>
+  <RSDummy_Blueprint.label>dummy (blueprint)</RSDummy_Blueprint.label>
+  <RSDummy_Blueprint_Install.label>dummy (blueprint)</RSDummy_Blueprint_Install.label>
+  <RSDummy_Frame.label>dummy (building)</RSDummy_Frame.label>
+  <RSDummy_Frame.description>A dummy with a fake rifle. At least, it can draw attention of your enemy.</RSDummy_Frame.description>
+
+
+  <!-- Mortar turret -->
+
+  <Turret_MC.label>molten cannon</Turret_MC.label>
+  <Turret_MC.description>Reliably Propelling a molten metal projectile, Molten cannon is the main anti heavy Mechanoid weapon of Jotunheim Prime. Needs molten shell for firing.</Turret_MC.description>
+  <Turret_MC_Blueprint.label>molten cannon (blueprint)</Turret_MC_Blueprint.label>
+  <Turret_MC_Frame.label>molten cannon (building)</Turret_MC_Frame.label>
+  <Turret_MC_Frame.description>Reliably Propelling a molten metal projectile, Molten cannon is the main anti heavy Mechanoid weapon of Jotunheim Prime. Needs molten shell for firing.</Turret_MC_Frame.description>
+
+  <Artillery_MC.label>molten cannon</Artillery_MC.label>
+  <Artillery_MC.description>heavy anti mechanoid weapon</Artillery_MC.description>
+
+  <RocketTurret.label>rocket turret</RocketTurret.label>
+  <RocketTurret.description>Heavy automatic turret with an anti-mechanoid rocket launcher. Explodes when destroyed.</RocketTurret.description>
+  <RocketTurret_Blueprint.label>rocket turret (blueprint)</RocketTurret_Blueprint.label>
+  <RocketTurret_Frame.label>rocket turret (building)</RocketTurret_Frame.label>
+  <RocketTurret_Frame.description>Heavy automatic turret with an anti-mechanoid rocket launcher. Explodes when destroyed.</RocketTurret_Frame.description>
+
+  <Bullet_RocketTurret.label>rocket</Bullet_RocketTurret.label>
+
+  <Gun_RocketTurret.label>rocket launcher</Gun_RocketTurret.label>
+  <Gun_RocketTurret.description>An automatic grenade launcher.</Gun_RocketTurret.description>
+
+
+</LanguageData>

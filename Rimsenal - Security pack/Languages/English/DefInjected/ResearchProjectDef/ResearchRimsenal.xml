@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ShardSentryTech.label>shard sentry</ShardSentryTech.label>
+  <ShardSentryTech.description>Allows you to build shard sentry.</ShardSentryTech.description>
+
+  <MicrowaveTurretTech.label>microwave turret</MicrowaveTurretTech.label>
+  <MicrowaveTurretTech.description>Allows you to build mircrowave turret</MicrowaveTurretTech.description>
+
+  <SiegeEmplacementTech.label>siege emplacement</SiegeEmplacementTech.label>
+  <SiegeEmplacementTech.description>Allows you to build siege emplacement.</SiegeEmplacementTech.description>
+
+  <DefenceEmplacementTech.label>defence emplacement</DefenceEmplacementTech.label>
+  <DefenceEmplacementTech.description>Allows you to build defence emplacement</DefenceEmplacementTech.description>
+
+
+</LanguageData>
