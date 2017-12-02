@@ -5,43 +5,43 @@
 
   <AD_Pacificator.label>熔爐步槍</AD_Pacificator.label>
   <AD_Pacificator.description>「動力武裝」的「平定者」熔爐步槍，臭名昭著的聯邦維和部隊制式步槍。「平定者」能發射密集的能量子彈，蒸發一切。然而由於容易過熱，射速較慢。</AD_Pacificator.description>
-  <AD_Pacificator.tools.0.label>stock</AD_Pacificator.tools.0.label>
-  <AD_Pacificator.tools.1.label>barrel</AD_Pacificator.tools.1.label>
+  <AD_Pacificator.tools.0.label>彈匣</AD_Pacificator.tools.0.label>
+  <AD_Pacificator.tools.1.label>槍管</AD_Pacificator.tools.1.label>
 
   <Bullet_Negotiator.label>能量子彈</Bullet_Negotiator.label>
 
   <AD_Negotiator.label>熔爐手槍</AD_Negotiator.label>
   <AD_Negotiator.description>「動力武裝」的「談判者」熔爐手槍，使用一種被成為「能量熔爐」的非常規火力結構。「談判者」的缺點是射速慢的令人抓狂。然而，威力和精度彌補了這一缺陷。</AD_Negotiator.description>
-  <AD_Negotiator.tools.0.label>grip</AD_Negotiator.tools.0.label>
-  <AD_Negotiator.tools.1.label>barrel</AD_Negotiator.tools.1.label>
+  <AD_Negotiator.tools.0.label>握把</AD_Negotiator.tools.0.label>
+  <AD_Negotiator.tools.1.label>槍管</AD_Negotiator.tools.1.label>
 
   <Bullet_Arbiter.label>熔爐炮彈</Bullet_Arbiter.label>
 
   <AD_Arbiter.label>熔爐加農炮</AD_Arbiter.label>
   <AD_Arbiter.description>「動力武裝」的「仲裁者」熔爐加農炮。在聯邦中「仲裁者」是收到嚴格管制的，因此這種灼燒能量武器僅裝備給「聯邦維和教士」——聯邦維和部隊中最強力成員。</AD_Arbiter.description>
-  <AD_Arbiter.tools.0.label>stock</AD_Arbiter.tools.0.label>
-  <AD_Arbiter.tools.1.label>barrel</AD_Arbiter.tools.1.label>
+  <AD_Arbiter.tools.0.label>彈匣</AD_Arbiter.tools.0.label>
+  <AD_Arbiter.tools.1.label>槍管</AD_Arbiter.tools.1.label>
 
   <Bullet_Intercessor.label>能量子彈</Bullet_Intercessor.label>
 
   <AD_Intercessor.label>熔爐精準步槍</AD_Intercessor.label>
   <AD_Intercessor.description>作為「聯邦和平使者」暗殺部隊最青睞的武器，「動力武裝」的「祈禱者」是一把遠程能量武器。雖然「祈禱者」的單發威力略低於傳統的狙擊步槍，但他的高精度三連發子彈和更遠的射程使其成為最可怕的武器。</AD_Intercessor.description>
-  <AD_Intercessor.tools.0.label>stock</AD_Intercessor.tools.0.label>
-  <AD_Intercessor.tools.1.label>barrel</AD_Intercessor.tools.1.label>
+  <AD_Intercessor.tools.0.label>彈匣</AD_Intercessor.tools.0.label>
+  <AD_Intercessor.tools.1.label>槍管</AD_Intercessor.tools.1.label>
 
   <Bullet_Axiom.label>電漿球</Bullet_Axiom.label>
 
   <AD_Axiom.label>電漿投射器</AD_Axiom.label>
   <AD_Axiom.description>聯邦最後一樣武力，「公理」是提供給部隊的武器中最臭名昭著的。「公理」發射的電漿球飛行非常緩慢，很容易躲過。然而一個「公理」一發就能摧毀整座建築。</AD_Axiom.description>
-  <AD_Axiom.tools.0.label>stock</AD_Axiom.tools.0.label>
-  <AD_Axiom.tools.1.label>barrel</AD_Axiom.tools.1.label>
+  <AD_Axiom.tools.0.label>彈匣</AD_Axiom.tools.0.label>
+  <AD_Axiom.tools.1.label>槍管</AD_Axiom.tools.1.label>
 
   <Bullet_CrucibleCarbine.label>能量子彈</Bullet_CrucibleCarbine.label>
 
   <AD_CrucibleCarbine.label>熔爐卡賓槍</AD_CrucibleCarbine.label>
   <AD_CrucibleCarbine.description>「安定者」卡賓槍在聯合衛兵中更為常見，是聯邦「平定者」熔爐步槍的近距離作戰版本。</AD_CrucibleCarbine.description>
-  <AD_CrucibleCarbine.tools.0.label>stock</AD_CrucibleCarbine.tools.0.label>
-  <AD_CrucibleCarbine.tools.1.label>barrel</AD_CrucibleCarbine.tools.1.label>
+  <AD_CrucibleCarbine.tools.0.label>彈匣</AD_CrucibleCarbine.tools.0.label>
+  <AD_CrucibleCarbine.tools.1.label>槍管</AD_CrucibleCarbine.tools.1.label>
 
 
 </LanguageData>
