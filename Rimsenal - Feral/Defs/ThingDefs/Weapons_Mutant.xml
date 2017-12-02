@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+<Defs>
 
 
   <ThingDef Name="BaseMutantGun" Abstract="True">
@@ -70,7 +70,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_ScatterStick</projectileDef>
+        <defaultProjectile>Bullet_ScatterStick</defaultProjectile>
         <warmupTime>1.3</warmupTime>
         <forcedMissRadius>1.5</forcedMissRadius>
         <range>18</range>
@@ -129,7 +129,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_RivetCannon</projectileDef>
+        <defaultProjectile>Bullet_RivetCannon</defaultProjectile>
         <warmupTime>1.65</warmupTime>
         <range>29</range>
         <burstShotCount>8</burstShotCount>
@@ -186,7 +186,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_DMG</projectileDef>
+        <defaultProjectile>Bullet_DMG</defaultProjectile>
         <warmupTime>3.25</warmupTime>
         <range>35</range>
         <burstShotCount>35</burstShotCount>
@@ -258,23 +258,33 @@
       <texPath>Things/A13/Sunderer</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractPistol</soundInteract>
+    <soundInteract>InteractAutopistol</soundInteract>
     <weaponTags>
       <li>Gutcher</li>
     </weaponTags>
     <statBases>
       <MarketValue>1000</MarketValue>
-      <MeleeWeapon_DamageAmount>39</MeleeWeapon_DamageAmount>
-      <MeleeWeapon_Cooldown>2.45</MeleeWeapon_Cooldown>
+      <Weapon_Bulk>0.5</Weapon_Bulk>
     </statBases>
     <equippedAngleOffset>-65</equippedAngleOffset>
-    <verbs>
+    <tools>
       <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <meleeDamageDef>Cut</meleeDamageDef>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>2.5</cooldownTime>
       </li>
-    </verbs>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>29</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+    </tools>
   </ThingDef>
 
 
@@ -295,7 +305,6 @@
       <damageDef>Spore</damageDef>
       <damageAmountBase>1</damageAmountBase>
       <explosionRadius>1.5</explosionRadius>
-      <explosionSpawnChance>0.7</explosionSpawnChance>
       <preExplosionSpawnThingDef>Gas_Smoke</preExplosionSpawnThingDef>
     </projectile>
   </ThingDef>
@@ -328,7 +337,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_SporeSmoker</projectileDef>
+        <defaultProjectile>Bullet_SporeSmoker</defaultProjectile>
         <warmupTime>1.55</warmupTime>
         <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
         <burstShotCount>1</burstShotCount>
@@ -342,4 +351,4 @@
   </ThingDef>
 
 
-</ThingDefs>
+</Defs>

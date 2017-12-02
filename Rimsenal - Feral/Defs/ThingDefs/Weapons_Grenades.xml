@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+<Defs>
 
   <ThingDef ParentName="BaseGrenadeProjectile">
     <defName>Proj_MADness</defName>
@@ -57,7 +57,7 @@
         <targetParams>
           <canTargetLocations>true</canTargetLocations>
         </targetParams>
-        <projectileDef>Proj_MADness</projectileDef>
+        <defaultProjectile>Proj_MADness</defaultProjectile>
       </li>
     </verbs>
     <smeltProducts>
@@ -65,4 +65,4 @@
     </smeltProducts>
   </ThingDef>
 
-</ThingDefs>
+</Defs>

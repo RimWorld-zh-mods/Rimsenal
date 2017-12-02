@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+<Defs>
 
 
 
@@ -22,7 +22,7 @@
   <ThingDef ParentName="BaseMutant">
     <defName>Mutant_Ogre</defName>
     <label>ogre</label>
-    <description>Originally designed for construction and heavy industry, the Ogron¢â is a large, tough, thickheaded xenohuman. In rimworld condition, Many feral clans use them as brutal war beasts.</description>
+    <description>Originally designed for construction and heavy industry, the Ogronï¿½ï¿½ is a large, tough, thickheaded xenohuman. In rimworld condition, Many feral clans use them as brutal war beasts.</description>
     <statBases>
       <MoveSpeed>4.7</MoveSpeed>
       <ArmorRating_Blunt>0.2</ArmorRating_Blunt>
@@ -82,7 +82,7 @@
   <ThingDef ParentName="BaseMutant">
     <defName>Mutant_OgreOgrenaut</defName>
     <label>ogre</label>
-    <description>Originally designed for construction and heavy industry, the Ogron¢â is a large, tough, thickheaded xenohuman. In rimworld condition, Many feral clans use them as brutal war beasts.</description>
+    <description>Originally designed for construction and heavy industry, the Ogronï¿½ï¿½ is a large, tough, thickheaded xenohuman. In rimworld condition, Many feral clans use them as brutal war beasts.</description>
     <statBases>
       <MoveSpeed>4.5</MoveSpeed>
       <ArmorRating_Blunt>0.35</ArmorRating_Blunt>
@@ -142,7 +142,7 @@
   <ThingDef ParentName="BaseMutant">
     <defName>Mutant_OgreHellmaker</defName>
     <label>ogre</label>
-    <description>Originally designed for construction and heavy industry, the Ogron¢â is a large, tough, thickheaded xenohuman. In rimworld condition, Many feral clans use them as brutal war beasts.</description>
+    <description>Originally designed for construction and heavy industry, the Ogronï¿½ï¿½ is a large, tough, thickheaded xenohuman. In rimworld condition, Many feral clans use them as brutal war beasts.</description>
     <statBases>
       <MoveSpeed>4</MoveSpeed>
       <ArmorRating_Blunt>0.5</ArmorRating_Blunt>
@@ -343,10 +343,10 @@
         <min>1000</min>
         <max>2000</max>
       </soundCallIntervalRange>
-      <specialshadowData>
+      <specialShadowData>
         <volume>(0.3, 0.8, 0.4)</volume>
         <offset>(0,0,-0.3)</offset>
-      </specialshadowData>
+      </specialShadowData>
       <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
       <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
@@ -362,7 +362,9 @@
     <label>shadark</label>
     <description>Lurking in the shadows of the woods, the shadarks are creatures of darkness. Assumed as some sort of xenohuman experiment's failure, their nature is hideous and insidious. The shadark's most horrifying feature is an ability of shooting symbiont spores. While the thick cloud of spores still remains, they take confused prey by surprise. They usually found in the feral raiding party, waiting for a chance to take dead bodies.</description>
     <statBases>
+      <MeatAmount>50</MeatAmount>
       <MoveSpeed>5.2</MoveSpeed>
+      <LeatherAmount>65</LeatherAmount>
     </statBases>
     <verbs>
       <li>
@@ -414,4 +416,4 @@
   </ThingDef>
 
 
-</ThingDefs>
+</Defs>

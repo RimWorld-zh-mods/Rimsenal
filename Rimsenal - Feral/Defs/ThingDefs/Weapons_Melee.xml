@@ -1,23 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 
-<ThingDefs>
+<Defs>
   
   <ThingDef ParentName="BaseMeleeWeapon_Sharp">
-    <defName>MeleeWeapon_Cleaver</defName>
+    <defName>MeleeWeapon_FeralCleaver</defName>
     <label>cleaver</label>
     <description>A crude makeshift cleaver.</description>
     <graphicData>
       <texPath>Things/A13/Cleaver</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractPistol</soundInteract>
+    <soundInteract>InteractAutopistol</soundInteract>
     <costStuffCount>45</costStuffCount>
     <statBases>
       <SellPriceFactor>0.20</SellPriceFactor>
       <Mass>1.4</Mass>
       <WorkToMake>23000</WorkToMake>
-      <MeleeWeapon_DamageAmount>15</MeleeWeapon_DamageAmount>
-      <MeleeWeapon_Cooldown>2.3</MeleeWeapon_Cooldown>
     </statBases>
     <equippedAngleOffset>-25</equippedAngleOffset>
     <stuffCategories>
@@ -29,13 +27,6 @@
     <weaponTags>
       <li>FeralMelee</li>
     </weaponTags>
-    <verbs>
-      <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <meleeDamageDef>Cut</meleeDamageDef>
-      </li>
-    </verbs>
     <recipeMaker>
       <workSpeedStat>SmithingSpeed</workSpeedStat>
       <workSkill>Crafting</workSkill>
@@ -46,23 +37,40 @@
       </recipeUsers>
       <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
     </recipeMaker>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>16</power>
+        <cooldownTime>2.1</cooldownTime>
+      </li>
+    </tools>
   </ThingDef>
-
-
+  
   <ThingDef ParentName="BaseMeleeWeapon_Sharp">
-    <defName>MeleeWeapon_Glaive</defName>
-    <label>glaive</label>
-    <description>A deadly makeshift glaive.</description>
+    <defName>MeleeWeapon_FeralGlaive</defName>
+    <label>Glaive</label>
+    <description>A crude makeshift Glaive.</description>
     <graphicData>
       <texPath>Things/A13/Glaive</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <costStuffCount>63</costStuffCount>
+    <soundInteract>InteractAutopistol</soundInteract>
+    <costStuffCount>45</costStuffCount>
     <statBases>
-      <Mass>2.3</Mass>
-      <WorkToMake>26000</WorkToMake>
-      <MeleeWeapon_DamageAmount>19</MeleeWeapon_DamageAmount>
-      <MeleeWeapon_Cooldown>2.8</MeleeWeapon_Cooldown>
+      <SellPriceFactor>0.20</SellPriceFactor>
+      <Mass>1.4</Mass>
+      <WorkToMake>23000</WorkToMake>
     </statBases>
     <equippedAngleOffset>-25</equippedAngleOffset>
     <stuffCategories>
@@ -74,14 +82,6 @@
     <weaponTags>
       <li>FeralMelee</li>
     </weaponTags>
-    <verbs>
-      <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <meleeDamageDef>Cut</meleeDamageDef>
-      </li>
-    </verbs>
-  </ThingDef>
     <recipeMaker>
       <workSpeedStat>SmithingSpeed</workSpeedStat>
       <workSkill>Crafting</workSkill>
@@ -92,4 +92,25 @@
       </recipeUsers>
       <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
     </recipeMaker>
-</ThingDefs>
+    <tools>
+      <li>
+        <label>shaft</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>2.1</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>2.1</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+</Defs>

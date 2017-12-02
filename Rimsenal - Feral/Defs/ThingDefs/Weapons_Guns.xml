@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+<Defs>
 
   <ThingDef Name="BaseFeralGun" ParentName="BaseGun" Abstract="True">
     <recipeMaker>
@@ -31,8 +31,8 @@
     <projectile>
       <flyOverhead>false</flyOverhead>
       <damageDef>Bullet</damageDef>
-      <DamageAmountBase>8</DamageAmountBase>
-      <Speed>75</Speed>
+      <damageAmountBase>8</damageAmountBase>
+      <speed>75</speed>
     </projectile>
   </ThingDef>
 
@@ -45,14 +45,13 @@
       <texPath>Things/A13/Scraptooth</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>InteractPistol</soundInteract>
+    <soundInteract>InteractSMG</soundInteract>
     <thingCategories>
       <li>FeralWeapons</li>
     </thingCategories>
     <statBases>
+      <Weapon_Bulk>0.7</Weapon_Bulk>
       <Mass>3</Mass>
-      <MeleeWeapon_DamageAmount>8</MeleeWeapon_DamageAmount>
-      <MeleeWeapon_Cooldown>1.5</MeleeWeapon_Cooldown>
       <WorkToMake>18000</WorkToMake>
       <AccuracyTouch>0.55</AccuracyTouch>
       <AccuracyShort>0.65</AccuracyShort>
@@ -73,7 +72,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_Scraptooth</projectileDef>
+        <defaultProjectile>Bullet_Scraptooth</defaultProjectile>
         <warmupTime>0.53</warmupTime>
         <range>13</range>
         <burstShotCount>2</burstShotCount>
@@ -82,12 +81,26 @@
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
-      <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <meleeDamageDef>Blunt</meleeDamageDef>
-      </li>
     </verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+    </tools>
   </ThingDef>
 
 
@@ -121,8 +134,7 @@
     </thingCategories>
     <soundInteract>InteractShotgun</soundInteract>
     <statBases>
-      <MeleeWeapon_DamageAmount>12</MeleeWeapon_DamageAmount>
-      <MeleeWeapon_Cooldown>2.8</MeleeWeapon_Cooldown>
+      <Weapon_Bulk>1.3</Weapon_Bulk>
       <Mass>4.8</Mass>
       <WorkToMake>26500</WorkToMake>
       <AccuracyTouch>0.65</AccuracyTouch>
@@ -144,7 +156,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_ScatterStick</projectileDef>
+        <defaultProjectile>Bullet_ScatterStick</defaultProjectile>
         <warmupTime>0.86</warmupTime>
         <range>10</range>
         <burstShotCount>4</burstShotCount>
@@ -153,12 +165,34 @@
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
-      <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <meleeDamageDef>Cut</meleeDamageDef>
-      </li>
     </verbs>
+    <tools>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>14</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>1.9</cooldownTime>
+      </li>
+    </tools>
   </ThingDef>
 
   <!-- ============================================== -->
@@ -190,8 +224,7 @@
     </thingCategories>
     <soundInteract>InteractRifle</soundInteract>
     <statBases>
-      <MeleeWeapon_DamageAmount>10</MeleeWeapon_DamageAmount>
-      <MeleeWeapon_Cooldown>2</MeleeWeapon_Cooldown>
+      <Weapon_Bulk>1.3</Weapon_Bulk>
       <Mass>4.1</Mass>
       <WorkToMake>39500</WorkToMake>
       <AccuracyTouch>0.32</AccuracyTouch>
@@ -213,7 +246,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_Thrasher</projectileDef>
+        <defaultProjectile>Bullet_Thrasher</defaultProjectile>
         <warmupTime>0.93</warmupTime>
         <range>26</range>
         <burstShotCount>2</burstShotCount>
@@ -222,12 +255,35 @@
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
-      <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <meleeDamageDef>Cut</meleeDamageDef>
-      </li>
     </verbs>
+    <tools>
+      <li>
+        <label>bayonet</label>
+        <capacities>
+          <li>Stab</li>
+          <li>Cut</li>
+        </capacities>
+        <power>14</power>
+        <cooldownTime>1.5</cooldownTime>
+      </li>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>1.9</cooldownTime>
+      </li>
+    </tools>
   </ThingDef>
 
   <!-- ============================================== -->
@@ -259,8 +315,7 @@
     </thingCategories>
     <soundInteract>InteractRifle</soundInteract>
     <statBases>
-      <MeleeWeapon_DamageAmount>15</MeleeWeapon_DamageAmount>
-      <MeleeWeapon_Cooldown>2.7</MeleeWeapon_Cooldown>
+      <Weapon_Bulk>2</Weapon_Bulk>
       <Mass>8.9</Mass>
       <WorkToMake>57000</WorkToMake>
       <AccuracyTouch>0.40</AccuracyTouch>
@@ -282,22 +337,44 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_Crucifier</projectileDef>
+        <defaultProjectile>Bullet_Crucifier</defaultProjectile>
         <warmupTime>4.31</warmupTime>
         <range>40</range>
         <soundCast>ShotCrucifier</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
-      <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <meleeDamageDef>Cut</meleeDamageDef>
-      </li>
     </verbs>
     <weaponTags>
       <li>FeralSniperRifle</li>
     </weaponTags>
+    <tools>
+      <li>
+        <label>bayonet</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>2.1</cooldownTime>
+      </li>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>1.9</cooldownTime>
+      </li>
+    </tools>
   </ThingDef>
 
   <!-- ============================================== -->
@@ -329,8 +406,7 @@
     </thingCategories>
     <soundInteract>InteractSMG</soundInteract>
     <statBases>
-      <MeleeWeapon_DamageAmount>6</MeleeWeapon_DamageAmount>
-      <MeleeWeapon_Cooldown>1.2</MeleeWeapon_Cooldown>
+      <Weapon_Bulk>0.75</Weapon_Bulk>
       <Mass>3.5</Mass>
       <WorkToMake>21500</WorkToMake>
       <AccuracyTouch>0.8</AccuracyTouch>
@@ -352,7 +428,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_Deathdealer</projectileDef>
+        <defaultProjectile>Bullet_Deathdealer</defaultProjectile>
         <warmupTime>0.8</warmupTime>
         <range>13</range>
         <burstShotCount>6</burstShotCount>
@@ -361,12 +437,35 @@
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
-      <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <meleeDamageDef>Cut</meleeDamageDef>
-      </li>
     </verbs>
+    <tools>
+      <li>
+        <label>bayonet</label>
+        <capacities>
+          <li>Stab</li>
+          <li>Cut</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+    </tools>
   </ThingDef>
 
   <!-- ============================================== -->
@@ -398,6 +497,7 @@
     </thingCategories>
     <soundInteract>InteractSMG</soundInteract>
     <statBases>
+      <Weapon_Bulk>0.7</Weapon_Bulk>
       <Mass>1.8</Mass>
       <WorkToMake>18500</WorkToMake>
       <AccuracyTouch>0.7</AccuracyTouch>
@@ -419,7 +519,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_Gnasher</projectileDef>
+        <defaultProjectile>Bullet_Gnasher</defaultProjectile>
         <warmupTime>0.78</warmupTime>
         <range>15</range>
         <burstShotCount>15</burstShotCount>
@@ -430,6 +530,25 @@
         <muzzleFlashScale>3</muzzleFlashScale>
       </li>
     </verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+    </tools>
   </ThingDef>
 
   <!-- ============================================== -->
@@ -449,7 +568,6 @@
       <damageAmountBase>5</damageAmountBase>
       <explosionRadius>0.5</explosionRadius>
       <preExplosionSpawnThingDef>FilthFuel</preExplosionSpawnThingDef>
-      <explosionSpawnChance>1</explosionSpawnChance>
     </projectile>
   </ThingDef>
 
@@ -466,6 +584,7 @@
     </thingCategories>
     <soundInteract>InteractRifle</soundInteract>
     <statBases>
+      <Weapon_Bulk>2</Weapon_Bulk>
       <Mass>4.2</Mass>
       <WorkToMake>31500</WorkToMake>
       <AccuracyTouch>0.3</AccuracyTouch>
@@ -488,8 +607,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_Scorcher</projectileDef>
-        <ai_IsIncendiary>true</ai_IsIncendiary>
+        <defaultProjectile>Bullet_Scorcher</defaultProjectile>
         <warmupTime>1.25</warmupTime>
         <range>10</range>
         <burstShotCount>7</burstShotCount>
@@ -502,6 +620,25 @@
         </targetParams>
       </li>
     </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>1.9</cooldownTime>
+      </li>
+    </tools>
   </ThingDef>
 
 
@@ -536,6 +673,7 @@
       <li>FeralWeapons</li>
     </thingCategories>
     <statBases>
+      <Weapon_Bulk>2</Weapon_Bulk>
       <Mass>6</Mass>
       <WorkToMake>29500</WorkToMake>
       <AccuracyTouch>0.1</AccuracyTouch>
@@ -558,7 +696,7 @@
       <li>
         <verbClass>Verb_ShootOneUse</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_Thumper</projectileDef>
+        <defaultProjectile>Bullet_Thumper</defaultProjectile>
         <forcedMissRadius>2.5</forcedMissRadius>
         <warmupTime>3.50</warmupTime>
         <range>28.7</range>
@@ -573,6 +711,25 @@
         <muzzleFlashScale>14</muzzleFlashScale>
       </li>
     </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>1.9</cooldownTime>
+      </li>
+    </tools>
   </ThingDef>
 
 
@@ -609,6 +766,7 @@
     <soundInteract>Interact_BeatFire</soundInteract>
     <generateCommonality>0.1</generateCommonality>
     <statBases>
+      <Weapon_Bulk>1.5</Weapon_Bulk>
       <Mass>4.7</Mass>
       <MarketValue>200</MarketValue>
       <AccuracyTouch>0.9</AccuracyTouch>
@@ -626,7 +784,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_RatStick</projectileDef>
+        <defaultProjectile>Bullet_RatStick</defaultProjectile>
         <warmupTime>2</warmupTime>
         <range>16</range>
         <forcedMissRadius>1</forcedMissRadius>
@@ -636,6 +794,24 @@
         </targetParams>
       </li>
     </verbs>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>14</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+    </tools>
   </ThingDef>
 
   <!-- ============================================== -->
@@ -670,6 +846,7 @@
     </recipeMaker>
     <soundInteract>InteractRifle</soundInteract>
     <statBases>
+      <Weapon_Bulk>2</Weapon_Bulk>
       <Mass>9.23</Mass>
       <WorkToMake>73000</WorkToMake>
       <AccuracyTouch>0.58</AccuracyTouch>
@@ -691,7 +868,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_SkullBuster</projectileDef>
+        <defaultProjectile>Bullet_SkullBuster</defaultProjectile>
         <warmupTime>0.31</warmupTime>
         <range>25</range>
         <soundCast>ShotCrucifier</soundCast>
@@ -702,7 +879,26 @@
     <weaponTags>
       <li>FeralAssault</li>
     </weaponTags>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>1.9</cooldownTime>
+      </li>
+    </tools>
   </ThingDef>
 
 
-</ThingDefs>
+</Defs>

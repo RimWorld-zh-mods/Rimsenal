@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+<Defs>
 
   <ThingDef ParentName="BenchBase">
-    <DefName>FeralTable</DefName>
+    <defName>FeralTable</defName>
     <label>Scav bench</label>
-    <ThingClass>Building_WorkTable</ThingClass>
-    <Description>A table with equipments for assembling the makeshift equipments.</Description>
+    <thingClass>Building_WorkTable</thingClass>
+    <description>A table with equipments for assembling the makeshift equipments.</description>
     <graphicData>
       <texPath>Things/Building/FeralTable</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
@@ -17,13 +17,13 @@
         <cornerBR>Damage/Corner</cornerBR>
       </damageData>
     </graphicData>
-    <CostList>
+    <costList>
       <ChunkSlagSteel>4</ChunkSlagSteel>
       <Steel>50</Steel>
       <Component>2</Component>
-    </CostList>
+    </costList>
     <constructEffect>ConstructWood</constructEffect>
-    <AltitudeLayer>Building</AltitudeLayer>
+    <altitudeLayer>Building</altitudeLayer>
     <fillPercent>0.5</fillPercent>
     <useHitPoints>True</useHitPoints>
     <statBases>
@@ -32,9 +32,9 @@
       <Flammability>1.0</Flammability>
       <Cleanliness>-3</Cleanliness>
     </statBases>
-    <Size>(3,1)</Size>
-    <DesignationCategory>Production</DesignationCategory>
-    <Passability>PassThroughOnly</Passability>
+    <size>(3,1)</size>
+    <designationCategory>Production</designationCategory>
+    <passability>PassThroughOnly</passability>
     <pathCost>70</pathCost>
     <hasInteractionCell>True</hasInteractionCell>
     <interactionCellOffset>(0,0,-1)</interactionCellOffset>
@@ -71,4 +71,4 @@
   </ThingDef>
 
 
-</ThingDefs>
+</Defs>

@@ -1,22 +1,20 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<FactionDefs>
+<Defs>
+
 
   <FactionDef>
 		<defName>Feral</defName>
 		<label>feral clan</label>
-<description>So who are the ferals? Think about all the people living in the ruins of collapsed civilization. They've had to sacrifice lots of things to survive: Technology, culture, history, and above all, their humanity. 
+    <description>So who are the ferals? Think about all the people living in the ruins of collapsed civilization. They've had to sacrifice lots of things to survive: Technology, culture, history, and above all, their humanity. 
 
 They are the groups of savages who pillage, plunder, murder, or otherwise ruin the days of anyone unfortunate enough to not be one of them. Although usually not very powerful on their own, ferals are most often encountered in groups. With a random mix of scrap weapons and makeshift firearms, they can prove to be formidable opponents for a lonesome colony.</description>
     <pawnsPlural>ferals</pawnsPlural>
-    <baseSelectionWeight>0.5</baseSelectionWeight>
+    <baseSelectionWeight>1</baseSelectionWeight>
     <requiredCountAtGameStart>1</requiredCountAtGameStart>
     <canMakeRandomly>true</canMakeRandomly>
-    <raidCommonality>100</raidCommonality>
     <canSiege>false</canSiege>
     <canStageAttacks>true</canStageAttacks>
     <leaderTitle>tyrant</leaderTitle>
-    <earliestRaidDays>14</earliestRaidDays>
-    <appreciative>false</appreciative>
     <expandingIconTexture>Things/FeralIcon</expandingIconTexture>
     <colorSpectrum>
       <li>(0.35, 0.35, 0)</li>
@@ -26,8 +24,9 @@ They are the groups of savages who pillage, plunder, murder, or otherwise ruin t
       <min>-95</min>
       <max>-85</max>
     </startingGoodwill>
+		<geneticVariance>0.8</geneticVariance>
 		<factionNameMaker>NamerFeralBase</factionNameMaker>
-		<BaseNameMaker>NamerFeralBase</BaseNameMaker>
+		<baseNameMaker>NamerFeralBase</baseNameMaker>
 		<techLevel>Industrial</techLevel>
 		<backstoryCategory>Raider</backstoryCategory>
 		<hairTags>
@@ -40,9 +39,8 @@ They are the groups of savages who pillage, plunder, murder, or otherwise ruin t
     </naturalColonyGoodwill>
     <allowedArrivalTemperatureRange>
       <min>-40</min>
-      <max>50</max>
+      <max>45</max>
     </allowedArrivalTemperatureRange>
-
     <pawnGroupMakers>
       <li>
         <kindDef>Normal</kindDef>
@@ -101,4 +99,5 @@ They are the groups of savages who pillage, plunder, murder, or otherwise ruin t
     </pawnGroupMakers>
     <homeIconPath>World/WorldObjects/DefaultFactionBase</homeIconPath>
   </FactionDef>
-</FactionDefs>
+
+</Defs>
