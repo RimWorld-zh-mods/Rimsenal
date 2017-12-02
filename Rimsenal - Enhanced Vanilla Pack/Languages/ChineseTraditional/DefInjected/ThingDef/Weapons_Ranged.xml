@@ -15,11 +15,14 @@
 
   <Gun_ThrowingAxes.label>飛斧</Gun_ThrowingAxes.label>
   <Gun_ThrowingAxes.description>金屬鍛造的飛斧。在老手手上，近戰和遠程中都是一種致命武器。</Gun_ThrowingAxes.description>
+  <Gun_ThrowingAxes.tools.0.label>柄</Gun_ThrowingAxes.tools.0.label>
+  <Gun_ThrowingAxes.tools.1.label>刃</Gun_ThrowingAxes.tools.1.label>
 
   <Bullet_ThrowingClubs.label>投棍</Bullet_ThrowingClubs.label>
 
   <Gun_ThrowingClubs.label>投棍</Gun_ThrowingClubs.label>
   <Gun_ThrowingClubs.description>人類最早使用的遠程武器之一，投棍在近戰和遠程攻擊中都能使用。</Gun_ThrowingClubs.description>
+  <Gun_ThrowingClubs.tools.0.label>柄</Gun_ThrowingClubs.tools.0.label>
 
 
 </LanguageData>

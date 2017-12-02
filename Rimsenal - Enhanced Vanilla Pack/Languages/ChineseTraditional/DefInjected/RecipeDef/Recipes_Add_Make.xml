@@ -42,9 +42,9 @@
   <Make_Gun_EMPRifle.description>製作EMP步槍。</Make_Gun_EMPRifle.description>
   <Make_Gun_EMPRifle.jobString>正在製作EMP步槍。</Make_Gun_EMPRifle.jobString>
 
-  <Make_Gun_ChargeCannon.label>製作光束加農炮</Make_Gun_ChargeCannon.label>
-  <Make_Gun_ChargeCannon.description>製作光束加農炮。</Make_Gun_ChargeCannon.description>
-  <Make_Gun_ChargeCannon.jobString>正在製作光束加農炮。</Make_Gun_ChargeCannon.jobString>
+  <Make_Gun_AssaultCharger.label>製作光束突击枪</Make_Gun_AssaultCharger.label>
+  <Make_Gun_AssaultCharger.description>製作光束突击枪。</Make_Gun_AssaultCharger.description>
+  <Make_Gun_AssaultCharger.jobString>正在製作光束突击枪。</Make_Gun_AssaultCharger.jobString>
 
   <Make_Gun_BurstCharger.label>製作光束爆裂槍</Make_Gun_BurstCharger.label>
   <Make_Gun_BurstCharger.description>製作光束爆裂槍。</Make_Gun_BurstCharger.description>
@@ -86,9 +86,9 @@
   <Make_Gun_RSCarbine.description>製作卡賓槍。</Make_Gun_RSCarbine.description>
   <Make_Gun_RSCarbine.jobString>正在製作卡賓槍。</Make_Gun_RSCarbine.jobString>
 
-  <Make_Gun_PistolRevolver.label>製作左輪手槍</Make_Gun_PistolRevolver.label>
-  <Make_Gun_PistolRevolver.description>製作左輪手槍。</Make_Gun_PistolRevolver.description>
-  <Make_Gun_PistolRevolver.jobString>正在製作左輪手槍。</Make_Gun_PistolRevolver.jobString>
+  <Make_Gun_PistolHeavyRevolver.label>製作重型左輪</Make_Gun_PistolHeavyRevolver.label>
+  <Make_Gun_PistolHeavyRevolver.description>製作重型左輪。</Make_Gun_PistolHeavyRevolver.description>
+  <Make_Gun_PistolHeavyRevolver.jobString>正在製作重型左輪。</Make_Gun_PistolHeavyRevolver.jobString>
 
   <Make_Gun_RSAMRifle.label>製作反器材步槍</Make_Gun_RSAMRifle.label>
   <Make_Gun_RSAMRifle.description>製作反器材步槍。</Make_Gun_RSAMRifle.description>

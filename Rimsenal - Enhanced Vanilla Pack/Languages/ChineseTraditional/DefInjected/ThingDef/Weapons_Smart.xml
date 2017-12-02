@@ -5,16 +5,22 @@
 
   <Gun_SmartRifle.label>智能步槍</Gun_SmartRifle.label>
   <Gun_SmartRifle.description>武器的發展並非完全靠火力。其他領域也有發展，如光學瞄準，人機工程學和便利性設計，以及綜合火控系統。而這種步槍在這些「其他領域」表現特別好。</Gun_SmartRifle.description>
+  <Gun_SmartRifle.tools.0.label>彈匣</Gun_SmartRifle.tools.0.label>
+  <Gun_SmartRifle.tools.1.label>槍管</Gun_SmartRifle.tools.1.label>
 
   <Bullet_SmartPistol.label>手槍子彈</Bullet_SmartPistol.label>
 
   <Gun_SmartPistol.label>智能手槍</Gun_SmartPistol.label>
   <Gun_SmartPistol.description>集成了智能系統的手槍。性能與傳統手槍並無多大區別，但改進的目標捕捉系統使瞄準速度更快。</Gun_SmartPistol.description>
+  <Gun_SmartPistol.tools.0.label>握把</Gun_SmartPistol.tools.0.label>
+  <Gun_SmartPistol.tools.1.label>槍管</Gun_SmartPistol.tools.1.label>
 
   <Bullet_SmartSMG.label>衝鋒槍子彈</Bullet_SmartSMG.label>
 
   <Gun_SMG.label>智能衝鋒槍</Gun_SMG.label>
   <Gun_SMG.description>集成了智能系統的高射速反人員武器。因其體積小射速高，在近距離的戰鬥中表現出色。</Gun_SMG.description>
+  <Gun_SMG.tools.0.label>彈匣</Gun_SMG.tools.0.label>
+  <Gun_SMG.tools.1.label>槍管</Gun_SMG.tools.1.label>
 
 
   <!-- MG -->
@@ -23,11 +29,15 @@
 
   <SmartMG.label>智能機槍</SmartMG.label>
   <SmartMG.description>一種帶有自動瞄準系統的便攜式機槍。當你需要清除有生目標的時候這是一個最好的工具。</SmartMG.description>
+  <SmartMG.tools.0.label>彈匣</SmartMG.tools.0.label>
+  <SmartMG.tools.1.label>槍管</SmartMG.tools.1.label>
 
   <Bullet_SSR.label>狙擊槍子彈</Bullet_SSR.label>
 
   <Gun_SmartSniperRifle.label>智能狙擊槍</Gun_SmartSniperRifle.label>
   <Gun_SmartSniperRifle.description>一種先進的精確步槍。集成的彈道計算機保證了遠距離的高精度。</Gun_SmartSniperRifle.description>
+  <Gun_SmartSniperRifle.tools.0.label>彈匣</Gun_SmartSniperRifle.tools.0.label>
+  <Gun_SmartSniperRifle.tools.1.label>槍管</Gun_SmartSniperRifle.tools.1.label>
 
 
 </LanguageData>

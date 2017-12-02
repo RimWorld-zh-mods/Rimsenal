@@ -5,31 +5,43 @@
 
   <Gun_ChargeSidearm.label>光束手槍</Gun_ChargeSidearm.label>
   <Gun_ChargeSidearm.description>設計用於單手握持和射擊的光束武器。</Gun_ChargeSidearm.description>
+  <Gun_ChargeSidearm.tools.0.label>握把</Gun_ChargeSidearm.tools.0.label>
+  <Gun_ChargeSidearm.tools.1.label>槍管</Gun_ChargeSidearm.tools.1.label>
 
   <Bullet_ScatterCharger.label>高能光束</Bullet_ScatterCharger.label>
 
   <Gun_ScatterCharger.label>光束散射槍</Gun_ScatterCharger.label>
   <Gun_ScatterCharger.description>射擊用於近距離槍戰的光束武器。</Gun_ScatterCharger.description>
+  <Gun_ScatterCharger.tools.0.label>彈匣</Gun_ScatterCharger.tools.0.label>
+  <Gun_ScatterCharger.tools.1.label>槍管</Gun_ScatterCharger.tools.1.label>
 
   <Bullet_ChargeDriver.label>高能光束</Bullet_ChargeDriver.label>
 
   <Gun_ChargeDriver.label>光束加速枪</Gun_ChargeDriver.label>
   <Gun_ChargeDriver.description>基於遠距離精準武器技術的光束武器。</Gun_ChargeDriver.description>
+  <Gun_ChargeDriver.tools.0.label>彈匣</Gun_ChargeDriver.tools.0.label>
+  <Gun_ChargeDriver.tools.1.label>槍管</Gun_ChargeDriver.tools.1.label>
 
   <Bullet_EMPRifle.label>EMP衝擊波</Bullet_EMPRifle.label>
 
   <Gun_EMPRifle.label>EMP步槍</Gun_EMPRifle.label>
   <Gun_EMPRifle.description>定向電磁脈衝釋能器。用於壓制高級電子設備。</Gun_EMPRifle.description>
+  <Gun_EMPRifle.tools.0.label>彈匣</Gun_EMPRifle.tools.0.label>
+  <Gun_EMPRifle.tools.1.label>槍管</Gun_EMPRifle.tools.1.label>
 
-  <Bullet_ChargeCannon.label>光束衝擊波</Bullet_ChargeCannon.label>
+  <Bullet_AssaultCharger.label>高能光束</Bullet_AssaultCharger.label>
 
-  <Gun_ChargeCannon.label>光束加農炮</Gun_ChargeCannon.label>
-  <Gun_ChargeCannon.description>基於中性突擊武器技術的光束武器。</Gun_ChargeCannon.description>
+  <Gun_AssaultCharger.label>光束突擊槍</Gun_AssaultCharger.label>
+  <Gun_AssaultCharger.description>基於重型突擊武器技術的光束武器。</Gun_AssaultCharger.description>
+  <Gun_AssaultCharger.tools.0.label>彈匣</Gun_AssaultCharger.tools.0.label>
+  <Gun_AssaultCharger.tools.1.label>槍管</Gun_AssaultCharger.tools.1.label>
 
   <Bullet_BurstCharger.label>高能光束</Bullet_BurstCharger.label>
 
   <Gun_BurstCharger.label>光束爆裂槍</Gun_BurstCharger.label>
   <Gun_BurstCharger.description>光束爆裂槍是光束步槍的加強版，通常被稱為「GEN 2」或者「光束攻擊槍」。降低了射速、提升了重量，換取而來的是延長的射程和更強的衝擊力。</Gun_BurstCharger.description>
+  <Gun_BurstCharger.tools.0.label>彈匣</Gun_BurstCharger.tools.0.label>
+  <Gun_BurstCharger.tools.1.label>槍管</Gun_BurstCharger.tools.1.label>
 
 
 </LanguageData>
