@@ -3,18 +3,30 @@
 
   <GD_Sabertooth.label>格鬥刀</GD_Sabertooth.label>
   <GD_Sabertooth.description>「灰谷防御」的「劍齒虎」格鬥刀，非常適合砍樹或者砍下敵人的四肢。</GD_Sabertooth.description>
+  <GD_Sabertooth.tools.0.label>刃</GD_Sabertooth.tools.0.label>
+  <GD_Sabertooth.tools.1.label>柄</GD_Sabertooth.tools.1.label>
 
   <YP_BingJu.label>單手劍</YP_BingJu.label>
   <YP_BingJu.description>輕盈但極其尖銳，「冰錐」單手劍是「允和高精」私人武裝的近戰武器。</YP_BingJu.description>
+  <YP_BingJu.tools.0.label>柄</YP_BingJu.tools.0.label>
+  <YP_BingJu.tools.1.label>尖</YP_BingJu.tools.1.label>
+  <YP_BingJu.tools.2.label>刃</YP_BingJu.tools.2.label>
 
   <JI_Ormbane.label>突擊錘</JI_Ormbane.label>
   <JI_Ormbane.description>「神之禍根」是一種「巨人星際」製造的重型的大錘。</JI_Ormbane.description>
+  <JI_Ormbane.tools.0.label>柄</JI_Ormbane.tools.0.label>
 
   <TE_Eris.label>生存者刀</TE_Eris.label>
   <TE_Eris.description>「底西福涅獵人特遣隊」的「生存者刀」。可以用於各種任務。</TE_Eris.description>
+  <TE_Eris.tools.0.label>柄</TE_Eris.tools.0.label>
+  <TE_Eris.tools.1.label>刃</TE_Eris.tools.1.label>
+  <TE_Eris.tools.2.label>尖</TE_Eris.tools.2.label>
 
   <MeleeWeapon_TorchSword.label>炬劍</MeleeWeapon_TorchSword.label>
   <MeleeWeapon_TorchSword.description>「淨化者」炬劍是一種帶有握把和刀刃的大功率電漿炬。能點燃目標。</MeleeWeapon_TorchSword.description>
+  <MeleeWeapon_TorchSword.tools.0.label>柄</MeleeWeapon_TorchSword.tools.0.label>
+  <MeleeWeapon_TorchSword.tools.1.label>尖</MeleeWeapon_TorchSword.tools.1.label>
+  <MeleeWeapon_TorchSword.tools.2.label>刃</MeleeWeapon_TorchSword.tools.2.label>
 
 
 </LanguageData>

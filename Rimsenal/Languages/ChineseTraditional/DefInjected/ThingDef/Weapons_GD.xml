@@ -5,33 +5,39 @@
 
   <GD_TacticalPistol.label>GD戰術手槍</GD_TacticalPistol.label>
   <GD_TacticalPistol.description>「灰谷防御」的「猞猁」戰術手槍。輕便易用，理想的個人防衛武器。使用小口徑、塑鋼彈頭子彈。</GD_TacticalPistol.description>
-
-  <Bullet_ModularCarbine.label>卡賓槍子彈</Bullet_ModularCarbine.label>
-
-  <GD_ModularCarbine.label>GD模組化卡賓槍</GD_ModularCarbine.label>
-  <GD_ModularCarbine.description>「灰穀防禦」的「黑豹」模組化步槍系統，卡賓槍型。因其輕便和舒適性設計使其適合用於防衛任務。同時也是其他MRS的基礎平臺。\n\nMRS: Modular Rifile System 模組化步槍系統。</GD_ModularCarbine.description>
+  <GD_TacticalPistol.tools.0.label>握把</GD_TacticalPistol.tools.0.label>
+  <GD_TacticalPistol.tools.1.label>槍管</GD_TacticalPistol.tools.1.label>
 
   <Bullet_ModularRifle.label>步槍子彈</Bullet_ModularRifle.label>
 
+  <GD_ModularCarbine.label>GD模組化卡賓槍</GD_ModularCarbine.label>
+  <GD_ModularCarbine.description>「灰穀防禦」的「黑豹」模組化步槍系統，卡賓槍型。因其輕便和舒適性設計使其適合用於防衛任務。同時也是其他MRS的基礎平臺。\n\nMRS: Modular Rifile System 模組化步槍系統。</GD_ModularCarbine.description>
+  <GD_ModularCarbine.tools.0.label>彈匣</GD_ModularCarbine.tools.0.label>
+  <GD_ModularCarbine.tools.1.label>槍管</GD_ModularCarbine.tools.1.label>
+
   <GD_ModularRifle.label>GD模組化步槍</GD_ModularRifle.label>
   <GD_ModularRifle.description>「灰穀防禦」的「黑豹」模組化步槍系統，步槍型。引起耐用和設計簡單，在遠程殖民地民兵中非常受歡迎。</GD_ModularRifle.description>
+  <GD_ModularRifle.tools.0.label>彈匣</GD_ModularRifle.tools.0.label>
+  <GD_ModularRifle.tools.1.label>槍管</GD_ModularRifle.tools.1.label>
 
   <Bullet_ModularDMR.label>步槍子彈</Bullet_ModularDMR.label>
 
   <GD_ModularDMR.label>GD模組化DMR</GD_ModularDMR.label>
   <GD_ModularDMR.description>「灰穀防禦」的「黑豹」模組化步槍系統，神射手步槍型。是精準火力支援或狩獵的極佳工具。</GD_ModularDMR.description>
-
-  <Bullet_ModularLMG.label>機槍子彈</Bullet_ModularLMG.label>
+  <GD_ModularDMR.tools.0.label>彈匣</GD_ModularDMR.tools.0.label>
+  <GD_ModularDMR.tools.1.label>槍管</GD_ModularDMR.tools.1.label>
 
   <GD_ModularLMG.label>GD模組化LMG</GD_ModularLMG.label>
   <GD_ModularLMG.description>「灰穀防禦」的「黑豹」模組化步槍系統，輕機槍型。其持續不斷的火力能給部隊提供良好的支援。</GD_ModularLMG.description>
+  <GD_ModularLMG.tools.0.label>彈匣</GD_ModularLMG.tools.0.label>
+  <GD_ModularLMG.tools.1.label>槍管</GD_ModularLMG.tools.1.label>
 
   <Bullet_HVSMG.label>手槍子彈</Bullet_HVSMG.label>
 
   <GD_HVSMG.label>GD高速衝鋒槍</GD_HVSMG.label>
   <GD_HVSMG.description>「灰谷防御」的「獰貓」高速輕型衝鋒槍。為近距離攻擊設計，發射特制的小口徑高速穿甲彈。</GD_HVSMG.description>
 
-  <Bullet_GrenadeLauncher.label>破片榴彈</Bullet_GrenadeLauncher.label>
+  <Bullet_MultiLauncher.label>破片榴彈</Bullet_MultiLauncher.label>
 
   <GD_GrenadeLauncher.label>GD多重發射器</GD_GrenadeLauncher.label>
   <GD_GrenadeLauncher.description>用途最多的火力支援武器之一，「美洲豹」多用途發射器是一種可靠有效的火力支援武器。製作簡單，如果你有合適的工具，你可以修改其模式。
@@ -40,6 +46,8 @@
 鹿彈：近距離作戰模式。一次發射多顆鹿彈。
 燃燒彈：造成燃燒傷害並點燃目標。
 煙霧：不造成傷害。給目標區域提供煙霧幕。</GD_GrenadeLauncher.description>
+  <GD_GrenadeLauncher.tools.0.label>彈匣</GD_GrenadeLauncher.tools.0.label>
+  <GD_GrenadeLauncher.tools.1.label>槍管</GD_GrenadeLauncher.tools.1.label>
 
   <Bullet_INGrenadeLauncher.label>燃燒榴彈</Bullet_INGrenadeLauncher.label>
 
@@ -50,6 +58,8 @@
 鹿彈：近距離作戰模式。一次發射多顆鹿彈。
 燃燒彈：造成燃燒傷害並點燃目標。
 煙霧：不造成傷害。給目標區域提供煙霧幕。</GD_INGrenadeLauncher.description>
+  <GD_INGrenadeLauncher.tools.0.label>彈匣</GD_INGrenadeLauncher.tools.0.label>
+  <GD_INGrenadeLauncher.tools.1.label>槍管</GD_INGrenadeLauncher.tools.1.label>
 
   <Bullet_SKGrenadeLauncher.label>煙霧榴弹</Bullet_SKGrenadeLauncher.label>
 
@@ -60,6 +70,8 @@
 鹿彈：近距離作戰模式。一次發射多顆鹿彈。
 燃燒彈：造成燃燒傷害並點燃目標。
 煙霧：不造成傷害。給目標區域提供煙霧幕。</GD_SKGrenadeLauncher.description>
+  <GD_SKGrenadeLauncher.tools.0.label>彈匣</GD_SKGrenadeLauncher.tools.0.label>
+  <GD_SKGrenadeLauncher.tools.1.label>槍管</GD_SKGrenadeLauncher.tools.1.label>
 
   <Bullet_BSLauncher.label>鹿彈</Bullet_BSLauncher.label>
 
@@ -70,6 +82,8 @@
 鹿彈：近距離作戰模式。一次發射多顆鹿彈。
 燃燒彈：造成燃燒傷害並點燃目標。
 煙霧：不造成傷害。給目標區域提供煙霧幕。</GD_BSLauncher.description>
+  <GD_BSLauncher.tools.0.label>彈匣</GD_BSLauncher.tools.0.label>
+  <GD_BSLauncher.tools.1.label>槍管</GD_BSLauncher.tools.1.label>
 
 
 </LanguageData>

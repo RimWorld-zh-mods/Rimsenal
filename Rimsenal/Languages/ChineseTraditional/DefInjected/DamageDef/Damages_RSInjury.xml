@@ -16,5 +16,8 @@
   <Shredder.label>粉碎</Shredder.label>
   <Shredder.deathMessage>{0}被射殺了。</Shredder.deathMessage>
 
+  <MFlame.label>燃燒</MFlame.label>
+  <MFlame.deathMessage>{0}被燒死了！</MFlame.deathMessage>
+
 
 </LanguageData>
