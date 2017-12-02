@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+<Defs>
 
   <ThingDef ParentName="BaseBullet">
     <defName>Bullet_Harvester</defName>
@@ -44,7 +44,7 @@
         <forcedMissRadius>1</forcedMissRadius>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_Harvester</projectileDef>
+        <defaultProjectile>Bullet_Harvester</defaultProjectile>
         <warmupTime>1.95</warmupTime>
         <range>35</range>
         <ticksBetweenBurstShots>25</ticksBetweenBurstShots>
@@ -72,7 +72,7 @@
       <flyOverhead>True</flyOverhead>
       <speed>10</speed>
       <damageDef>Plasma</damageDef>
-      <damageAmountBase>15</damageAmountBase>
+      <damageAmountBase>25</damageAmountBase>
       <explosionRadius>1.5</explosionRadius>
     </projectile>
   </ThingDef>
@@ -101,14 +101,15 @@
     </weaponTags>
     <verbs>
       <li>
+        <requireLineOfSight>false</requireLineOfSight>
         <forcedMissRadius>5</forcedMissRadius>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_PB</projectileDef>
+        <defaultProjectile>Bullet_PB</defaultProjectile>
         <warmupTime>3.55</warmupTime>
         <range>500</range>
         <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
-        <burstShotCount>15</burstShotCount>
+        <burstShotCount>10</burstShotCount>
         <soundCast>RS_ShotHarmonizer</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>20</muzzleFlashScale>
@@ -120,4 +121,4 @@
     </verbs>
   </ThingDef>
 
-</ThingDefs>
+</Defs>

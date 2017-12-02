@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+<Defs>
   <!-- ==================== Plasma grenade  ========================== -->
 
   <ThingDef ParentName="BaseGrenadeProjectile">
@@ -54,8 +54,8 @@
         <targetParams>
           <canTargetLocations>true</canTargetLocations>
         </targetParams>
-        <projectileDef>Proj_Repose</projectileDef>
+        <defaultProjectile>Proj_Repose</defaultProjectile>
       </li>
     </verbs>
   </ThingDef>
-</ThingDefs>
+</Defs>

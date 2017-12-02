@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+<Defs>
 
 
 
@@ -75,9 +75,6 @@
 <soundMeleeHitBuilding>BionHitPawn</soundMeleeHitBuilding>
       <soundMeleeMiss>BionMiss</soundMeleeMiss>
     </race>
-    <recipes>
-      <li>ShutDownMechanoid</li>
-    </recipes>
     <butcherProducts>
       <Foerum>15</Foerum>
       <Component>1</Component>
@@ -136,9 +133,6 @@
       <soundMeleeHitPawn>BionHitPawn</soundMeleeHitPawn>  <soundMeleeHitBuilding>BionHitPawn</soundMeleeHitBuilding>
       <soundMeleeMiss>BionMiss</soundMeleeMiss>
     </race>
-    <recipes>
-      <li>ShutDownMechanoid</li>
-    </recipes>
     <butcherProducts>
       <Foerum>5</Foerum>
       <Component>3</Component>
@@ -202,9 +196,6 @@
       <soundMeleeHitPawn>MechHitPawn</soundMeleeHitPawn>                         <soundMeleeHitBuilding>MechHitPawn</soundMeleeHitBuilding>
       <soundMeleeMiss>MechMiss</soundMeleeMiss>
     </race>
-    <recipes>
-      <li>ShutDownMechanoid</li>
-    </recipes>
     <butcherProducts>
       <Foerum>150</Foerum>
       <Component>5</Component>
@@ -264,9 +255,6 @@
       <soundMeleeHitPawn>BionHitPawn</soundMeleeHitPawn>  <soundMeleeHitBuilding>BionHitPawn</soundMeleeHitBuilding>
       <soundMeleeMiss>BionMiss</soundMeleeMiss>
     </race>
-    <recipes>
-      <li>ShutDownMechanoid</li>
-    </recipes>
     <butcherProducts>
       <Foerum>25</Foerum>
       <Component>2</Component>
@@ -274,4 +262,4 @@
   </ThingDef>
 
 
-</ThingDefs>
+</Defs>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+<Defs>
 
   <ThingDef Name="BaseADOriginalGun" Abstract="True">
     <category>Item</category>
@@ -33,14 +33,6 @@
       <li Class="CompProperties_Forbiddable"/>
       <li>
         <compClass>CompEquippable</compClass>
-      </li>
-      <li>
-        <compClass>CompQuality</compClass>
-      </li>
-      <li Class="CompProperties_Art">
-        <nameMaker>ArtName_WeaponGun</nameMaker>
-        <descriptionMaker>ArtDescription_WeaponGun</descriptionMaker>
-        <minQualityForArtistic>Excellent</minQualityForArtistic>
       </li>
     </comps>
     <weaponTags>
@@ -83,7 +75,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_Pacificator</projectileDef>
+        <defaultProjectile>Bullet_Pacificator</defaultProjectile>
         <warmupTime>1.15</warmupTime>
         <range>30</range>
         <burstShotCount>3</burstShotCount>
@@ -92,6 +84,25 @@
         <muzzleFlashScale>12</muzzleFlashScale>
       </li>
     </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>1.9</cooldownTime>
+      </li>
+    </tools>
   </ThingDef>
 
 
@@ -130,7 +141,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_Negotiator</projectileDef>
+        <defaultProjectile>Bullet_Negotiator</defaultProjectile>
         <warmupTime>0.55</warmupTime>
         <range>22</range>
         <burstShotCount>5</burstShotCount>
@@ -139,6 +150,25 @@
         <muzzleFlashScale>12</muzzleFlashScale>
       </li>
     </verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+    </tools>
   </ThingDef>
 
   <!-- ============================================== -->
@@ -180,7 +210,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_Arbiter</projectileDef>
+        <defaultProjectile>Bullet_Arbiter</defaultProjectile>
         <warmupTime>1.85</warmupTime>
         <range>25</range>
         <burstShotCount>5</burstShotCount>
@@ -189,6 +219,25 @@
         <muzzleFlashScale>12</muzzleFlashScale>
       </li>
     </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>1.9</cooldownTime>
+      </li>
+    </tools>
   </ThingDef>
 
   <!-- ============================================== -->
@@ -227,7 +276,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_Intercessor</projectileDef>
+        <defaultProjectile>Bullet_Intercessor</defaultProjectile>
         <warmupTime>4.3</warmupTime>
         <range>50</range>
         <burstShotCount>3</burstShotCount>
@@ -236,6 +285,25 @@
         <muzzleFlashScale>12</muzzleFlashScale>
       </li>
     </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>1.9</cooldownTime>
+      </li>
+    </tools>
   </ThingDef>
 
 
@@ -277,7 +345,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_Axiom</projectileDef>
+        <defaultProjectile>Bullet_Axiom</defaultProjectile>
         <warmupTime>2.20</warmupTime>
         <minRange>3</minRange>
         <range>20</range>
@@ -291,6 +359,25 @@
         </targetParams>
       </li>
     </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>1.9</cooldownTime>
+      </li>
+    </tools>
   </ThingDef>
 
 
@@ -330,11 +417,11 @@
       <li>
         <compClass>CompQuality</compClass>
       </li>
-      <li Class="CompProperties_Art">
-        <nameMaker>ArtName_WeaponMelee</nameMaker>
-        <descriptionMaker>ArtDescription_WeaponMelee</descriptionMaker>
-        <minQualityForArtistic>Excellent</minQualityForArtistic>
-      </li>
+			<li Class="CompProperties_Art">
+				<nameMaker>ArtName_WeaponMelee</nameMaker>
+				<descriptionMaker>ArtDescription_WeaponMelee</descriptionMaker>
+				<minQualityForArtistic>Excellent</minQualityForArtistic>
+			</li>
     </comps>
     <inspectorTabs>
       <li>ITab_Art</li>
@@ -360,8 +447,6 @@
       <Mass>2.4</Mass>
       <WorkToMake>36500</WorkToMake>
       <MarketValue>1380</MarketValue>
-      <MeleeWeapon_DamageAmount>24</MeleeWeapon_DamageAmount>
-      <MeleeWeapon_Cooldown>2</MeleeWeapon_Cooldown>
     </statBases>
    <costList>
       <Steel>20</Steel>
@@ -379,7 +464,28 @@
     <weaponTags>
        <li>FedMelee</li>
     </weaponTags>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Poke</li>
+          <li>Blunt</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>1.0</cooldownTime>
+      </li>
+      <li>
+        <label>head</label>
+        <labelUsedInLogging>false</labelUsedInLogging>
+        <capacities>
+          <li>Poke</li>
+          <li>Blunt</li>
+        </capacities>
+        <power>17</power>
+        <cooldownTime>1.5</cooldownTime>
+      </li>
+    </tools>
   </ThingDef>
 
 
-</ThingDefs>
+</Defs>

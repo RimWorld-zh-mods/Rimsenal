@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+<Defs>
 
 
   <ThingDef ParentName="BuildingBase">
@@ -62,7 +62,7 @@
       <turretGunDef>Gun_Harvester</turretGunDef>
       <turretBurstWarmupTime>1.40</turretBurstWarmupTime>
       <turretBurstCooldownTime>3.25</turretBurstCooldownTime>
-      <turretTopgraphicPath>Things/Building/HC</turretTopgraphicPath>
+      <turretTopGraphicPath>Things/Building/HC</turretTopGraphicPath>
     </building>
     <researchPrerequisites><li>CrucibleTech</li></researchPrerequisites>
   </ThingDef>
@@ -74,7 +74,7 @@
     <graphicData>
       <texPath>Things/Building/PB</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(4,4)</drawSize>
+      <drawSize>(3,3)</drawSize>
       <damageData>
         <rect>(0.2,0.2,0.6,0.6)</rect>
       </damageData>
@@ -92,7 +92,7 @@
     <comps>
       <li Class="CompProperties_Explosive">
         <explosiveRadius>5</explosiveRadius>
-        <explosiveDamageType>Bomb</explosiveDamageType>
+        <explosiveDamageType>Plasma</explosiveDamageType>
       </li>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
@@ -126,9 +126,9 @@
       <turretGunDef>Gun_PB</turretGunDef>
       <turretBurstWarmupTime>3.80</turretBurstWarmupTime>
       <turretBurstCooldownTime>50</turretBurstCooldownTime>
-      <turretTopgraphicPath>Things/Building/PB_Gun</turretTopgraphicPath>
+      <turretTopGraphicPath>Things/Building/PB_Gun</turretTopGraphicPath>
     </building>
     <researchPrerequisites><li>PlasmaMortarTech</li></researchPrerequisites>
   </ThingDef>
 
-</ThingDefs>
+</Defs>

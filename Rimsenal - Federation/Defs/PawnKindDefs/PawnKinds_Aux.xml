@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<PawnKindDefs>
+<Defs>
 
 
   <PawnKindDef Abstract="True" Name="AuxBase" >
@@ -273,4 +273,4 @@
     </inventoryOptions>
   </PawnKindDef>
 
-</PawnKindDefs>
+</Defs>

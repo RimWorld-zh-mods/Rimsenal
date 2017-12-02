@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+<Defs>
 
 
   <ThingDef Name="BaseFedGun" Abstract="True">
@@ -34,14 +34,6 @@
       <li Class="CompProperties_Forbiddable"/>
       <li>
         <compClass>CompEquippable</compClass>
-      </li>
-      <li>
-        <compClass>CompQuality</compClass>
-      </li>
-      <li Class="CompProperties_Art">
-        <nameMaker>ArtName_WeaponGun</nameMaker>
-        <descriptionMaker>ArtDescription_WeaponGun</descriptionMaker>
-        <minQualityForArtistic>Excellent</minQualityForArtistic>
       </li>
     </comps>
   </ThingDef>
@@ -92,7 +84,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_PlasmaBombard</projectileDef>
+        <defaultProjectile>Bullet_PlasmaBombard</defaultProjectile>
         <warmupTime>3.55</warmupTime>
         <range>26</range>
         <burstShotCount>1</burstShotCount>
@@ -152,7 +144,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_CrucibleCannon</projectileDef>
+        <defaultProjectile>Bullet_CrucibleCannon</defaultProjectile>
         <warmupTime>2.6</warmupTime>
         <range>35</range>
         <burstShotCount>13</burstShotCount>
@@ -162,4 +154,4 @@
     </verbs>
   </ThingDef>
 
-</ThingDefs>
+</Defs>

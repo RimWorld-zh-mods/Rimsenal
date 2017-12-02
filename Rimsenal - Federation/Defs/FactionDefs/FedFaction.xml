@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<FactionDefs>
+<Defs>
+
+
   <FactionDef>
 		<defName>FPC</defName>
 		<label>Federation Peacekeeper Corps</label>
-<description>Once upon a time, located in the very core of the galaxy, there was a great and honorable interstellar empire, referred to as ¡°The Federation.¡± The Federation Peacekeeper Corps was the guardian of the people, and upholding justice was their modus operandi. However, during the long and grim Mechanoid war, things have changed. Freedom and fairness have been trampled in the name of security, and oppression and tyranny both were justified in the name of order.
+<description>Once upon a time, located in the very core of the galaxy, there was a great and honorable interstellar empire, referred to as pThe Federation.q The Federation Peacekeeper Corps was the guardian of the people, and upholding justice was their modus operandi. However, during the long and grim Mechanoid war, things have changed. Freedom and fairness have been trampled in the name of security, and oppression and tyranny both were justified in the name of order.
 
 And, as a result, the long war against The Federation began. 
 
@@ -11,38 +13,40 @@ Unused to turmoil that came from within, rather than the outside, The Federation
 
 However, on the isolated rimworlds, where news of The Federation's dissolution has yet to arrive, that otherwise long-forgotten name, and its merciless hounds mean a totally different thing...</description>
     <pawnsPlural>Federation soldiers</pawnsPlural>
-    <BaseSelectionWeight>0.5</BaseSelectionWeight>
+    <baseSelectionWeight>0.5</baseSelectionWeight>
     <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <maxCountAtGameStart>1</maxCountAtGameStart>
     <canMakeRandomly>false</canMakeRandomly>
-    <autoFlee>false</autoFlee>
-    <raidCommonality>100</raidCommonality>
     <canSiege>false</canSiege>
-    <canStageAttacks>true</canStageAttacks>
+    <autoFlee>false</autoFlee>
+    <canStageAttacks>false</canStageAttacks>
+		<appreciative>false</appreciative>
     <leaderTitle>prime</leaderTitle>
-    <appreciative>false</appreciative>
     <expandingIconTexture>Things/FedIcon</expandingIconTexture>
     <colorSpectrum>
       <li>(0.5, 0, 0)</li>
     </colorSpectrum>
     <startingGoodwill>
-      <min>-99</min>
+      <min>-100</min>
       <max>-90</max>
     </startingGoodwill>
+    <mustStartOneEnemy>true</mustStartOneEnemy>
 		<factionNameMaker>NamerFPCFaction</factionNameMaker>
-		<BaseNameMaker>NamerFPCBase</BaseNameMaker>
+		<baseNameMaker>NamerFPCBase</baseNameMaker>
 		<techLevel>Spacer</techLevel>
 		<backstoryCategory>Civil</backstoryCategory>
+		<geneticVariance>1</geneticVariance>
 		<hairTags>
 			<li>Urban</li>
 			<li>Rural</li>
 		</hairTags>
     <naturalColonyGoodwill>
-      <min>-99</min>
-      <max>-99</max>
+      <min>-100</min>
+      <max>-80</max>
     </naturalColonyGoodwill>
     <allowedArrivalTemperatureRange>
-      <min>-75</min>
-      <max>60</max>
+      <min>-50</min>
+      <max>45</max>
     </allowedArrivalTemperatureRange>
     <pawnGroupMakers>
       <li>
@@ -79,7 +83,6 @@ However, on the isolated rimworlds, where news of The Federation's dissolution h
         </options>
       </li>
     </pawnGroupMakers>
-
     <homeIconPath>World/WorldObjects/DefaultFactionBase</homeIconPath>
   </FactionDef>
-</FactionDefs>
+</Defs>

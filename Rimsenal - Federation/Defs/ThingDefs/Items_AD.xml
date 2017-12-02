@@ -79,7 +79,7 @@
         <Flammability>0.15</Flammability>
         <WorkToMake>2</WorkToMake>
 				<WorkToBuild>2</WorkToBuild>
-        <MeleeWeapon_Cooldown>0.8</MeleeWeapon_Cooldown>
+        <MeleeWeapon_CooldownMultiplier>0.8</MeleeWeapon_CooldownMultiplier>
       </statFactors>
       <smeltable>true</smeltable>
     </stuffProps>

@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+<Defs>
 
   <ThingDef ParentName="BenchBase">
-    <DefName>FedTable</DefName>
+    <defName>FedTable</defName>
     <label>energy crucible</label>
-    <ThingClass>Building_WorkTable</ThingClass>
-    <Description>A table with equipments for assembling the federation equipments.</Description>
+    <thingClass>Building_WorkTable</thingClass>
+    <description>A table with equipments for assembling the federation equipments.</description>
     <graphicData>
       <texPath>Things/Building/FedTable</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
@@ -17,13 +17,13 @@
         <cornerBR>Damage/Corner</cornerBR>
       </damageData>
     </graphicData>
-    <CostList>
+    <costList>
       <CrucibleCore>8</CrucibleCore>
       <Foerum>60</Foerum>
       <Plasteel>15</Plasteel>
       <Component>6</Component>
-    </CostList>
-    <AltitudeLayer>Building</AltitudeLayer>
+    </costList>
+    <altitudeLayer>Building</altitudeLayer>
     <fillPercent>0.5</fillPercent>
     <useHitPoints>True</useHitPoints>
     <statBases>
@@ -32,9 +32,9 @@
       <Flammability>1.0</Flammability>
       <Cleanliness>-2</Cleanliness>
     </statBases>
-    <Size>(3,1)</Size>
-    <DesignationCategory>Production</DesignationCategory>
-    <Passability>PassThroughOnly</Passability>
+    <size>(3,1)</size>
+    <designationCategory>Production</designationCategory>
+    <passability>PassThroughOnly</passability>
     <pathCost>70</pathCost>
     <hasInteractionCell>True</hasInteractionCell>
     <interactionCellOffset>(0,0,-1)</interactionCellOffset>
@@ -70,4 +70,4 @@
 		</placeWorkers>
   </ThingDef>
 
-</ThingDefs>
+</Defs>

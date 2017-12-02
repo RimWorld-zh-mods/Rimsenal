@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
-<ThingDefs>
+<Defs>
   
   <!-- ============================================================== -->
 
@@ -16,11 +16,9 @@
  		</weaponTags>
     <tradeability>Sellable</tradeability>
     <statBases>
-      <Mass>2.4</Mass>
+      <Mass>2.6</Mass>
       <WorkToMake>36500</WorkToMake>
       <MarketValue>1380</MarketValue>
-      <MeleeWeapon_DamageAmount>24</MeleeWeapon_DamageAmount>
-      <MeleeWeapon_Cooldown>2</MeleeWeapon_Cooldown>
     </statBases>
    <costList>
       <Steel>20</Steel>
@@ -34,15 +32,29 @@
         <li>FedTable</li>
       </recipeUsers>
     </recipeMaker>
-    <verbs>
+    <tools>
       <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <meleeDamageDef>Blunt</meleeDamageDef>
+        <label>handle</label>
+        <capacities>
+          <li>Poke</li>
+          <li>Blunt</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>1.0</cooldownTime>
       </li>
-    </verbs>
+      <li>
+        <label>head</label>
+        <labelUsedInLogging>false</labelUsedInLogging>
+        <capacities>
+          <li>Poke</li>
+          <li>Blunt</li>
+        </capacities>
+        <power>17</power>
+        <cooldownTime>1.5</cooldownTime>
+      </li>
+    </tools>
   </ThingDef>
 
 
 
-</ThingDefs>
+</Defs>

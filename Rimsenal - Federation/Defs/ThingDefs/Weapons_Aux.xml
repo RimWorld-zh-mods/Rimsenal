@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+<Defs>
 
   <!-- ============================================== -->
 
@@ -51,7 +51,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_Sentinel</projectileDef>
+        <defaultProjectile>Bullet_Sentinel</defaultProjectile>
         <warmupTime>1.25</warmupTime>
         <range>26</range>
         <burstShotCount>1</burstShotCount>
@@ -60,6 +60,25 @@
         <soundCastTail>GunTail_Heavy</soundCastTail>
       </li>
     </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>1.9</cooldownTime>
+      </li>
+    </tools>
   </ThingDef>
 
   <!-- ============================================== -->
@@ -111,7 +130,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_PBomb</projectileDef>
+        <defaultProjectile>Bullet_PBomb</defaultProjectile>
         <warmupTime>4.25</warmupTime>
         <range>3</range>
         <burstShotCount>1</burstShotCount>
@@ -167,7 +186,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_AuxPistol</projectileDef>
+        <defaultProjectile>Bullet_AuxPistol</defaultProjectile>
         <warmupTime>0.35</warmupTime>
         <range>18</range>
         <burstShotCount>2</burstShotCount>
@@ -176,6 +195,25 @@
         <muzzleFlashScale>10</muzzleFlashScale>
       </li>
     </verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+    </tools>
   </ThingDef>
 
   <!-- ============================================== -->
@@ -225,7 +263,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_MCrucibleRifle</projectileDef>
+        <defaultProjectile>Bullet_MCrucibleRifle</defaultProjectile>
         <warmupTime>1.5</warmupTime>
         <range>30</range>
         <soundCast>RS_ShotCP</soundCast>
@@ -233,7 +271,27 @@
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
     </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>1.9</cooldownTime>
+      </li>
+    </tools>
   </ThingDef>
+ 
 
 
-</ThingDefs>
+</Defs>

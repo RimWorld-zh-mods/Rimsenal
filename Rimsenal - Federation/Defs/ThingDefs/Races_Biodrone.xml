@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+<Defs>
 
 
   <ThingDef ParentName="BaseBion">
@@ -54,9 +54,6 @@
       <soundMeleeHitBuilding>MechHitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>MechMiss</soundMeleeMiss>
     </race>
-    <recipes>
-      <li>ShutDownMechanoid</li>
-    </recipes>
     <butcherProducts>
       <Steel>10</Steel>
       <Foerum>9</Foerum>
@@ -67,4 +64,4 @@
 
 
 
-</ThingDefs>
+</Defs>

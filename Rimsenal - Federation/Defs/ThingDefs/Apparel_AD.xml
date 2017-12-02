@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+<Defs>
 
 
   <ThingDef Name="FedArmorMakeableBase" ParentName="ApparelBase" Abstract="True">
@@ -39,9 +39,9 @@
 			<Insulation_Cold>-15</Insulation_Cold>
 			<Insulation_Heat>5</Insulation_Heat>
     </statBases>
-     <CostList>
+     <costList>
        <Foerum>20</Foerum>
-     </CostList>
+     </costList>
     <thingCategories>
       <li>Apparel</li>
     </thingCategories>
@@ -54,15 +54,16 @@
         <li>Worker</li>
         <li>Soldier</li>
      </defaultOutfitTags>
-     <worngraphicPath>Things/Apparel/FedSuit</worngraphicPath>
+     <wornGraphicPath>Things/Apparel/FedSuit</wornGraphicPath>
 			<layers>
 			    <li>OnSkin</li>
 			</layers>
 			<bodyPartGroups>
-				<li>Torso</li>
-				<li>Shoulders</li>
-				<li>Arms</li>
-				<li>Legs</li>
+	    <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Torso</li>
+        <li>Arms</li>
+        <li>Legs</li>
 			</bodyPartGroups>
     </apparel>
     <colorGenerator Class="ColorGenerator_Options">
@@ -115,16 +116,17 @@
     		 <tags>
    		     <li>ADJS</li>
    		 </tags>
-<worngraphicPath>Things/Apparel/Judicator</worngraphicPath>
+<wornGraphicPath>Things/Apparel/Judicator</wornGraphicPath>
 			<layers>
 			    <li>Middle</li>
 			    <li>Shell</li>
 			</layers>
 			<bodyPartGroups>
-				<li>Torso</li>
-				<li>Shoulders</li>
-				<li>Arms</li>
-				<li>Legs</li>
+	    <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Torso</li>
+        <li>Arms</li>
+        <li>Legs</li>
 			</bodyPartGroups>
       <defaultOutfitTags>
         <li>Soldier</li>
@@ -171,7 +173,7 @@
     		 <tags>
    		     <li>ADJS</li>
    		 </tags>
-		<worngraphicPath>Things/Apparel/JudicatorH</worngraphicPath>
+		<wornGraphicPath>Things/Apparel/JudicatorH</wornGraphicPath>
 		<layers>
 			<li>Overhead</li>
 		</layers>		<bodyPartGroups>
@@ -222,15 +224,17 @@
     		 <tags>
    		     <li>ADJS</li>
    		 </tags>
-<worngraphicPath>Things/Apparel/Condemner</worngraphicPath>
+<wornGraphicPath>Things/Apparel/Condemner</wornGraphicPath>
 			<layers>
 			    <li>Middle</li>
 			    <li>Shell</li>
 			</layers>
 			<bodyPartGroups>
-				<li>Torso</li>
-				<li>Arms</li>
-				<li>Legs</li>
+	    <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Torso</li>
+        <li>Arms</li>
+        <li>Legs</li>
 			</bodyPartGroups>
       <defaultOutfitTags>
         <li>Soldier</li>
@@ -278,7 +282,7 @@
     		 <tags>
    		     <li>ADJS</li>
    		 </tags>
-		<worngraphicPath>Things/Apparel/CondemnerH</worngraphicPath>
+		<wornGraphicPath>Things/Apparel/CondemnerH</wornGraphicPath>
 		<layers>
 			<li>Overhead</li>
 		</layers>
@@ -324,7 +328,7 @@
     		 <tags>
    		     <li>ADJS</li>
    		 </tags>
-<worngraphicPath>Things/Apparel/UGCuirass</worngraphicPath>
+<wornGraphicPath>Things/Apparel/UGCuirass</wornGraphicPath>
 			<layers>
 			    <li>Middle</li>
 			</layers>
@@ -332,6 +336,7 @@
 				<li>Torso</li>
 				<li>Shoulders</li>
 				<li>Arms</li>
+				<li>Neck</li>
 			</bodyPartGroups>
       <defaultOutfitTags>
         <li>Soldier</li>
@@ -376,7 +381,7 @@
     		 <tags>
    		     <li>ADJS</li>
    		 </tags>
-		<worngraphicPath>Things/Apparel/UGHelmet</worngraphicPath>
+		<wornGraphicPath>Things/Apparel/UGHelmet</wornGraphicPath>
 		<layers>
 			<li>Overhead</li>
 		</layers>
@@ -417,7 +422,7 @@
         <li>Worker</li>
         <li>Soldier</li>
      </defaultOutfitTags>
-     <worngraphicPath>Things/Apparel/UGCloak</worngraphicPath>
+     <wornGraphicPath>Things/Apparel/UGCloak</wornGraphicPath>
 			<layers>
 			    <li>Shell</li>
 			</layers>
@@ -428,4 +433,4 @@
     </apparel>
     </ThingDef>
 
-</ThingDefs>
+</Defs>
