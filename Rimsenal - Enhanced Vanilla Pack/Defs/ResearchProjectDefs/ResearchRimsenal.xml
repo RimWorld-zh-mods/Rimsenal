@@ -27,7 +27,7 @@
     <description>Research the designing and making of advanced smart weapon.</description>
     <baseCost>1500</baseCost>
     <prerequisites>
-        <li>MultiAnalyzer</li>
+        <li>PrecisionRifling</li>
     </prerequisites>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
     <requiredResearchFacilities>

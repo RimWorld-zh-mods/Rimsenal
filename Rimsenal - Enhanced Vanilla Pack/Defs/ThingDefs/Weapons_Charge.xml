@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+<Defs>
 
 	<ThingDef ParentName="BaseBullet">
 		<defName>Bullet_ChargeSidearm</defName>
@@ -25,12 +25,13 @@
 		<soundInteract>InteractChargeRifle</soundInteract>
 		<statBases>
 			<WorkToMake>25000</WorkToMake>
-			<Mass>2</Mass>
+			<Mass>1.8</Mass>
 			<AccuracyTouch>0.9</AccuracyTouch>
 			<AccuracyShort>0.8</AccuracyShort>
 			<AccuracyMedium>0.6</AccuracyMedium>
 			<AccuracyLong>0.4</AccuracyLong>
 			<RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+      <Weapon_Bulk>0.6</Weapon_Bulk>
 		</statBases>
 		<recipeMaker>
 			<researchPrerequisite>ChargedShot</researchPrerequisite>
@@ -49,7 +50,7 @@
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<projectileDef>Bullet_ChargeSidearm</projectileDef>
+				<defaultProjectile>Bullet_ChargeSidearm</defaultProjectile>
 				<warmupTime>0.35</warmupTime>
 				<range>19</range>
 				<soundCast>ShotChargeRifle</soundCast>
@@ -57,6 +58,25 @@
 				<muzzleFlashScale>9</muzzleFlashScale>
 			</li>
 		</verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+    </tools>
 	</ThingDef>
 	
 	<!-- ============================================== -->
@@ -90,7 +110,8 @@
 			<AccuracyShort>0.9</AccuracyShort>
 			<AccuracyMedium>0.5</AccuracyMedium>
 			<AccuracyLong>0.3</AccuracyLong>
-			<RangedWeapon_Cooldown>1.3</RangedWeapon_Cooldown>
+			<RangedWeapon_Cooldown>1.35</RangedWeapon_Cooldown>
+      <Weapon_Bulk>1.2</Weapon_Bulk>
 		</statBases>
 		<recipeMaker>
 			<researchPrerequisite>ChargedShot</researchPrerequisite>
@@ -109,16 +130,35 @@
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<projectileDef>Bullet_ScatterCharger</projectileDef>
-				<warmupTime>0.85</warmupTime>
+				<defaultProjectile>Bullet_ScatterCharger</defaultProjectile>
+				<warmupTime>1</warmupTime>
 				<range>12</range>
 				<ticksBetweenBurstShots>0</ticksBetweenBurstShots>
-				<burstShotCount>5</burstShotCount>
+				<burstShotCount>4</burstShotCount>
 				<soundCast>ShotChargeRifle</soundCast>
 				<soundCastTail>GunTail_Medium</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
 			</li>
 		</verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>1.9</cooldownTime>
+      </li>
+    </tools>
 	</ThingDef>
 	
 	<!-- ============================================== -->
@@ -153,6 +193,7 @@
 			<AccuracyMedium>0.85</AccuracyMedium>
 			<AccuracyLong>0.8</AccuracyLong>
 			<RangedWeapon_Cooldown>3.4</RangedWeapon_Cooldown>
+      <Weapon_Bulk>2</Weapon_Bulk>
 		</statBases>
 		<recipeMaker>
 			<researchPrerequisite>ChargedShot</researchPrerequisite>
@@ -172,7 +213,7 @@
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<projectileDef>Bullet_ChargeDriver</projectileDef>
+				<defaultProjectile>Bullet_ChargeDriver</defaultProjectile>
 				<warmupTime>3.5</warmupTime>
 				<range>40</range>
 				<soundCast>ChargeLance_Fire</soundCast>
@@ -181,6 +222,25 @@
 				<muzzleFlashScale>9</muzzleFlashScale>
 			</li>
 		</verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>1.9</cooldownTime>
+      </li>
+    </tools>
 	</ThingDef>
 
 	<!-- ============================================== -->
@@ -219,6 +279,7 @@
 			<AccuracyMedium>0.78</AccuracyMedium>
 			<AccuracyLong>0.55</AccuracyLong>
 			<RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+      <Weapon_Bulk>1.5</Weapon_Bulk>
 		</statBases>
 		<recipeMaker>
 			<researchPrerequisite>DirectedEMP</researchPrerequisite>
@@ -237,7 +298,7 @@
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<projectileDef>Bullet_EMPRifle</projectileDef>
+				<defaultProjectile>Bullet_EMPRifle</defaultProjectile>
 				<warmupTime>1.3</warmupTime>
 				<range>25</range>
 				<burstShotCount>1</burstShotCount>
@@ -246,31 +307,48 @@
 				<muzzleFlashScale>9</muzzleFlashScale>
 			</li>
 		</verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>1.9</cooldownTime>
+      </li>
+    </tools>
 	</ThingDef>
 
 
 	<!-- ============================================== -->
 
-	<ThingDef ParentName="BaseGrenadeProjectile">
-		<defName>Bullet_ChargeCannon</defName>
-		<label>charge blast</label>
-		<thingClass>Projectile_Explosive</thingClass>
+		<ThingDef ParentName="BaseBullet">
+		<defName>Bullet_AssaultCharger</defName>
+		<label>charge shot</label>
 		<graphicData>
-			<texPath>Things/Projectile/Charge_Big</texPath>
+			<texPath>Things/Projectile/ChargeLanceShot</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<projectile>
-			<explosionRadius>2</explosionRadius>
-			<damageDef>ChargedBolt</damageDef>
-			<damageAmountBase>14</damageAmountBase>
-			<speed>70</speed>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>12</damageAmountBase>
+			<speed>80</speed>
 		</projectile>
 	</ThingDef>
-
+	
 
 	<ThingDef ParentName="BaseHumanMakeableGun">
-		<defName>Gun_ChargeCannon</defName>
-		<label>charge cannon</label>
+		<defName>Gun_AssaultCharger</defName>
+		<label>assault chager</label>
 		<description>Charged-shot technology based heavy assault weapon.</description>
 		<graphicData>
 			<texPath>Things/A16/ChargeCannon</texPath>
@@ -285,6 +363,7 @@
 			<AccuracyMedium>0.7</AccuracyMedium>
 			<AccuracyLong>0.5</AccuracyLong>
 			<RangedWeapon_Cooldown>2.5</RangedWeapon_Cooldown>
+			      <Weapon_Bulk>2</Weapon_Bulk>
 		</statBases>
     <equippedStatOffsets>
       <MoveSpeed>-0.2</MoveSpeed>
@@ -306,15 +385,35 @@
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<projectileDef>Bullet_ChargeCannon</projectileDef>
-				<warmupTime>1.8</warmupTime>
+				<defaultProjectile>Bullet_AssaultCharger</defaultProjectile>
+				<warmupTime>2.3</warmupTime>
 				<range>23</range>
-				<burstShotCount>1</burstShotCount>
+				<burstShotCount>5</burstShotCount>
 				<soundCast>ChargeLance_Fire</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<ticksBetweenBurstShots>15</ticksBetweenBurstShots>
 				<muzzleFlashScale>15</muzzleFlashScale>
 			</li>
 		</verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>1.9</cooldownTime>
+      </li>
+    </tools>
 	</ThingDef>
 
 	<!-- ============================================== -->
@@ -349,6 +448,7 @@
 			<AccuracyMedium>0.75</AccuracyMedium>
 			<AccuracyLong>0.6</AccuracyLong>
 			<RangedWeapon_Cooldown>1.25</RangedWeapon_Cooldown>
+      <Weapon_Bulk>1.5</Weapon_Bulk>
 		</statBases>
 		<recipeMaker>
 			<researchPrerequisite>ChargedShot</researchPrerequisite>
@@ -367,7 +467,7 @@
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<projectileDef>Bullet_BurstCharger</projectileDef>
+				<defaultProjectile>Bullet_BurstCharger</defaultProjectile>
 				<warmupTime>1.48</warmupTime>
 				<range>30</range>
 				<soundCast>ChargeLance_Fire</soundCast>
@@ -377,6 +477,25 @@
 				<muzzleFlashScale>9</muzzleFlashScale>
 			</li>
 		</verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>1.9</cooldownTime>
+      </li>
+    </tools>
 	</ThingDef>
 
-</ThingDefs>
+</Defs>

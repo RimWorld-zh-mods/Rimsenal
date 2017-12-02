@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+<Defs>
 
   <ThingDef ParentName="ArmorMakeableBase">
     <defName>Apparel_TacVest</defName>
@@ -38,7 +38,7 @@
       <bodyPartGroups>
         <li>Torso</li>
       </bodyPartGroups>
-      <worngraphicPath>Things/Apparel/TacVest</worngraphicPath>
+      <wornGraphicPath>Things/Apparel/TacVest</wornGraphicPath>
       <layers>
         <li>Middle</li>
       </layers>
@@ -78,7 +78,7 @@
       <bodyPartGroups>
         <li>UpperHead</li>
       </bodyPartGroups>
-      <worngraphicPath>Things/Apparel/TacHelmet</worngraphicPath>
+      <wornGraphicPath>Things/Apparel/TacHelmet</wornGraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>
@@ -121,7 +121,7 @@
     </recipeMaker>
 			<generateCommonality>0.5</generateCommonality>
 		<apparel>
-<worngraphicPath>Things/Apparel/Exo</worngraphicPath>
+<wornGraphicPath>Things/Apparel/Exo</wornGraphicPath>
 			<layers>
 			    <li>Shell</li>
 			</layers>
@@ -176,12 +176,13 @@
       <generateCommonality>0.5</generateCommonality>
     <apparel>
       <bodyPartGroups>
-        <li>Torso</li>
+	    <li>Neck</li>
         <li>Shoulders</li>
+        <li>Torso</li>
         <li>Arms</li>
         <li>Legs</li>
       </bodyPartGroups>
-      <worngraphicPath>Things/Apparel/ProtectiveGear</worngraphicPath>
+      <wornGraphicPath>Things/Apparel/ProtectiveGear</wornGraphicPath>
       <layers>
         <li>Middle</li>
         <li>Shell</li>
@@ -228,7 +229,7 @@
       <bodyPartGroups>
         <li>UpperHead</li>
       </bodyPartGroups>
-      <worngraphicPath>Things/Apparel/ProtectiveHelmet</worngraphicPath>
+      <wornGraphicPath>Things/Apparel/ProtectiveHelmet</wornGraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>
@@ -242,4 +243,4 @@
   </ThingDef>
 
 
-</ThingDefs>
+</Defs>
