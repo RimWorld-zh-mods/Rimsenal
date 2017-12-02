@@ -10,9 +10,5 @@
   <Make_MoltenShell.description>制作熔火炮弹。</Make_MoltenShell.description>
   <Make_MoltenShell.jobString>正在制作熔火炮弹。</Make_MoltenShell.jobString>
 
-  <Make_SalvoPack.label>制作集束火箭</Make_SalvoPack.label>
-  <Make_SalvoPack.description>制作集束火箭。</Make_SalvoPack.description>
-  <Make_SalvoPack.jobString>正在制作集束火箭。</Make_SalvoPack.jobString>
-
 
 </LanguageData>

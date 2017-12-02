@@ -39,18 +39,6 @@
   <NestMMG_Frame.label>MMG陣地 (建造中)</NestMMG_Frame.label>
   <NestMMG_Frame.description>三腳架上裝備了固定式中型機槍。簡單而有效的防禦建築。可重新部署。</NestMMG_Frame.description>
 
-  <MoltenCannon.label>熔火加農炮</MoltenCannon.label>
-  <MoltenCannon.description>驅動融化金屬作為炮彈，性能可靠，熔岩加農炮是巨人兵團對抗機械族的主要重型武器。</MoltenCannon.description>
-  <MoltenCannon_Blueprint.label>熔火加農炮 (藍圖)</MoltenCannon_Blueprint.label>
-  <MoltenCannon_Frame.label>熔火加農炮 (建造中)</MoltenCannon_Frame.label>
-  <MoltenCannon_Frame.description>驅動融化金屬作為炮彈，性能可靠，熔岩加農炮是巨人兵團對抗機械族的主要重型武器。</MoltenCannon_Frame.description>
-
-  <BarrageCannon.label>彈幕加農炮</BarrageCannon.label>
-  <BarrageCannon.description>為遠程火力支援而設計。發射集束火箭彈幕打擊目標。</BarrageCannon.description>
-  <BarrageCannon_Blueprint.label>彈幕加農炮 (藍圖)</BarrageCannon_Blueprint.label>
-  <BarrageCannon_Frame.label>彈幕加農炮 (建造中)</BarrageCannon_Frame.label>
-  <BarrageCannon_Frame.description>為遠程火力支援而設計。發射集束火箭彈幕打擊目標。</BarrageCannon_Frame.description>
-
   <PortableReactor.label>便攜式反應堆</PortableReactor.label>
   <PortableReactor.description>小型的、便攜式野外用反應堆，消耗鈾來產生電力。當你需要電源時可以快速部署。損毀時會發生爆炸。</PortableReactor.description>
   <PortableReactor_Blueprint.label>便攜式反應堆 (藍圖)</PortableReactor_Blueprint.label>
@@ -85,6 +73,29 @@
   <RSDummy_Blueprint_Install.label>假人（藍圖）</RSDummy_Blueprint_Install.label>
   <RSDummy_Frame.label>假人（建造中）</RSDummy_Frame.label>
   <RSDummy_Frame.description>拿著假槍的家人。至少可以用來吸引敵人的注意力。</RSDummy_Frame.description>
+
+
+  <!-- Mortar turret -->
+
+  <Turret_MC.label>熔火加農炮</Turret_MC.label>
+  <Turret_MC.description>驅動融化金屬作為炮彈，性能可靠，熔岩加農炮是巨人兵團對抗機械族的主要重型武器。</Turret_MC.description>
+  <Turret_MC_Blueprint.label>熔火加農炮（藍圖）</Turret_MC_Blueprint.label>
+  <Turret_MC_Frame.label>熔火加農炮（建造中）</Turret_MC_Frame.label>
+  <Turret_MC_Frame.description>驅動融化金屬作為炮彈，性能可靠，熔岩加農炮是巨人兵團對抗機械族的主要重型武器。</Turret_MC_Frame.description>
+
+  <Artillery_MC.label>熔火加農炮</Artillery_MC.label>
+  <Artillery_MC.description>重型反機械體武器</Artillery_MC.description>
+
+  <RocketTurret.label>火箭炮塔</RocketTurret.label>
+  <RocketTurret.description>安裝了反機械族火箭發射器的自動炮塔。受損嚴重時會發生爆炸。</RocketTurret.description>
+  <RocketTurret_Blueprint.label>火箭炮塔（藍圖）</RocketTurret_Blueprint.label>
+  <RocketTurret_Frame.label>火箭炮塔（建造中）</RocketTurret_Frame.label>
+  <RocketTurret_Frame.description>安裝了反機械族火箭發射器的自動炮塔。受損嚴重時會發生爆炸。</RocketTurret_Frame.description>
+
+  <Bullet_RocketTurret.label>火箭</Bullet_RocketTurret.label>
+
+  <Gun_RocketTurret.label>火箭發射器</Gun_RocketTurret.label>
+  <Gun_RocketTurret.description>火箭發射器</Gun_RocketTurret.description>
 
 
 </LanguageData>
