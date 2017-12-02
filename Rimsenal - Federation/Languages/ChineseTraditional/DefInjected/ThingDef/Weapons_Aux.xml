@@ -5,6 +5,8 @@
 
   <AD_Sentinel.label>電漿步槍</AD_Sentinel.label>
   <AD_Sentinel.description>「哨兵」電漿步槍是一種單兵電漿武器，即使在聯邦制式武器中也是罕見且可怕的。發射含有爆炸性液態電離金屬的小型球體。</AD_Sentinel.description>
+  <AD_Sentinel.tools.0.label>stock</AD_Sentinel.tools.0.label>
+  <AD_Sentinel.tools.1.label>barrel</AD_Sentinel.tools.1.label>
 
   <Bullet_PBomb.label>電漿炸彈</Bullet_PBomb.label>
 
@@ -15,11 +17,15 @@
 
   <AD_AuxPistol.label>奴隸手槍</AD_AuxPistol.label>
   <AD_AuxPistol.description>「談判者」熔爐手槍的粗制量產版。</AD_AuxPistol.description>
+  <AD_AuxPistol.tools.0.label>grip</AD_AuxPistol.tools.0.label>
+  <AD_AuxPistol.tools.1.label>barrel</AD_AuxPistol.tools.1.label>
 
   <Bullet_MCrucibleRifle.label>能量子彈</Bullet_MCrucibleRifle.label>
 
   <Gun_MCrucibleRifle.label>簡易熔爐步槍</Gun_MCrucibleRifle.label>
   <Gun_MCrucibleRifle.description>簡易的熔爐槍械，由損壞的聯邦武器部件拼湊而成。雖然擁有部分熔爐武器的特性，但粗糙的做功限制了它的性能，射速慢的低質量武器。</Gun_MCrucibleRifle.description>
+  <Gun_MCrucibleRifle.tools.0.label>stock</Gun_MCrucibleRifle.tools.0.label>
+  <Gun_MCrucibleRifle.tools.1.label>barrel</Gun_MCrucibleRifle.tools.1.label>
 
 
 </LanguageData>
