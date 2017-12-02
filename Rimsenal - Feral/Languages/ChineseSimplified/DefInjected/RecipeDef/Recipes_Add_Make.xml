@@ -60,16 +60,13 @@
 
   <!-- Recipe Users: ElectricSmithy, FueledSmithy, FeralTable -->
 
-  <Make_MeleeWeapon_Cleaver.label>制作砍刀</Make_MeleeWeapon_Cleaver.label>
-  <Make_MeleeWeapon_Cleaver.description>制作砍刀</Make_MeleeWeapon_Cleaver.description>
-  <Make_MeleeWeapon_Cleaver.jobString>正在制作砍刀。</Make_MeleeWeapon_Cleaver.jobString>
+  <Make_MeleeWeapon_FeralCleaver.label>制作砍刀</Make_MeleeWeapon_FeralCleaver.label>
+  <Make_MeleeWeapon_FeralCleaver.description>制作砍刀。</Make_MeleeWeapon_FeralCleaver.description>
+  <Make_MeleeWeapon_FeralCleaver.jobString>正在制作砍刀。</Make_MeleeWeapon_FeralCleaver.jobString>
 
-
-  <!-- Recipe Users: ElectricSmithy, FueledSmithy -->
-
-  <Make_MeleeWeapon_Glaive.label>制作大刀</Make_MeleeWeapon_Glaive.label>
-  <Make_MeleeWeapon_Glaive.description>制作大刀</Make_MeleeWeapon_Glaive.description>
-  <Make_MeleeWeapon_Glaive.jobString>正在制作大刀。</Make_MeleeWeapon_Glaive.jobString>
+  <Make_MeleeWeapon_FeralGlaive.label>制作大刀</Make_MeleeWeapon_FeralGlaive.label>
+  <Make_MeleeWeapon_FeralGlaive.description>制作大刀。</Make_MeleeWeapon_FeralGlaive.description>
+  <Make_MeleeWeapon_FeralGlaive.jobString>正在制作大刀。</Make_MeleeWeapon_FeralGlaive.jobString>
 
 
 </LanguageData>

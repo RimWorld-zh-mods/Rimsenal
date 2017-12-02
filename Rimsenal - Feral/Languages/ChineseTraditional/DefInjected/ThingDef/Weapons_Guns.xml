@@ -5,51 +5,75 @@
 
   <Gun_Scraptooth.label>蠻族雙槍</Gun_Scraptooth.label>
   <Gun_Scraptooth.description>「碎牙」，蠻族製作的拼湊而成的手槍。在前端裝有鉤子，用來勾出你的肉。</Gun_Scraptooth.description>
+  <Gun_Scraptooth.tools.0.label>握把</Gun_Scraptooth.tools.0.label>
+  <Gun_Scraptooth.tools.1.label>槍管</Gun_Scraptooth.tools.1.label>
 
   <Bullet_ScatterStick.label>彈片</Bullet_ScatterStick.label>
 
   <Gun_ScatterStick.label>蠻族散銃</Gun_ScatterStick.label>
   <Gun_ScatterStick.description>拼湊的前裝彈式短銃。致命，但射程極短、且裝填時間長。</Gun_ScatterStick.description>
+  <Gun_ScatterStick.tools.0.label>刀刃</Gun_ScatterStick.tools.0.label>
+  <Gun_ScatterStick.tools.1.label>彈匣</Gun_ScatterStick.tools.1.label>
+  <Gun_ScatterStick.tools.2.label>槍管</Gun_ScatterStick.tools.2.label>
 
   <Bullet_Thrasher.label>步槍子彈</Bullet_Thrasher.label>
 
   <Gun_Thrasher.label>蠻族步槍</Gun_Thrasher.label>
   <Gun_Thrasher.description>「打穀機」，使用撿漏射擊裝置拼湊的突擊步槍。高火力，短射程。在前端裝有鋒利的刺刀。</Gun_Thrasher.description>
+  <Gun_Thrasher.tools.0.label>刺刀</Gun_Thrasher.tools.0.label>
+  <Gun_Thrasher.tools.1.label>彈匣</Gun_Thrasher.tools.1.label>
+  <Gun_Thrasher.tools.2.label>槍管</Gun_Thrasher.tools.2.label>
 
   <Bullet_Crucifier.label>魚叉</Bullet_Crucifier.label>
 
   <Gun_Crucifier.label>蠻族反器材步槍</Gun_Crucifier.label>
   <Gun_Crucifier.description>「苦難者」是蠻族簡易武器中的帶頭大哥，一種巨大的反器材步槍。射速慢，威力驚人。当被敵人近身時，還能利用長度優勢作為長矛使用。</Gun_Crucifier.description>
+  <Gun_Crucifier.tools.0.label>刺刀</Gun_Crucifier.tools.0.label>
+  <Gun_Crucifier.tools.1.label>彈匣</Gun_Crucifier.tools.1.label>
+  <Gun_Crucifier.tools.2.label>槍管</Gun_Crucifier.tools.2.label>
 
   <Bullet_Deathdealer.label>衝鋒槍子彈</Bullet_Deathdealer.label>
 
   <Gun_Deathdealer.label>蠻族衝鋒槍</Gun_Deathdealer.label>
   <Gun_Deathdealer.description>「死亡販子」是粗糙拼湊的輕型衝鋒槍。近距離很致命，並且有較高容量的彈夾。而且，你可以用這種滿是尖刺的玩意去背刺你的敵人。</Gun_Deathdealer.description>
+  <Gun_Deathdealer.tools.0.label>刺刀</Gun_Deathdealer.tools.0.label>
+  <Gun_Deathdealer.tools.1.label>握把</Gun_Deathdealer.tools.1.label>
+  <Gun_Deathdealer.tools.2.label>槍管</Gun_Deathdealer.tools.2.label>
 
   <Bullet_Gnasher.label>釘槍子彈</Bullet_Gnasher.label>
 
   <Gun_Gnasher.label>蠻族釘槍</Gun_Gnasher.label>
   <Gun_Gnasher.description>「撕咬者」是一種改裝的重型釘槍。射速極高，但精度非常低，並且威力很小。</Gun_Gnasher.description>
+  <Gun_Gnasher.tools.0.label>握把</Gun_Gnasher.tools.0.label>
+  <Gun_Gnasher.tools.1.label>槍管</Gun_Gnasher.tools.1.label>
 
   <Bullet_Scorcher.label>燃燒彈</Bullet_Scorcher.label>
 
   <Gun_Scorcher.label>蠻族火焰噴射器</Gun_Scorcher.label>
   <Gun_Scorcher.description>「大熱天」，拼湊的火焰噴射器。放火吧。</Gun_Scorcher.description>
+  <Gun_Scorcher.tools.0.label>彈匣</Gun_Scorcher.tools.0.label>
+  <Gun_Scorcher.tools.1.label>槍管</Gun_Scorcher.tools.1.label>
 
   <Bullet_Thumper.label>火箭</Bullet_Thumper.label>
 
   <Gun_Thumper.label>蠻族火箭發射器</Gun_Thumper.label>
   <Gun_Thumper.description>「大嘴巴」，拼湊的單發火箭發射器。</Gun_Thumper.description>
+  <Gun_Thumper.tools.0.label>彈匣</Gun_Thumper.tools.0.label>
+  <Gun_Thumper.tools.1.label>槍管</Gun_Thumper.tools.1.label>
 
   <Bullet_RatStick.label>爆炸鼠標槍</Bullet_RatStick.label>
 
   <Gun_RatStick.label>蠻族爆炸鼠標槍</Gun_RatStick.label>
   <Gun_RatStick.description>綁著爆炸鼠的腫囊的標槍。</Gun_RatStick.description>
+  <Gun_RatStick.tools.0.label>柄</Gun_RatStick.tools.0.label>
+  <Gun_RatStick.tools.1.label>槍頭</Gun_RatStick.tools.1.label>
 
   <Bullet_SkullBuster.label>子彈</Bullet_SkullBuster.label>
 
   <Gun_SkullBuster.label>蠻族怪槍</Gun_SkullBuster.label>
   <Gun_SkullBuster.description>骷髏破壞者，用手搖驅動發射機構的自動重型武器。粗糙，但破壞性大。</Gun_SkullBuster.description>
+  <Gun_SkullBuster.tools.0.label>彈匣</Gun_SkullBuster.tools.0.label>
+  <Gun_SkullBuster.tools.1.label>槍管</Gun_SkullBuster.tools.1.label>
 
 
 </LanguageData>

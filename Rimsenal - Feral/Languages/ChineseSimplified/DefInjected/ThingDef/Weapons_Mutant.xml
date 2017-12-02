@@ -16,6 +16,8 @@
 
   <Sunderer.label>巨型砍刀</Sunderer.label>
   <Sunderer.description>巨型砍刀。</Sunderer.description>
+  <Sunderer.tools.0.label>柄</Sunderer.tools.0.label>
+  <Sunderer.tools.1.label>刃</Sunderer.tools.1.label>
 
   <Bullet_SporeSmoker.label>烟雾孢子</Bullet_SporeSmoker.label>
 
