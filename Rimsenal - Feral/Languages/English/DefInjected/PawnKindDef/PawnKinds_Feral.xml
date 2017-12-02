@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <FeralHusker.label>husker</FeralHusker.label>
+  <FeralHusker.labelPlural>huskers</FeralHusker.labelPlural>
+
+  <FeralMangler.label>mangler</FeralMangler.label>
+  <FeralMangler.labelPlural>manglers</FeralMangler.labelPlural>
+
+  <FeralScorcher.label>scorcher</FeralScorcher.label>
+  <FeralScorcher.labelPlural>scorchers</FeralScorcher.labelPlural>
+
+  <FeralBoomer.label>boomer</FeralBoomer.label>
+  <FeralBoomer.labelPlural>boomers</FeralBoomer.labelPlural>
+
+  <FeralThumper.label>thumper</FeralThumper.label>
+  <FeralThumper.labelPlural>thumpers</FeralThumper.labelPlural>
+
+  <FeralGrinder.label>grinder</FeralGrinder.label>
+  <FeralGrinder.labelPlural>grinders</FeralGrinder.labelPlural>
+
+  <FeralSkulker.label>skulker</FeralSkulker.label>
+  <FeralSkulker.labelPlural>skulkers</FeralSkulker.labelPlural>
+
+  <FeralLeader.label>leader</FeralLeader.label>
+  <FeralLeader.labelPlural>leaders</FeralLeader.labelPlural>
+
+  <FeralSkullBuster.label>skull buster</FeralSkullBuster.label>
+  <FeralSkullBuster.labelPlural>skull busters</FeralSkullBuster.labelPlural>
+
+
+</LanguageData>

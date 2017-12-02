@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Apparel_PatchedShirt.label>patched shirt</Apparel_PatchedShirt.label>
+  <Apparel_PatchedShirt.description>A rough and coarse shirt.</Apparel_PatchedShirt.description>
+
+  <Apparel_HuskerHood.label>feral hood</Apparel_HuskerHood.label>
+  <Apparel_HuskerHood.description>A crude but rugged hood of the ferals.</Apparel_HuskerHood.description>
+
+  <Apparel_SkulkerHood.label>feral hood</Apparel_SkulkerHood.label>
+  <Apparel_SkulkerHood.description>A crude but rugged hood of the ferals.</Apparel_SkulkerHood.description>
+
+  <Apparel_ThumperHood.label>feral hood</Apparel_ThumperHood.label>
+  <Apparel_ThumperHood.description>A crude but rugged hood of the ferals.</Apparel_ThumperHood.description>
+
+  <Apparel_GrinderHelmet.label>feral helmet</Apparel_GrinderHelmet.label>
+  <Apparel_GrinderHelmet.description>A odd looking rusty bucket helmet.</Apparel_GrinderHelmet.description>
+
+  <Apparel_ScorcherHelmet.label>feral gas mask</Apparel_ScorcherHelmet.label>
+  <Apparel_ScorcherHelmet.description>A odd looking gas mask.</Apparel_ScorcherHelmet.description>
+
+  <Apparel_ScrapArmor.label>scrap armor</Apparel_ScrapArmor.label>
+  <Apparel_ScrapArmor.description>Armor made of scraps. While ugly and uncomfortable, it provides a great deal of protection.</Apparel_ScrapArmor.description>
+
+  <Apparel_FeralMail.label>feral mail</Apparel_FeralMail.label>
+  <Apparel_FeralMail.description>Heavy, inconvenient cast armor</Apparel_FeralMail.description>
+
+  <Apparel_FeralExo.label>feral exosuit</Apparel_FeralExo.label>
+  <Apparel_FeralExo.description>Feral's salvaged power armor. The wet dream of every feral warrior.</Apparel_FeralExo.description>
+
+  <Apparel_FeralExoH.label>feral exosuit helmet</Apparel_FeralExoH.label>
+  <Apparel_FeralExoH.description>A jury rigged power armor helmet.</Apparel_FeralExoH.description>
+
+
+</LanguageData>

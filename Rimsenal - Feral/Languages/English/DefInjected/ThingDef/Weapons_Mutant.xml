@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Feral_ScatterCannon.label>scatter cannon</Feral_ScatterCannon.label>
+  <Feral_ScatterCannon.description>An oversized hand cannon. It spit out a huge amount of metal fragments.</Feral_ScatterCannon.description>
+
+  <Bullet_RivetCannon.label>rivet</Bullet_RivetCannon.label>
+
+  <Feral_RivetCannon.label>rivet cannon</Feral_RivetCannon.label>
+  <Feral_RivetCannon.description>A heavily modified industrial rivet gun.</Feral_RivetCannon.description>
+
+  <Bullet_DMG.label>bullet</Bullet_DMG.label>
+
+  <Feral_DMG.label>dual machine gun</Feral_DMG.label>
+  <Feral_DMG.description>Double the gun, double the fun</Feral_DMG.description>
+
+  <Sunderer.label>sunder</Sunderer.label>
+  <Sunderer.description>A massive cleaver.</Sunderer.description>
+  <Sunderer.tools.0.label>handle</Sunderer.tools.0.label>
+  <Sunderer.tools.1.label>edge</Sunderer.tools.1.label>
+
+  <Bullet_SporeSmoker.label>smoke spore</Bullet_SporeSmoker.label>
+
+  <Feral_SporeSmoker.label>smoke spore</Feral_SporeSmoker.label>
+  <Feral_SporeSmoker.description>Symbiont swarm of toxic spores. Making thick smoke cloud on impact.</Feral_SporeSmoker.description>
+
+
+</LanguageData>

@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Bullet_Scraptooth.label>scraptooth bullet</Bullet_Scraptooth.label>
+
+  <Gun_Scraptooth.label>feral pistols</Gun_Scraptooth.label>
+  <Gun_Scraptooth.description>"Scraptooth" are Improvised pistols, manufactured by ferals. There are knuckles in front of these pistols, to make your meat tender.</Gun_Scraptooth.description>
+  <Gun_Scraptooth.tools.0.label>grip</Gun_Scraptooth.tools.0.label>
+  <Gun_Scraptooth.tools.1.label>barrel</Gun_Scraptooth.tools.1.label>
+
+  <Bullet_ScatterStick.label>shrapnel</Bullet_ScatterStick.label>
+
+  <Gun_ScatterStick.label>feral scattergun</Gun_ScatterStick.label>
+  <Gun_ScatterStick.description>The "scatter stick" is a improvised shotgun. Deadly, but extremely short range and long reload. It also has an axe in front, for the situation that shoots can't finish off the target.</Gun_ScatterStick.description>
+  <Gun_ScatterStick.tools.0.label>edge</Gun_ScatterStick.tools.0.label>
+  <Gun_ScatterStick.tools.1.label>stock</Gun_ScatterStick.tools.1.label>
+  <Gun_ScatterStick.tools.2.label>barrel</Gun_ScatterStick.tools.2.label>
+
+  <Bullet_Thrasher.label>thrasher bullet</Bullet_Thrasher.label>
+
+  <Gun_Thrasher.label>feral rifle</Gun_Thrasher.label>
+  <Gun_Thrasher.description>The "thrasher" is a improvised assault rifle with a crude fire mechanism. High firepower, shorter range. It even has a cool bayonet on the front.</Gun_Thrasher.description>
+  <Gun_Thrasher.tools.0.label>bayonet</Gun_Thrasher.tools.0.label>
+  <Gun_Thrasher.tools.1.label>stock</Gun_Thrasher.tools.1.label>
+  <Gun_Thrasher.tools.2.label>barrel</Gun_Thrasher.tools.2.label>
+
+  <Bullet_Crucifier.label>harpoon</Bullet_Crucifier.label>
+
+  <Gun_Crucifier.label>feral anti-material rifle</Gun_Crucifier.label>
+  <Gun_Crucifier.description>Big brother of the other feral makeshift weapons, the "crucifier" is a massive anti-material rifle. Slow fire rate, long range, impressive fire power. If the enemy is too close, the crucifier can also be used as a pike by taking advantage of its length.</Gun_Crucifier.description>
+  <Gun_Crucifier.tools.0.label>bayonet</Gun_Crucifier.tools.0.label>
+  <Gun_Crucifier.tools.1.label>stock</Gun_Crucifier.tools.1.label>
+  <Gun_Crucifier.tools.2.label>barrel</Gun_Crucifier.tools.2.label>
+
+  <Bullet_Deathdealer.label>deathdealer bullet</Bullet_Deathdealer.label>
+
+  <Gun_Deathdealer.label>feral submachine guns</Gun_Deathdealer.label>
+  <Gun_Deathdealer.description>The "Deathdealer"s are a crude improvised SMGs, lethal in close quarters and features a high magazine capacity. Also, you can stab your enemy's back with these stab thingies.</Gun_Deathdealer.description>
+  <Gun_Deathdealer.tools.0.label>bayonet</Gun_Deathdealer.tools.0.label>
+  <Gun_Deathdealer.tools.1.label>grip</Gun_Deathdealer.tools.1.label>
+  <Gun_Deathdealer.tools.2.label>barrel</Gun_Deathdealer.tools.2.label>
+
+  <Bullet_Gnasher.label>gnasher nail</Bullet_Gnasher.label>
+
+  <Gun_Gnasher.label>feral nail gun</Gun_Gnasher.label>
+  <Gun_Gnasher.description>"Gnasher" is a heavily modified nail gun. Shoots at a very high rate of fire, but is very inaccurate and does only little damage.</Gun_Gnasher.description>
+  <Gun_Gnasher.tools.0.label>grip</Gun_Gnasher.tools.0.label>
+  <Gun_Gnasher.tools.1.label>barrel</Gun_Gnasher.tools.1.label>
+
+  <Bullet_Scorcher.label>napalm</Bullet_Scorcher.label>
+
+  <Gun_Scorcher.label>feral flamethrower</Gun_Scorcher.label>
+  <Gun_Scorcher.description>The "scorcher" makeshift flamethrower. Starts fires.</Gun_Scorcher.description>
+  <Gun_Scorcher.tools.0.label>stock</Gun_Scorcher.tools.0.label>
+  <Gun_Scorcher.tools.1.label>barrel</Gun_Scorcher.tools.1.label>
+
+  <Bullet_Thumper.label>rocket</Bullet_Thumper.label>
+
+  <Gun_Thumper.label>feral rocket launcher</Gun_Thumper.label>
+  <Gun_Thumper.description>"Thumper" is a simple single-use makeshift rocket launcher.</Gun_Thumper.description>
+  <Gun_Thumper.tools.0.label>stock</Gun_Thumper.tools.0.label>
+  <Gun_Thumper.tools.1.label>barrel</Gun_Thumper.tools.1.label>
+
+  <Bullet_RatStick.label>rat stick</Bullet_RatStick.label>
+
+  <Gun_RatStick.label>feral rat sticks</Gun_RatStick.label>
+  <Gun_RatStick.description>Javelins tied with explosive boomrat tumor.</Gun_RatStick.description>
+  <Gun_RatStick.tools.0.label>handle</Gun_RatStick.tools.0.label>
+  <Gun_RatStick.tools.1.label>point</Gun_RatStick.tools.1.label>
+
+  <Bullet_SkullBuster.label>bullet</Bullet_SkullBuster.label>
+
+  <Gun_SkullBuster.label>feral crank gun</Gun_SkullBuster.label>
+  <Gun_SkullBuster.description>The "skullbuster" is an automatic heavy weapon with crank powered fire mechanism. Crude, but devastating weapon.</Gun_SkullBuster.description>
+  <Gun_SkullBuster.tools.0.label>stock</Gun_SkullBuster.tools.0.label>
+  <Gun_SkullBuster.tools.1.label>barrel</Gun_SkullBuster.tools.1.label>
+
+
+</LanguageData>

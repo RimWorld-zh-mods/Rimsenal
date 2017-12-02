@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <FeralTable.label>Scav bench</FeralTable.label>
+  <FeralTable.description>A table with equipments for assembling the makeshift equipments.</FeralTable.description>
+  <FeralTable_Blueprint.label>Scav bench (blueprint)</FeralTable_Blueprint.label>
+  <FeralTable_Frame.label>Scav bench (building)</FeralTable_Frame.label>
+  <FeralTable_Frame.description>A table with equipments for assembling the makeshift equipments.</FeralTable_Frame.description>
+
+
+</LanguageData>

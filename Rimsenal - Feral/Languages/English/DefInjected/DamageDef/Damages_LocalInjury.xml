@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Nuke.label>nuke</Nuke.label>
+  <Nuke.deathMessage>{0} has died in an explosion.</Nuke.deathMessage>
+
+  <Spore.label>spore</Spore.label>
+  <Spore.deathMessage>{0} has died in an spore.</Spore.deathMessage>
+
+
+</LanguageData>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <FeralOgrenaut.label>ogrenaut</FeralOgrenaut.label>
+  <FeralOgrenaut.labelPlural>ogrenauts</FeralOgrenaut.labelPlural>
+
+  <FeralGutcher.label>gutcher</FeralGutcher.label>
+  <FeralGutcher.labelPlural>gutchers</FeralGutcher.labelPlural>
+
+  <FeralHellmaker.label>hellmaker</FeralHellmaker.label>
+  <FeralHellmaker.labelPlural>hellmakers</FeralHellmaker.labelPlural>
+
+  <FeralRazortooth.label>razortooth</FeralRazortooth.label>
+  <FeralRazortooth.labelPlural>razortooths</FeralRazortooth.labelPlural>
+
+  <FeralTwisted.label>twisted</FeralTwisted.label>
+  <FeralTwisted.labelPlural>twisteds</FeralTwisted.labelPlural>
+
+  <FeralShriker.label>shriker</FeralShriker.label>
+  <FeralShriker.labelPlural>shrikers</FeralShriker.labelPlural>
+
+
+</LanguageData>
