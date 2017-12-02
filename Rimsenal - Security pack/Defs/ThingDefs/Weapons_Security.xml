@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+<Defs>
 
   <ThingDef ParentName="BaseBullet">
     <defName>Bullet_ShardSentry</defName>
@@ -27,6 +27,7 @@
     <soundInteract>InteractYPWeapons</soundInteract>
     <canBeSpawningInventory>false</canBeSpawningInventory>
     <tradeability>Never</tradeability>
+    <destroyOnDrop>true</destroyOnDrop>
     <statBases>
       <AccuracyTouch>0.90</AccuracyTouch>
       <AccuracyShort>0.85</AccuracyShort>
@@ -41,7 +42,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_ShardSentry</projectileDef>
+        <defaultProjectile>Bullet_ShardSentry</defaultProjectile>
         <warmupTime>55</warmupTime>
         <range>24</range>
         <ticksBetweenBurstShots>3</ticksBetweenBurstShots>
@@ -82,6 +83,7 @@
     <soundInteract>InteractYPWeapons</soundInteract>
     <canBeSpawningInventory>false</canBeSpawningInventory>
     <tradeability>Never</tradeability>
+    <destroyOnDrop>true</destroyOnDrop>
     <statBases>
       <AccuracyTouch>0.85</AccuracyTouch>
       <AccuracyShort>0.85</AccuracyShort>
@@ -96,7 +98,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_WaveEmitter</projectileDef>
+        <defaultProjectile>Bullet_WaveEmitter</defaultProjectile>
         <warmupTime>152</warmupTime>
         <range>28</range>
         <ticksBetweenBurstShots>20</ticksBetweenBurstShots>
@@ -118,8 +120,8 @@
     <projectile>
       <flyOverhead>false</flyOverhead>
       <damageDef>Bullet</damageDef>
-      <DamageAmountBase>12</DamageAmountBase>
-      <Speed>85</Speed>
+      <damageAmountBase>12</damageAmountBase>
+      <speed>85</speed>
     </projectile>
   </ThingDef>
 
@@ -135,6 +137,7 @@
     <soundInteract>InteractGDWeapons</soundInteract>
     <canBeSpawningInventory>false</canBeSpawningInventory>
     <tradeability>Never</tradeability>
+    <destroyOnDrop>true</destroyOnDrop>
     <statBases>
       <AccuracyTouch>0.7</AccuracyTouch>
       <AccuracyShort>0.8</AccuracyShort>
@@ -149,7 +152,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_NestHMG</projectileDef>
+        <defaultProjectile>Bullet_NestHMG</defaultProjectile>
         <warmupTime>40</warmupTime>
         <range>39</range>
         <burstShotCount>15</burstShotCount>
@@ -171,8 +174,8 @@
     <projectile>
       <flyOverhead>false</flyOverhead>
       <damageDef>Bullet</damageDef>
-      <DamageAmountBase>8</DamageAmountBase>
-      <Speed>75</Speed>
+      <damageAmountBase>8</damageAmountBase>
+      <speed>75</speed>
     </projectile>
   </ThingDef>
 
@@ -188,6 +191,7 @@
     <soundInteract>InteractGDWeapons</soundInteract>
     <canBeSpawningInventory>false</canBeSpawningInventory>
     <tradeability>Never</tradeability>
+    <destroyOnDrop>true</destroyOnDrop>
     <statBases>
       <AccuracyTouch>0.6</AccuracyTouch>
       <AccuracyShort>0.7</AccuracyShort>
@@ -202,7 +206,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_NestHMG</projectileDef>
+        <defaultProjectile>Bullet_NestHMG</defaultProjectile>
         <warmupTime>20</warmupTime>
         <range>30</range>
         <burstShotCount>6</burstShotCount>
@@ -224,8 +228,8 @@
     <thingClass>Projectile_Explosive</thingClass>
     <projectile>
       <damageDef>Bomb</damageDef>
-      <DamageAmountBase>10</DamageAmountBase>
-      <Speed>25</Speed>
+      <damageAmountBase>10</damageAmountBase>
+      <speed>25</speed>
       <explosionRadius>1.5</explosionRadius>
       <explosionDelay>5</explosionDelay>
     </projectile>
@@ -243,6 +247,7 @@
     <soundInteract>InteractGDWeapons</soundInteract>
     <canBeSpawningInventory>false</canBeSpawningInventory>
     <tradeability>Never</tradeability>
+    <destroyOnDrop>true</destroyOnDrop>
     <statBases>
       <AccuracyTouch>0.75</AccuracyTouch>
       <AccuracyShort>0.55</AccuracyShort>
@@ -258,7 +263,7 @@
         <forcedMissRadius>1</forcedMissRadius>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_AGS</projectileDef>
+        <defaultProjectile>Bullet_AGS</defaultProjectile>
         <warmupTime>60</warmupTime>
         <range>30</range>
         <burstShotCount>3</burstShotCount>
@@ -266,121 +271,6 @@
         <soundCast>ShotGdgrenade</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>12</muzzleFlashScale>
-        <targetParams>
-          <canTargetLocations>true</canTargetLocations>
-        </targetParams>
-      </li>
-    </verbs>
-  </ThingDef>
-
-  <ThingDef ParentName="BaseBullet">
-    <defName>Bullet_MC</defName>
-    <label>molten projectile</label>
-    <graphicData> <texPath>Things/Projectile/Shell</texPath>
-    <graphicClass>Graphic_Single</graphicClass> </graphicData>
-    <thingClass>Projectile_Explosive</thingClass>
-    <projectile>
-      <flyOverhead>False</flyOverhead>
-      <speed>95</speed>
-      <damageDef>Bomb</damageDef>
-      <damageAmountBase>80</damageAmountBase>
-      <explosionRadius>2</explosionRadius>
-    </projectile>
-  </ThingDef>
-
-  <ThingDef ParentName="BaseHumanGun">
-    <defName>Gun_MC</defName>
-    <label>molten cannon</label>
-    <graphicData>
-      <texPath>Things/A13/Gramr</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <menuHidden>true</menuHidden>
-    <description>heavy anti mechanoid weapon</description>
-    <soundInteract>InteractChargeRifle</soundInteract>
-    <canBeSpawningInventory>false</canBeSpawningInventory>
-    <tradeability>Never</tradeability>
-    <statBases>
-      <AccuracyTouch>0.65</AccuracyTouch>
-      <AccuracyShort>0.65</AccuracyShort>
-      <AccuracyMedium>0.75</AccuracyMedium>
-      <AccuracyLong>0.85</AccuracyLong>
-      <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
-    </statBases>
-    <weaponTags>
-      <li>TurretGun</li>
-    </weaponTags>
-    <verbs>
-      <li>
-        <verbClass>Verb_Shoot</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_MC</projectileDef>
-        <warmupTime>190</warmupTime>
-        <range>50</range>
-        <burstShotCount>1</burstShotCount>
-        <soundCast>RS_ShotJI</soundCast>
-        <soundCastTail>GunTail_Heavy</soundCastTail>
-        <muzzleFlashScale>20</muzzleFlashScale>
-        <targetParams>
-          <canTargetLocations>true</canTargetLocations>
-        </targetParams>
-      </li>
-    </verbs>
-  </ThingDef>
-
-
-  <ThingDef ParentName="BaseBullet">
-    <defName>Bullet_BC</defName>
-    <label>cluster rocket</label>
-    <graphicData> <texPath>Things/Projectile/Rocket</texPath>
-    <graphicClass>Graphic_Single</graphicClass> </graphicData>
-    <thingClass>Projectile_Explosive</thingClass>
-    <projectile>
-       <flyOverhead>True</flyOverhead>
-      <speed>65</speed>
-      <damageDef>Bomb</damageDef>
-      <damageAmountBase>25</damageAmountBase>
-      <explosionRadius>2.5</explosionRadius>
-    </projectile>
-  </ThingDef>
-
-  <ThingDef ParentName="BaseHumanGun">
-    <defName>Gun_BC</defName>
-    <label>barrage cannon</label>
-    <graphicData>
-      <texPath>Things/A13/Grendel</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <menuHidden>true</menuHidden>
-    <description>Intelligent rocket launcher</description>
-    <soundInteract>InteractChargeRifle</soundInteract>
-    <canBeSpawningInventory>false</canBeSpawningInventory>
-    <tradeability>Never</tradeability>
-    <statBases>
-      <AccuracyTouch>0.65</AccuracyTouch>
-      <AccuracyShort>0.65</AccuracyShort>
-      <AccuracyMedium>0.75</AccuracyMedium>
-      <AccuracyLong>0.85</AccuracyLong>
-      <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
-    </statBases>
-    <weaponTags>
-      <li>Artillery</li>
-      <li>Artillery_BaseDestroyer</li>
-    </weaponTags>
-    <verbs>
-      <li>
-        <verbClass>Verb_Shoot</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_BC</projectileDef>
-        <warmupTime>190</warmupTime>
-        <range>500</range>
-        <forcedMissRadius>8</forcedMissRadius>
-        <burstShotCount>12</burstShotCount>
-        <ticksBetweenBurstShots>19</ticksBetweenBurstShots>
-        <soundCast>RS_ShotGrendel</soundCast>
-        <soundCastTail>GunTail_Heavy</soundCastTail>
-        <muzzleFlashScale>20</muzzleFlashScale>
-        <minRange>30</minRange>
         <targetParams>
           <canTargetLocations>true</canTargetLocations>
         </targetParams>
@@ -432,7 +322,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_FakeRifle</projectileDef>
+        <defaultProjectile>Bullet_FakeRifle</defaultProjectile>
         <warmupTime>1.5</warmupTime>
         <range>25</range>
         <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
@@ -475,6 +365,7 @@
     <soundInteract>InteractYPWeapons</soundInteract>
     <canBeSpawningInventory>false</canBeSpawningInventory>
     <tradeability>Never</tradeability>
+    <destroyOnDrop>true</destroyOnDrop>
     <statBases>
       <AccuracyTouch>0.65</AccuracyTouch>
       <AccuracyShort>0.75</AccuracyShort>
@@ -489,7 +380,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_SuvTurret</projectileDef>
+        <defaultProjectile>Bullet_SuvTurret</defaultProjectile>
         <warmupTime>5</warmupTime>
         <range>40</range>
         <burstShotCount>1</burstShotCount>
@@ -501,4 +392,4 @@
   </ThingDef>
 
 
-</ThingDefs>
+</Defs>

@@ -1,5 +1,24 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+<Defs>
+
+
+
+  
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_MoltenShell</defName>
+    <label>molten shell</label>
+    <graphicData> <texPath>Things/Projectile/Shell</texPath>
+    <graphicClass>Graphic_Single</graphicClass> </graphicData>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <flyOverhead>False</flyOverhead>
+      <speed>95</speed>
+      <damageDef>Bomb</damageDef>
+      <damageAmountBase>80</damageAmountBase>
+      <explosionRadius>1.5</explosionRadius>
+    </projectile>
+  </ThingDef>
+
 
   <ThingDef ParentName="ResourceBase">
     <defName>MoltenShell</defName>
@@ -27,6 +46,7 @@
     <costList>
       <Steel>10</Steel>
     </costList>
+    <projectileWhenLoaded>Bullet_MoltenShell</projectileWhenLoaded>
     <statBases>
       <WorkToMake>200</WorkToMake>
       <MaxHitPoints>70</MaxHitPoints>
@@ -36,61 +56,8 @@
       <DeteriorationRate>1</DeteriorationRate>
     </statBases>
     <thingCategories>
-      <li>Manufactured</li>
+      <li>MoltenShells</li>
     </thingCategories>
   </ThingDef>
-
-  <ThingDef ParentName="ResourceBase">
-    <defName>SalvoPack</defName>
-    <label>salvo pack</label>
-    <description>Packaged rockets for barrage cannon. </description>
-    <graphicData>
-      <texPath>Things/Item/SalvoPack</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <recipeMaker>
-      <researchPrerequisite>SiegeTech</researchPrerequisite>
-      <workSpeedStat>SmithingSpeed</workSpeedStat>
-      <workSkill>Crafting</workSkill>
-      <effectWorking>Smith</effectWorking>
-      <soundWorking>Recipe_Smith</soundWorking>
-      <recipeUsers>
-        <li>JITable</li>
-      </recipeUsers>
-      <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
-    </recipeMaker>
-    <soundInteract>Metal_Drop</soundInteract>
-    <soundDrop>Standard_Drop</soundDrop>
-    <tickerType>Normal</tickerType>
-    <stackLimit>10</stackLimit>
-    <statBases>
-     <WorkToMake>1000</WorkToMake>
-      <MaxHitPoints>70</MaxHitPoints>
-      <MarketValue>34</MarketValue>
-      <Mass>6</Mass>
-      <Flammability>1.0</Flammability>
-      <DeteriorationRate>2</DeteriorationRate>
-    </statBases>
-    <costList>
-      <Steel>25</Steel>
-      <Component>2</Component>
-    </costList>
-    <thingCategories>
-      <li>Manufactured</li>
-    </thingCategories>
-    <comps>
-      <li Class="CompProperties_Explosive">
-        <explosiveRadius>4</explosiveRadius>
-        <explosiveDamageType>Bomb</explosiveDamageType>
-        <explosiveExpandPerStackcount>0.4</explosiveExpandPerStackcount>
-        <startWickHitPointsPercent>0.333</startWickHitPointsPercent>
-        <wickTicks>
-          <min>10</min>
-          <max>30</max>
-        </wickTicks>
-      </li>
-    </comps>
-  </ThingDef>
-
   
-</ThingDefs>
+</Defs>

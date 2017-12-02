@@ -48,6 +48,7 @@
     <baseCost>650</baseCost>
     <prerequisites>
       <li>SiegeTech</li>
+      <li>Mortars</li>
     </prerequisites>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
     <requiredResearchFacilities>
