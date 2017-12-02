@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Bullet_Harvester.label>energy bolt</Bullet_Harvester.label>
+
+  <Gun_Harvester.label>harvester cannon</Gun_Harvester.label>
+  <Gun_Harvester.description>Heavy crucible weapon.</Gun_Harvester.description>
+
+  <Bullet_PB.label>plasma sphere</Bullet_PB.label>
+
+  <Gun_PB.label>plasma bombard</Gun_PB.label>
+  <Gun_PB.description>Heavy plasma weapon.</Gun_PB.description>
+
+
+</LanguageData>

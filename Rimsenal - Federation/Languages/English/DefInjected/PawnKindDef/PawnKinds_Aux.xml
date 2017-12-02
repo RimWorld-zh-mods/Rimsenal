@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <FPCAuxiliary.label>auxiliary</FPCAuxiliary.label>
+  <FPCAuxiliary.labelPlural>auxiliarys</FPCAuxiliary.labelPlural>
+
+  <FPCBomber.label>suicide bomber</FPCBomber.label>
+  <FPCBomber.labelPlural>suicide bombers</FPCBomber.labelPlural>
+
+  <FPCCommander.label>commander</FPCCommander.label>
+  <FPCCommander.labelPlural>commanders</FPCCommander.labelPlural>
+
+  <FPCAssassin.label>assassin</FPCAssassin.label>
+  <FPCAssassin.labelPlural>assassins</FPCAssassin.labelPlural>
+
+  <FPCUnityGuard.label>unity guard</FPCUnityGuard.label>
+  <FPCUnityGuard.labelPlural>unity guards</FPCUnityGuard.labelPlural>
+
+
+</LanguageData>

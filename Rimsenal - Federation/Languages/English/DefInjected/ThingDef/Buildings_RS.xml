@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <FedTable.label>energy crucible</FedTable.label>
+  <FedTable.description>A table with equipments for assembling the federation equipments.</FedTable.description>
+  <FedTable_Blueprint.label>energy crucible (blueprint)</FedTable_Blueprint.label>
+  <FedTable_Frame.label>energy crucible (building)</FedTable_Frame.label>
+  <FedTable_Frame.description>A table with equipments for assembling the federation equipments.</FedTable_Frame.description>
+
+
+</LanguageData>

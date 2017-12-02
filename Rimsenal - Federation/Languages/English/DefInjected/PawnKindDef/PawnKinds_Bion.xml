@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <FPCPeacekeeper.label>peacekeeper</FPCPeacekeeper.label>
+  <FPCPeacekeeper.labelPlural>peacekeepers</FPCPeacekeeper.labelPlural>
+
+  <FPCPeacemaker.label>peacemaker</FPCPeacemaker.label>
+  <FPCPeacemaker.labelPlural>peacemakers</FPCPeacemaker.labelPlural>
+
+  <FPCPeacebringer.label>peacebringer</FPCPeacebringer.label>
+  <FPCPeacebringer.labelPlural>peacebringers</FPCPeacebringer.labelPlural>
+
+  <FPCPeacemonger.label>peacemonger</FPCPeacemonger.label>
+  <FPCPeacemonger.labelPlural>peacemongers</FPCPeacemonger.labelPlural>
+
+
+</LanguageData>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Bion_Grunt.label>bion</Bion_Grunt.label>
+  <Bion_Grunt.description>Mass produced, lobotomized, brainwashed and genetically modified, Federation Bions are xenohuman that designed for war. Technically, they are not human anymore.</Bion_Grunt.description>
+  <!-- No Leather: Butcher Products -->
+  <Bion_Grunt_Meat.label>synthetic meat</Bion_Grunt_Meat.label>
+  <Bion_Grunt_Meat.description>synthetic meat</Bion_Grunt_Meat.description>
+  <Bion_Grunt_Corpse.label>bion corpse</Bion_Grunt_Corpse.label>
+  <Bion_Grunt_Corpse.description>bion corpse</Bion_Grunt_Corpse.description>
+
+  <Bion_Stalker.label>bion</Bion_Stalker.label>
+  <Bion_Stalker.description>The 'stalker' model bion is specially designed for infiltration and spying. Nimble and silent, the stalker is not easy prey.</Bion_Stalker.description>
+  <!-- No Leather: Butcher Products -->
+  <!-- Use Meat From: Bion_Grunt -->
+  <Bion_Stalker_Corpse.label>bion corpse</Bion_Stalker_Corpse.label>
+  <Bion_Stalker_Corpse.description>bion corpse</Bion_Stalker_Corpse.description>
+
+  <Bion_Federator.label>federator</Bion_Federator.label>
+  <Bion_Federator.description>The "Federator" Main Battle Mechsuit is a mechsuit model produced by Arms Dynamics. Developed as a heavy assault exosuit, the Federator's design has been compared to a main battle tank.</Bion_Federator.description>
+  <!-- No Leather: Butcher Products -->
+  <!-- Use Meat From: Bion_Grunt -->
+  <Bion_Federator_Corpse.label>federator corpse</Bion_Federator_Corpse.label>
+  <Bion_Federator_Corpse.description>federator corpse</Bion_Federator_Corpse.description>
+
+  <Bion_Hulk.label>bion</Bion_Hulk.label>
+  <Bion_Hulk.description>If you think peacekeepers are the worst kind of xenohuman abuse, you are wrong. Terribly wrong. Specially designed by the Federation's best gene engineers, the "vindicator" model bions form the peacemonger corps, the elite detachment of the FPC.</Bion_Hulk.description>
+  <!-- No Leather: Butcher Products -->
+  <!-- Use Meat From: Bion_Grunt -->
+  <Bion_Hulk_Corpse.label>bion corpse</Bion_Hulk_Corpse.label>
+  <Bion_Hulk_Corpse.description>bion corpse</Bion_Hulk_Corpse.description>
+
+
+</LanguageData>
