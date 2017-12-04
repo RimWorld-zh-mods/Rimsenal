@@ -78,10 +78,10 @@
   <!-- Mortar turret -->
 
   <Turret_MC.label>熔火加農炮</Turret_MC.label>
-  <Turret_MC.description>驅動融化金屬作為炮彈，性能可靠，熔岩加農炮是巨人兵團對抗機械族的主要重型武器。</Turret_MC.description>
+  <Turret_MC.description>驅動融化金屬作為炮彈，性能可靠，熔火加農炮是巨人兵團對抗機械族的主要重型武器。</Turret_MC.description>
   <Turret_MC_Blueprint.label>熔火加農炮（藍圖）</Turret_MC_Blueprint.label>
   <Turret_MC_Frame.label>熔火加農炮（建造中）</Turret_MC_Frame.label>
-  <Turret_MC_Frame.description>驅動融化金屬作為炮彈，性能可靠，熔岩加農炮是巨人兵團對抗機械族的主要重型武器。</Turret_MC_Frame.description>
+  <Turret_MC_Frame.description>驅動融化金屬作為炮彈，性能可靠，熔火加農炮是巨人兵團對抗機械族的主要重型武器。</Turret_MC_Frame.description>
 
   <Artillery_MC.label>熔火加農炮</Artillery_MC.label>
   <Artillery_MC.description>重型反機械體武器</Artillery_MC.description>
